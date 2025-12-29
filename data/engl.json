@@ -1,0 +1,800 @@
+[
+  {
+    "question": "What is B2B?",
+    "options": [
+      {
+        "text": "Business to Customer",
+        "isCorrect": false
+      },
+      {
+        "text": "Business to Business",
+        "isCorrect": true
+      },
+      {
+        "text": "A rock band",
+        "isCorrect": false
+      },
+      {
+        "text": "Being too Busy",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is B2C?",
+    "options": [
+      {
+        "text": "A Star Wars character",
+        "isCorrect": false
+      },
+      {
+        "text": "Being too Careful",
+        "isCorrect": false
+      },
+      {
+        "text": "Business to Customer",
+        "isCorrect": true
+      },
+      {
+        "text": "Business to Business",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What do B2B and B2C have in common?",
+    "options": [
+      {
+        "text": "The Marketing Strategy is the same",
+        "isCorrect": false
+      },
+      {
+        "text": "The Business model is the same",
+        "isCorrect": false
+      },
+      {
+        "text": "They have the same employees",
+        "isCorrect": false
+      },
+      {
+        "text": "They both involve a company selling products or services",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "If the farmer creates a shop and sells strawberries to passing customers, his Business model is ___?",
+    "options": [
+      {
+        "text": "B2C",
+        "isCorrect": true
+      },
+      {
+        "text": "B2B",
+        "isCorrect": false
+      },
+      {
+        "text": "Farming",
+        "isCorrect": false
+      },
+      {
+        "text": "Selling Services",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "If the farmer sold his crop of strawberries to a Supermarket, his Business model would be ____?",
+    "options": [
+      {
+        "text": "Farming",
+        "isCorrect": false
+      },
+      {
+        "text": "Selling Services",
+        "isCorrect": false
+      },
+      {
+        "text": "B2B",
+        "isCorrect": true
+      },
+      {
+        "text": "B2C",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Which of these statements is NOT true for the B2B model?",
+    "options": [
+      {
+        "text": "The Business sells their services to another Business",
+        "isCorrect": false
+      },
+      {
+        "text": "The Business sells directly to the public at high prices",
+        "isCorrect": true
+      },
+      {
+        "text": "The Business should establish long-term relationships with other businesses",
+        "isCorrect": false
+      },
+      {
+        "text": "Business ABC sells their products to Business XYZ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Which of these statements IS true for B2C model?",
+    "options": [
+      {
+        "text": "The Business sells their goods or services to another Business",
+        "isCorrect": false
+      },
+      {
+        "text": "The Business only sells grocery products",
+        "isCorrect": false
+      },
+      {
+        "text": "The Business can get the higher end-consumer price for their goods",
+        "isCorrect": true
+      },
+      {
+        "text": "The Business needs to establish long-term relationships with other businesses",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is NOT suggested as a method of attracting customers?",
+    "options": [
+      {
+        "text": "Selling at low prices",
+        "isCorrect": true
+      },
+      {
+        "text": "Brand recognition",
+        "isCorrect": false
+      },
+      {
+        "text": "Advertising",
+        "isCorrect": false
+      },
+      {
+        "text": "Marketing",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Which business type does NOT exist?",
+    "options": [
+      {
+        "text": "Sole trader",
+        "isCorrect": false
+      },
+      {
+        "text": "Limited liability",
+        "isCorrect": false
+      },
+      {
+        "text": "Public limited",
+        "isCorrect": false
+      },
+      {
+        "text": "Blogger",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "The business owned by one person who is responsible for any debts is______",
+    "options": [
+      {
+        "text": "Sole trader",
+        "isCorrect": true
+      },
+      {
+        "text": "Limited liability",
+        "isCorrect": false
+      },
+      {
+        "text": "Public limited",
+        "isCorrect": false
+      },
+      {
+        "text": "Partnership",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "The company owned by shareholders who receive dividends and gain or lose money if share prices go up or down is_______",
+    "options": [
+      {
+        "text": "Sole trader",
+        "isCorrect": false
+      },
+      {
+        "text": "Limited liability",
+        "isCorrect": false
+      },
+      {
+        "text": "Public limited",
+        "isCorrect": true
+      },
+      {
+        "text": "Partnership",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Profit (or lose) after direct or other costs is_______",
+    "options": [
+      {
+        "text": "Revenue",
+        "isCorrect": false
+      },
+      {
+        "text": "Gross profit",
+        "isCorrect": true
+      },
+      {
+        "text": "Operating cost",
+        "isCorrect": false
+      },
+      {
+        "text": "Tax",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Things that company owns and that are used over more than one year:",
+    "options": [
+      {
+        "text": "Long-term assets",
+        "isCorrect": true
+      },
+      {
+        "text": "Current assets",
+        "isCorrect": false
+      },
+      {
+        "text": "Shareholders' equity",
+        "isCorrect": false
+      },
+      {
+        "text": "Current liabilities",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Money paid to the government and loss in value of equipment:",
+    "options": [
+      {
+        "text": "Gross profit",
+        "isCorrect": false
+      },
+      {
+        "text": "Operating profit",
+        "isCorrect": false
+      },
+      {
+        "text": "Tax and depreciation",
+        "isCorrect": true
+      },
+      {
+        "text": "Revenue",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Retailer order from ______:",
+    "options": [
+      {
+        "text": "Manufacturer",
+        "isCorrect": false
+      },
+      {
+        "text": "Customers",
+        "isCorrect": false
+      },
+      {
+        "text": "Suppliers",
+        "isCorrect": false
+      },
+      {
+        "text": "Wholesalers",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "What is the antonym of \"lift out\"?",
+    "options": [
+      {
+        "text": "Unscrew",
+        "isCorrect": false
+      },
+      {
+        "text": "Push in",
+        "isCorrect": true
+      },
+      {
+        "text": "Disconnect",
+        "isCorrect": false
+      },
+      {
+        "text": "Switch off",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What is the correct definition of phrasal verb \"Hang up\"?",
+    "options": [
+      {
+        "text": "Terminate a call",
+        "isCorrect": true
+      },
+      {
+        "text": "Call back",
+        "isCorrect": false
+      },
+      {
+        "text": "Renew a call",
+        "isCorrect": false
+      },
+      {
+        "text": "Stay on line",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the synonym to the word \"income\":",
+    "options": [
+      {
+        "text": "Salary",
+        "isCorrect": false
+      },
+      {
+        "text": "Outcome",
+        "isCorrect": false
+      },
+      {
+        "text": "Revenue",
+        "isCorrect": true
+      },
+      {
+        "text": "Tax",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Choose the correct verb for collocation \"____ the fault\"",
+    "options": [
+      {
+        "text": "Diagnose",
+        "isCorrect": true
+      },
+      {
+        "text": "Escalate",
+        "isCorrect": false
+      },
+      {
+        "text": "Talk",
+        "isCorrect": false
+      },
+      {
+        "text": "Solve",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "A company or business entity that produces goods and sells them to wholesalers, distributers or customers:",
+    "options": [
+      {
+        "text": "Manufacturer",
+        "isCorrect": true
+      },
+      {
+        "text": "Consumer",
+        "isCorrect": false
+      },
+      {
+        "text": "Shareholder",
+        "isCorrect": false
+      },
+      {
+        "text": "Supplier",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "The company is responsible for any losses, not the owners, the company is private, i.e. shares cannot be sold to the public:",
+    "options": [
+      {
+        "text": "Sole trader",
+        "isCorrect": false
+      },
+      {
+        "text": "Partnership",
+        "isCorrect": false
+      },
+      {
+        "text": "Limited liability",
+        "isCorrect": true
+      },
+      {
+        "text": "Public limited",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Two or more people run the business, all partners share the profits and losses:",
+    "options": [
+      {
+        "text": "Sole trader",
+        "isCorrect": false
+      },
+      {
+        "text": "Partnership",
+        "isCorrect": true
+      },
+      {
+        "text": "Limited liability",
+        "isCorrect": false
+      },
+      {
+        "text": "Public limited",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Money from customers:",
+    "options": [
+      {
+        "text": "Gross profit",
+        "isCorrect": false
+      },
+      {
+        "text": "Operating costs",
+        "isCorrect": false
+      },
+      {
+        "text": "Dividends",
+        "isCorrect": false
+      },
+      {
+        "text": "Revenue",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Money distributed to shareholders:",
+    "options": [
+      {
+        "text": "Gross profit",
+        "isCorrect": false
+      },
+      {
+        "text": "Operating costs",
+        "isCorrect": false
+      },
+      {
+        "text": "Dividends",
+        "isCorrect": true
+      },
+      {
+        "text": "Revenue",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Cash and things that company owns and that can be sold within one year:",
+    "options": [
+      {
+        "text": "Current assets",
+        "isCorrect": true
+      },
+      {
+        "text": "Long-term assets",
+        "isCorrect": false
+      },
+      {
+        "text": "Current liabilities",
+        "isCorrect": false
+      },
+      {
+        "text": "Long-term liabilities",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "______ is a middleman that buys in bulk from a distributor and resells at a wholesale price to a retailer.",
+    "options": [
+      {
+        "text": "Manufacturer",
+        "isCorrect": false
+      },
+      {
+        "text": "Consumer",
+        "isCorrect": false
+      },
+      {
+        "text": "Costumer",
+        "isCorrect": false
+      },
+      {
+        "text": "Wholesaler",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Choose the correct synonym for the word \"profit\":",
+    "options": [
+      {
+        "text": "Issue",
+        "isCorrect": false
+      },
+      {
+        "text": "Business",
+        "isCorrect": false
+      },
+      {
+        "text": "Revenue",
+        "isCorrect": true
+      },
+      {
+        "text": "Goods",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Find the correct definition of phrasal verb: \"get through\":",
+    "options": [
+      {
+        "text": "Make a note",
+        "isCorrect": false
+      },
+      {
+        "text": "Return a call",
+        "isCorrect": false
+      },
+      {
+        "text": "Stay on line",
+        "isCorrect": false
+      },
+      {
+        "text": "Make a contact",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Choose the most suitable verb to a collocation: \"____ a problem\":",
+    "options": [
+      {
+        "text": "Sort out",
+        "isCorrect": true
+      },
+      {
+        "text": "Diagnose",
+        "isCorrect": false
+      },
+      {
+        "text": "Exchange",
+        "isCorrect": false
+      },
+      {
+        "text": "Arrange",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Find the antonym of \"screw in\":",
+    "options": [
+      {
+        "text": "Fasten",
+        "isCorrect": false
+      },
+      {
+        "text": "Remove",
+        "isCorrect": false
+      },
+      {
+        "text": "Switch off",
+        "isCorrect": false
+      },
+      {
+        "text": "Unscrew",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Budget reinvested in the company:",
+    "options": [
+      {
+        "text": "Dividends",
+        "isCorrect": false
+      },
+      {
+        "text": "Retained profit",
+        "isCorrect": true
+      },
+      {
+        "text": "Taxes",
+        "isCorrect": false
+      },
+      {
+        "text": "Salary",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "What business model describes a situation where companies sell to other companies' consumers through third party vendors?",
+    "options": [
+      {
+        "text": "B2B",
+        "isCorrect": false
+      },
+      {
+        "text": "C2C",
+        "isCorrect": false
+      },
+      {
+        "text": "B2B2C",
+        "isCorrect": true
+      },
+      {
+        "text": "B2C",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Which industry type includes banking, tourism and entertainment?",
+    "options": [
+      {
+        "text": "Tertiary/service",
+        "isCorrect": true
+      },
+      {
+        "text": "Secondary",
+        "isCorrect": false
+      },
+      {
+        "text": "Primary",
+        "isCorrect": false
+      },
+      {
+        "text": "Limited liability",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Which industry type includes agriculture, fishing, forestry, mining?",
+    "options": [
+      {
+        "text": "Primary",
+        "isCorrect": true
+      },
+      {
+        "text": "Secondary",
+        "isCorrect": false
+      },
+      {
+        "text": "Tertiary",
+        "isCorrect": false
+      },
+      {
+        "text": "Service",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "______ is an entity that sells goods such as clothing, groceries, or cars directly to consumers through various distribution channels with the goal of earning a profit",
+    "options": [
+      {
+        "text": "Manufacturer",
+        "isCorrect": false
+      },
+      {
+        "text": "Wholesaler",
+        "isCorrect": false
+      },
+      {
+        "text": "Retailer",
+        "isCorrect": true
+      },
+      {
+        "text": "Customer",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "________are the routines or behaviors followed by the majority of the employees, sometimes they may not align with the organizational expectations, values, or any code of conduct. It can simply be described as employee's belief of 'this is the way we do things here'.",
+    "options": [
+      {
+        "text": "Unwritten rules",
+        "isCorrect": true
+      },
+      {
+        "text": "Laws",
+        "isCorrect": false
+      },
+      {
+        "text": "Declarations",
+        "isCorrect": false
+      },
+      {
+        "text": "Emails",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Find the antonym of \"insert\":",
+    "options": [
+      {
+        "text": "Unscrew",
+        "isCorrect": false
+      },
+      {
+        "text": "Switch off",
+        "isCorrect": false
+      },
+      {
+        "text": "Fasten",
+        "isCorrect": false
+      },
+      {
+        "text": "Remove",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "To terminate a call is to______:",
+    "options": [
+      {
+        "text": "Call back",
+        "isCorrect": false
+      },
+      {
+        "text": "Hang up",
+        "isCorrect": true
+      },
+      {
+        "text": "Speak up",
+        "isCorrect": false
+      },
+      {
+        "text": "Put through",
+        "isCorrect": false
+      }
+    ]
+  }
+]

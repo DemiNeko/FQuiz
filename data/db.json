@@ -1,0 +1,5277 @@
+[
+    {
+        "question": "Тек қана «өте жақсы» деген бағасы бар студенттердің санын шығаруды орындайтын ең дұрыс SQL сұрауын таңдаңыз",
+        "options": [
+            {
+                "text": "select count (distinct student_id) from exam_marks e where 5=(select min(mark) from exam_marks el where e.student_id=el.student_id)",
+                "isCorrect": true
+            },
+            {
+                "text": "select count (distinct student_id) from exam_marks e where 5=(select max(mark) from exam_marks el where e.student_id=el.student_id)",
+                "isCorrect": false
+            },
+            {
+                "text": "select count (distinct student_id) from exam_marks e where 4>(select min(mark) from exam_marks el where e.student_id=el.student_id)",
+                "isCorrect": false
+            },
+            {
+                "text": "select count (distinct student_id) from exam_marks ewhere 4=(select min(mark) from exam_marks el where e.student_id=el.student_id)",
+                "isCorrect": false
+            },
+            {
+                "text": "select max(mark) from exam_marks el where e.student_id=el.student_id)",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Төртке оқитын студенттердің санын шығаруды орындайтын ең дұрыс SQL сұрауын таңдаңыз",
+        "options": [
+            {
+                "text": "select count (distinct student_id) from exam_marks e where 4=(select min(mark) from exam_marks el where e.student_id=el.student_id)",
+                "isCorrect": true
+            },
+            {
+                "text": "select count (distinct student_id) from exam_marks ewhere 4=(select max(mark) from exam_marks el where e.student_id=el.student_id)",
+                "isCorrect": false
+            },
+            {
+                "text": "select count (distinct student_id) from exam_marks e where 4<(select min(mark) from exam_marks el where e.student_id=el.student_id)",
+                "isCorrect": false
+            },
+            {
+                "text": "select count (distinct student_id) from exam_marks e where 3=(select min(mark) from exam_marks el where e.student_id=el.student_id)",
+                "isCorrect": false
+            },
+            {
+                "text": "select min(mark) from exam_marks el where e.student_id=el.student_id",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Төменде көрсетілген SQL сұрауының орындалуы нәтижесінде қандай мәліметтер алынады?select distinct surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id and b.subj_id in (select c.subj_id from subject с where semester in (1,2))",
+        "options": [
+            {
+                "text": "Бірінші курста сабақ өткізетін оқытушылардың аттары мен фамилиялары туралы мәліметтер",
+                "isCorrect": true
+            },
+            {
+                "text": "1-інші курс студенттерінің аттары мен фамилиялары туралы мәлімет",
+                "isCorrect": false
+            },
+            {
+                "text": "1-інші не 2-інші курста сабақ өткізетін оқытушылардың аттары мен фамилиялары туралы мәлімет",
+                "isCorrect": false
+            },
+            {
+                "text": "1-інші және 2-інші курста сабақ өткізетін оқытушылардың аттары мен фамилиялары туралы мәлімет",
+                "isCorrect": false
+            },
+            {
+                "text": "1-інші не 2-інші курс студенттерінің аттары мен фамилиялары туралы мәлімет",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Төменде көрсетілген SQL сұрауының орындалуы нәтижесінде қандай мәліметтер алынады?select distinct surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id and b.subj_id in (select c.subj_id from subject с where semester in (3,4))",
+        "options": [
+            {
+                "text": "Екінші курста сабақ өткізетін оқытушылардың аттары мен фамилиялары туралы мәліметтер",
+                "isCorrect": true
+            },
+            {
+                "text": "2-інші курс студенттерінің аттары мен фамилиялары туралы мәлімет",
+                "isCorrect": false
+            },
+            {
+                "text": "3-інші не 4-інші курста сабақ өткізетін оқытушылардың аттары мен фамилиялары туралы мәлімет",
+                "isCorrect": false
+            },
+            {
+                "text": "3-інші және 4-інші курста сабақ өткізетін оқытушылардың аттары мен фамилиялары туралы мәлімет",
+                "isCorrect": false
+            },
+            {
+                "text": "3-інші не 4-інші курс студенттерінің аттары мен фамилиялары туралы мәлімет",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Төменде көрсетілген SQL сұрауының орындалуы нәтижесінде қандай мәліметтер алынады?select distinct surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id and b.subj_id in (select c.subj_id from subject с where semester in (5,6))",
+        "options": [
+            {
+                "text": "Үшінші курста сабақ өткізетін оқытушылардың аттары мен фамилиялары туралы мәліметтер",
+                "isCorrect": true
+            },
+            {
+                "text": "3-інші курс студенттерінің аттары мен фамилиялары туралы мәлімет",
+                "isCorrect": false
+            },
+            {
+                "text": "1-інші не 2-інші курста сабақ өткізетін оқытушылардың аттары мен фамилиялары туралы мәлімет",
+                "isCorrect": false
+            },
+            {
+                "text": "1-інші және 2-інші курста сабақ өткізетін оқытушылардың аттары мен фамилиялары туралы мәлімет",
+                "isCorrect": false
+            },
+            {
+                "text": "1-інші не 2-інші курс студенттерінің аттары мен фамилиялары туралы мәлімет",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Төменде көрсетілген SQL сұрауының орындалуы нәтижесінде қандай мәліметтер алынады?select distinct surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id and b.subj_id in (select c.subj_id from subject с where semester in (9,10))",
+        "options": [
+            {
+                "text": "Бесінші курста сабақ өткізетін оқытушылардың аттары мен фамилиялары туралы мәліметтер",
+                "isCorrect": true
+            },
+            {
+                "text": "5-інші курс студенттерінің аттары мен фамилиялары туралы мәлімет",
+                "isCorrect": false
+            },
+            {
+                "text": "1-інші не 2-інші курста сабақ өткізетін оқытушылардың аттары мен фамилиялары туралы мәлімет",
+                "isCorrect": false
+            },
+            {
+                "text": "1-інші және 2-інші курста сабақ өткізетін оқытушылардың аттары мен фамилиялары туралы мәлімет",
+                "isCorrect": false
+            },
+            {
+                "text": "1-інші не 2-інші курс студенттерінің аттары мен фамилиялары туралы мәлімет",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Екі не одан да көп әр түрлі оқыту пәндерін оқитын оқытушылардың аттары мен фамилияларын шығаруды орындайтын ең дұрыс SQL сұрауын таңдаңыз",
+        "options": [
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id group by surname, name having count(distinct subj_id)>=2",
+                "isCorrect": true
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id group by surname, name having count(subj_id)>=2",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id and count(subj_id)>=2",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id having count(distinct subj_id)<=2",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id group by surname, name having count(distinct subj_id)>2",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Үш не одан да көп әр түрлі оқыту пәндерін оқитын оқытушылардың аттары мен фамилияларын шығаруды орындайтын ең дұрыс SQL сұрауын таңдаңыз",
+        "options": [
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id group by surname, name having count(distinct subj_id)>=3",
+                "isCorrect": true
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id group by surname, name having count(subj_id)>=3",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id and count(subj_id)>=3",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id having count(distinct subj_id)<=3",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id group by surname, name having count(distinct subj_id)>3",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Төрт не одан да көп әр түрлі оқыту пәндерін оқитын оқытушылардың аттары мен фамилияларын шығаруды орындайтын ең дұрыс SQL сұрауын таңдаңыз",
+        "options": [
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id group by surname, name having count(distinct subj_id)>=4",
+                "isCorrect": true
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id group by surname, name having count(subj_id)>=4",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id and count(subj_id)>=4",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id having count(distinct subj_id)<=4",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id group by surname, name having count(distinct subj_id)>4",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Бес не одан да көп әр түрлі оқыту пәндерін оқитын оқытушылардың аттары мен фамилияларын шығаруды орындайтын ең дұрыс SQL сұрауын таңдаңыз",
+        "options": [
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id group by surname, name having count(distinct subj_id)>=5",
+                "isCorrect": true
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id group by surname, name having count(subj_id)>=5",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id and count(subj_id)>=5",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id having count(distinct subj_id)<=5",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id group by surname, name having count(distinct subj_id)>5",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Екі не одан да кем әр түрлі оқыту пәндерін оқитын оқытушылардың аттары мен фамилияларын шығаруды орындайтын ең дұрыс SQL сұрауын таңдаңыз",
+        "options": [
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id group by surname, name having count(distinct subj_id)<=2",
+                "isCorrect": true
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id group by surname, name having count(subj_id)>=2",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id having count(distinct subj_id)>=2",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id group by surname, name having count(distinct subj_id)>2",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id group by surname, name having count(distinct subj_id)>3",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Үш не одан да кем әр түрлі оқыту пәндерін оқитын оқытушылардың аттары мен фамилияларын шығаруды орындайтын ең дұрыс SQL сұрауын таңдаңыз",
+        "options": [
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id group by surname, name having count(distinct subj_id)<=3",
+                "isCorrect": true
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id group by surname, name having count(subj_id)>=3",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id and count(subj_id)>=3",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id having count(distinct subj_id)>=3",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id group by surname, name having count(distinct subj_id)>3",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Төрт не одан да кем әр түрлі оқыту пәндерін оқитын оқытушылардың аттары мен фамилияларын шығаруды орындайтын ең дұрыс SQL сұрауын таңдаңыз",
+        "options": [
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id group by surname, name having count(distinct subj_id)<=4",
+                "isCorrect": true
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id group by surname, name having count(subj_id)>=4",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id and count(subj_id)>=4",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id having count(distinct subj_id)>=4",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id group by surname, name having count(distinct subj_id)>4",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Бес не одан да кем әр түрлі оқыту пәндерін оқитын оқытушылардың аттары мен фамилияларын шығаруды орындайтын ең дұрыс SQL сұрауын таңдаңыз",
+        "options": [
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id group by surname, name having count(distinct subj_id)<=5",
+                "isCorrect": true
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id group by surname, name having count(subj_id)>=5",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id and count(subj_id)>=5",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id having count(distinct subj_id)>=5",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname, name from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id group by surname, name having count(distinct subj_id)>5",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Төменде көрсетілген SQL сұрауының орындалуы нәтижесінде қандай мәліметтер алынады?select distinct surname from lecturer a, subj_lect b  where a.lecturer_id=b.lecturer_id and b.subj_id in (select c.subj_id from subj_lect с where lecturer_id=(select lecturer_id from lecturer where surname='Сорокин'))",
+        "options": [
+            {
+                "text": "Сорокин оқытатын пәндердің ең болмағанда біреуін оқитын оқытушылардың фамилиялары",
+                "isCorrect": true
+            },
+            {
+                "text": "Сорокин сияқты тап сондай пәндер жинағын оқитын",
+                "isCorrect": false
+            },
+            {
+                "text": "Сорокин беретін пәндерден басқаларын оқитын оқытушылардың фамилиялары",
+                "isCorrect": false
+            },
+            {
+                "text": "Сорокиннан басқа оқытушылардың фамилиялары",
+                "isCorrect": false
+            },
+            {
+                "text": "Сорокинды қосқандағы оқытушалардың  фамилиялары",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Төменде көрсетілген SQL сұрауының орындалуы нәтижесінде қандай мәліметтер алынады?select distinct surname from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id and b.subj_id in (select c.subj_id from subj_lect с where lecturer_id=(select lecturer_id from lecturer where surname='Сидоров'))",
+        "options": [
+            {
+                "text": "Сидоров оқытатын пәндердің ең болмағанда біреуін оқитын оқытушылардың фамилиялары",
+                "isCorrect": true
+            },
+            {
+                "text": "Сидоров сияқты тап сондай пәндер жинағын оқитын",
+                "isCorrect": false
+            },
+            {
+                "text": "Сидоров беретін пәндерден басқаларын оқитын оқытушылардың фамилиялары",
+                "isCorrect": false
+            },
+            {
+                "text": "Сидоровтан басқа оқытушылардың фамилиялары",
+                "isCorrect": false
+            },
+            {
+                "text": "Сидоровты қосқандағы оқытушалардың  фамилиялары",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Төменде көрсетілген SQL сұрауының орындалуы нәтижесінде қандай мәліметтер алынады?select distinct surname from lecturer a, subj_lect b where a.lecturer_id=b.lecturer_id and b.subj_id in (select c.subj_id from subj_lect с where lecturer_id=(select lecturer_id from lecturer where surname='Самойлов'))",
+        "options": [
+            {
+                "text": "Самойлов оқытатын пәндердің ең болмағанда біреуін оқитын оқытушылардың фамилиялары",
+                "isCorrect": true
+            },
+            {
+                "text": "Самойлов сияқты тап сондай пәндер жинағын оқитын",
+                "isCorrect": false
+            },
+            {
+                "text": "Самойлов беретін пәндерден басқаларын оқитын оқытушылардың фамилиялары",
+                "isCorrect": false
+            },
+            {
+                "text": "Самойловтан басқа оқытушылардың фамилиялары",
+                "isCorrect": false
+            },
+            {
+                "text": "Самойловты қосқандағы оқытушалардың  фамилиялары",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Рейтингісі 300-ден төмен университеттерде оқитын студенттерде сабақ жүргізетін оқытушылардың фамилиялары туралы мәліметтерді шығаруды орындайтын SQL сұрауын жазу",
+        "options": [
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id=b.univ_id and rating<300",
+                "isCorrect": true
+            },
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id=b.univ_id where rating<300",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer where 300<any (select rating from university)",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer a, university b a.univ_id= b.univ_id where rating<300",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id=b.univ_id or rating<300",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Рейтингісі 200-ден төмен университеттерде оқитын студенттерде сабақ жүргізетін оқытушылардың фамилиялары туралы мәліметтерді шығаруды орындайтын SQL сұрауын жазу",
+        "options": [
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id=b.univ_id and rating<200",
+                "isCorrect": true
+            },
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id=b.univ_id where rating<200",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer where 200<any (select rating from university)",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer a, university b a.univ_id= b.univ_id where rating<200",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id=b.univ_id or rating<200",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Рейтингісі 100-ден төмен университеттерде оқитын студенттерде сабақ жүргізетін оқытушылардың фамилиялары туралы мәліметтерді шығаруды орындайтын SQL сұрауын жазу",
+        "options": [
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id=b.univ_id and rating<100",
+                "isCorrect": true
+            },
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id=b.univ_id where rating<100",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer where 100<any (select rating from university)",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer a, university b a.univ_id= b.univ_id where rating<100",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id=b.univ_id or rating<100",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Рейтингісі 300-ден жоғары университеттерде оқитын студенттерде сабақ жүргізетін оқытушылардың фамилиялары туралы мәліметтерді шығаруды орындайтын SQL сұрауын жазу",
+        "options": [
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id=b.univ_id and rating>300",
+                "isCorrect": true
+            },
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id=b.univ_id where rating<300",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer where 300<any (select rating from university)",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer a, university b a.univ_id= b.univ_id where rating<300",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer a, university bwhere a.univ_id=b.univ_id orrating<300",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Рейтингісі 200-ден жоғары университеттерде оқитын студенттерде сабақ жүргізетін оқытушылардың фамилиялары туралы мәліметтерді шығаруды орындайтын SQL сұрауын жазу",
+        "options": [
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id=b.univ_id and rating>200",
+                "isCorrect": true
+            },
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id=b.univ_id where rating<200",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer where 200<any (select rating from university)",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer a, university b a.univ_id= b.univ_id where rating<200",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id=b.univ_id orrating<200",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Рейтингісі 100-ден жоғары университеттерде оқитын студенттерде сабақ жүргізетін оқытушылардың фамилиялары туралы мәліметтерді шығаруды орындайтын SQL сұрауын жазу",
+        "options": [
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id=b.univ_id and rating>100",
+                "isCorrect": true
+            },
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id=b.univ_id where rating<100",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer where 100<any (select rating from university)",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer a, university b a.univ_id= b.univ_id where rating<100",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id=b.univ_id or rating<100",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Рейтингісі 300-ге тең университеттерде оқитын студенттерде сабақ жүргізетін оқытушылардың фамилиялары туралы мәліметтерді шығаруды орындайтын SQL сұрауын жазу",
+        "options": [
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id=b.univ_id and rating=300",
+                "isCorrect": true
+            },
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id=b.univ_id where rating<300",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer where 300<any (select rating from university)",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer a, university b a.univ_id= b.univ_id where rating<300",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id=b.univ_id or rating<300",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Рейтингісі 200-ге тең университеттерде оқитын студенттерде сабақ жүргізетін оқытушылардың фамилиялары туралы мәліметтерді шығаруды орындайтын SQL сұрауын жазу",
+        "options": [
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id=b.univ_id andrating=200",
+                "isCorrect": true
+            },
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id= b.univ_id where rating<200",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer where 200<any (select rating from university)",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer a, university b a.univ_id=b.univ_id where rating<200",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id=b.univ_id or rating<200",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Рейтингісі 100-ге тең университеттерде оқитын студенттерде сабақ жүргізетін оқытушылардың фамилиялары туралы мәліметтерді шығаруды орындайтын SQL сұрауын жазу",
+        "options": [
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id=b.univ_id and rating=100",
+                "isCorrect": true
+            },
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id= b.univ_id where rating<100",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer where 100<any (select rating from university)",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer a, university b a.univ_id=b.univ_id where rating<100",
+                "isCorrect": false
+            },
+            {
+                "text": "select surname from lecturer a, university b where a.univ_id=b.univ_id or rating<100",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "SQL сұрауының нәтижесінде қандай мәліметтер таңдалынады? select name, surname, min(mark), max(mark) from exam_ mark e, student s where s.student_id=e.student_id group by name, surname having max(mark)=5 and min(mark)=4",
+        "options": [
+            {
+                "text": "Тек төрттік пен бестік алған студентердің есімдері мен фамилиялары туралы мәліметтер",
+                "isCorrect": true
+            },
+            {
+                "text": "Қаншама бестік, соншама төрттігі",
+                "isCorrect": false
+            },
+            {
+                "text": "Әр түрлі бағалардың бірдей саны бар студенттердің аттары мен фамилиялары туралы мәлімет",
+                "isCorrect": false
+            },
+            {
+                "text": "Төрттіктері мен бестіктері жоқ студенттердің аттары мен фамилиялары туралы мәлімет",
+                "isCorrect": false
+            },
+            {
+                "text": "Тек қана төрттік пен бестік алмаған студенттердің аттары мен фамилиялары туралы мәлімет",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Ең болмаса бір «өте жақсы» деген баға алған студенттердің аттары мен фамилиялары туралы мәліметтерді шығаруды орындайтын SQL сұрауының дұрыс нұсқасын таңдаңыз",
+        "options": [
+            {
+                "text": "select distinct student_id, surname, name from exam_marks e, student s where mark=5 and e.student_id=s.student_id",
+                "isCorrect": true
+            },
+            {
+                "text": "select distinct s.student_id, surname, name from exam_marks e, student 5 where mark=5",
+                "isCorrect": false
+            },
+            {
+                "text": "select student_id, surname, name from exam_ marks e, student s where mark<>5 and e.student_id=s.student_id",
+                "isCorrect": false
+            },
+            {
+                "text": "select student_id, surname, name from exam_marks e, student s where mark=5 and e.student_id=s.student_id",
+                "isCorrect": false
+            },
+            {
+                "text": "select student_id, surname, name from exam_ marks e, student s where mark=5 and student_id=student_id",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Ең болмаса бір «қанағаттандырылмады» деген баға алған студенттердің аттары мен фамилиялары туралы мәліметтерді шығаруды орындайтын SQL сұрауының дұрыс нұсқасын таңдаңыз",
+        "options": [
+            {
+                "text": "select distinct student_id, surname, name from exam_marks e, student s where mark=2 and e.student_id=s.student_id",
+                "isCorrect": true
+            },
+            {
+                "text": "select distinct s.student_id, surname, name from exam_ marks e, student s where mark=2",
+                "isCorrect": false
+            },
+            {
+                "text": "select student_id, surname, name from exam_marks e, student s where mark<>2 and e.student_id=s.student_id",
+                "isCorrect": false
+            },
+            {
+                "text": "select student_id, surname, name from exam_marks e, student s where mark=2 and e.student_id=s.student_id",
+                "isCorrect": false
+            },
+            {
+                "text": "select student_id, surname, name from exam_ marks e, student s where mark=2 and student_id=student_id",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Ең болмаса бір төрттік бағасын алған студенттердің аттары мен фамилиялары туралы мәліметтерді шығаруды орындайтын SQL сұрауының дұрыс нұсқасын таңдаңыз",
+        "options": [
+            {
+                "text": "select distinct student_id, surname, name from exam_marks e, student s where mark=4 and e.student_id=s.student_id",
+                "isCorrect": true
+            },
+            {
+                "text": "select distinct s.student_id, surname, name from exam_marks e, student s where mark=4",
+                "isCorrect": false
+            },
+            {
+                "text": "select student_id, surname, name from exam_marks e, student s where mark<>4 and e.student_id=s.student_id",
+                "isCorrect": false
+            },
+            {
+                "text": "select student_id, surname, name from exam_marks e, student s where mark=2 and e.student_id=s.student_id",
+                "isCorrect": false
+            },
+            {
+                "text": "select student_id, surname, name from exam_marks e, student s where mark=4 and student_id=student_id",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Ең болмаса бір үштік бағасын алған студенттердің аттары мен фамилиялары туралы мәліметтерді шығаруды орындайтын SQL сұрауының дұрыс нұсқасын таңдаңыз",
+        "options": [
+            {
+                "text": "select distinct student_id, surname, name from exam_marks e, student s where mark=3 and e.student_id=s.student_id",
+                "isCorrect": true
+            },
+            {
+                "text": "select distinct s.student_id, surname, name from exam_marks e, student s where mark=3",
+                "isCorrect": false
+            },
+            {
+                "text": "select student_id, surname, name from exam_ marks e, student s where mark<>3 and e.student_id=s.student_id",
+                "isCorrect": false
+            },
+            {
+                "text": "select student_id, surname, name from exam_ marks e, student s where mark=2 and e.student_id=s.student_id",
+                "isCorrect": false
+            },
+            {
+                "text": "select student_id, surname, name from exam_marks e, student s where mark=3 and student_id=student_id",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Ешқандай да бағасы жоқ студенттердің санын шығаруды орындайтын SQL сұрауының  ең дұрысын таңдаңыз",
+        "options": [
+            {
+                "text": "select count(distinct student_id) from student s where not exists (select mark from exam_marks e where s.student_id=e.student_id)",
+                "isCorrect": true
+            },
+            {
+                "text": "select count(student_id) from student s where not exists (select mark from exam_marks e)",
+                "isCorrect": false
+            },
+            {
+                "text": "select count(distinct student_id) from student swhere exists(select mark from exam_marks e where s.student_id=e.student_id)",
+                "isCorrect": false
+            },
+            {
+                "text": "Select count(distinct student_id), mark from student s, exam_marks e where not exists and s.student_id=e.student_id)",
+                "isCorrect": false
+            },
+            {
+                "text": "select mark from exam_marks e where s.student_id=e.student_id",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Үшінші нормальды форма – бұл …",
+        "options": [
+            {
+                "text": "кілттік емес бағаналары өзара тәуелсіз ж/е толығымен алғашқы кілтке тәуелді қатынас",
+                "isCorrect": true
+            },
+            {
+                "text": "Әр жол мен әр бағана қиылысында бөлінбейтін жалғыз ған мәні бар қатынас",
+                "isCorrect": false
+            },
+            {
+                "text": "Әр бағанда тек бір мән болатын қатынас",
+                "isCorrect": false
+            },
+            {
+                "text": "Әрбір кілттік емес бағанасы алғашқы кілттен толық функционалдық тәуелділікпен сипатталатын қатынас",
+                "isCorrect": false
+            },
+            {
+                "text": "Алғашқы кілтке толық функционалды тәуелділігімен сипатталады",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "«Клиент-сервер» архитектурасы түсінігіне не қатысты емес?",
+        "options": [
+            {
+                "text": "Алғашқы кілтке толық функционалды тәуелділігімен сипатталады",
+                "isCorrect": true
+            },
+            {
+                "text": "Юзер мен сервердің функцияларын бөледі",
+                "isCorrect": false
+            },
+            {
+                "text": "МБ сервері мәліметтерді іздеуді және шығарып алуды орындайды, кеін оларды юзердің компьютеріне жібереді",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтердің қауіпсіздік деңгейін арттырады",
+                "isCorrect": false
+            },
+            {
+                "text": "Жүйенің жылдамдығын арттырады",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "«Файл-сервер» архитектурасы түсінігіне не қатысты?",
+        "options": [
+            {
+                "text": "Алғашқы кілтке толық функционалды тәуелділігімен сипатталады",
+                "isCorrect": true
+            },
+            {
+                "text": "МБ және МББЖ желінің файлдық серверінде орналасқан",
+                "isCorrect": false
+            },
+            {
+                "text": "Желінің толып кетуі",
+                "isCorrect": false
+            },
+            {
+                "text": "Төмен жылдамдық",
+                "isCorrect": false
+            },
+            {
+                "text": "Жазулардың блокировкасы",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "«Файл-сервер» архитектурасы түсінігіне не қатысты емес?",
+        "options": [
+            {
+                "text": "Жоғарғы жылдамдық",
+                "isCorrect": true
+            },
+            {
+                "text": "МБ және МББЖ желінің файлдық серверінде орналасқан",
+                "isCorrect": false
+            },
+            {
+                "text": "Желінің толып кетуі",
+                "isCorrect": false
+            },
+            {
+                "text": "Төмен жылдамдық",
+                "isCorrect": false
+            },
+            {
+                "text": "Жазулардың блокировкасы",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Келесі сұрау нені орындайды?select min(surname) from student where surname like 'А%'",
+        "options": [
+            {
+                "text": "Фамилиясы «А» әрпіне басталатын алфавиттік тізімде (фамилиясы б/ша) бірінші тұратын студенттің фамилиясын шығаруды орындайды",
+                "isCorrect": true
+            },
+            {
+                "text": "Фамилиялары «А» әрпіне басталатын студенттердің фамилияларын шығаруды орындайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Фамилиялары «А» әрпіне басталатын студенттің ең ұзын фамилиясын шығаруды орындайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Фамилиялары «А» әрпіне басталатын студенттің ең қысқа фамилиясын шығаруды орындайды",
+                "isCorrect": false
+            },
+            {
+                "text": "«А» әрпіне басталмайтын студенттің фамилиясын шығаруды орындайды",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Келесі сұрау нені орындайды? select min(surname) from student where surname like 'П%'",
+        "options": [
+            {
+                "text": "Фамилиясы «П» әрпіне басталатын алфавиттік тізімде (фамилиясы б/ша) бірінші тұратын студенттің фамилиясын шығаруды орындайды",
+                "isCorrect": true
+            },
+            {
+                "text": "Фамилиялары «П» әрпіне басталатын студенттердің фамилияларын шығаруды орындайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Фамилиялары «П» әрпіне басталатын студенттің ең ұзын фамилиясын шығаруды орындайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Фамилиялары «П» әрпіне басталатын студенттің ең қысқа фамилиясын шығаруды орындайды",
+                "isCorrect": false
+            },
+            {
+                "text": "«П» әрпіне басталмайтын студенттің фамилиясын шығаруды орындайды",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Келесі сұрау нені орындайды?select min(surname) from student where surname like 'Р%'",
+        "options": [
+            {
+                "text": "Фамилиясы «Р» әрпіне басталатын алфавиттік тізімде (фамилиясы б/ша) бірінші тұратын студенттің фамилиясын шығаруды орындайды",
+                "isCorrect": true
+            },
+            {
+                "text": "Фамилиялары «Р» әрпіне басталатын студенттердің фамилияларын шығаруды орындайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Фамилиялары «Р» әрпіне басталатын студенттің ең ұзын фамилиясын шығаруды орындайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Фамилиялары «Р» әрпіне басталатын студенттің ең қысқа фамилиясын шығаруды орындайды",
+                "isCorrect": false
+            },
+            {
+                "text": "«Р» әрпіне басталмайтын студенттің фамилиясын шығаруды орындайды",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Келесі сұрау нені орындайды?select min(surname) from student where surname like 'С%'",
+        "options": [
+            {
+                "text": "Фамилиясы «С» әрпіне басталатын алфавиттік тізімде (фамилиясы б/ша) бірінші тұратын студенттің фамилиясын шығаруды орындайды",
+                "isCorrect": true
+            },
+            {
+                "text": "Фамилиялары «С» әрпіне басталатын студенттердің фамилияларын шығаруды орындайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Фамилиялары «С» әрпіне басталатын студенттің ең ұзын фамилиясын шығаруды орындайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Фамилиялары «С» әрпіне басталатын студенттің ең қысқа фамилиясын шығаруды орындайды",
+                "isCorrect": false
+            },
+            {
+                "text": "«С» әрпіне басталмайтын студенттің фамилиясын шығаруды орындайды",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Келесі сұрау нені орындайды?select max(surname) from student where surname like 'Д%'",
+        "options": [
+            {
+                "text": "Фамилиясы «Д» әрпіне басталатын алфавиттік тізімде (фамилиясы б/ша) бірінші тұратын студенттің фамилиясын шығаруды орындайды",
+                "isCorrect": true
+            },
+            {
+                "text": "Фамилиялары «Д» әрпіне басталатын студенттердің фамилияларын шығаруды орындайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Фамилиялары «Д» әрпіне басталатын студенттің ең ұзын фамилиясын шығаруды орындайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Фамилиялары «Д» әрпіне басталатын студенттің ең қысқа фамилиясын шығаруды орындайды",
+                "isCorrect": false
+            },
+            {
+                "text": "«Д» әрпіне басталмайтын студенттің фамилиясын шығаруды орындайды",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Формада қайсыбір өрістің мәнін өзгертуге бола ма?",
+        "options": [
+            {
+                "text": "Иә, егер форма конструкторы режимінде керек элемент Қасиеттер терезесін шақырып Блокировка қасиетіне Да деген мәнді қойсақ",
+                "isCorrect": true
+            },
+            {
+                "text": "Ия, егер форма конструкторы режимінде қажет элементті белгілеп Формат | На задний план командасын орындаса",
+                "isCorrect": false
+            },
+            {
+                "text": "Ия, егер форма конструкторы режимінде қажет элементті белгілеп Вид | Последовательность командасын орындаса",
+                "isCorrect": false
+            },
+            {
+                "text": "Жоқ, бұны жасауға болмайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Ия, егер форма конструкторы режимінде қажет элементті белгілеп Сервис | Настройка командасын орындаса",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Сіз формаға макросты қосуға арналған батырманы орналастырдыңыз. Макрос жіберілу үшін батырманың қасиеттерін қалай өзгерту керек?",
+        "options": [
+            {
+                "text": "Батырманы басу (OnClick) қасиетіне макростың атын көрсету керек",
+                "isCorrect": true
+            },
+            {
+                "text": "Батырманың аты макростың аты сияқты болуы керек",
+                "isCorrect": false
+            },
+            {
+                "text": "Жаңартуға дейін (BeforeUpdate) қасиетіне макростың атын көрсету",
+                "isCorrect": false
+            },
+            {
+                "text": "Ағымдағы жазба (OnCurrent) қасиетіне макростың атын көрсету",
+                "isCorrect": false
+            },
+            {
+                "text": "Батырманың аты макростың аты сияқты болмауы керек",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Орындалғанда сұрыптау шарттарының параметрлерін енгізуге арналған диалогты терезені көрсететін сұрауды жасауға бола ма?",
+        "options": [
+            {
+                "text": "Ия, егер парметрлік сұрау құрса",
+                "isCorrect": true
+            },
+            {
+                "text": "Иә, егер қорытындысы бар сұрау құрса",
+                "isCorrect": false
+            },
+            {
+                "text": "Иә, егер өзгерістері бар сұрау құрса",
+                "isCorrect": false
+            },
+            {
+                "text": "Жоқ, бұны жасауға болмайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Анда-санда болады",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Бұл сұрау нәтижесінде қандай ақпарат алынады?select surname, name, avg(mark) from student s, exam_marks e where s.student_id=e.student_id",
+        "options": [
+            {
+                "text": "Әр студенттің фамилиясы, есімі мен орташа балы туралы мәліметтер",
+                "isCorrect": true
+            },
+            {
+                "text": "Әр студенттің фамилиясы, есімі мен максималды балы туралы мәліметтер",
+                "isCorrect": false
+            },
+            {
+                "text": "Әр студенттің фамилиясы, есімі мен минималды балы туралы мәліметтер",
+                "isCorrect": false
+            },
+            {
+                "text": "Әр студенттің фамилиялары, аттары және барлық бағалары туралы мәліметтер",
+                "isCorrect": false
+            },
+            {
+                "text": "Әр студенттің фамилиялары, аттары және барлық бағаларының сомасы туралы мәліметтер",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Бұл сұрау нәтижесінде қандай ақпарат алынады?select surname, name, max(mark) from student s, exam_marks e where s.student_id=e.student_id",
+        "options": [
+            {
+                "text": "Әр студенттің фамилиясы, есімі мен максималды балы туралы мәліметтер",
+                "isCorrect": true
+            },
+            {
+                "text": "Әр студенттің фамилиясы, есімі мен орташа балы туралы мәліметтер",
+                "isCorrect": false
+            },
+            {
+                "text": "Әр студенттің фамилиясы, есімі мен минималды балы туралы мәліметтер",
+                "isCorrect": false
+            },
+            {
+                "text": "Әр студенттің фамилиялары, аттары және барлық бағалары туралы мәліметтер",
+                "isCorrect": false
+            },
+            {
+                "text": "Әр студенттің фамилиялары, аттары және барлық бағаларының сомасы туралы мәліметтер",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Бұл сұрау нәтижесінде қандай ақпарат алынады? select surname, name, min(mark) from student s, exam_marks e where s.student_id=e.student_id",
+        "options": [
+            {
+                "text": "Әр студенттің фамилиясы, есімі мен минималды балы туралы мәліметтер",
+                "isCorrect": true
+            },
+            {
+                "text": "Әр студенттің фамилиясы, есімі мен орташа балы туралы мәліметтер",
+                "isCorrect": false
+            },
+            {
+                "text": "Әр студенттің фамилиясы, есімі мен максималды балы туралы мәліметтер",
+                "isCorrect": false
+            },
+            {
+                "text": "Әр студенттің фамилиялары, аттары және барлық бағалары туралы мәліметтер",
+                "isCorrect": false
+            },
+            {
+                "text": "Әр студенттің фамилиялары, аттары және барлық бағаларының сомасы туралы мәліметтер",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "select surname, name, kurs from student order by surname",
+        "options": [
+            {
+                "text": "Мәліметтер surname өрісі бойынша алфавиттік тізіммен сортталады",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметтер name өрісі бойынша алфавиттік ретпен сортталады",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер kurs өрісі алфавиттік ретпен сортталады",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер surname өрісі бойынша кері ретпен сортталады",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер student өрісі бойынша кері ретпен сортталады",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "select surname, name, kurs from student order by surname desc",
+        "options": [
+            {
+                "text": "Мәліметтер surname өрісі бойынша кері алфавиттік тізіммен сортталады",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметтер name өрісі бойынша кері алфавиттік ретпен сортталады",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер surname өрісі алфавиттік ретпен сортталады",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер surname өрісі бойынша кері ретпен сортталады",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер student өрісі бойынша кері ретпен сортталады",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "select name, surname, kurs from student order by name сұрауының нәтижесінде мәліметтер қандай түрде шығарылады?",
+        "options": [
+            {
+                "text": "Мәліметтер name өрісі бойынша алфавиттік тізіммен сортталады",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметтер surname өрісі алфавиттен кері сортталады",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер order by өрісі алфавиттік ретпен сортталады",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер surname өрісі бойынша кері ретпен сортталады",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер student өрісі бойынша кері ретпен сортталады",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "select name, surname, kurs from student order by name desc сұрауының нәтижесінде мәліметтер қандай түрде шығарылады?",
+        "options": [
+            {
+                "text": "Мәліметтер name өрісі бойынша кері алфавиттік тізіммен сортталады",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметтер surname өрісі алфавиттік ретпен сортталады",
+                "isCorrect": false
+            },
+            {
+                "text": "Данные будут сортированы в алфавитном порядке по полю kurs",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер surname өрісі бойынша кері ретпен сортталады",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер student өрісі бойынша кері ретпен сортталады",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "select name, surname, kurs from student order by kurs сұрауының нәтижесінде мәліметтер қандай түрде шығарылады?",
+        "options": [
+            {
+                "text": "Мәліметтер kurs өрісінің өсуімен реттеледі",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметтер kurs өрісінің өсуі б/ша реттеледі",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер name өрісі бойынша алфавиттік ретпен сортталады",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер surname өрісі бойынша кері ретпен сортталады",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер student өрісі бойынша кері ретпен сортталады",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "select name, surname, kurs from student order by kurs desc сұрауының нәтижесінде мәліметтер қандай түрде шығарылады?",
+        "options": [
+            {
+                "text": "Мәліметтер kurs өрісінің кемуімен реттеледі",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметтер kurs өрісінің өсуі б/ша реттеледі",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер name өрісі бойынша алфавиттік ретпен сортталады",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер surname өрісі бойынша кері ретпен сортталады",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер student өрісі бойынша кері ретпен сортталады",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Бірінші нормальды форма – бұл …",
+        "options": [
+            {
+                "text": "Әр жол мен әр бағана қиылысында бөлінбейтін жалғыз ған мәні бар қатынас",
+                "isCorrect": true
+            },
+            {
+                "text": "Тек бағана бөлінбейтін жалғыз ған мәні бар қатынас",
+                "isCorrect": false
+            },
+            {
+                "text": "Кілттік және кілттік емес бағандар арасындағы «один»-ко-«многим» типті қатынастарға тиым салады",
+                "isCorrect": false
+            },
+            {
+                "text": "Әрбір кілттік емес бағанасы алғашқы кілттен толық функционалдық тәуелділікпен сипатталатын қатынас",
+                "isCorrect": false
+            },
+            {
+                "text": "Кілттік арасындағы «один»-ко-«многим» типті қатынастар",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Екінші нормальды форма – бұл …",
+        "options": [
+            {
+                "text": "Әрбір кілттік емес бағанасы алғашқы кілттен толық функционалдық тәуелділікпен сипатталатын қатынас",
+                "isCorrect": true
+            },
+            {
+                "text": "Әр жол мен әр бағана қиылысында бөлінбейтін жалғыз ған мәні бар қатынас",
+                "isCorrect": false
+            },
+            {
+                "text": "Әр бағанда тек бір мән болатын қатынас",
+                "isCorrect": false
+            },
+            {
+                "text": "Кілттік және кілттік емес бағандар арасындағы «один»-ко-«многим» типті қатынастарға тиым салады",
+                "isCorrect": false
+            },
+            {
+                "text": "Кілттік арасындағы «один»-ко-«многим» типті қатынастар",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Round (Raiting, -3) өрнегі:",
+        "options": [
+            {
+                "text": "Мыңдыққа дейін дөңгелектейді",
+                "isCorrect": true
+            },
+            {
+                "text": "Үтірден кейін 2 таңба қалдырып дөңгелектейді",
+                "isCorrect": false
+            },
+            {
+                "text": "Үтірден кейін 3 таңбалы бөлшек бөлігін қайтарады",
+                "isCorrect": false
+            },
+            {
+                "text": "Бөлшек бөлігін кесіп тастайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Бүтін бөлігін кесіп тастайды",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "SQL реляциялы МБ-да кестелердің келесі түрлері бар:",
+        "options": [
+            {
+                "text": "Қолданушылық және жүйелік",
+                "isCorrect": true
+            },
+            {
+                "text": "Физикалық және логикалық",
+                "isCorrect": false
+            },
+            {
+                "text": "Тәуәлді және тәуелсіз",
+                "isCorrect": false
+            },
+            {
+                "text": "Физикалық және тәуелсіз",
+                "isCorrect": false
+            },
+            {
+                "text": "Тәуелді және логикалық",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "INSERT, DELETE және UPDATE қандай командалар болып табылады?",
+        "options": [
+            {
+                "text": "Мәліметтерді модификациялау",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметтерді таңдау",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтерді әкімшілдендіру",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтерді реттеу",
+                "isCorrect": false
+            },
+            {
+                "text": "Бұндай командалар жоқ",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Программалардың қандай түрлері МББЖ-ға жатпайды?",
+        "options": [
+            {
+                "text": "Операциялық жүйелер",
+                "isCorrect": true
+            },
+            {
+                "text": "Толық функционалды МББЖ",
+                "isCorrect": false
+            },
+            {
+                "text": "МБ-ның клиенттері",
+                "isCorrect": false
+            },
+            {
+                "text": "МБ-мен жұмыс істейтін программаларды өңдейтін құрал",
+                "isCorrect": false
+            },
+            {
+                "text": "МБ-ның серсерлері",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Программалардың қандай түрлері МББЖ-ға жатады?",
+        "options": [
+            {
+                "text": "Барлық аталғандар",
+                "isCorrect": true
+            },
+            {
+                "text": "Толық функционалды МББЖ",
+                "isCorrect": false
+            },
+            {
+                "text": "МБ-ның клиенттері",
+                "isCorrect": false
+            },
+            {
+                "text": "МБ-мен жұмыс істейтін программаларды өңдейтін құрал",
+                "isCorrect": false
+            },
+            {
+                "text": "МБ-ның серсерлері",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Қолдану сипатына қарай МББЖ … болып бөлінеді",
+        "options": [
+            {
+                "text": "дербес және көп пайдалунышылық",
+                "isCorrect": true
+            },
+            {
+                "text": "Дербес және желілік",
+                "isCorrect": false
+            },
+            {
+                "text": "Желілік және көпқолданушылық",
+                "isCorrect": false
+            },
+            {
+                "text": "дербес, көпқолданушылық желілік",
+                "isCorrect": false
+            },
+            {
+                "text": "Дара және көптік",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "МБ-н жобалау – бұл …",
+        "options": [
+            {
+                "text": "Өңдеудің толық цикл құрамына МБ-ын логикалық ж/е физикалық өңдеу кіреді",
+                "isCorrect": true
+            },
+            {
+                "text": "Тек физикалық жобалау",
+                "isCorrect": false
+            },
+            {
+                "text": "Тек логикалық жобалау",
+                "isCorrect": false
+            },
+            {
+                "text": "МББЖ-дағы сілтемелердегі қателіктердің жоқтығы",
+                "isCorrect": false
+            },
+            {
+                "text": "Создание описания реализации базы данных",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "SQL тілі (Structure Query Language) – бұл …",
+        "options": [
+            {
+                "text": "қазіргі кезде арнайы стандарттармен анықталатын және де-факто кез келген реляциялы МББЖ үшін міндетті тіл болып табылатын құрылымдық сұраулардың тілі",
+                "isCorrect": true
+            },
+            {
+                "text": "Кейбір қосымшалардың жұмысына қажет болмысқа ат беруге және суреттеуге мүмкіндік беретін, және сонымен қатар әр түрлі болмыстар арасындағы бар байланыстарды сипаттау тілі",
+                "isCorrect": false
+            },
+            {
+                "text": "Физикалық жобалау мен жобаның орындалуын қосатын МБ-ның физикалық жүзеге асырылуына, мәліметтердің қауіпсіздігі мен бүтінділігіне жауап беретін программалау тілі",
+                "isCorrect": false
+            },
+            {
+                "text": "МБ-нда сақталатын негізгі операцияларды басқаруды қолдайтын оперторлар жиынтығынан тұратын тіл",
+                "isCorrect": false
+            },
+            {
+                "text": "Өңдеудің толық цикл құрамына МБ-ын логикалық ж/е физикалық өңдеу кіреді",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Транзакция – бұл …",
+        "options": [
+            {
+                "text": "МБ-ның құрамын қол жеткізуді не өзгертуді орындайтын, бір қолданушымен немесе программамен орындалатын әрекет не әрекеттер сериясы",
+                "isCorrect": true
+            },
+            {
+                "text": "МБ-н келісілген 1 күйден келісілген басқа күйге ауыстыру",
+                "isCorrect": false
+            },
+            {
+                "text": "Түскен сұраудың орындалуының ең эффективті жоспарды таңдау процедурасы",
+                "isCorrect": false
+            },
+            {
+                "text": "МБ-ын өңдеу б/ша операциялар комплексі",
+                "isCorrect": false
+            },
+            {
+                "text": "Өңдеудің толық цикл құрамына МБ-ын логикалық ж/е физикалық өңдеу кіреді",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "«Один ко многим» байланысы … екенін білдіреді",
+        "options": [
+            {
+                "text": "басты кестедегі әр жазбаға бағынышты кестенің бірнеше жазбасы сәйкес келуі мүмкін",
+                "isCorrect": true
+            },
+            {
+                "text": "Басты кестенің жазбасы бағынышты кестедегі тек бір ғана байланысқан жазбаға сәйкес ж/е керісінше",
+                "isCorrect": false
+            },
+            {
+                "text": "Байланыс орнату үшін 3-ші кестені қолданады",
+                "isCorrect": false
+            },
+            {
+                "text": "Басты кестенің бір жазбасына бағынышты кестенің бірнеше жазбасы сәйкес келеді ж/е керісінше",
+                "isCorrect": false
+            },
+            {
+                "text": "Өңдеудің толық цикл құрамына МБ-ын логикалық ж/е физикалық өңдеу кіреді",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "«Многие ко многим» байланысы … екенін білдіреді",
+        "options": [
+            {
+                "text": "басты кестенің бір жазбасына бағынышты кестенің бірнеше жазбасы сәйкес келеді ж/е керісінше",
+                "isCorrect": true
+            },
+            {
+                "text": "Басты кестедегі әр жазбаға бағынышты кестенің бірнеше жазбасы сәйкес келуі мүмкін",
+                "isCorrect": false
+            },
+            {
+                "text": "Басты кестенің жазбасы бағынышты кестедегі тек бір ғана байланысқан жазбаға сәйкес ж/е керісінше",
+                "isCorrect": false
+            },
+            {
+                "text": "«Многие к одному» байланысының аналогы",
+                "isCorrect": false
+            },
+            {
+                "text": "Өңдеудің толық цикл құрамына МБ-ын логикалық ж/е физикалық өңдеу кіреді",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "«Многие к одному» байланысы … екенін білдіреді",
+        "options": [
+            {
+                "text": "«Один ко многим» байланысының аналогы",
+                "isCorrect": true
+            },
+            {
+                "text": "Басты кестенің жазбасы бағынышты кестедегі тек бір ғана байланысқан жазбаға сәйкес ж/е керісінше",
+                "isCorrect": false
+            },
+            {
+                "text": "Байланыс орнату үшін 3-ші кестені қолданады",
+                "isCorrect": false
+            },
+            {
+                "text": "Басты кестенің бір жазбасына бағынышты кестенің бірнеше жазбасы сәйкес келеді ж/е керісінше",
+                "isCorrect": false
+            },
+            {
+                "text": "Өңдеудің толық цикл құрамына МБ-ын логикалық ж/е физикалық өңдеу кіреді",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "DDL тілі (Data Definition Language) – бұл …",
+        "options": [
+            {
+                "text": "МБ-ның әр түрлі объектерін құруға, өзгертуге және жоюға арналған жоғары деңгейлі тіл",
+                "isCorrect": true
+            },
+            {
+                "text": "Енгізу, модификация, мәліметтерді таңдау сияқты мәліметтермен жұмыстың негізгі операциялардың орындалуын қамтамасыз ететін конструкциялардың жиынтығы",
+                "isCorrect": false
+            },
+            {
+                "text": "Үлгі бойынша сұраулар",
+                "isCorrect": false
+            },
+            {
+                "text": "Data типті мәнідермен операцияларды қолдану үшін қажет тіл",
+                "isCorrect": false
+            },
+            {
+                "text": "Өңдеудің толық цикл құрамына МБ-ын логикалық ж/е физикалық өңдеу кіреді",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "DELETE операторы … үшін қызмет етеді",
+        "options": [
+            {
+                "text": "кестеден жолдарды жою",
+                "isCorrect": true
+            },
+            {
+                "text": "Кестені жою",
+                "isCorrect": false
+            },
+            {
+                "text": "МБ-ын жою",
+                "isCorrect": false
+            },
+            {
+                "text": "Бағананы жою",
+                "isCorrect": false
+            },
+            {
+                "text": "Жаңарту (мәліметтерді өзгерту үшін)",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "UPDATE операторы … үшін қызмет етеді",
+        "options": [
+            {
+                "text": "жаңарту (мәліметтерді өзгерту үшін)",
+                "isCorrect": true
+            },
+            {
+                "text": "Жолдарды қосу",
+                "isCorrect": false
+            },
+            {
+                "text": "Жолдарды жою",
+                "isCorrect": false
+            },
+            {
+                "text": "Бағананы жою",
+                "isCorrect": false
+            },
+            {
+                "text": "Кестеден жолдарды жою",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "COUNT функциясы",
+        "options": [
+            {
+                "text": "Сұрау көмегімен таңдалынған және NULL-мәндер болып табылмайтын жолдардың санын не өрістің мәндерін анықтайды",
+                "isCorrect": true
+            },
+            {
+                "text": "Берілген өрістің барлық таңдалынған мәндерінің арифметикалық сомасын есептейді",
+                "isCorrect": false
+            },
+            {
+                "text": "Берілген өрістің барлық таңдалынған мәндерінің ең үлкенін есептейді",
+                "isCorrect": false
+            },
+            {
+                "text": "Берілген өрістің барлық таңдалынған мәндерінің орташа мәнін есептейді",
+                "isCorrect": false
+            },
+            {
+                "text": "Берілген өрістің барлық таңдалынған мәндерінің ең кішісін есептейді",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "SUM функциясы",
+        "options": [
+            {
+                "text": "Берілген өрістің барлық таңдалынған мәндерінің арифметикалық сомасын есептейді",
+                "isCorrect": true
+            },
+            {
+                "text": "Сұрау көмегімен таңдалынған және NULL-мәндер болып табылмайтын жолдардың санын не өрістің мәндерін анықтайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Берілген өрістің барлық таңдалынған мәндерінің ең үлкенін есептейді",
+                "isCorrect": false
+            },
+            {
+                "text": "Берілген өрістің барлық таңдалынған мәндерінің орташа мәнін есептейді",
+                "isCorrect": false
+            },
+            {
+                "text": "Берілген өрістің барлық таңдалынған мәндерінің ең кішісін есептейді",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "AVG функциясы",
+        "options": [
+            {
+                "text": "Берілген өрістің барлық таңдалынған мәндерінің орташа мәнін есептейді",
+                "isCorrect": true
+            },
+            {
+                "text": "Сұрау көмегімен таңдалынған және NULL-мәндер болып табылмайтын жолдардың санын не өрістің мәндерін анықтайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Берілген өрістің барлық таңдалынған мәндерінің арифметикалық сомасын есептейді",
+                "isCorrect": false
+            },
+            {
+                "text": "Берілген өрістің барлық таңдалынған мәндерінің ең үлкенін есептейді",
+                "isCorrect": false
+            },
+            {
+                "text": "Берілген өрістің барлық таңдалынған мәндерінің ең кішісін есептейді",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "MAX функциясы",
+        "options": [
+            {
+                "text": "Берілген өрістің барлық таңдалынған мәндерінің ең үлкенін есептейді",
+                "isCorrect": true
+            },
+            {
+                "text": "Сұрау көмегімен таңдалынған және NULL-мәндер болып табылмайтын жолдардың санын не өрістің мәндерін анықтайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Берілген өрістің барлық таңдалынған мәндерінің арифметикалық сомасын есептейді",
+                "isCorrect": false
+            },
+            {
+                "text": "Берілген өрістің барлық таңдалынған мәндерінің орташа мәнін есептейді",
+                "isCorrect": false
+            },
+            {
+                "text": "Берілген өрістің барлық таңдалынған мәндерінің ең кішісін есептейді",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "MIN функциясы",
+        "options": [
+            {
+                "text": "Берілген өрістің барлық таңдалынған мәндерінің ең кішісін есептейді",
+                "isCorrect": true
+            },
+            {
+                "text": "Сұрау көмегімен таңдалынған және NULL-мәндер болып табылмайтын жолдардың санын не өрістің мәндерін анықтайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Берілген өрістің барлық таңдалынған мәндерінің арифметикалық сомасын есептейді",
+                "isCorrect": false
+            },
+            {
+                "text": "Берілген өрістің барлық таңдалынған мәндерінің ең үлкенін есептейді",
+                "isCorrect": false
+            },
+            {
+                "text": "Берілген өрістің барлық таңдалынған мәндерінің орташа мәнін есептейді",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "MIN, MAX, AVG, COUNT функциялары … деп аталады",
+        "options": [
+            {
+                "text": "Агрегаттық",
+                "isCorrect": true
+            },
+            {
+                "text": "Арифметикалық",
+                "isCorrect": false
+            },
+            {
+                "text": "Тригонометрикалық",
+                "isCorrect": false
+            },
+            {
+                "text": "Логикалық",
+                "isCorrect": false
+            },
+            {
+                "text": "Геометриялық",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "МБ-ның негізгі типтеріне … жатады",
+        "options": [
+            {
+                "text": "иерархиялық, желілік, реляциялық, постреляциялық",
+                "isCorrect": true
+            },
+            {
+                "text": "Иерархиялы, пост-реляционды",
+                "isCorrect": false
+            },
+            {
+                "text": "Иерархиялық, желілік",
+                "isCorrect": false
+            },
+            {
+                "text": "Иерархиялық, желілік, пост-реляциялы",
+                "isCorrect": false
+            },
+            {
+                "text": "Иерархиялық, реляционды, пост-реляциялы",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "МБ-ның негізгі типтеріне … жатпайды",
+        "options": [
+            {
+                "text": "бір өлшемді",
+                "isCorrect": true
+            },
+            {
+                "text": "Иерархиялық",
+                "isCorrect": false
+            },
+            {
+                "text": "Желілік",
+                "isCorrect": false
+            },
+            {
+                "text": "Реляционды",
+                "isCorrect": false
+            },
+            {
+                "text": "Постреляциялы",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "SQL тілінің қандай формалары бар?",
+        "options": [
+            {
+                "text": "интерактивті және кұрылған",
+                "isCorrect": true
+            },
+            {
+                "text": "Тек итерактивті",
+                "isCorrect": false
+            },
+            {
+                "text": "Тек қана ішкі",
+                "isCorrect": false
+            },
+            {
+                "text": "Сыртқы",
+                "isCorrect": false
+            },
+            {
+                "text": "Желілік",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Басты кестедегі өріспен байланысты бағынышты кестенің өрісін жоюға бола ма?",
+        "options": [
+            {
+                "text": "Жоқ",
+                "isCorrect": true
+            },
+            {
+                "text": "Ия",
+                "isCorrect": false
+            },
+            {
+                "text": "Анда-санда",
+                "isCorrect": false
+            },
+            {
+                "text": "Байланыс түріне байланысты",
+                "isCorrect": false
+            },
+            {
+                "text": "Өріс типіне байланысты",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Сұраулардың қандай түрлері бар?",
+        "options": [
+            {
+                "text": "запрос на выборку, перекрестный запрос, запрос на изменение, запрос с параметром",
+                "isCorrect": true
+            },
+            {
+                "text": "запрос на выборку перекрестный запрос",
+                "isCorrect": false
+            },
+            {
+                "text": "перекрестный запрос, запрос на изменение, запрос с параметром",
+                "isCorrect": false
+            },
+            {
+                "text": "перекрестный запрос, запрос с параметром",
+                "isCorrect": false
+            },
+            {
+                "text": "запрос на изменение, запрос с параметром",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Аномалиялардың қандай түрлері бар?",
+        "options": [
+            {
+                "text": "Модификация, жою, қосу",
+                "isCorrect": true
+            },
+            {
+                "text": "Модификацидау, қосу",
+                "isCorrect": false
+            },
+            {
+                "text": "Модификацидау, жою",
+                "isCorrect": false
+            },
+            {
+                "text": "Жою, қосу",
+                "isCorrect": false
+            },
+            {
+                "text": "Өріс типінің өзгеруі",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Стипендия алатын 3-інші курс студенттерінің аттары мен фамилияларын шығаратын сұрау қайсысы?",
+        "options": [
+            {
+                "text": "select name, surname from student where kurs=3 and stipend>0",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student where kurs=3",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where stipend>0",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student where kurs=3 and stipend>0",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student where kurs>3 and stipend=0",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Стипендия алмайтын 3-інші курс студенттерінің аттары мен фамилияларын шығаратын сұрау қайсысы?",
+        "options": [
+            {
+                "text": "select name, surname from student where kurs=3 and stipend=0",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student where kurs=3",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where stipend>0",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student where kurs=3 and stipend<0",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student where kurs>3 and stipend=0",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Стипендия алатын 4-інші курс студенттерінің аттары мен фамилияларын шығаратын сұрау қайсысы?",
+        "options": [
+            {
+                "text": "select name, surname from student where kurs=4 and stipend>0",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student where kurs=4",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where stipend>0",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student where kurs=4 and stipend>0",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student where kurs>3 and stipend=0",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Стипендия алатын 5-інші курс студенттерінің аттары мен фамилияларын шығаратын сұрау қайсысы?",
+        "options": [
+            {
+                "text": "select name, surname from student where kurs=5 and stipend>0",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student where kurs=5",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where stipend>0",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student where kurs=5 and stipend>0",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student where kurs>5 and stipend=0",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Стипендия алмайтын 5-інші курс студенттерінің аттары мен фамилияларын шығаратын сұрау қайсысы?",
+        "options": [
+            {
+                "text": "select name, surname from student where kurs=5 and stipend=0",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student where kurs=5",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where stipend>0",
+                "isCorrect": false
+            },
+            {
+                "text": "select * from student where kurs=5 and stipend<0",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student where kurs>5 and stipend=0",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Стипендия алатын 1-інші курс студенттерінің аттары мен фамилияларын шығаратын сұрау қайсысы?",
+        "options": [
+            {
+                "text": "select name, surname from student where kurs=1 and stipend>0",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student where kurs=1",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where stipend>0",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student where kurs=1 and stipend>0",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student where kurs>1 and stipend=0",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Стипендия алмайтын 1-інші курс студенттерінің аттары мен фамилияларын шығаратын сұрау қайсысы?",
+        "options": [
+            {
+                "text": "select name, surname from student where kurs=1 and stipend=0",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student where kurs=1",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where stipend>0",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student where kurs=1 and stipend<0",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student where kurs>1 and stipend=0",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Стипендия алатын 2-інші курс студенттерінің аттары мен фамилияларын шығаратын сұрау қайсысы?",
+        "options": [
+            {
+                "text": "select name, surname from student where kurs=2 and stipend>0",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student where kurs=2",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where stipend>0",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student where kurs=2 and stipend>0",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student where kurs>2 and stipend=0",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Стипендия алмайтын 2-інші курс студенттерінің аттары мен фамилияларын шығаратын сұрау қайсысы?",
+        "options": [
+            {
+                "text": "select name, surname from student where kurs=2 and stipend=0",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student where kurs=2",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where stipend>0",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student where kurs=2 and stipend<0",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student where kurs>2and stipend=0",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Бағалардың мәні жоқ жазбаларды шығаратын сұрауды таңда",
+        "options": [
+            {
+                "text": "select *from exam_marks where mark is null",
+                "isCorrect": true
+            },
+            {
+                "text": "select *from exam_marks",
+                "isCorrect": false
+            },
+            {
+                "text": "select * where  mark is null",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from exam_marks where mark is not null",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student where stipend=0",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Mark өрісінде бағалардың мәндері бар жазбаларды шығаратын сұрауды таңда",
+        "options": [
+            {
+                "text": "select *from exam_marks where mark is not null",
+                "isCorrect": true
+            },
+            {
+                "text": "select *from exam_marks",
+                "isCorrect": false
+            },
+            {
+                "text": "select * where mark is null",
+                "isCorrect": false
+            },
+            {
+                "text": "select * from exam_marks whe re  mark is  null",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student where kurs>5 and stipend=0",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Нормалды формалардың қандай түрлері бар?",
+        "options": [
+            {
+                "text": "Бірінші нормальды форма; Екінші нормальды форма; Үшінші нормальды форма; Төртінші нормальды форма",
+                "isCorrect": true
+            },
+            {
+                "text": "Бірінші нормальды форма; Екінші нормальды форма",
+                "isCorrect": false
+            },
+            {
+                "text": "Бірінші нормальды форма; Үшінші нормальды форма; Төртінші нормальды форма",
+                "isCorrect": false
+            },
+            {
+                "text": "Бірінші нормальды форма; Төртінші нормальды форма",
+                "isCorrect": false
+            },
+            {
+                "text": "Бесінші нормальды форма",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Модификацияның аномалиясы … көрінеді",
+        "options": [
+            {
+                "text": "Бір мәліметтің мәнінің өзгеруі артынан барлық кестені көруге және сәйкесінше кестенің кейбір басқа жазбаларын өзгертуге әкеліп  соғатыны көрінеді",
+                "isCorrect": true
+            },
+            {
+                "text": "Кестеден қандай да бір мәліметтерді жойғанда жойылған объектімен тікелей байланыссыз басқа да ақпарат жоғалып кету мүмкіндігінде",
+                "isCorrect": false
+            },
+            {
+                "text": "Кестеге ақпаратты ол толық болмайынша, я болмаса жаңа жазбаны қою кестені қосымша қарауды қажет етіп тұрғанға дейін орналастыруға болмайтындығында",
+                "isCorrect": false
+            },
+            {
+                "text": "Ақпаратты сорттау кестенің барлық мәндерінің өзгеруіне әкеледі",
+                "isCorrect": false
+            },
+            {
+                "text": "Жарты кестені көруге және сәйкесінше кестенің кейбір басқа жазбаларын жаңартуға әкеліп  соғатыны көрінеді",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Аттары «И» не «С» әріптеріне басталатын студенттер туралы мәліметтерді таңдайтын сұрау жазу",
+        "options": [
+            {
+                "text": "select name, surname from student where surname like ‘И%’ or ‘C%’",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student where surname like ‘%’",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where surname like И or С",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where surname= ‘C%’ and ‘И%’",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where surname>‘C%’ and ‘И%’",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Аттары «П» не «Р» әріптеріне басталатын студенттер туралы мәліметтерді таңдайтын сұрау жазу",
+        "options": [
+            {
+                "text": "select name, surname from student where surname like ‘П%’ or ‘Р%’",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student where surname like ‘%’",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where surname like П or Р",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where surname= ‘П%’ and ‘Р%’",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where surname=‘П_%’ and ‘Р_%’",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Аттары «Л» не «А» әріптеріне басталатын студенттер туралы мәліметтерді таңдайтын сұрау жазу",
+        "options": [
+            {
+                "text": "select name, surname from student where surname like ‘Л%’ or ‘А%’",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student where surname like ‘%’",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where surname like Л or А",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where surname= ‘Л%’ and ‘А%’",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where surname=‘Л%_’ and ‘А_%’",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Аттары «К» не «Б» әріптеріне басталатын студенттер туралы мәліметтерді таңдайтын сұрау жазу",
+        "options": [
+            {
+                "text": "select name, surname from student where surname like ‘К%’ or ‘Б%’",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student where surname like ‘%’",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where surname like К or Б",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where surname= ‘К%’ and ‘Б%’",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where surname=‘К_%’ and ‘Б%_’",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Аттары «Т» не «А» әріптеріне басталатын студенттер туралы мәліметтерді таңдайтын сұрау жазу",
+        "options": [
+            {
+                "text": "select name, surname from student where surname like ‘Т%’ or ‘А%’",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student where surname like Т or А",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where surname like ‘%’",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where surname= ‘Т%’ and ‘А%’",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where surname=‘Т%_’ and ‘А_%’",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Реляциялы МБ-ның объектісі болып … табылады",
+        "options": [
+            {
+                "text": "жолдар мен бағаналардан тұратын екі өлшемді кесте",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметтері басты және бағынышты болып бөлінетін объект",
+                "isCorrect": false
+            },
+            {
+                "text": "Әр объектіде қанша болса да байланыс болуы мүмкін",
+                "isCorrect": false
+            },
+            {
+                "text": "Көпөлшемді кесте",
+                "isCorrect": false
+            },
+            {
+                "text": "Бірөлшемді кесте",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Қандай функциялар агрегаттыққа жатады?",
+        "options": [
+            {
+                "text": "COUNT, SUM, MAX, MIN",
+                "isCorrect": true
+            },
+            {
+                "text": "COUNT",
+                "isCorrect": false
+            },
+            {
+                "text": "SUM",
+                "isCorrect": false
+            },
+            {
+                "text": "MAX",
+                "isCorrect": false
+            },
+            {
+                "text": "MIN",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Мәліметтердің қай типі екілік мәліметтерді сақтауға арналған?",
+        "options": [
+            {
+                "text": "BIT, BINARY, VARBINARY, IMAGE",
+                "isCorrect": true
+            },
+            {
+                "text": "BIT",
+                "isCorrect": false
+            },
+            {
+                "text": "BINARY",
+                "isCorrect": false
+            },
+            {
+                "text": "VARBINARY",
+                "isCorrect": false
+            },
+            {
+                "text": "IMAGE",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Байланысқан кестеге жазба қосуға бола ма?",
+        "options": [
+            {
+                "text": "жоқ, егер басты кестеде сәйкесінше жазба болмаса",
+                "isCorrect": true
+            },
+            {
+                "text": "Ия",
+                "isCorrect": false
+            },
+            {
+                "text": "Байланыс түріне байланысты",
+                "isCorrect": false
+            },
+            {
+                "text": "Ия, егер сәйкесінше жазба басты таблицада болмаса",
+                "isCorrect": false
+            },
+            {
+                "text": "Өріс  типіне байланысты",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Қай сұрау Воронеж каласында тұратын 4-інші курс студенттерінің аттары мен фамилияларын шығарады?",
+        "options": [
+            {
+                "text": "select name, surname from student where kurs=4 and city=’Воронеж’",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student where kurs=4",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where city=’Воронеж’",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student where kurs=4 and city=’Воронеж’",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student where kurs=4 and city=’В%’",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Қай сұрау Самара каласында тұратын 2-інші курс студенттерінің аттары мен фамилияларын шығарады?",
+        "options": [
+            {
+                "text": "select name, surname from student where kurs=2 and city=’Самара’",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student where kurs=2",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where city=’Самара’",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student where kurs=2 and city=’Самара’",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student where kurs=2 and city=’%С’",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Қай сұрау Брянск каласында тұратын 3-інші курс студенттерінің аттары мен фамилияларын шығарады?",
+        "options": [
+            {
+                "text": "select name, surname from student where kurs=3 and city=’Брянск’",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student where kurs=3",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where city=’Брянск’",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student where kurs=3 and city=’Брянск’",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student where kurs=3 and city=’Б_%’",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "select upper(surname)+’;’+upper(name)+’;’+str(stipend) Бұл сұраудың нәтижесі болып мына түрдегі ақпарат табылады:",
+        "options": [
+            {
+                "text": "СИДОРОВ; ВАДИМ; 150",
+                "isCorrect": true
+            },
+            {
+                "text": "сидоров; вадим; 150",
+                "isCorrect": false
+            },
+            {
+                "text": "Сидоров; Вадим; 150",
+                "isCorrect": false
+            },
+            {
+                "text": "СИДОРОВ; Вадим; 150",
+                "isCorrect": false
+            },
+            {
+                "text": "Сидоров; ВАДИМ; 150",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "select lower(surname)+’;’+lower(name)+’;’+str(stipend)Бұл сұраудың нәтижесі болып мына түрдегі ақпарат табылады:",
+        "options": [
+            {
+                "text": "сидоров; вадим; 150",
+                "isCorrect": true
+            },
+            {
+                "text": "СИДОРОВ; ВАДИМ; 150",
+                "isCorrect": false
+            },
+            {
+                "text": "Сидоров; Вадим; 150",
+                "isCorrect": false
+            },
+            {
+                "text": "СИДОРОВ; Вадим; 150",
+                "isCorrect": false
+            },
+            {
+                "text": "Сидоров; ВАДИМ; 150",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "select upper (surname)+’;’+lower(name)+’;’ + str(stipend)Бұл сұраудың нәтижесі болып мына түрдегі ақпарат табылады:",
+        "options": [
+            {
+                "text": "СИДОРОВ; вадим; 150",
+                "isCorrect": true
+            },
+            {
+                "text": "сидоров; ВАДИМ; 150",
+                "isCorrect": false
+            },
+            {
+                "text": "Сидоров; Вадим; 150",
+                "isCorrect": false
+            },
+            {
+                "text": "СИДОРОВ; Вадим; 150",
+                "isCorrect": false
+            },
+            {
+                "text": "СИДОРОВ; ВАДИМ; 150",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "select lower(surname)+’;’+upper(name)+’;’+str(stipend)Бұл сұраудың нәтижесі болып мына түрдегі ақпарат табылады:",
+        "options": [
+            {
+                "text": "сидоров; ВАДИМ; 150",
+                "isCorrect": true
+            },
+            {
+                "text": "СИДОРОВ; вадим;  150",
+                "isCorrect": false
+            },
+            {
+                "text": "Сидоров; Вадим; 150",
+                "isCorrect": false
+            },
+            {
+                "text": "СИДОРОВ; Вадим; 150",
+                "isCorrect": false
+            },
+            {
+                "text": "СИДОРОВ; ВАДИМ; 150",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "SQL тілінің қай командасы Student кестесіндегі студенттердің аты мен жасы бар өрісті шығарады?",
+        "options": [
+            {
+                "text": "select name, age from student",
+                "isCorrect": true
+            },
+            {
+                "text": "select *from name, age where student",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, age from table=students",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from table=student",
+                "isCorrect": false
+            },
+            {
+                "text": "select age, name from students.db",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "SQL тілінің қай сұрауы Lecturer кестесінен оқытушылардың фамилиялары мен аттары бар өрісті шығарады?",
+        "options": [
+            {
+                "text": "select surname, name from lecturer",
+                "isCorrect": true
+            },
+            {
+                "text": "select *from lecturer",
+                "isCorrect": false
+            },
+            {
+                "text": "select *  from name, surname where lecturer",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from table=lecturer",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from table=lecturer",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "SQL тілінің қай сұрауы University кестесінен унивеситеттің аты мен рейтингісі бар өрісті шығарады?",
+        "options": [
+            {
+                "text": "select univ_name, rating from university",
+                "isCorrect": true
+            },
+            {
+                "text": "select *from university",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from univ_name where university",
+                "isCorrect": false
+            },
+            {
+                "text": "select univ_name from table=university",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from table=university",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "SQL тілінің қай сұрауы Subject кестесінен пәннің аты бар өрісті шығарады?",
+        "options": [
+            {
+                "text": "select subj_name from subject",
+                "isCorrect": true
+            },
+            {
+                "text": "select *from subject",
+                "isCorrect": false
+            },
+            {
+                "text": "select *  from subj_name where subject",
+                "isCorrect": false
+            },
+            {
+                "text": "select subj_name from table= subject",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from table=subject",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Қай сұрау студенттер тұратын қалалардың аттарының тізімін (қайталанусыз) шығарады?",
+        "options": [
+            {
+                "text": "select distinct city from student",
+                "isCorrect": true
+            },
+            {
+                "text": "select city from student",
+                "isCorrect": false
+            },
+            {
+                "text": "select city from table=students",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from table=student",
+                "isCorrect": false
+            },
+            {
+                "text": "select age, name from student",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Қай сұрау 4-ке не 5-ке тең бірде-бір бағасы жоқ студенттер туралы мәліметтерді шығарады?",
+        "options": [
+            {
+                "text": "select *from exam_marks where mark not in (4,5)",
+                "isCorrect": true
+            },
+            {
+                "text": "select *from exam_marks where mark in (4,5)",
+                "isCorrect": false
+            },
+            {
+                "text": "select *where mark not in (4,5)",
+                "isCorrect": false
+            },
+            {
+                "text": "select * where mark in (4,5)",
+                "isCorrect": false
+            },
+            {
+                "text": "select * where mark=(4,5)",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Қай тип символды болып табылады?",
+        "options": [
+            {
+                "text": "CHAR",
+                "isCorrect": true
+            },
+            {
+                "text": "INT",
+                "isCorrect": false
+            },
+            {
+                "text": "SMALLINT",
+                "isCorrect": false
+            },
+            {
+                "text": "DECIMAL",
+                "isCorrect": false
+            },
+            {
+                "text": "NUMERIC",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Қай тип символды типке жатпайды?",
+        "options": [
+            {
+                "text": "INT",
+                "isCorrect": true
+            },
+            {
+                "text": "CHAR",
+                "isCorrect": false
+            },
+            {
+                "text": "VARCHAR",
+                "isCorrect": false
+            },
+            {
+                "text": "TEXT",
+                "isCorrect": false
+            },
+            {
+                "text": "IMAGE",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "… өзгермелі ұзындықты символды тип болып табылады",
+        "options": [
+            {
+                "text": "VARCHAR",
+                "isCorrect": true
+            },
+            {
+                "text": "INT",
+                "isCorrect": false
+            },
+            {
+                "text": "SMALLINT",
+                "isCorrect": false
+            },
+            {
+                "text": "DECIMAL",
+                "isCorrect": false
+            },
+            {
+                "text": "VARCHAR NUMERIC",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "… бүтін сандық тип болып табылады",
+        "options": [
+            {
+                "text": "INT",
+                "isCorrect": true
+            },
+            {
+                "text": "DATETIME",
+                "isCorrect": false
+            },
+            {
+                "text": "DECIMAL",
+                "isCorrect": false
+            },
+            {
+                "text": "NUMERIC",
+                "isCorrect": false
+            },
+            {
+                "text": "VARCHAR",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "… шектелген ұзындықты символды тип болып табылады",
+        "options": [
+            {
+                "text": "CHAR",
+                "isCorrect": true
+            },
+            {
+                "text": "VARCHAR",
+                "isCorrect": false
+            },
+            {
+                "text": "STRING",
+                "isCorrect": false
+            },
+            {
+                "text": "INT",
+                "isCorrect": false
+            },
+            {
+                "text": "DECIMAL",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "… сандық мәліметтер типіне жатпайды",
+        "options": [
+            {
+                "text": "CHAR",
+                "isCorrect": true
+            },
+            {
+                "text": "INT",
+                "isCorrect": false
+            },
+            {
+                "text": "SMALLINT",
+                "isCorrect": false
+            },
+            {
+                "text": "DECIMAL",
+                "isCorrect": false
+            },
+            {
+                "text": "NUMERIC",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Мәліметтердің қандай типі бүтінсандық мәліметтерді сақтай алады?",
+        "options": [
+            {
+                "text": "BIGINT, INT SMALLINT, TINYINT",
+                "isCorrect": true
+            },
+            {
+                "text": "BIGINT",
+                "isCorrect": false
+            },
+            {
+                "text": "BIGINT, INT",
+                "isCorrect": false
+            },
+            {
+                "text": "TINYINT",
+                "isCorrect": false
+            },
+            {
+                "text": "SMALLINT",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Мәліметтердің қандай типі нақты мәліметтерді сақтай алады?",
+        "options": [
+            {
+                "text": "DECIMAL, NUMERIC, FLOAT, REAL",
+                "isCorrect": true
+            },
+            {
+                "text": "DECIMAL, NUMERIC",
+                "isCorrect": false
+            },
+            {
+                "text": "FLOAT, REAL",
+                "isCorrect": false
+            },
+            {
+                "text": "REAL",
+                "isCorrect": false
+            },
+            {
+                "text": "FLOAT",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Мәліметтердің қандай типі уақыт пен күнді сақтай алады?",
+        "options": [
+            {
+                "text": "DATATIME",
+                "isCorrect": true
+            },
+            {
+                "text": "DECIMAL",
+                "isCorrect": false
+            },
+            {
+                "text": "NUMERIC",
+                "isCorrect": false
+            },
+            {
+                "text": "FLOAT",
+                "isCorrect": false
+            },
+            {
+                "text": "REAL",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Мәліметтердің қандай типі екілік мәліметтерді сақтай алады?",
+        "options": [
+            {
+                "text": "BINARY",
+                "isCorrect": true
+            },
+            {
+                "text": "DECIMAL",
+                "isCorrect": false
+            },
+            {
+                "text": "NUMERIC",
+                "isCorrect": false
+            },
+            {
+                "text": "FLOAT",
+                "isCorrect": false
+            },
+            {
+                "text": "REAL",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Кілт … қамтамасыз етпейді",
+        "options": [
+            {
+                "text": "Мәліметтерді жоюды",
+                "isCorrect": true
+            },
+            {
+                "text": "кесте жазбаларының бір мәнді идентификациясын",
+                "isCorrect": false
+            },
+            {
+                "text": "кілт мәндерінің қайталануын алдын-алуды",
+                "isCorrect": false
+            },
+            {
+                "text": "жазбаларды реттеуді",
+                "isCorrect": false
+            },
+            {
+                "text": "МБ-на сұраудың орындалуын тездету",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Бағана түсінігіне не жатпайды?",
+        "options": [
+            {
+                "text": "бағана – бұл кестедегі жазба",
+                "isCorrect": true
+            },
+            {
+                "text": "Бір кесте шегінде уникальды ат",
+                "isCorrect": false
+            },
+            {
+                "text": "Кілттік бағана",
+                "isCorrect": false
+            },
+            {
+                "text": "Кілттік емес бағана",
+                "isCorrect": false
+            },
+            {
+                "text": "Барлық аталғандар",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Өрістің қай типі кілт ретінде кілт ретінде қолданылуы мүмкін?",
+        "options": [
+            {
+                "text": "сандық",
+                "isCorrect": true
+            },
+            {
+                "text": "Поле МЕМО",
+                "isCorrect": false
+            },
+            {
+                "text": "Дата/Время",
+                "isCorrect": false
+            },
+            {
+                "text": "Поле объекта OLE",
+                "isCorrect": false
+            },
+            {
+                "text": "Логический",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "MS Access-те автоформалардың қандай түрлері бар?",
+        "options": [
+            {
+                "text": "Ленточная, в столбец, табличная сводная, таблица",
+                "isCorrect": true
+            },
+            {
+                "text": "Тек қана ленточная",
+                "isCorrect": false
+            },
+            {
+                "text": "Тек қана в столбец",
+                "isCorrect": false
+            },
+            {
+                "text": "Тек қана табличная",
+                "isCorrect": false
+            },
+            {
+                "text": "Тек қана сводная таблица",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "MS Access отчеттарды ненің көмегімен жасауға болады?",
+        "options": [
+            {
+                "text": "автоотчет: ленточный, конструктор, мастер отчетов, автоотчет: в столбец, автоотчет: ленточный",
+                "isCorrect": true
+            },
+            {
+                "text": "Тек қана конструктор",
+                "isCorrect": false
+            },
+            {
+                "text": "Тек қана мастер отчетов",
+                "isCorrect": false
+            },
+            {
+                "text": "автоотчет: в столбец",
+                "isCorrect": false
+            },
+            {
+                "text": "автоотчет: ленточный",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "MS Access-те сұрау Харглоудан әкелінген жемістер туралы мәліметтерді шығару үшін, сұрыптау шартына былай деп жазу керек:",
+        "options": [
+            {
+                "text": "*Харглоу*",
+                "isCorrect": true
+            },
+            {
+                "text": "Харглоу*",
+                "isCorrect": false
+            },
+            {
+                "text": "*Харглоу",
+                "isCorrect": false
+            },
+            {
+                "text": "*Х*",
+                "isCorrect": false
+            },
+            {
+                "text": "%Х%",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Қай сұрау Student кестесінің барлық бағаналарының мәндерін шығарады?",
+        "options": [
+            {
+                "text": "select *from student",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, age from student",
+                "isCorrect": false
+            },
+            {
+                "text": "select *  from name, age where student",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, age from table=students",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from table=student",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Қай сұрау Exam_marks кестесінің барлық бағаналарының мәндерін шығарады?",
+        "options": [
+            {
+                "text": "select *from exam_marks",
+                "isCorrect": true
+            },
+            {
+                "text": "select student_id, exam_id from exam_marks",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from student_id where student",
+                "isCorrect": false
+            },
+            {
+                "text": "select student_id, exam_id from table=exam_marks",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from table=exam_marks",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Қай сұрау Lecturer кестесінің барлық бағаналарының мәндерін шығарады?",
+        "options": [
+            {
+                "text": "select *from lecturer",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from lecturer",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from name, surname where lecturer",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from table=lecturer",
+                "isCorrect": false
+            },
+            {
+                "text": "select *from table=lecturer",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "University кестесінің  барлық бағаналарының  мағынасын қандай сұраныс береді?",
+        "options": [
+            {
+                "text": "select * from university",
+                "isCorrect": true
+            },
+            {
+                "text": "select univ_name from university",
+                "isCorrect": false
+            },
+            {
+                "text": "select *  from univ_name where university",
+                "isCorrect": false
+            },
+            {
+                "text": "select univ_name from table= university",
+                "isCorrect": false
+            },
+            {
+                "text": "select *  from table= university",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Петров тегті  барлық студенттердің атын қандай сұраныс шығарады?",
+        "options": [
+            {
+                "text": "select name, surname from student where surname=’Петров’",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname where surname=’Петров’",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where name=’Петров’",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where like =’Петров’",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Сидоров  тегті  барлық студенттердің атын қандай сұраныс шығарады?",
+        "options": [
+            {
+                "text": "select name, surname from student where surname=’Сидоров’",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname where surname=’ Сидоров’",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where name=’ Сидоров’",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where like =’Сидоров’",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Соловьев тегті  барлық студенттердің атын қандай сұраныс шығарады?",
+        "options": [
+            {
+                "text": "select name, surname from student where surname=’Соловьев’",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname where surname=’Соловьев’",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where name=’Соловьев’",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where like ='%С%’",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Үшінші курс студенттерінің барлығының аттарын қандай сұраныс шығарады?",
+        "options": [
+            {
+                "text": "select name, surname from student where kurs=3",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student where kurs<>3",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where kurs>=3",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where kurs<=3",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Төртінші курс студенттерінің барлығының аттарын қандай сұраныс шығарады",
+        "options": [
+            {
+                "text": "select name, surname from student where kurs=4",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student where kurs<>4",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where kurs>=4",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where kurs<=4",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Бесінші курс студенттерінің барлығының аттарын қандай сұраныс шығарады",
+        "options": [
+            {
+                "text": "select name, surname from student where kurs=5",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student where kurs<>5",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where kurs>=5",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where kurs<=5",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Тегі “С” әрпінен басталатын студенттер туралы мәлімет шығаратын сұранысты таңда",
+        "options": [
+            {
+                "text": "select name, surname from student where surname like ‘C%’",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student where surname like ‘%’",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where surname like C",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where surname= ‘C%’",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where name=C_",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Тегі “И” әрпінен басталатын студенттер туралы мәлімет шығаратын сұранысты таң",
+        "options": [
+            {
+                "text": "select name, surname from student where surname like ‘И%’",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student where surname like ‘%’",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where surname like И",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where surname= ‘И%’",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where surname='И_’",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Тегі “Р” әрпінен басталатын студенттер туралы мәлімет шығаратын сұранысты таң",
+        "options": [
+            {
+                "text": "select name, surname from student where surname like ‘Р%’",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student where surname like ‘%’",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where surname like Р",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where surname= ‘Р%’",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where surname=’P_’",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Тегі “А” әрпінен басталатын студенттер туралы мәлімет шығаратын сұранысты таң",
+        "options": [
+            {
+                "text": "select name, surname from student where surname like ‘А%’",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname from student where surname like ‘%’",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where surname like А",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where surname= ‘А%’",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where name=’%A’",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Үшінші курстағы немесе одан  кейінгі курста оқитын студенттер туралы мәлімет шығаратын сұранысты таңда",
+        "options": [
+            {
+                "text": "select name, surname, kurs from student where kurs>=3",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname, kurs from student where kurs=3",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname, kurs from student where kurs<=3",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname, kurs from student where kurs<>3",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where kurs=’3%’",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Төменгі курста оқитын студенттер туралы мәлімет шығаратын сұранысты таңда(<3)",
+        "options": [
+            {
+                "text": "select name, surname, kurs from student where kurs<3",
+                "isCorrect": true
+            },
+            {
+                "text": "select name, surname, kurs from student where kurs=3",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname, kurs from student where kurs<=3",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname, kurs from student where kurs<>3",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student where kurs>3%",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Exam_marks кестесіндегі әртүрлі пәндер санын санайтын сұранысты таңда",
+        "options": [
+            {
+                "text": "select count (distinct subj_id) from exam_marks",
+                "isCorrect": true
+            },
+            {
+                "text": "select count (subj_id) from exam_marks",
+                "isCorrect": false
+            },
+            {
+                "text": "select distinct subj_id from exam_marks",
+                "isCorrect": false
+            },
+            {
+                "text": "select subj_id from exam_marks",
+                "isCorrect": false
+            },
+            {
+                "text": "select name, surname from student",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "select name, surname, city from student  where city=’Мәскеу’ сұранысы нәтижесінде қандай мәлімет шығады?",
+        "options": [
+            {
+                "text": "Мәскеу  қаласында тұратын студенттердің тегі мен есімдері",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәскеу қаласында тұрмайтын студенттердің тегі мен есімдері",
+                "isCorrect": false
+            },
+            {
+                "text": "Баға туралы мәлімет",
+                "isCorrect": false
+            },
+            {
+                "text": "Барлық студенттердің тегі мен есімдері",
+                "isCorrect": false
+            },
+            {
+                "text": "Оқитындардың бағасы мен мекен-жайы туралы мәлімет",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "select name, surname, city from student where city=’Самара’ сұранысы нәтижесінде қандай мәлімет шығады",
+        "options": [
+            {
+                "text": "Самара  қаласында тұратын студенттердің тегі мен есімдері",
+                "isCorrect": true
+            },
+            {
+                "text": "Самара  қаласында тұрмайтын студенттердің тегі мен есімдері",
+                "isCorrect": false
+            },
+            {
+                "text": "Баға туралы мәлімет",
+                "isCorrect": false
+            },
+            {
+                "text": "Барлық студенттердің тегі мен есімдері",
+                "isCorrect": false
+            },
+            {
+                "text": "Оқитындардың бағасы мен мекен-жайы туралы мәлімет",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "select name, surname, city from studentwhere city=’Липецк’ сұранысы нәтижесінде қандай мәлімет шығады",
+        "options": [
+            {
+                "text": "Липецк  қаласында тұратын студенттердің тегі мен есімдері",
+                "isCorrect": true
+            },
+            {
+                "text": "Липецк   қаласында тұрмайтын студенттердің тегі мен есімдері",
+                "isCorrect": false
+            },
+            {
+                "text": "Баға туралы мәлімет",
+                "isCorrect": false
+            },
+            {
+                "text": "Барлық студенттердің тегі мен есімдері",
+                "isCorrect": false
+            },
+            {
+                "text": "Оқитындардың бағасы мен мекен-жайы туралы мәлімет",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "select name, surname, city from student where city=’Воронеж’ сұранысы нәтижесінде қандай мәлімет шығады",
+        "options": [
+            {
+                "text": "Воронеж қаласында тұратын студенттердің тегі мен есімдері",
+                "isCorrect": true
+            },
+            {
+                "text": "Воронеж   қаласында тұрмайтын студенттердің тегі мен есімдері",
+                "isCorrect": false
+            },
+            {
+                "text": "Баға туралы мәлімет",
+                "isCorrect": false
+            },
+            {
+                "text": "Барлық студенттердің тегі мен есімдері",
+                "isCorrect": false
+            },
+            {
+                "text": "Оқитындардың бағасы мен мекен-жайы туралы мәлімет",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Microsoft Access мәліметтер базасының элементтері;",
+        "options": [
+            {
+                "text": "Кестелер, форма, сұраныс, есеп(отчет), модуль, макрос",
+                "isCorrect": true
+            },
+            {
+                "text": "Кестелер, форма, сұраныс;",
+                "isCorrect": false
+            },
+            {
+                "text": "Сұраныс, есеп, макрос, модуль;",
+                "isCorrect": false
+            },
+            {
+                "text": "Есеп, макрос, модуль;",
+                "isCorrect": false
+            },
+            {
+                "text": "Кестелер, форма, макрос, модуль;",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Microsoft Access мәлімет базасында элементі болып табылмайтыны қайсысы?",
+        "options": [
+            {
+                "text": "Шарт",
+                "isCorrect": true
+            },
+            {
+                "text": "Кесте",
+                "isCorrect": false
+            },
+            {
+                "text": "Сұраныс",
+                "isCorrect": false
+            },
+            {
+                "text": "Есеп",
+                "isCorrect": false
+            },
+            {
+                "text": "Форма;",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "SQL тілінің негізгі компоненттері:",
+        "options": [
+            {
+                "text": "DDL и DML",
+                "isCorrect": true
+            },
+            {
+                "text": "DDL",
+                "isCorrect": false
+            },
+            {
+                "text": "DML",
+                "isCorrect": false
+            },
+            {
+                "text": "QBE",
+                "isCorrect": false
+            },
+            {
+                "text": "DQL",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Кестені жазу - бұл",
+        "options": [
+            {
+                "text": "Субъект немесе объект жайында толық ақпараттан тұратын кесте жолы",
+                "isCorrect": true
+            },
+            {
+                "text": "Кестенің қасиеті",
+                "isCorrect": false
+            },
+            {
+                "text": "Субъект немесе объектінің  белгілі бір ақпараттарын сақтауға арналған кестенің бағанасы",
+                "isCorrect": false
+            },
+            {
+                "text": "Өрістің суреттемесі",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер типі",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "SELECT командасы командалық болып табылады:",
+        "options": [
+            {
+                "text": "Мәліметтерді таңдау",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметтерді модификациялау",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтерді әкімшілдендіру",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтерді ұйымдастыру",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтерді жою",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Мәліметтер базасының басты элементі...",
+        "options": [
+            {
+                "text": "Кесте",
+                "isCorrect": true
+            },
+            {
+                "text": "Процедура",
+                "isCorrect": false
+            },
+            {
+                "text": "Сұраныс",
+                "isCorrect": false
+            },
+            {
+                "text": "Форма",
+                "isCorrect": false
+            },
+            {
+                "text": "Модуль",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "RTRIM функциясы",
+        "options": [
+            {
+                "text": "Оң жақ пробелды жояды",
+                "isCorrect": true
+            },
+            {
+                "text": "Оң жақ прбелды қосады",
+                "isCorrect": false
+            },
+            {
+                "text": "Жоғарғы регистрге ауыстырады",
+                "isCorrect": false
+            },
+            {
+                "text": "Төменгі регистрге ауыстырады",
+                "isCorrect": false
+            },
+            {
+                "text": "Таспа әріптерді жазба әріптерге ауыстырады",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Кесте өрісі бұл:",
+        "options": [
+            {
+                "text": "Субъект немесе объектінің  белгілі бір ақпараттарын сақтауға арналған кестенің бағанасы",
+                "isCorrect": true
+            },
+            {
+                "text": "Кестенің қасиеті",
+                "isCorrect": false
+            },
+            {
+                "text": "Субъект немесе объект жайында толық ақпараттан тұратын кесте жолы",
+                "isCorrect": false
+            },
+            {
+                "text": "Өрістің суреттемесі",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер типі",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Реляционды модель авторы:",
+        "options": [
+            {
+                "text": "Э. Ф. Кодд",
+                "isCorrect": true
+            },
+            {
+                "text": "Дж. Нейман",
+                "isCorrect": false
+            },
+            {
+                "text": "Блез Паскаль",
+                "isCorrect": false
+            },
+            {
+                "text": "Билл Гейтс",
+                "isCorrect": false
+            },
+            {
+                "text": "Томас Коннолли",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Қай функция агрегатты болып табылмайды:",
+        "options": [
+            {
+                "text": "RTRIM",
+                "isCorrect": true
+            },
+            {
+                "text": "COUNT",
+                "isCorrect": false
+            },
+            {
+                "text": "SUM",
+                "isCorrect": false
+            },
+            {
+                "text": "MAX",
+                "isCorrect": false
+            },
+            {
+                "text": "MIN",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Қандай байланыс түрі кездеспейді",
+        "options": [
+            {
+                "text": "Екіге бір",
+                "isCorrect": true
+            },
+            {
+                "text": "Көпке бір",
+                "isCorrect": false
+            },
+            {
+                "text": "Бірге көп",
+                "isCorrect": false
+            },
+            {
+                "text": "Бірге бір",
+                "isCorrect": false
+            },
+            {
+                "text": "Көпке көп",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Кілт келесідей бола алмайды",
+        "options": [
+            {
+                "text": "Графикалық",
+                "isCorrect": true
+            },
+            {
+                "text": "Құрмалас",
+                "isCorrect": false
+            },
+            {
+                "text": "Біріншілік",
+                "isCorrect": false
+            },
+            {
+                "text": "Уникалды",
+                "isCorrect": false
+            },
+            {
+                "text": "Сыртқы",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Өрістің қандай типі кілт ретінде бола алады?",
+        "options": [
+            {
+                "text": "Счетчик",
+                "isCorrect": true
+            },
+            {
+                "text": "МЕМО өрісі",
+                "isCorrect": false
+            },
+            {
+                "text": "Күн/Уақыт",
+                "isCorrect": false
+            },
+            {
+                "text": "OLE объектісінің өрісі",
+                "isCorrect": false
+            },
+            {
+                "text": "Логикалық",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "DISTINCT атрибуты",
+        "options": [
+            {
+                "text": "Қайталанып тұратын  мағыналарды алып тастауды қамтамасыз  етеді",
+                "isCorrect": true
+            },
+            {
+                "text": "Өріс мағынасын екі есе көбейтеді",
+                "isCorrect": false
+            },
+            {
+                "text": "Қорытынды жолдарын қайталайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Таңдау шартын тексереді",
+                "isCorrect": false
+            },
+            {
+                "text": "Шрифт өлшемін өзгертеді",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "SELECT командасының WHEREсөйлемі бұл",
+        "options": [
+            {
+                "text": "Сұранысқа шарт қоюға мүмкіндік береді",
+                "isCorrect": true
+            },
+            {
+                "text": "Сұраныстағы шарттың негізі атрибуты",
+                "isCorrect": false
+            },
+            {
+                "text": "Объектілерді топтайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Объектілерді сұрыптайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Объектілерді жояды",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Кортеж – бұл",
+        "options": [
+            {
+                "text": "Қатынас жолы",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметтер базасына қайта өңдеуге  жабдықтарды ұсыну, оның қандай да бір бұзылуы не құлдырауы жағдайында",
+                "isCorrect": false
+            },
+            {
+                "text": "Коммуникационды программалық қамтамасыз етумен интеграция",
+                "isCorrect": false
+            },
+            {
+                "text": "Қатынас бағанасы",
+                "isCorrect": false
+            },
+            {
+                "text": "Доменге эквивалентті",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "QBE (Query by Example)  тілі– бұл:",
+        "options": [
+            {
+                "text": "Үлгі бойынша сұраныс тілі",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметтерді басқарудың негізгі операцияларын қолдауға арналған операторлар жиынтығынан тұратын тіл",
+                "isCorrect": false
+            },
+            {
+                "text": "Құрылымдық сұраныс тілі",
+                "isCorrect": false
+            },
+            {
+                "text": "Төмендеңгейлі программалау тілі",
+                "isCorrect": false
+            },
+            {
+                "text": "Объектілі бағытталған программалау тілі",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Мәліметтер базасы бұл ...",
+        "options": [
+            {
+                "text": "Ұйымның талаптарын қанағаттандыруға арналған , логикалық байланысқан біріге  қолданылатын жиынтық. (осы мәліметтердің суреттемесі)",
+                "isCorrect": true
+            },
+            {
+                "text": "Ұйымның талаптарын қанағаттандыруға арналған , логикалық байланыспаған  біріге  қолданылатын жиынтық. (осы мәліметтердің суреттемесі)",
+                "isCorrect": false
+            },
+            {
+                "text": "Қолданушыға қажетті үшөлшемді кесте( х, у. Z)",
+                "isCorrect": false
+            },
+            {
+                "text": "Қолданушыға қажетті мәліметтері бар төрт өлшемді кесте( x, y, z, v)",
+                "isCorrect": false
+            },
+            {
+                "text": "Объектілі бағытталған программалау тілі",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Дәлірек келісетін анықтаманы таңдаңыз: Мәліметтер банкісі бұл...",
+        "options": [
+            {
+                "text": "Бір программалық кешенмен басқарылатын мәлімет базасы жүйесі",
+                "isCorrect": true
+            },
+            {
+                "text": "Әртүрлі мәліметтер сақталатын жер",
+                "isCorrect": false
+            },
+            {
+                "text": "Ұйымның талаптарын қанағаттандыруға арналған , логикалық байланыспаған  біріге  қолданылатын жиынтық. (осы мәліметтердің суреттемесі)",
+                "isCorrect": false
+            },
+            {
+                "text": "Қолданушыға қажеттті мәліметтер кестесі",
+                "isCorrect": false
+            },
+            {
+                "text": "Объектілі бағытталған программалау тілі",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Атрибут бұл",
+        "options": [
+            {
+                "text": "Қатынастың атауы бар бағанасы",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметтті құруда қолданылатын негіз, атрибут және байланыс  түсініктері",
+                "isCorrect": false
+            },
+            {
+                "text": "Коммуникационды программалық қамтамасызданудың интеграциясы",
+                "isCorrect": false
+            },
+            {
+                "text": "Қатынас жолы",
+                "isCorrect": false
+            },
+            {
+                "text": "Доменге эквивалентті",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "SQL  тілінің стандарты келесімен анықталады",
+        "options": [
+            {
+                "text": "ANSI",
+                "isCorrect": true
+            },
+            {
+                "text": "ASNIR",
+                "isCorrect": false
+            },
+            {
+                "text": "ORACLE",
+                "isCorrect": false
+            },
+            {
+                "text": "IBM",
+                "isCorrect": false
+            },
+            {
+                "text": "DML",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "LTRIM функциясы",
+        "options": [
+            {
+                "text": "Сол жақ пробелды жояды",
+                "isCorrect": true
+            },
+            {
+                "text": "Оң  жақ пробелды жояды",
+                "isCorrect": false
+            },
+            {
+                "text": "Оң жақтан пробел қосады",
+                "isCorrect": false
+            },
+            {
+                "text": "Жоғарғы регистрге ауыстырады",
+                "isCorrect": false
+            },
+            {
+                "text": "Төменгі регистрге ауыстырады",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Қате жазылған анықтаманы табыңыз:",
+        "options": [
+            {
+                "text": "Мәліметтер базасы -   өзінің құрамында кестелер, курсор, индекс және басқа объектілерімен қоса, мәліметті ұстап тұратын атауы бар аудан.",
+                "isCorrect": true
+            },
+            {
+                "text": "LIKE кілттік сөзі сандық  өріспен жұмыс жасайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Реляционды модель 70ж. Басында кеңінен қолдана бастады",
+                "isCorrect": false
+            },
+            {
+                "text": "МБ-да негізгі объект болып кесте табылады",
+                "isCorrect": false
+            },
+            {
+                "text": "Кесте өрісінің  бір кесте шекарасында уникалды аты бар болуы тиіс.",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "CAST (HOURS as Real) мағынасы",
+        "options": [
+            {
+                "text": "HOURS өрісін заттық типке кескіндейді(преобразует)",
+                "isCorrect": true
+            },
+            {
+                "text": "Бөлшек бөлігін жояды",
+                "isCorrect": false
+            },
+            {
+                "text": "HOURS бағанасын Realға ауыстырады",
+                "isCorrect": false
+            },
+            {
+                "text": "HOURS өрісін дөңгелектейді",
+                "isCorrect": false
+            },
+            {
+                "text": "HOURS өрісін сұрыптайды",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Мәлімет банкісі құрамында келесілер кездеспейді:",
+        "options": [
+            {
+                "text": "Анимация",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәлімет базасы және мәліметтер базасын басқару жүйесі",
+                "isCorrect": false
+            },
+            {
+                "text": "Администратор",
+                "isCorrect": false
+            },
+            {
+                "text": "Есептегіш жүйе",
+                "isCorrect": false
+            },
+            {
+                "text": "Қабылдағыш  өкіл",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Форма бұл",
+        "options": [
+            {
+                "text": "Мәліметті енгізуге, көрсетуге және өзгертуге арналған мәліметтер базасының объектісі",
+                "isCorrect": true
+            },
+            {
+                "text": "Макрокомандалар  тізбегі",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті таңдау қорытындысын көрсететін объект",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті сақтаудың негізгі бірлігі",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті тез іздеу құралы",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Сұраныс (запрос) бұл",
+        "options": [
+            {
+                "text": "Бір немесе бірнеше кестелерден қажетті ақпаратты алуға мүмкіндік алуға болатын мәлімет базасының объектісі",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметті баспаға шығаруға арналған мәлімет базасының  объектісі",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті таңдау қорытындысын көрсететін объект",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті сақтаудың негізгі бірлігі",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті тез іздеу құралы",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Есеп(отчет) бұл",
+        "options": [
+            {
+                "text": "Мәліметтерді баспаға шығаруға арналған мәліметтер базасының объектісі",
+                "isCorrect": true
+            },
+            {
+                "text": "Бір немесе бірнеше кестелерден қажетті ақпаратты алуға мүмкіндік алуға болатын мәлімет базасының объектісі",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті енгізуге, көрсетуге және  өзгертуге мүмкіндік беретін мәліметтер базасының объектісі",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті сақтаудың негізгі бірлігі",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті тез іздеу құралы",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Кесте бұл",
+        "options": [
+            {
+                "text": "жол және бағана түрінде мәліметтерді сақтауға арналған мәлімет базасының объектісі",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметті баспаға шығаруға арналған мәлімет базасының  объектісі",
+                "isCorrect": false
+            },
+            {
+                "text": "Бір немесе бірнеше кестелерден қажетті ақпаратты алуға мүмкіндік алуға болатын мәлімет базасының объектісі",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті енгізуге, көрсетуге және  өзгертуге мүмкіндік беретін мәліметтер базасының объектісі",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті тез іздеу құралы",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Модуль – бұл…",
+        "options": [
+            {
+                "text": "Visual Basic for Application –ге жазылған процедура немесе функция",
+                "isCorrect": true
+            },
+            {
+                "text": "жол және бағана түрінде мәліметтерді сақтауға арналған мәлімет базасының объектісі",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті баспаға шығаруға арналған мәлімет базасының  объектісі",
+                "isCorrect": false
+            },
+            {
+                "text": "Бір немесе бірнеше кестелерден қажетті ақпаратты алуға мүмкіндік алуға болатын мәлімет базасының объектісі",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті енгізуге, көрсетуге және  өзгертуге мүмкіндік беретін мәліметтер базасының объектісі",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Макрос – бұл…",
+        "options": [
+            {
+                "text": "Қолданушының жұмысын жеңілдететін және жеделдететін мәлімет базасының объектісі",
+                "isCorrect": true
+            },
+            {
+                "text": "жол және бағана түрінде мәліметтерді сақтауға арналған мәлімет базасының объектісі",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті баспаға шығаруға арналған мәлімет базасының  объектісі",
+                "isCorrect": false
+            },
+            {
+                "text": "Бір немесе бірнеше кестелерден қажетті ақпаратты алуға мүмкіндік алуға болатын мәлімет базасының объектісі",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті енгізуге, көрсетуге және  өзгертуге мүмкіндік беретін мәліметтер базасының объектісі",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "SELECT speed, ram FROM PC  сұранысының қорытындысында қандай мәлімет шығады?",
+        "options": [
+            {
+                "text": "РС Кестесіндегі жылдамдық, жадының жалпы көлемі",
+                "isCorrect": true
+            },
+            {
+                "text": "РС кестесіндегі жылдамдық , қатты дискінің өлшемі",
+                "isCorrect": false
+            },
+            {
+                "text": "Барлық жеке компьютерлердің  жылдамдығы, қатты дискінің өлшемі",
+                "isCorrect": false
+            },
+            {
+                "text": "Барлық жеке компьютерлердің  бағасы , қатты дискінің өлшемі",
+                "isCorrect": false
+            },
+            {
+                "text": "Барлық жеке компьютерлердегі CD  құрылғысының  жылдамдығы, қатты дискінің өлшемі",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Процессор жиілігі 500 Мгц –ден кем емес және бағасы $800-ден төмен компьютерлер жөнінде ақпарат  алуға болатын сұранысты көрсет:",
+        "options": [
+            {
+                "text": "SELECT * FROM Pc WHERE speed >= 500 AND price < 800;",
+                "isCorrect": true
+            },
+            {
+                "text": "SELECT * FROM Pc WHERE speed >= 800 AND price <500;",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT * FROM Laptop WHERE speed >= 800 AND price <500;",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT * FROM Printers WHERE  speed >= 800 AND price <500;",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT * FROM Printers WHERE  hd >= 800  AND price <500;",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Матрицалық болып табылмайтын және  бағасы $300 төмен тұратын барлық принтерлер жөнінде ақпарат алуға болатын  сұранысты көрсет:",
+        "options": [
+            {
+                "text": "SELECT * FROM Printer WHERE NOT (type = 'matrix') AND price < 300;",
+                "isCorrect": true
+            },
+            {
+                "text": "SELECT * FROM Printer WHERE NOT (type =300) AND price < 'matrix';",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT * FROM Laptop WHERE NOT (type = 300) AND price < 'matrix';",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT * FROM Printer WHERE NOT (type = 'laser') AND price < 300;",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT * FROM Printer WHERE NOT (type = 'Jet') AND price < 300;",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Бағасы $400 ден $600 аралығындағы компьютердің моделі мен    процессорларының жиілігін анықта:",
+        "options": [
+            {
+                "text": "SELECT model, speed FROM Pc WHERE price BETWEEN 400 AND 600;",
+                "isCorrect": true
+            },
+            {
+                "text": "SELECT model, speed FROM Printers WHERE price BETWEEN 400 AND 600;",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT model, speed FROM Printers WHERE hd BETWEEN 400 AND 600;",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT model, speed FROM Printers WHERE cd BETWEEN 400 AND 600;",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT model, speed FROM Printers WHERE ram BETWEEN 400 AND 600;",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "10 және 20 Мб жинақтаушысы бар компьютерлердің моделі , процессор жиілігі және қатты дискінің көлемін табыңыз:",
+        "options": [
+            {
+                "text": "SELECT model, speed, hd FROM Pc WHERE hd IN (10, 20);",
+                "isCorrect": true
+            },
+            {
+                "text": "SELECT model, speed, hd FROM Laptop WHERE hd NOT (10, 20);",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT model, speed, hd FROM Printers WHERE hd IN (10, 20);",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT model, speed, hd FROM Pc WHERE hd IN (10, 30);",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT model, ram, cd FROM Printers WHERE hd IN (10, 20);",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "10 және 20 Мб жинақтаушысы бар және шығарушысы “А” болып табылатын компьютерлердің моделі , процессор жиілігі және қатты дискінің көлемін табыңыз:",
+        "options": [
+            {
+                "text": "SELECT model, speed, hd FROM Pc WHERE hd IN (10, 20) AND model IN (SELECT model FROM product WHERE maker = 'A');",
+                "isCorrect": true
+            },
+            {
+                "text": "SELECT model, speed, hd FROM Printers WHERE cd IN (10, 20) AND model IN (SELECT model FROM productWHERE maker = 'A');",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT maker, speed, hd FROM Pc WHERE ram IN (10, 20) AND maker IN (SELECT model FROM productWHERE maker = 'A');",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT maker, speed, hd FROM Pc WHERE ram IN (10, 20) AND maker IN (SELECT model FROM productWHERE maker = 'B');",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT maker, speed, ram FROM Pc WHERE ram IN (10, 20) AND maker IN (SELECT model FROM productWHERE maker = 'C');",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Жеке компьютерге деген  минималды және максималды  бағасын табыңыз:",
+        "options": [
+            {
+                "text": "SELECT MIN(price) AS Min_price, MAX(price) AS Max_priceFROM PC;",
+                "isCorrect": true
+            },
+            {
+                "text": "SELECT MIN(price) AS Min_price, MAX(price) AS Max_priceFROM product;",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT AVG (price) AS Min_price, COUNT(price) AS Max_priceFROM Laptop;",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT MAX(price) AS Max_priceFROM Laptop;",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT MIN(price) AS Min_price, MAX(price) AS Max_priceFROM Laptop;",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Бағасы  $600 дан төмен жеке компьютер шығарушыны және модель нөмірін анықта:",
+        "options": [
+            {
+                "text": "SELECT DISTINCT PC.model, makerFROM PC, ProductWHERE PC.model = Product.model AND price < 600;",
+                "isCorrect": true
+            },
+            {
+                "text": "SELECT PC.model, makerFROM Laptop, Product WHERE PC.model = Product.model AND price < 600;",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT DISTINCT PC.model, maker FROM Printers, Product WHERE PC.model = roduct.model AND price < 600;",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT speed PC.model, maker FROM PC WHERE PC.model = Product.model AND price < 600;",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT ram, hd PC.model, maker FROM PC WHERE PC.model = Product.model AND price < 600;",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Жеке  компьютерлердің барлық модельдерін, оларды шығарушыларды және оның бағасын анықта:",
+        "options": [
+            {
+                "text": "SELECT maker, Product.model AS model_1, PC.model AS model_2, priceFROM Product LEFT JOIN PC ON PC.model = Product.modelWHERE type = 'PC'ORDER BY maker, PC.model;",
+                "isCorrect": true
+            },
+            {
+                "text": "SELECT speed, Product.model AS model_1, PC.model AS model_2, priceFROM Product LEFT JOIN PC ON PC.model = Product.modelWHERE type = 'PC'ORDER BY maker, PC.model;",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT speed, Product.model AS model_1, PC.model AS model_2, priceFROM Printers LEFT JOIN PC ON PC.model = Product.modelWHERE type = 'PC'ORDER BY maker, PC.model;",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT speed, Price.model AS model_1, PC.model AS model_2, priceFROM Printers LEFT JOIN PC ON PC.model = Product.modelWHERE type = 'PC'ORDER BY maker, PC.model;",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT speed, Price.model AS model_1, PC.model AS model_2, priceFROM Printers LEFT JOIN PC ON PC.model = Product.modelWHERE type = 'PC'GROUP BY maker, PC.model;",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Мәліметтер базасында бар әрбір компьютердің өндірушісін, модель нөмірін және бағасын анықта:",
+        "options": [
+            {
+                "text": "SELECT maker, Product.model AS model_1, PC.model AS model_2, priceFROM Product INNER JOIN PC ON PC.model = Product.modelORDER BY maker, PC.model;",
+                "isCorrect": true
+            },
+            {
+                "text": "SELECT maker, Product.model AS model_1, PC.model AS model_2, priceFROM Product LEFT JOIN PC ON PC.model = Product.modelWHERE type = 'PC'ORDER BY maker, PC.model;",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT maker, speed, hd FROM Pc WHERE ram IN (10, 20) AND maker IN (SELECT model FROM productWHERE maker = 'A');",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT maker, Product.model AS model_1, PC.model AS model_2, priceFROM Product LEFT JOIN PC ON PC.model = Product.modelWHERE type = 'PC'GROUP BY maker, PC.model;",
+                "isCorrect": false
+            },
+            {
+                "text": "SELECT * FROM Laptop WHERE NOT (type = 300) AND price < 'matrix';",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Microsoft Access – бұл …",
+        "options": [
+            {
+                "text": "Windows графикалық ортасына арнайы өңделген  реляционды мәліметтер базасын басқару жүйесі",
+                "isCorrect": true
+            },
+            {
+                "text": "ОС Windows контролімен ақпаратты басқару жүйесі",
+                "isCorrect": false
+            },
+            {
+                "text": "Кесте түрінде жазылған  мәліметтерді өңдеуге арналған программа",
+                "isCorrect": false
+            },
+            {
+                "text": "Кестеге ақпаратты енгізуге арналған программа",
+                "isCorrect": false
+            },
+            {
+                "text": "Ақпаратты іздеуді жүзеге асыратын программа",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "MS Access- тегі өңдеу объектісі болып…",
+        "options": [
+            {
+                "text": "MDBкөлемінде кеңейтілген және туынды аты бар мәліметтер базасы файлы",
+                "isCorrect": true
+            },
+            {
+                "text": "Кесте, сұраныс, есеп, форма",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер базасы",
+                "isCorrect": false
+            },
+            {
+                "text": "Шын өмір объектілері жөнінде ақпарат сақтайтын құжат",
+                "isCorrect": false
+            },
+            {
+                "text": "Ақпаратты іздеуді жүзеге асыратын программа",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "MS Access те конструктор режимі неге …",
+        "options": [
+            {
+                "text": "Объект құрылымының макетін құру немесе өзгерту",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметтер базасы файлдарын құру",
+                "isCorrect": false
+            },
+            {
+                "text": "Ақпаратты қарау",
+                "isCorrect": false
+            },
+            {
+                "text": "MS Accessтегі негізгі объектісі туралы ақпаратты сақтайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер базасының құрамындағыларды қарау",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "MS Access те кесте- бұл...",
+        "options": [
+            {
+                "text": "Мәліметті сақтайды",
+                "isCorrect": true
+            },
+            {
+                "text": "Кестеден немесе сұраныстан экран бетіне  форманы шығару(белгілі  бір қолданушының форматына байланысты)",
+                "isCorrect": false
+            },
+            {
+                "text": "Қолданушының берген критерийлеріне сәйкес мәлімет базасынан мәліметті шақыру",
+                "isCorrect": false
+            },
+            {
+                "text": "Қолданушы ұсынған формат қа сүйене отырып кестеден не сұраныстан экранға  ақпаратты шығару",
+                "isCorrect": false
+            },
+            {
+                "text": "Қолайлы түрде мәліметті принтерден шығару",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "MS Access те өріс кестесінде, “Логикалық” мәлімет типі нені сақтауға арналған",
+        "options": [
+            {
+                "text": "Логикалық мәліметтерді(Иә/Жоқ)",
+                "isCorrect": true
+            },
+            {
+                "text": "(And, Or, Not) логикалық байланыстары қолданылатын түсініктер",
+                "isCorrect": false
+            },
+            {
+                "text": "Қатынас жолында кескінделетін суреттеме",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер базасына байланысты статистикалық  мәліметтер",
+                "isCorrect": false
+            },
+            {
+                "text": "Экономикалық есептер",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "MS Access те кестесінде «Поле объекта OLE»мәліметтер типі нені сақтау үшін қолданылады…",
+        "options": [
+            {
+                "text": "Мультимедийлік объектілер",
+                "isCorrect": true
+            },
+            {
+                "text": "URL Web-интернет объектілерінің мекен-жайлары",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәтіннің үлкен көлемі(65 535 символға дейін)",
+                "isCorrect": false
+            },
+            {
+                "text": "Экономикалық есеп",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер базасына байланысты статистикалық  мәліметтер",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "MS Accessте өріс кестесінде «Числовой» мәліметтер типі нені сақтау үшін қолданылады",
+        "options": [
+            {
+                "text": "Нақты(действительный) сан",
+                "isCorrect": true
+            },
+            {
+                "text": "Ағымдағы күнтізбелік күн",
+                "isCorrect": false
+            },
+            {
+                "text": "втоматты түре өсетін натурал сандар",
+                "isCorrect": false
+            },
+            {
+                "text": "Ақшалық сумма",
+                "isCorrect": false
+            },
+            {
+                "text": "Ағымдағы уақыт",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "MS Access те “Гиперссылка” мәлімет типіндегі кестенің өрістері нені сақтайды",
+        "options": [
+            {
+                "text": "URL Web-интернет объектілерінің мекен-жайларын",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметтер базасында  белгілі жазбаларға сілтеме",
+                "isCorrect": false
+            },
+            {
+                "text": "Базадағы көбірек қолданылатын  жазба",
+                "isCorrect": false
+            },
+            {
+                "text": "Мультимедийлік объектілер",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер базасына байланысты статистикалық  мәліметтер",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "MS Accessте өріс кестесінде “Денежный” мәліметтер типі нені сақтау үшін қолданылады …",
+        "options": [
+            {
+                "text": "Ақшалық сумма",
+                "isCorrect": true
+            },
+            {
+                "text": "Ақшалық немесе қаржылық формат",
+                "isCorrect": false
+            },
+            {
+                "text": "Нақты сан",
+                "isCorrect": false
+            },
+            {
+                "text": "экономикалық  есеп",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер базасына байланысты статистикалық  мәліметтер",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "MS Access өріс кестесінде «Дата/Время» мәліметтер типі нені сақтау үшін қолданылады …",
+        "options": [
+            {
+                "text": "Ағымдағы уақыт немесе күнтізбелік күн",
+                "isCorrect": true
+            },
+            {
+                "text": "Нақты сан",
+                "isCorrect": false
+            },
+            {
+                "text": "Автоматты түре өсетін натурал сандар",
+                "isCorrect": false
+            },
+            {
+                "text": "Ақшалық сумма",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәлімет базасындағы белгілі бір жазбасына сілтеме",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Жаңа жазбалар  енгізілгенде не өзгертілгенде, MS Access автоматты түрде қандай режимге ауысады …",
+        "options": [
+            {
+                "text": "Редактрлеу",
+                "isCorrect": true
+            },
+            {
+                "text": "Іздеу және ауыстыру",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті енгізу",
+                "isCorrect": false
+            },
+            {
+                "text": "Фильтрация",
+                "isCorrect": false
+            },
+            {
+                "text": "Сұрыптау",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "MS Accessтегі басқа есептің ішіндегі есепті қалай атайды …",
+        "options": [
+            {
+                "text": "Бағынышты",
+                "isCorrect": true
+            },
+            {
+                "text": "Контекстті",
+                "isCorrect": false
+            },
+            {
+                "text": "Топтық",
+                "isCorrect": false
+            },
+            {
+                "text": "Қатысты",
+                "isCorrect": false
+            },
+            {
+                "text": "Кірістелген",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Ms Access басқару элементін екі рет шерту көмегімен",
+        "options": [
+            {
+                "text": "Редактрлеу режимі шақырылады",
+                "isCorrect": true
+            },
+            {
+                "text": "Оның өлшемін және сыртқы түрін өзгертеді",
+                "isCorrect": false
+            },
+            {
+                "text": "Берілген элементтті басқару қасиетінің терезесі шақырылады",
+                "isCorrect": false
+            },
+            {
+                "text": "Оны ерекшелейді",
+                "isCorrect": false
+            },
+            {
+                "text": "Оны жояды",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "MS Access формаға не есепке орналастырылған объектілер қалай аталады",
+        "options": [
+            {
+                "text": "Басқару элементтері",
+                "isCorrect": true
+            },
+            {
+                "text": "Форманы не есепті бөледі",
+                "isCorrect": false
+            },
+            {
+                "text": "Алдын-ала анықталған форма",
+                "isCorrect": false
+            },
+            {
+                "text": "Форма не  есеп жолдары",
+                "isCorrect": false
+            },
+            {
+                "text": "Форманы немесе есепті жазуда",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Ms бірден көп басқару элементін ерекшелеу қалай жүзеге асады  …",
+        "options": [
+            {
+                "text": "{Shift} батырмасын ұстап тұрып басқару элементіне шертпе жасау",
+                "isCorrect": true
+            },
+            {
+                "text": "рамканы басқару элементін ерекшелегенге дейін тышқанның оң жағын басу",
+                "isCorrect": false
+            },
+            {
+                "text": "{Ctrl} батырмасын ұстап тұрып басқару элементіне шерпе жасау",
+                "isCorrect": false
+            },
+            {
+                "text": "[Формат-Привязать к сетке] командасын орындау",
+                "isCorrect": false
+            },
+            {
+                "text": "{Alt} батырмасын ұстап тұрып басқару элементіне шерпе жасау",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "MS Access есепті  алдын-ала қарау терезесіндегі, тышқанның сол жақ батырмасы:",
+        "options": [
+            {
+                "text": "Кескінді не үлкейтеді не кішірейтеді",
+                "isCorrect": true
+            },
+            {
+                "text": "Келесі бетті көрсетеді",
+                "isCorrect": false
+            },
+            {
+                "text": "«Масштаб» терезесін шақырады",
+                "isCorrect": false
+            },
+            {
+                "text": "Контекстті менюді шақырады",
+                "isCorrect": false
+            },
+            {
+                "text": "Құрамындағыны жояды",
+                "isCorrect": false
+            }
+        ]
+    }
+]

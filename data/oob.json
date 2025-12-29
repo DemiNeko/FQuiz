@@ -1,0 +1,5002 @@
+[
+    {
+        "question": "ОБП дегеніміз не?",
+        "options": [
+            {
+                "text": "Объектіге бағытталған программалау",
+                "isCorrect": true
+            },
+            {
+                "text": "Операциялық орта параметрі",
+                "isCorrect": false
+            },
+            {
+                "text": "Ортақ өңдеу процедурасы",
+                "isCorrect": false
+            },
+            {
+                "text": "Оптималды операциялық процестер",
+                "isCorrect": false
+            },
+            {
+                "text": "Объект орнату протоколы",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Класс дегеніміз не?:",
+        "options": [
+            {
+                "text": "Объектілердің үлгісі немесе шаблоны",
+                "isCorrect": true
+            },
+            {
+                "text": "Бағдарламаның атқарушы бөлігі",
+                "isCorrect": false
+            },
+            {
+                "text": "Массив түрі",
+                "isCorrect": false
+            },
+            {
+                "text": "Құжат пішімі",
+                "isCorrect": false
+            },
+            {
+                "text": "Файл құрылымы",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Объект дегеніміз не?:",
+        "options": [
+            {
+                "text": "Кластың нақты данасы",
+                "isCorrect": true
+            },
+            {
+                "text": "Айнымалы типі",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәлімет қоры",
+                "isCorrect": false
+            },
+            {
+                "text": "Алгоритм",
+                "isCorrect": false
+            },
+            {
+                "text": "Функция",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Инкапсуляция дегеніміз не?:",
+        "options": [
+            {
+                "text": "Мәлімет пен әдістерді біріктіру және қорғау",
+                "isCorrect": true
+            },
+            {
+                "text": "Класты мұрагерлеу процесі",
+                "isCorrect": false
+            },
+            {
+                "text": "Полиморфизм түрі",
+                "isCorrect": false
+            },
+            {
+                "text": "Конструкторды шақыру әдісі",
+                "isCorrect": false
+            },
+            {
+                "text": "Объектіні көшіру тәсілі",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Мұрагерлік (наследование) не үшін қолданылады?:",
+        "options": [
+            {
+                "text": "Кластың қасиеттері мен әдістерін басқа класқа беру үшін",
+                "isCorrect": true
+            },
+            {
+                "text": "Айнымалыларды жасыру үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Қате өңдеу үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Объектілерді көшіру үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәлімет енгізу үшін",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Полиморфизм дегеніміз не?:",
+        "options": [
+            {
+                "text": "Бір интерфейстің бірнеше іске асырылуы",
+                "isCorrect": true
+            },
+            {
+                "text": "Бірдей атаулы кластардың болуы",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәлімет типін өзгерту",
+                "isCorrect": false
+            },
+            {
+                "text": "Жадты босату",
+                "isCorrect": false
+            },
+            {
+                "text": "Айнымалыны инициализациялау",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Конструктор дегеніміз не?:",
+        "options": [
+            {
+                "text": "Объектіні инициализациялайтын арнайы әдіс",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметті жоятын функция",
+                "isCorrect": false
+            },
+            {
+                "text": "Жадты тазалау тәсілі",
+                "isCorrect": false
+            },
+            {
+                "text": "Класты көшіретін оператор",
+                "isCorrect": false
+            },
+            {
+                "text": "Объект атын өзгертетін әдіс",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Деструктор не істейді?:",
+        "options": [
+            {
+                "text": "Объект жойылғанда ресурстарды босатады",
+                "isCorrect": true
+            },
+            {
+                "text": "Объектіні құрады",
+                "isCorrect": false
+            },
+            {
+                "text": "Класты кеңейтеді",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті сақтайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Айнымалыны инициализациялайды",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "C++ тілінде классты қалай жариялайды?:",
+        "options": [
+            {
+                "text": "class MyClass { };",
+                "isCorrect": true
+            },
+            {
+                "text": "object MyClass { };",
+                "isCorrect": false
+            },
+            {
+                "text": "struct MyClass ( );",
+                "isCorrect": false
+            },
+            {
+                "text": "define MyClass { };",
+                "isCorrect": false
+            },
+            {
+                "text": "new class MyClass();",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Конструктордың аты қандай болуы тиіс?:",
+        "options": [
+            {
+                "text": "Кластың атымен бірдей",
+                "isCorrect": true
+            },
+            {
+                "text": "Кездейсоқ атау",
+                "isCorrect": false
+            },
+            {
+                "text": "init()",
+                "isCorrect": false
+            },
+            {
+                "text": "start()",
+                "isCorrect": false
+            },
+            {
+                "text": "build()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Полиморфизм қай кезде іске асады?:",
+        "options": [
+            {
+                "text": "Бір атаулы әдістер әр түрлі кластарда әр түрлі жұмыс істегенде",
+                "isCorrect": true
+            },
+            {
+                "text": "Барлық кластар бірдей әдістерді қолданғанда",
+                "isCorrect": false
+            },
+            {
+                "text": "Объект жойылғанда",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәлімет енгізілгенде",
+                "isCorrect": false
+            },
+            {
+                "text": "Айнымалы типі өзгергенде",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Абстрактілі класс деген не?:",
+        "options": [
+            {
+                "text": "Кем дегенде бір виртуалды әдісі бар класс",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәлімет қоры",
+                "isCorrect": false
+            },
+            {
+                "text": "Конструкторы жоқ класс",
+                "isCorrect": false
+            },
+            {
+                "text": "Тек статикалық әдістері бар класс",
+                "isCorrect": false
+            },
+            {
+                "text": "Жадсыз класс",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Интерфейс нені анықтайды?:",
+        "options": [
+            {
+                "text": "Әдістер жиынтығын, бірақ олардың іске асырылуын емес",
+                "isCorrect": true
+            },
+            {
+                "text": "Айнымалылар тізімін",
+                "isCorrect": false
+            },
+            {
+                "text": "Нақты алгоритмді",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтер құрылымын",
+                "isCorrect": false
+            },
+            {
+                "text": "Конструкторларды",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Мұрагерліктің түрлері қаншау?:",
+        "options": [
+            {
+                "text": "Бірлік және көптік",
+                "isCorrect": true
+            },
+            {
+                "text": "Тек бірлік",
+                "isCorrect": false
+            },
+            {
+                "text": "Тек көптік",
+                "isCorrect": false
+            },
+            {
+                "text": "Жасырын",
+                "isCorrect": false
+            },
+            {
+                "text": "Логикалық",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Объектіні құру үшін қандай оператор қолданылады?:",
+        "options": [
+            {
+                "text": "new",
+                "isCorrect": true
+            },
+            {
+                "text": "malloc",
+                "isCorrect": false
+            },
+            {
+                "text": "create",
+                "isCorrect": false
+            },
+            {
+                "text": "init",
+                "isCorrect": false
+            },
+            {
+                "text": "build",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Жою үшін қандай оператор пайдаланылады?:",
+        "options": [
+            {
+                "text": "delete",
+                "isCorrect": true
+            },
+            {
+                "text": "free",
+                "isCorrect": false
+            },
+            {
+                "text": "destroy",
+                "isCorrect": false
+            },
+            {
+                "text": "remove",
+                "isCorrect": false
+            },
+            {
+                "text": "nullify",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "this көрсеткіші не үшін керек?:",
+        "options": [
+            {
+                "text": "Ағымдағы объектіні көрсету үшін",
+                "isCorrect": true
+            },
+            {
+                "text": "Сыртқы класты шақыру үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Мұрагер классты табу үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Массив индекстерін көрсету үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Статикалық әдіске сілтеу үшін",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Статикалық әдіс дегеніміз не?:",
+        "options": [
+            {
+                "text": "Классқа тиесілі, бірақ нақты объектіге тәуелсіз әдіс",
+                "isCorrect": true
+            },
+            {
+                "text": "Тек бір объектіге арналған",
+                "isCorrect": false
+            },
+            {
+                "text": "Жасыру әдісі",
+                "isCorrect": false
+            },
+            {
+                "text": "Тұрақсыз әдіс",
+                "isCorrect": false
+            },
+            {
+                "text": "Динамикалық жадпен жұмыс істейді",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Объектілердің өзара әрекеттесуі қалай аталады?:",
+        "options": [
+            {
+                "text": "Хабар алмасу (message passing)",
+                "isCorrect": true
+            },
+            {
+                "text": "Инкапсуляция",
+                "isCorrect": false
+            },
+            {
+                "text": "Жад бөлу",
+                "isCorrect": false
+            },
+            {
+                "text": "Қате өңдеу",
+                "isCorrect": false
+            },
+            {
+                "text": "Кодтау",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "UML диаграммасы не үшін қажет?:",
+        "options": [
+            {
+                "text": "Жүйенің құрылымын графикалық түрде көрсету үшін",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәлімет енгізу үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Бағдарламаны орындау үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Жад бөлу үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Тест жазу үшін",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Конструкторды артық жүктеу (overloading) нені білдіреді?:",
+        "options": [
+            {
+                "text": "Бір класта бірнеше конструктордың болуы",
+                "isCorrect": true
+            },
+            {
+                "text": "Бірдей атаулы кластар",
+                "isCorrect": false
+            },
+            {
+                "text": "Бір әдісті қайта анықтау",
+                "isCorrect": false
+            },
+            {
+                "text": "Айнымалы типін өзгерту",
+                "isCorrect": false
+            },
+            {
+                "text": "Класс көшіру",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Әдісті қайта анықтау (overriding) дегеніміз не?:",
+        "options": [
+            {
+                "text": "Мұрагер класта ата-ананың әдісін қайта жазу",
+                "isCorrect": true
+            },
+            {
+                "text": "Бірдей атаулы әдістер қосу",
+                "isCorrect": false
+            },
+            {
+                "text": "Айнымалы көшіру",
+                "isCorrect": false
+            },
+            {
+                "text": "Қате өңдеу",
+                "isCorrect": false
+            },
+            {
+                "text": "Жаңа класс құру",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Көптік мұрагерлік дегеніміз не?:",
+        "options": [
+            {
+                "text": "Бір класс бірнеше кластан қасиет алу",
+                "isCorrect": true
+            },
+            {
+                "text": "Бір объект бірнеше рет құрылу",
+                "isCorrect": false
+            },
+            {
+                "text": "Бір әдісті екі рет қолдану",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәлімет көшіру",
+                "isCorrect": false
+            },
+            {
+                "text": "Код қайталау",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Виртуалды деструктор не үшін керек?:",
+        "options": [
+            {
+                "text": "Мұрагер класстарды дұрыс жою үшін",
+                "isCorrect": true
+            },
+            {
+                "text": "Конструкторды шақыру үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті сақтау үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Жад бөлу үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Көшіру үшін",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Объектіні көшіру қандай функция арқылы жүреді?:",
+        "options": [
+            {
+                "text": "Көшіру конструкторы",
+                "isCorrect": true
+            },
+            {
+                "text": "Деструктор",
+                "isCorrect": false
+            },
+            {
+                "text": "main",
+                "isCorrect": false
+            },
+            {
+                "text": "virtual функция",
+                "isCorrect": false
+            },
+            {
+                "text": "copy() әдісі",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "ОБП принциптерінің саны қанша?:",
+        "options": [
+            {
+                "text": "Үшеу (инкапсуляция, мұрагерлік, полиморфизм)",
+                "isCorrect": true
+            },
+            {
+                "text": "Екеу",
+                "isCorrect": false
+            },
+            {
+                "text": "Төртеу",
+                "isCorrect": false
+            },
+            {
+                "text": "Бесеу",
+                "isCorrect": false
+            },
+            {
+                "text": "Біреу",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Абстракция дегеніміз не?:",
+        "options": [
+            {
+                "text": "Маңызды қасиеттерді бөліп көрсету",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметті жасыру",
+                "isCorrect": false
+            },
+            {
+                "text": "Объект құру",
+                "isCorrect": false
+            },
+            {
+                "text": "Полиморфизм",
+                "isCorrect": false
+            },
+            {
+                "text": "Кодтау",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "\"protected\" модификаторы қай тілдерде бар?:",
+        "options": [
+            {
+                "text": "C++, Java, C#",
+                "isCorrect": true
+            },
+            {
+                "text": "Python",
+                "isCorrect": false
+            },
+            {
+                "text": "Pascal",
+                "isCorrect": false
+            },
+            {
+                "text": "Basic",
+                "isCorrect": false
+            },
+            {
+                "text": "HTML",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Python тілінде класс қалай жарияланады?:",
+        "options": [
+            {
+                "text": "class MyClass:",
+                "isCorrect": true
+            },
+            {
+                "text": "define MyClass",
+                "isCorrect": false
+            },
+            {
+                "text": "object MyClass()",
+                "isCorrect": false
+            },
+            {
+                "text": "MyClass = class()",
+                "isCorrect": false
+            },
+            {
+                "text": "new MyClass:",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Java тілінде мұрагерлік қалай жазылады?:",
+        "options": [
+            {
+                "text": "class B extends A",
+                "isCorrect": true
+            },
+            {
+                "text": "class B inherits A",
+                "isCorrect": false
+            },
+            {
+                "text": "class B : A",
+                "isCorrect": false
+            },
+            {
+                "text": "inherit B from A",
+                "isCorrect": false
+            },
+            {
+                "text": "using A in B",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "C# тілінде интерфейс қалай анықталады?:",
+        "options": [
+            {
+                "text": "interface IMyInterface { }",
+                "isCorrect": true
+            },
+            {
+                "text": "class Interface { }",
+                "isCorrect": false
+            },
+            {
+                "text": "struct IMyInterface()",
+                "isCorrect": false
+            },
+            {
+                "text": "define interface()",
+                "isCorrect": false
+            },
+            {
+                "text": "new Interface { }",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Конструктор қай кезде шақырылады?:",
+        "options": [
+            {
+                "text": "Объект құрылған кезде",
+                "isCorrect": true
+            },
+            {
+                "text": "Бағдарлама басталғанда",
+                "isCorrect": false
+            },
+            {
+                "text": "Деструктордан кейін",
+                "isCorrect": false
+            },
+            {
+                "text": "Айнымалы жарияланғанда",
+                "isCorrect": false
+            },
+            {
+                "text": "Файл ашылғанда",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "\"static\" айнымалының ерекшелігі қандай?:",
+        "options": [
+            {
+                "text": "Барлық объектілерге ортақ",
+                "isCorrect": true
+            },
+            {
+                "text": "Әр объектіге жеке",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті жасырады",
+                "isCorrect": false
+            },
+            {
+                "text": "Конструктормен жойылады",
+                "isCorrect": false
+            },
+            {
+                "text": "Көшірілмейді",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Деструктордың аты қандай белгімен басталады (C++)?:",
+        "options": [
+            {
+                "text": "Тильда (~)",
+                "isCorrect": true
+            },
+            {
+                "text": "Нүкте (.)",
+                "isCorrect": false
+            },
+            {
+                "text": "Үтір (,)",
+                "isCorrect": false
+            },
+            {
+                "text": "Қос нүкте (::)",
+                "isCorrect": false
+            },
+            {
+                "text": "Жұлдызша (*)",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "\"public static void main()\" не білдіреді?:",
+        "options": [
+            {
+                "text": "Бағдарламаның кіру нүктесі",
+                "isCorrect": true
+            },
+            {
+                "text": "Класс сипаттамасы",
+                "isCorrect": false
+            },
+            {
+                "text": "Айнымалы жариялау",
+                "isCorrect": false
+            },
+            {
+                "text": "Объект анықтау",
+                "isCorrect": false
+            },
+            {
+                "text": "Тест әдісі",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Класс ішінде әдіс пен мәліметті жасыру неге жатады?:",
+        "options": [
+            {
+                "text": "Инкапсуляция",
+                "isCorrect": true
+            },
+            {
+                "text": "Полиморфизм",
+                "isCorrect": false
+            },
+            {
+                "text": "Мұрагерлік",
+                "isCorrect": false
+            },
+            {
+                "text": "Абстракция",
+                "isCorrect": false
+            },
+            {
+                "text": "Деструкция",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Объект пен класс байланысы қандай?:",
+        "options": [
+            {
+                "text": "Объект --- кластың данасы",
+                "isCorrect": true
+            },
+            {
+                "text": "Класс --- объекттің данасы",
+                "isCorrect": false
+            },
+            {
+                "text": "Екеуі тең",
+                "isCorrect": false
+            },
+            {
+                "text": "Объект --- әдіс",
+                "isCorrect": false
+            },
+            {
+                "text": "Класс --- айнымалы",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Абстрактілі әдіс дегеніміз не?:",
+        "options": [
+            {
+                "text": "Іске асырылуы жоқ әдіс",
+                "isCorrect": true
+            },
+            {
+                "text": "Жасырын әдіс",
+                "isCorrect": false
+            },
+            {
+                "text": "Қате өңдеу әдісі",
+                "isCorrect": false
+            },
+            {
+                "text": "Конструктор",
+                "isCorrect": false
+            },
+            {
+                "text": "Статикалық функция",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Полиморфизм мысалы қай жерде қолданылады?:",
+        "options": [
+            {
+                "text": "Бір атаулы әдіс әр түрлі кластарда әр түрлі жұмыс істегенде",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметті жасыруда",
+                "isCorrect": false
+            },
+            {
+                "text": "Конструкторды шақырғанда",
+                "isCorrect": false
+            },
+            {
+                "text": "Айнымалы жариялауда",
+                "isCorrect": false
+            },
+            {
+                "text": "Файл ашуда",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Класты кеңейту дегеніміз не?:",
+        "options": [
+            {
+                "text": "Мұрагерлік",
+                "isCorrect": true
+            },
+            {
+                "text": "Инкапсуляция",
+                "isCorrect": false
+            },
+            {
+                "text": "Полиморфизм",
+                "isCorrect": false
+            },
+            {
+                "text": "Абстракция",
+                "isCorrect": false
+            },
+            {
+                "text": "Интерфейс",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "ОБП-да \"composition\" дегеніміз не?:",
+        "options": [
+            {
+                "text": "Бір объект ішінде басқа объектіні қолдану",
+                "isCorrect": true
+            },
+            {
+                "text": "Мұрагерлікті жою",
+                "isCorrect": false
+            },
+            {
+                "text": "Айнымалыны жариялау",
+                "isCorrect": false
+            },
+            {
+                "text": "Полиморфизм",
+                "isCorrect": false
+            },
+            {
+                "text": "Конструктор",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Көптүрлілік (полиморфизм) қай механизм арқылы іске асады?:",
+        "options": [
+            {
+                "text": "Виртуалды функциялар",
+                "isCorrect": true
+            },
+            {
+                "text": "Конструктор",
+                "isCorrect": false
+            },
+            {
+                "text": "Инкапсуляция",
+                "isCorrect": false
+            },
+            {
+                "text": "Копирование",
+                "isCorrect": false
+            },
+            {
+                "text": "Статикалық әдіс",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "ОБП артықшылықтарына не жатады?:",
+        "options": [
+            {
+                "text": "Кодты қайта пайдалану, икемділік, қолжетімділік",
+                "isCorrect": true
+            },
+            {
+                "text": "Күрделілік, тәуелділік",
+                "isCorrect": false
+            },
+            {
+                "text": "Қате көбейту",
+                "isCorrect": false
+            },
+            {
+                "text": "Жады көп қолдану",
+                "isCorrect": false
+            },
+            {
+                "text": "Код қайталау",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Кластың мүшелері неге бөлінеді?:",
+        "options": [
+            {
+                "text": "Деректер (fields) және әдістер (methods)",
+                "isCorrect": true
+            },
+            {
+                "text": "Айнымалылар мен функциялар",
+                "isCorrect": false
+            },
+            {
+                "text": "Кестелер мен бағандар",
+                "isCorrect": false
+            },
+            {
+                "text": "Файлдар мен каталогтар",
+                "isCorrect": false
+            },
+            {
+                "text": "Массивтер мен циклдар",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Конструктор не үшін қолданылады?:",
+        "options": [
+            {
+                "text": "Объектіні бастапқы күйге келтіру үшін",
+                "isCorrect": true
+            },
+            {
+                "text": "Объектіні жою үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті сақтау үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Қате өңдеу үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Файл ашу үшін",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Деструктор қай кезде шақырылады?:",
+        "options": [
+            {
+                "text": "Объект жойылғанда",
+                "isCorrect": true
+            },
+            {
+                "text": "Объект құрылғанда",
+                "isCorrect": false
+            },
+            {
+                "text": "Конструктор шақырылғанда",
+                "isCorrect": false
+            },
+            {
+                "text": "Бағдарлама басталғанда",
+                "isCorrect": false
+            },
+            {
+                "text": "Класс жарияланғанда",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "ОБП-ның негізгі мақсаты қандай?:",
+        "options": [
+            {
+                "text": "Бағдарламаны модульдік және қайта пайдалануға ыңғайлы ету",
+                "isCorrect": true
+            },
+            {
+                "text": "Кодты көбейту",
+                "isCorrect": false
+            },
+            {
+                "text": "Есептеу жылдамдығын төмендету",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті жасыру",
+                "isCorrect": false
+            },
+            {
+                "text": "Айнымалыны көбейту",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Абстракция не үшін керек?:",
+        "options": [
+            {
+                "text": "Маңызды қасиеттерге назар аударып, артықтарын жасыру үшін",
+                "isCorrect": true
+            },
+            {
+                "text": "Барлық мәліметті көрсету үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті көшіру үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Кодың көлемін арттыру үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Объектіні жою үшін",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "\"private\" мүшелерге қалай қол жеткізуге болады?:",
+        "options": [
+            {
+                "text": "Тек класс ішінен",
+                "isCorrect": true
+            },
+            {
+                "text": "Мұрагер класстардан",
+                "isCorrect": false
+            },
+            {
+                "text": "Барлық кластардан",
+                "isCorrect": false
+            },
+            {
+                "text": "Басқа модульдерден",
+                "isCorrect": false
+            },
+            {
+                "text": "Интерфейстен",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Кластың \"қасиеттері\" нені білдіреді?:",
+        "options": [
+            {
+                "text": "Мәлімет өрістері",
+                "isCorrect": true
+            },
+            {
+                "text": "Әдістер",
+                "isCorrect": false
+            },
+            {
+                "text": "Объектілер",
+                "isCorrect": false
+            },
+            {
+                "text": "Конструкторлар",
+                "isCorrect": false
+            },
+            {
+                "text": "Циклдер",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Кластың \"мінез-құлқы\" нені сипаттайды?:",
+        "options": [
+            {
+                "text": "Әдістер",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәлімет өрістері",
+                "isCorrect": false
+            },
+            {
+                "text": "Конструкторлар",
+                "isCorrect": false
+            },
+            {
+                "text": "Копиялар",
+                "isCorrect": false
+            },
+            {
+                "text": "Объектілер",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "\"new\" операторы не істейді?:",
+        "options": [
+            {
+                "text": "Объектіге жад бөледі",
+                "isCorrect": true
+            },
+            {
+                "text": "Объектіні жояды",
+                "isCorrect": false
+            },
+            {
+                "text": "Айнымалыны жариялайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Класты жасырады",
+                "isCorrect": false
+            },
+            {
+                "text": "Конструкторды жояды",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Кластың шаблоны қалай аталады?:",
+        "options": [
+            {
+                "text": "Template",
+                "isCorrect": true
+            },
+            {
+                "text": "Model",
+                "isCorrect": false
+            },
+            {
+                "text": "Scheme",
+                "isCorrect": false
+            },
+            {
+                "text": "Struct",
+                "isCorrect": false
+            },
+            {
+                "text": "Plan",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Template класстары қай тілдерде бар?:",
+        "options": [
+            {
+                "text": "C++, Java (generic түрінде)",
+                "isCorrect": true
+            },
+            {
+                "text": "Pascal",
+                "isCorrect": false
+            },
+            {
+                "text": "HTML",
+                "isCorrect": false
+            },
+            {
+                "text": "Python",
+                "isCorrect": false
+            },
+            {
+                "text": "SQL",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "\"this\" көрсеткіші неге қолданылады?:",
+        "options": [
+            {
+                "text": "Ағымдағы объектіні көрсетуге",
+                "isCorrect": true
+            },
+            {
+                "text": "Мұрагерлікке",
+                "isCorrect": false
+            },
+            {
+                "text": "Конструкторды шақыруға",
+                "isCorrect": false
+            },
+            {
+                "text": "Виртуалды әдіске",
+                "isCorrect": false
+            },
+            {
+                "text": "Копия жасауға",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Объектілер не арқылы өзара әрекеттеседі?:",
+        "options": [
+            {
+                "text": "Хабарлар (messages)",
+                "isCorrect": true
+            },
+            {
+                "text": "Массивтер",
+                "isCorrect": false
+            },
+            {
+                "text": "Айнымалылар",
+                "isCorrect": false
+            },
+            {
+                "text": "Кестелер",
+                "isCorrect": false
+            },
+            {
+                "text": "Қайталанулар",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Класс мүшелерін қай жерде жариялайды?:",
+        "options": [
+            {
+                "text": "Кластың ішінде",
+                "isCorrect": true
+            },
+            {
+                "text": "Main функциясында",
+                "isCorrect": false
+            },
+            {
+                "text": "Файл басында",
+                "isCorrect": false
+            },
+            {
+                "text": "Header сыртында",
+                "isCorrect": false
+            },
+            {
+                "text": "Функция ішінде",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Абстрактілі әдіс қай тілдерде кездеседі?:",
+        "options": [
+            {
+                "text": "Java, C#, Python",
+                "isCorrect": true
+            },
+            {
+                "text": "C",
+                "isCorrect": false
+            },
+            {
+                "text": "HTML",
+                "isCorrect": false
+            },
+            {
+                "text": "Pascal",
+                "isCorrect": false
+            },
+            {
+                "text": "SQL",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Конструктор параметрсіз болғанда не деп аталады?:",
+        "options": [
+            {
+                "text": "Әдепкі (default) конструктор",
+                "isCorrect": true
+            },
+            {
+                "text": "Негізгі",
+                "isCorrect": false
+            },
+            {
+                "text": "Копия",
+                "isCorrect": false
+            },
+            {
+                "text": "Динамикалық",
+                "isCorrect": false
+            },
+            {
+                "text": "Виртуалды",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Динамикалық полиморфизм не арқылы жүзеге асады?:",
+        "options": [
+            {
+                "text": "Виртуалды функциялар",
+                "isCorrect": true
+            },
+            {
+                "text": "Макростар",
+                "isCorrect": false
+            },
+            {
+                "text": "Массивтер",
+                "isCorrect": false
+            },
+            {
+                "text": "Конструкторлар",
+                "isCorrect": false
+            },
+            {
+                "text": "Тұрақтылар",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Класс пен структура айырмашылығы неде (C++)?:",
+        "options": [
+            {
+                "text": "Әдепкіде класс private, структура public",
+                "isCorrect": true
+            },
+            {
+                "text": "Структура virtual бола алмайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Класс мәлімет сақтамайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Структура тек әдіс сақтайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Айырмашылығы жоқ",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "\"getter\" және \"setter\" әдістері не үшін керек?:",
+        "options": [
+            {
+                "text": "Мәліметті оқу және өзгерту үшін",
+                "isCorrect": true
+            },
+            {
+                "text": "Объектіні жою үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Конструкторды көшіру үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Қате өңдеу үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Интерфейсті кеңейту үшін",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Полиморфизмнің артықшылығы неде?:",
+        "options": [
+            {
+                "text": "Кодты қайта қолдануға мүмкіндік береді",
+                "isCorrect": true
+            },
+            {
+                "text": "Бағдарламаны баяулатады",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті жасырады",
+                "isCorrect": false
+            },
+            {
+                "text": "Айнымалы санын арттырады",
+                "isCorrect": false
+            },
+            {
+                "text": "Компиляцияны тоқтатады",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Инкапсуляция не үшін қолданылады?:",
+        "options": [
+            {
+                "text": "Мәліметті қорғау және жасыру үшін",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметті көшіру үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Файл ашу үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Айнымалы жариялау үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Бағдарлама тоқтату үшін",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Статикалық әдістер қандай қасиетке ие?:",
+        "options": [
+            {
+                "text": "Объектісіз шақырылады",
+                "isCorrect": true
+            },
+            {
+                "text": "Тек мұрагерлер арқылы",
+                "isCorrect": false
+            },
+            {
+                "text": "Айнымалы жасырады",
+                "isCorrect": false
+            },
+            {
+                "text": "Конструкторға тәуелді",
+                "isCorrect": false
+            },
+            {
+                "text": "Абстрактілі",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Объект жойылғанда не орындалады?:",
+        "options": [
+            {
+                "text": "Деструктор",
+                "isCorrect": true
+            },
+            {
+                "text": "Конструктор",
+                "isCorrect": false
+            },
+            {
+                "text": "Интерфейс",
+                "isCorrect": false
+            },
+            {
+                "text": "Getter",
+                "isCorrect": false
+            },
+            {
+                "text": "Статикалық әдіс",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Объектінің күйі дегеніміз не?:",
+        "options": [
+            {
+                "text": "Мәлімет өрістерінің мәндері",
+                "isCorrect": true
+            },
+            {
+                "text": "Кластың аты",
+                "isCorrect": false
+            },
+            {
+                "text": "Әдістер жиыны",
+                "isCorrect": false
+            },
+            {
+                "text": "Копия саны",
+                "isCorrect": false
+            },
+            {
+                "text": "Функция түрі",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Класс диаграммасы не көрсетеді?:",
+        "options": [
+            {
+                "text": "Кластар мен олардың байланысын",
+                "isCorrect": true
+            },
+            {
+                "text": "Бағдарламаның нәтижесін",
+                "isCorrect": false
+            },
+            {
+                "text": "Жады көлемін",
+                "isCorrect": false
+            },
+            {
+                "text": "Кестелер тізімін",
+                "isCorrect": false
+            },
+            {
+                "text": "Айнымалы санын",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Абстракция мысалы қандай?:",
+        "options": [
+            {
+                "text": "\"Студент\" класы тек маңызды қасиеттермен сипатталады",
+                "isCorrect": true
+            },
+            {
+                "text": "Барлық мәліметтер толық ашылады",
+                "isCorrect": false
+            },
+            {
+                "text": "Конструктор қолданылады",
+                "isCorrect": false
+            },
+            {
+                "text": "Объект жойылады",
+                "isCorrect": false
+            },
+            {
+                "text": "Полиморфизм іске асады",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Конструктор мен әдістің айырмашылығы неде?:",
+        "options": [
+            {
+                "text": "Конструктор мән қайтармайды",
+                "isCorrect": true
+            },
+            {
+                "text": "Екеуі де void",
+                "isCorrect": false
+            },
+            {
+                "text": "Конструктор әрқашан static",
+                "isCorrect": false
+            },
+            {
+                "text": "Әдіс жад бөледі",
+                "isCorrect": false
+            },
+            {
+                "text": "Конструктор тек virtual",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Қай модификатор мұрагер класқа қолжетімді?:",
+        "options": [
+            {
+                "text": "protected",
+                "isCorrect": true
+            },
+            {
+                "text": "private",
+                "isCorrect": false
+            },
+            {
+                "text": "public",
+                "isCorrect": false
+            },
+            {
+                "text": "internal",
+                "isCorrect": false
+            },
+            {
+                "text": "global",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "\"extends\" кілт сөзі қай тілге тән?:",
+        "options": [
+            {
+                "text": "Java",
+                "isCorrect": true
+            },
+            {
+                "text": "C++",
+                "isCorrect": false
+            },
+            {
+                "text": "Python",
+                "isCorrect": false
+            },
+            {
+                "text": "C#",
+                "isCorrect": false
+            },
+            {
+                "text": "Kotlin",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "\"override\" кілт сөзі не үшін қажет?:",
+        "options": [
+            {
+                "text": "Мұрагер класта ата-ананың әдісін қайта жазу үшін",
+                "isCorrect": true
+            },
+            {
+                "text": "Айнымалы жариялау",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті жасыру",
+                "isCorrect": false
+            },
+            {
+                "text": "Конструкторды жою",
+                "isCorrect": false
+            },
+            {
+                "text": "Қате шығару",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "C++ тілінде мұрагерлік белгілері қалай жазылады?:",
+        "options": [
+            {
+                "text": "class B : public A",
+                "isCorrect": true
+            },
+            {
+                "text": "class B extends A",
+                "isCorrect": false
+            },
+            {
+                "text": "class B inherits A",
+                "isCorrect": false
+            },
+            {
+                "text": "class B uses A",
+                "isCorrect": false
+            },
+            {
+                "text": "class B => A",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Виртуалды функция не үшін қолданылады?:",
+        "options": [
+            {
+                "text": "Полиморфизмді жүзеге асыру үшін",
+                "isCorrect": true
+            },
+            {
+                "text": "Объектіні жою үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Айнымалы жариялау үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті сақтау үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Конструкторды жасыру үшін",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "ОБП артықшылығына не жатады?:",
+        "options": [
+            {
+                "text": "Қайта пайдалану, сенімділік, құрылымдылық",
+                "isCorrect": true
+            },
+            {
+                "text": "Кодтың күрделенуі",
+                "isCorrect": false
+            },
+            {
+                "text": "Модульдердің азаюы",
+                "isCorrect": false
+            },
+            {
+                "text": "Тестілеудің қиындауы",
+                "isCorrect": false
+            },
+            {
+                "text": "Жадының артық қолданылуы",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "\"interface\" пен \"abstract class\" айырмашылығы неде?:",
+        "options": [
+            {
+                "text": "Интерфейсте тек әдіс сипаттамалары болады",
+                "isCorrect": true
+            },
+            {
+                "text": "Интерфейс конструктор сақтайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Абстракт класс тек деректерді сақтайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Интерфейс тек статикалық әдіс",
+                "isCorrect": false
+            },
+            {
+                "text": "Екеуі бірдей",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "\"public\", \"private\", \"protected\" --- бұл не?:",
+        "options": [
+            {
+                "text": "Қол жетімділік модификаторлары",
+                "isCorrect": true
+            },
+            {
+                "text": "Айнымалы типтері",
+                "isCorrect": false
+            },
+            {
+                "text": "Әдіс түрлері",
+                "isCorrect": false
+            },
+            {
+                "text": "Функция атаулары",
+                "isCorrect": false
+            },
+            {
+                "text": "Деструкторлар",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "ОБП терминінде \"instance\" нені білдіреді?:",
+        "options": [
+            {
+                "text": "Кластың нақты данасы",
+                "isCorrect": true
+            },
+            {
+                "text": "Кластың шаблоны",
+                "isCorrect": false
+            },
+            {
+                "text": "Әдіс",
+                "isCorrect": false
+            },
+            {
+                "text": "Айнымалы типі",
+                "isCorrect": false
+            },
+            {
+                "text": "Интерфейс",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Объектілер арасында байланыс қалай аталады?:",
+        "options": [
+            {
+                "text": "Ассоциация",
+                "isCorrect": true
+            },
+            {
+                "text": "Инкапсуляция",
+                "isCorrect": false
+            },
+            {
+                "text": "Абстракция",
+                "isCorrect": false
+            },
+            {
+                "text": "Полиморфизм",
+                "isCorrect": false
+            },
+            {
+                "text": "Мұрагерлік",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "UML дегеніміз не?:",
+        "options": [
+            {
+                "text": "Unified Modeling Language",
+                "isCorrect": true
+            },
+            {
+                "text": "User Machine Language",
+                "isCorrect": false
+            },
+            {
+                "text": "Universal Macro Logic",
+                "isCorrect": false
+            },
+            {
+                "text": "Unit Modeling Layer",
+                "isCorrect": false
+            },
+            {
+                "text": "Unified Main Library",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "\"public void print()\" әдісі не істей алады?:",
+        "options": [
+            {
+                "text": "Мәліметті экранға шығару",
+                "isCorrect": true
+            },
+            {
+                "text": "Объектіні көшіру",
+                "isCorrect": false
+            },
+            {
+                "text": "Айнымалыны жою",
+                "isCorrect": false
+            },
+            {
+                "text": "Конструктор шақыру",
+                "isCorrect": false
+            },
+            {
+                "text": "Класты кеңейту",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "\"static int count\" өрісі нені білдіреді?:",
+        "options": [
+            {
+                "text": "Барлық объектілерге ортақ санауыш",
+                "isCorrect": true
+            },
+            {
+                "text": "Әр объектіге жеке айнымалы",
+                "isCorrect": false
+            },
+            {
+                "text": "Класс аты",
+                "isCorrect": false
+            },
+            {
+                "text": "Конструктор параметрі",
+                "isCorrect": false
+            },
+            {
+                "text": "Абстракт әдіс",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "\"object-oriented design\" неге бағытталған?:",
+        "options": [
+            {
+                "text": "Объектілер мен олардың өзара әрекетіне",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәлімет базасына",
+                "isCorrect": false
+            },
+            {
+                "text": "Циклдерге",
+                "isCorrect": false
+            },
+            {
+                "text": "Айнымалы типтерге",
+                "isCorrect": false
+            },
+            {
+                "text": "Файл құрылымына",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "\"Encapsulation\" сөзінің тікелей аудармасы қандай?:",
+        "options": [
+            {
+                "text": "Қаптау, жабу",
+                "isCorrect": true
+            },
+            {
+                "text": "Көшіру",
+                "isCorrect": false
+            },
+            {
+                "text": "Көрсету",
+                "isCorrect": false
+            },
+            {
+                "text": "Кеңейту",
+                "isCorrect": false
+            },
+            {
+                "text": "Талдау",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "\"base class\" дегеніміз не?:",
+        "options": [
+            {
+                "text": "Мұрагерліктің бастапқы класы",
+                "isCorrect": true
+            },
+            {
+                "text": "Объект",
+                "isCorrect": false
+            },
+            {
+                "text": "Әдіс",
+                "isCorrect": false
+            },
+            {
+                "text": "Интерфейс",
+                "isCorrect": false
+            },
+            {
+                "text": "Модуль",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "\"derived class\" дегеніміз не?:",
+        "options": [
+            {
+                "text": "Мұрагер класс",
+                "isCorrect": true
+            },
+            {
+                "text": "Бастапқы класс",
+                "isCorrect": false
+            },
+            {
+                "text": "Абстракт класс",
+                "isCorrect": false
+            },
+            {
+                "text": "Интерфейс",
+                "isCorrect": false
+            },
+            {
+                "text": "Негізгі модуль",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Объект құрудың дұрыс тәсілі (Python):",
+        "options": [
+            {
+                "text": "obj = MyClass()",
+                "isCorrect": true
+            },
+            {
+                "text": "new obj MyClass",
+                "isCorrect": false
+            },
+            {
+                "text": "create MyClass obj",
+                "isCorrect": false
+            },
+            {
+                "text": "MyClass obj()",
+                "isCorrect": false
+            },
+            {
+                "text": "object = new MyClass",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "\"init\" әдісі Python тілінде не істейді?:",
+        "options": [
+            {
+                "text": "Конструктор рөлін атқарады",
+                "isCorrect": true
+            },
+            {
+                "text": "Объектіні жояды",
+                "isCorrect": false
+            },
+            {
+                "text": "Айнымалы жариялайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәлімет сақтайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Класс атын қайтарады",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "ОБП-ның басты жұмыс істеу принципі?:",
+        "options": [
+            {
+                "text": "Мәлімет пен әрекетті бір бүтінге біріктіру",
+                "isCorrect": true
+            },
+            {
+                "text": "Айнымалыларды бөлу",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметті көбейту",
+                "isCorrect": false
+            },
+            {
+                "text": "Файлдарды біріктіру",
+                "isCorrect": false
+            },
+            {
+                "text": "Кодты жасыру",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Массив дегеніміз не?:",
+        "options": [
+            {
+                "text": "Бір типтегі элементтердің жиыны",
+                "isCorrect": true
+            },
+            {
+                "text": "Кездейсоқ сандар жиыны",
+                "isCorrect": false
+            },
+            {
+                "text": "Әдістердің тізімі",
+                "isCorrect": false
+            },
+            {
+                "text": "Айнымалылардың қосындысы",
+                "isCorrect": false
+            },
+            {
+                "text": "Файл құрылымы",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "C# тілінде массив қалай жарияланады?:",
+        "options": [
+            {
+                "text": "int[] arr = new int[5];",
+                "isCorrect": true
+            },
+            {
+                "text": "int arr(5);",
+                "isCorrect": false
+            },
+            {
+                "text": "array arr = int[5];",
+                "isCorrect": false
+            },
+            {
+                "text": "new array<int>(5);",
+                "isCorrect": false
+            },
+            {
+                "text": "var arr;",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Массив индексі неден басталады?:",
+        "options": [
+            {
+                "text": "0",
+                "isCorrect": true
+            },
+            {
+                "text": "1",
+                "isCorrect": false
+            },
+            {
+                "text": "-1",
+                "isCorrect": false
+            },
+            {
+                "text": "2",
+                "isCorrect": false
+            },
+            {
+                "text": "10",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Екі өлшемді массивті қалай жариялауға болады?:",
+        "options": [
+            {
+                "text": "int[,] a = new int[3,4];",
+                "isCorrect": true
+            },
+            {
+                "text": "int a(3,4);",
+                "isCorrect": false
+            },
+            {
+                "text": "array<int>(3,4);",
+                "isCorrect": false
+            },
+            {
+                "text": "int[][] a = { };",
+                "isCorrect": false
+            },
+            {
+                "text": "var a = list();",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Массивтің ұзындығын қалай табамыз (C#)?:",
+        "options": [
+            {
+                "text": "arr.Length",
+                "isCorrect": true
+            },
+            {
+                "text": "len(arr)",
+                "isCorrect": false
+            },
+            {
+                "text": "size(arr)",
+                "isCorrect": false
+            },
+            {
+                "text": "arr.size",
+                "isCorrect": false
+            },
+            {
+                "text": "arr.count",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Бір өлшемді массив элементіне қатынау үлгісі (C#):",
+        "options": [
+            {
+                "text": "arr[i]",
+                "isCorrect": true
+            },
+            {
+                "text": "arr(i)",
+                "isCorrect": false
+            },
+            {
+                "text": "get(arr,i)",
+                "isCorrect": false
+            },
+            {
+                "text": "arr->i",
+                "isCorrect": false
+            },
+            {
+                "text": "arr.value(i)",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Jagged массив дегеніміз не?:",
+        "options": [
+            {
+                "text": "Массивтердің массиві",
+                "isCorrect": true
+            },
+            {
+                "text": "Екі өлшемді массив",
+                "isCorrect": false
+            },
+            {
+                "text": "Кесте",
+                "isCorrect": false
+            },
+            {
+                "text": "Вектор",
+                "isCorrect": false
+            },
+            {
+                "text": "Матрица",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Массив элементтерін шығару үшін қандай цикл қолданылады?:",
+        "options": [
+            {
+                "text": "foreach",
+                "isCorrect": true
+            },
+            {
+                "text": "while",
+                "isCorrect": false
+            },
+            {
+                "text": "do...while",
+                "isCorrect": false
+            },
+            {
+                "text": "if",
+                "isCorrect": false
+            },
+            {
+                "text": "switch",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Массивті инициализациялау үлгісі (C#):",
+        "options": [
+            {
+                "text": "int[] n = {1,2,3,4};",
+                "isCorrect": true
+            },
+            {
+                "text": "int n = [1,2,3,4];",
+                "isCorrect": false
+            },
+            {
+                "text": "array<int>(1,2,3);",
+                "isCorrect": false
+            },
+            {
+                "text": "new arr(1,2,3);",
+                "isCorrect": false
+            },
+            {
+                "text": "arr={};",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Екі өлшемді массивтің элементіне қатынау тәсілі:",
+        "options": [
+            {
+                "text": "a[i,j]",
+                "isCorrect": true
+            },
+            {
+                "text": "a[i][j]",
+                "isCorrect": false
+            },
+            {
+                "text": "a(i,j)",
+                "isCorrect": false
+            },
+            {
+                "text": "get(a,i,j)",
+                "isCorrect": false
+            },
+            {
+                "text": "a→i,j",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Массивті сұрыптау әдісі (C#):",
+        "options": [
+            {
+                "text": "Array.Sort(arr);",
+                "isCorrect": true
+            },
+            {
+                "text": "arr.sort();",
+                "isCorrect": false
+            },
+            {
+                "text": "sort(arr);",
+                "isCorrect": false
+            },
+            {
+                "text": "arr=arr.OrderBy();",
+                "isCorrect": false
+            },
+            {
+                "text": "Sorted(arr);",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Массив элементін іздеу (C#):",
+        "options": [
+            {
+                "text": "Array.IndexOf(arr, value);",
+                "isCorrect": true
+            },
+            {
+                "text": "arr.Find(value);",
+                "isCorrect": false
+            },
+            {
+                "text": "arr.get(value);",
+                "isCorrect": false
+            },
+            {
+                "text": "index(arr, value) ;",
+                "isCorrect": false
+            },
+            {
+                "text": "arr.search();",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Көпөлшемді массив түрі:",
+        "options": [
+            {
+                "text": "int[,,] m;",
+                "isCorrect": true
+            },
+            {
+                "text": "int[][] m;",
+                "isCorrect": false
+            },
+            {
+                "text": "array<int,3>;",
+                "isCorrect": false
+            },
+            {
+                "text": "var m=new();",
+                "isCorrect": false
+            },
+            {
+                "text": "m(int,3);",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "\"Array.Reverse()\" не істейді (C#)?:",
+        "options": [
+            {
+                "text": "Элементтер ретін кері аударады",
+                "isCorrect": true
+            },
+            {
+                "text": "Элементтерді жояды",
+                "isCorrect": false
+            },
+            {
+                "text": "Массивті кеңейтеді",
+                "isCorrect": false
+            },
+            {
+                "text": "Индексті өзгертеді",
+                "isCorrect": false
+            },
+            {
+                "text": "Элемент қосады",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "\"Array.Clear()\" не істейді (C#)?:",
+        "options": [
+            {
+                "text": "Массив элементтерін тазалайды",
+                "isCorrect": true
+            },
+            {
+                "text": "Массивті сұрыптайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Элемент қосады",
+                "isCorrect": false
+            },
+            {
+                "text": "Индексті бастайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Элементтерді ауыстырады",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Жол типі қалай жазылады (C#)?:",
+        "options": [
+            {
+                "text": "string",
+                "isCorrect": true
+            },
+            {
+                "text": "text",
+                "isCorrect": false
+            },
+            {
+                "text": "char[]",
+                "isCorrect": false
+            },
+            {
+                "text": "word",
+                "isCorrect": false
+            },
+            {
+                "text": "str",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Жолдың ұзындығын табу (C#):",
+        "options": [
+            {
+                "text": "s.Length",
+                "isCorrect": true
+            },
+            {
+                "text": "len(s)",
+                "isCorrect": false
+            },
+            {
+                "text": "s.count()",
+                "isCorrect": false
+            },
+            {
+                "text": "size(s)",
+                "isCorrect": false
+            },
+            {
+                "text": "s.len",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Барлық әріптерді үлкенге айналдыру (C#):",
+        "options": [
+            {
+                "text": "s.ToUpper()",
+                "isCorrect": true
+            },
+            {
+                "text": "s.upper()",
+                "isCorrect": false
+            },
+            {
+                "text": "s.ToBig()",
+                "isCorrect": false
+            },
+            {
+                "text": "s.Caps()",
+                "isCorrect": false
+            },
+            {
+                "text": "s.Max()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Барлық әріптерді кішірейту (C#):",
+        "options": [
+            {
+                "text": "s.ToLower()",
+                "isCorrect": true
+            },
+            {
+                "text": "s.Min()",
+                "isCorrect": false
+            },
+            {
+                "text": "s.Small()",
+                "isCorrect": false
+            },
+            {
+                "text": "s.Low()",
+                "isCorrect": false
+            },
+            {
+                "text": "s.Capitalize()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Жолды бөлу әдісі (C#):",
+        "options": [
+            {
+                "text": "s.Split(' ')",
+                "isCorrect": true
+            },
+            {
+                "text": "s.Cut()",
+                "isCorrect": false
+            },
+            {
+                "text": "s.Divide()",
+                "isCorrect": false
+            },
+            {
+                "text": "s.ToArray()",
+                "isCorrect": false
+            },
+            {
+                "text": "s.Splitter()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Жолдың ішінен іздеу әдісі (C#):",
+        "options": [
+            {
+                "text": "s.IndexOf(\"abc\")",
+                "isCorrect": true
+            },
+            {
+                "text": "s.Find(\"abc\")",
+                "isCorrect": false
+            },
+            {
+                "text": "s.Search(\"abc\")",
+                "isCorrect": false
+            },
+            {
+                "text": "s.locate(\"abc\")",
+                "isCorrect": false
+            },
+            {
+                "text": "s.Pos(\"abc\")",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Жолдарды салыстыру әдісі (C#):",
+        "options": [
+            {
+                "text": "string.Compare(s1, s2)",
+                "isCorrect": true
+            },
+            {
+                "text": "compare(a,b)",
+                "isCorrect": false
+            },
+            {
+                "text": "a==b",
+                "isCorrect": false
+            },
+            {
+                "text": "equal(a,b)",
+                "isCorrect": false
+            },
+            {
+                "text": "string.Equal(a,b)",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Жолдың ішкі бөлігін алу (C#):",
+        "options": [
+            {
+                "text": "s.Substring(2,3)",
+                "isCorrect": true
+            },
+            {
+                "text": "s.Sub(2,3)",
+                "isCorrect": false
+            },
+            {
+                "text": "s.Part(2,3)",
+                "isCorrect": false
+            },
+            {
+                "text": "s.Get(2,3)",
+                "isCorrect": false
+            },
+            {
+                "text": "s.Range(2,3)",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Жолдың бос не бос еместігін тексеру (C#):",
+        "options": [
+            {
+                "text": "string.IsNullOrEmpty(s)",
+                "isCorrect": true
+            },
+            {
+                "text": "s==\"\"",
+                "isCorrect": false
+            },
+            {
+                "text": "s.IsEmpty()",
+                "isCorrect": false
+            },
+            {
+                "text": "s.Empty()",
+                "isCorrect": false
+            },
+            {
+                "text": "s.Null()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "StringBuilder-де жол қосу әдісі (C#):",
+        "options": [
+            {
+                "text": "sb.Append(\"text\");",
+                "isCorrect": true
+            },
+            {
+                "text": "sb.Add();",
+                "isCorrect": false
+            },
+            {
+                "text": "sb.InsertText();",
+                "isCorrect": false
+            },
+            {
+                "text": "sb.Put();",
+                "isCorrect": false
+            },
+            {
+                "text": "sb.Join();",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Жолды Trim() не істейді (C#)?:",
+        "options": [
+            {
+                "text": "Басында және соңындағы бос орындарды жояды",
+                "isCorrect": true
+            },
+            {
+                "text": "Әріптерді өзгертеді",
+                "isCorrect": false
+            },
+            {
+                "text": "Барлық бос орындарды жояды",
+                "isCorrect": false
+            },
+            {
+                "text": "Төменге түрлендіреді",
+                "isCorrect": false
+            },
+            {
+                "text": "Теріс мән жояды",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Replace() не істейді (C#)?:",
+        "options": [
+            {
+                "text": "Белгіленген бөлікті басқаға ауыстырады",
+                "isCorrect": true
+            },
+            {
+                "text": "Жолды қысқартады",
+                "isCorrect": false
+            },
+            {
+                "text": "Символ қосады",
+                "isCorrect": false
+            },
+            {
+                "text": "Жолды жояды",
+                "isCorrect": false
+            },
+            {
+                "text": "Бөледі",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Join() әдісі не істейді (C#)?:",
+        "options": [
+            {
+                "text": "Массив элементтерін бір жолға біріктіреді",
+                "isCorrect": true
+            },
+            {
+                "text": "Массивті жояды",
+                "isCorrect": false
+            },
+            {
+                "text": "Жолды бөледі",
+                "isCorrect": false
+            },
+            {
+                "text": "Қосады",
+                "isCorrect": false
+            },
+            {
+                "text": "Іздейді",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Мәлімет енгізу операторы (C#):",
+        "options": [
+            {
+                "text": "Console.ReadLine()",
+                "isCorrect": true
+            },
+            {
+                "text": "Console.Input()",
+                "isCorrect": false
+            },
+            {
+                "text": "Read()",
+                "isCorrect": false
+            },
+            {
+                "text": "cin>>",
+                "isCorrect": false
+            },
+            {
+                "text": "scan()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Мәлімет шығару операторы (C#):",
+        "options": [
+            {
+                "text": "Console.WriteLine()",
+                "isCorrect": true
+            },
+            {
+                "text": "Console.Out()",
+                "isCorrect": false
+            },
+            {
+                "text": "print()",
+                "isCorrect": false
+            },
+            {
+                "text": "write()",
+                "isCorrect": false
+            },
+            {
+                "text": "Console.Put()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Write және WriteLine айырмашылығы неде (C#)?:",
+        "options": [
+            {
+                "text": "WriteLine жол соңына жаңа жол қосады",
+                "isCorrect": true
+            },
+            {
+                "text": "Write жылдамырақ",
+                "isCorrect": false
+            },
+            {
+                "text": "WriteLine бос орын қалдырады",
+                "isCorrect": false
+            },
+            {
+                "text": "Write буферді тазалайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Айырмашылығы жоқ",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Файлдан оқу үшін класс (C#):",
+        "options": [
+            {
+                "text": "StreamReader",
+                "isCorrect": true
+            },
+            {
+                "text": "FileReader",
+                "isCorrect": false
+            },
+            {
+                "text": "ReadFile",
+                "isCorrect": false
+            },
+            {
+                "text": "Scanner",
+                "isCorrect": false
+            },
+            {
+                "text": "Reader",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Файлға жазу үшін класс (C#):",
+        "options": [
+            {
+                "text": "StreamWriter",
+                "isCorrect": true
+            },
+            {
+                "text": "FileWriter",
+                "isCorrect": false
+            },
+            {
+                "text": "WriteFile",
+                "isCorrect": false
+            },
+            {
+                "text": "ConsoleWriter",
+                "isCorrect": false
+            },
+            {
+                "text": "FileOut",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Файл ашу мысалы (C#):",
+        "options": [
+            {
+                "text": "StreamReader sr = new StreamReader(\"data.txt\");",
+                "isCorrect": true
+            },
+            {
+                "text": "open(\"data.txt\");",
+                "isCorrect": false
+            },
+            {
+                "text": "file.read(\"data.txt\");",
+                "isCorrect": false
+            },
+            {
+                "text": "data.Open();",
+                "isCorrect": false
+            },
+            {
+                "text": "Read(\"data.txt\");",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Файлды жабу үшін (C#):",
+        "options": [
+            {
+                "text": "sr.Close();",
+                "isCorrect": true
+            },
+            {
+                "text": "sr.Stop();",
+                "isCorrect": false
+            },
+            {
+                "text": "sr.End();",
+                "isCorrect": false
+            },
+            {
+                "text": "sr.Dispose();",
+                "isCorrect": false
+            },
+            {
+                "text": "sr.Exit();",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Файл бар-жоғын тексеру (C#):",
+        "options": [
+            {
+                "text": "File.Exists(\"data.txt\")",
+                "isCorrect": true
+            },
+            {
+                "text": "File.Check()",
+                "isCorrect": false
+            },
+            {
+                "text": "Exists(\"file\")",
+                "isCorrect": false
+            },
+            {
+                "text": "file.Available()",
+                "isCorrect": false
+            },
+            {
+                "text": "FindFile()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Файлды көшіру (C#):",
+        "options": [
+            {
+                "text": "File.Copy(\"a.txt\",\"b.txt\")",
+                "isCorrect": true
+            },
+            {
+                "text": "CopyFile()",
+                "isCorrect": false
+            },
+            {
+                "text": "file.move()",
+                "isCorrect": false
+            },
+            {
+                "text": "File.Mirror()",
+                "isCorrect": false
+            },
+            {
+                "text": "Copy(\"a\",\"b\");",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Файлды жою (C#):",
+        "options": [
+            {
+                "text": "File.Delete(\"data.txt\")",
+                "isCorrect": true
+            },
+            {
+                "text": "File.Remove()",
+                "isCorrect": false
+            },
+            {
+                "text": "File.Drop()",
+                "isCorrect": false
+            },
+            {
+                "text": "DeleteFile()",
+                "isCorrect": false
+            },
+            {
+                "text": "file.Erase()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Каталог жасау (C#):",
+        "options": [
+            {
+                "text": "Directory.CreateDirectory(\"test\")",
+                "isCorrect": true
+            },
+            {
+                "text": "Folder.New()",
+                "isCorrect": false
+            },
+            {
+                "text": "Dir.Make()",
+                "isCorrect": false
+            },
+            {
+                "text": "File.Mkdir()",
+                "isCorrect": false
+            },
+            {
+                "text": "Folder.Create()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Каталогтағы файлдарды шығару (C#):",
+        "options": [
+            {
+                "text": "Directory.GetFiles(\"path\")",
+                "isCorrect": true
+            },
+            {
+                "text": "Dir.Show()",
+                "isCorrect": false
+            },
+            {
+                "text": "File.List()",
+                "isCorrect": false
+            },
+            {
+                "text": "Folder.Read()",
+                "isCorrect": false
+            },
+            {
+                "text": "DirInfo()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Console.Read() не қайтарады (C#)?:",
+        "options": [
+            {
+                "text": "Бір символдың ASCII коды",
+                "isCorrect": true
+            },
+            {
+                "text": "Бір жол",
+                "isCorrect": false
+            },
+            {
+                "text": "Бір бүтін сан",
+                "isCorrect": false
+            },
+            {
+                "text": "Бір әріп",
+                "isCorrect": false
+            },
+            {
+                "text": "Бір файл",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Console.Clear() не істейді (C#)?:",
+        "options": [
+            {
+                "text": "Консоль экранын тазалайды",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәлімет жояды",
+                "isCorrect": false
+            },
+            {
+                "text": "Айнымалыларды нөлдейді",
+                "isCorrect": false
+            },
+            {
+                "text": "Бағдарламаны тоқтатады",
+                "isCorrect": false
+            },
+            {
+                "text": "Курсор орнын өзгертеді",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Console.Title қасиеті не істейді (C#)?:",
+        "options": [
+            {
+                "text": "Терезе атауын орнатады",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәлімет шығарады",
+                "isCorrect": false
+            },
+            {
+                "text": "Файл ашуға жауап береді",
+                "isCorrect": false
+            },
+            {
+                "text": "Түсті өзгертеді",
+                "isCorrect": false
+            },
+            {
+                "text": "Экранды үлкейтеді",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Класс дегеніміз не?:",
+        "options": [
+            {
+                "text": "Объектілерді сипаттайтын үлгі",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметтер қоры",
+                "isCorrect": false
+            },
+            {
+                "text": "Функция",
+                "isCorrect": false
+            },
+            {
+                "text": "Массив",
+                "isCorrect": false
+            },
+            {
+                "text": "Файл",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Объект дегеніміз не?:",
+        "options": [
+            {
+                "text": "Кластың экземпляры",
+                "isCorrect": true
+            },
+            {
+                "text": "Айнымалы",
+                "isCorrect": false
+            },
+            {
+                "text": "Әдіс",
+                "isCorrect": false
+            },
+            {
+                "text": "Конструктор",
+                "isCorrect": false
+            },
+            {
+                "text": "Модуль",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Класты жариялау синтаксисі (C#):",
+        "options": [
+            {
+                "text": "class MyClass { }",
+                "isCorrect": true
+            },
+            {
+                "text": "new MyClass()",
+                "isCorrect": false
+            },
+            {
+                "text": "define MyClass()",
+                "isCorrect": false
+            },
+            {
+                "text": "object MyClass",
+                "isCorrect": false
+            },
+            {
+                "text": "create class",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Объект жасау тәсілі (C#):",
+        "options": [
+            {
+                "text": "MyClass obj = new MyClass();",
+                "isCorrect": true
+            },
+            {
+                "text": "obj = MyClass();",
+                "isCorrect": false
+            },
+            {
+                "text": "object MyClass();",
+                "isCorrect": false
+            },
+            {
+                "text": "MyClass.create();",
+                "isCorrect": false
+            },
+            {
+                "text": "class obj();",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Кластың мүшелері не деп аталады?:",
+        "options": [
+            {
+                "text": "Өрістер (field) және әдістер (method)",
+                "isCorrect": true
+            },
+            {
+                "text": "Айнымалы мен массив",
+                "isCorrect": false
+            },
+            {
+                "text": "Функция мен цикл",
+                "isCorrect": false
+            },
+            {
+                "text": "Константа мен шарт",
+                "isCorrect": false
+            },
+            {
+                "text": "Интерфейс пен модуль",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Конструктордың аты неден ерекшеленеді?:",
+        "options": [
+            {
+                "text": "Класс атымен бірдей",
+                "isCorrect": true
+            },
+            {
+                "text": "Кез келген ат болуы мүмкін",
+                "isCorrect": false
+            },
+            {
+                "text": "void типті",
+                "isCorrect": false
+            },
+            {
+                "text": "Static болуы тиіс",
+                "isCorrect": false
+            },
+            {
+                "text": "Аргументсіз",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Конструкторды қалай жариялайды (C#)?:",
+        "options": [
+            {
+                "text": "public MyClass() { }",
+                "isCorrect": true
+            },
+            {
+                "text": "void MyClass() { }",
+                "isCorrect": false
+            },
+            {
+                "text": "MyClass(void)",
+                "isCorrect": false
+            },
+            {
+                "text": "new MyClass()",
+                "isCorrect": false
+            },
+            {
+                "text": "init MyClass()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Деструктор не үшін керек?:",
+        "options": [
+            {
+                "text": "Ресурстарды босату үшін",
+                "isCorrect": true
+            },
+            {
+                "text": "Объектіні жасау",
+                "isCorrect": false
+            },
+            {
+                "text": "Массивті жою",
+                "isCorrect": false
+            },
+            {
+                "text": "Жадыны кеңейту",
+                "isCorrect": false
+            },
+            {
+                "text": "Файл ашу",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Деструктор синтаксисі:",
+        "options": [
+            {
+                "text": "~MyClass() { }",
+                "isCorrect": true
+            },
+            {
+                "text": "void ~MyClass() { }",
+                "isCorrect": false
+            },
+            {
+                "text": "del MyClass()",
+                "isCorrect": false
+            },
+            {
+                "text": "free MyClass()",
+                "isCorrect": false
+            },
+            {
+                "text": "delete()",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "\"base\" кілт сөзі не үшін қолданылады?:",
+        "options": [
+            {
+                "text": "Туынды кластан базалыққа қатынау",
+                "isCorrect": true
+            },
+            {
+                "text": "Жаңа объект құру",
+                "isCorrect": false
+            },
+            {
+                "text": "Объектіні көшіру",
+                "isCorrect": false
+            },
+            {
+                "text": "Қате өңдеу",
+                "isCorrect": false
+            },
+            {
+                "text": "Есептеу",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Абстракт кластар не үшін керек?:",
+        "options": [
+            {
+                "text": "Мұрагерлерге ортақ интерфейс анықтау",
+                "isCorrect": true
+            },
+            {
+                "text": "Деректер сақтау",
+                "isCorrect": false
+            },
+            {
+                "text": "Объектілерді тікелей жасау",
+                "isCorrect": false
+            },
+            {
+                "text": "Массивтер құру",
+                "isCorrect": false
+            },
+            {
+                "text": "Әдістерді сұрыптау",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Абстракт классты жариялау:",
+        "options": [
+            {
+                "text": "abstract class Shape { }",
+                "isCorrect": true
+            },
+            {
+                "text": "class abstract Shape { }",
+                "isCorrect": false
+            },
+            {
+                "text": "virtual class Shape",
+                "isCorrect": false
+            },
+            {
+                "text": "Shape() { }",
+                "isCorrect": false
+            },
+            {
+                "text": "abstracted Shape",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Интерфейс дегеніміз не?:",
+        "options": [
+            {
+                "text": "Тек әдістер сипаттамасын қамтитын тип",
+                "isCorrect": true
+            },
+            {
+                "text": "Класс экземпляры",
+                "isCorrect": false
+            },
+            {
+                "text": "Деректер қоры",
+                "isCorrect": false
+            },
+            {
+                "text": "Конструктор",
+                "isCorrect": false
+            },
+            {
+                "text": "Модуль",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Интерфейсті жариялау:",
+        "options": [
+            {
+                "text": "interface IShape { void Draw(); }",
+                "isCorrect": true
+            },
+            {
+                "text": "class IShape()",
+                "isCorrect": false
+            },
+            {
+                "text": "abstract interface()",
+                "isCorrect": false
+            },
+            {
+                "text": "void IShape()",
+                "isCorrect": false
+            },
+            {
+                "text": "public interface();",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Көп мұрагерлікке қалай қол жеткізіледі?:",
+        "options": [
+            {
+                "text": "Бірнеше интерфейстер арқылы",
+                "isCorrect": true
+            },
+            {
+                "text": "Бір базалық класс арқылы",
+                "isCorrect": false
+            },
+            {
+                "text": "Бірнеше класты мұралау",
+                "isCorrect": false
+            },
+            {
+                "text": "Абстракт класс",
+                "isCorrect": false
+            },
+            {
+                "text": "Static класспен",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "C# графикалық интерфейсі қандай кітапханамен құрылады?:",
+        "options": [
+            {
+                "text": "Windows Forms",
+                "isCorrect": true
+            },
+            {
+                "text": "ConsoleApp",
+                "isCorrect": false
+            },
+            {
+                "text": "System.IO",
+                "isCorrect": false
+            },
+            {
+                "text": "LINQ",
+                "isCorrect": false
+            },
+            {
+                "text": "Thread",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Form дегеніміз не?:",
+        "options": [
+            {
+                "text": "Терезе немесе экрандағы негізгі форма",
+                "isCorrect": true
+            },
+            {
+                "text": "Айнымалы",
+                "isCorrect": false
+            },
+            {
+                "text": "Объект",
+                "isCorrect": false
+            },
+            {
+                "text": "Файл",
+                "isCorrect": false
+            },
+            {
+                "text": "Панель",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Button қандай элемент?:",
+        "options": [
+            {
+                "text": "Батырма",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәтін",
+                "isCorrect": false
+            },
+            {
+                "text": "Терезе",
+                "isCorrect": false
+            },
+            {
+                "text": "Кесте",
+                "isCorrect": false
+            },
+            {
+                "text": "Радио",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "TextBox не үшін қолданылады?:",
+        "options": [
+            {
+                "text": "Мәтін енгізу үшін",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәлімет шығару",
+                "isCorrect": false
+            },
+            {
+                "text": "Сурет көрсету",
+                "isCorrect": false
+            },
+            {
+                "text": "Код жазу",
+                "isCorrect": false
+            },
+            {
+                "text": "Түсті таңдау",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Label элементі не істейді?:",
+        "options": [
+            {
+                "text": "Мәтінді көрсету үшін",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәтін енгізу",
+                "isCorrect": false
+            },
+            {
+                "text": "Сурет көрсету",
+                "isCorrect": false
+            },
+            {
+                "text": "Есептеу",
+                "isCorrect": false
+            },
+            {
+                "text": "Панель ашу",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "PictureBox не көрсетеді?:",
+        "options": [
+            {
+                "text": "Сурет",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәтін",
+                "isCorrect": false
+            },
+            {
+                "text": "Кесте",
+                "isCorrect": false
+            },
+            {
+                "text": "График",
+                "isCorrect": false
+            },
+            {
+                "text": "Объект",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "ComboBox не үшін керек?:",
+        "options": [
+            {
+                "text": "Таңдау тізімін көрсету",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәлімет енгізу",
+                "isCorrect": false
+            },
+            {
+                "text": "Батырма ретінде",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәзір ретінде",
+                "isCorrect": false
+            },
+            {
+                "text": "Диалог ашу",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "CheckBox қандай элемент?:",
+        "options": [
+            {
+                "text": "Белгі қоюға арналған",
+                "isCorrect": true
+            },
+            {
+                "text": "Таңдау тізімі",
+                "isCorrect": false
+            },
+            {
+                "text": "Радио батырма",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәзір",
+                "isCorrect": false
+            },
+            {
+                "text": "Панель",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Event дегеніміз не?:",
+        "options": [
+            {
+                "text": "Пайдаланушы әрекетіне жауап беру оқиғасы",
+                "isCorrect": true
+            },
+            {
+                "text": "Айнымалы",
+                "isCorrect": false
+            },
+            {
+                "text": "Функция",
+                "isCorrect": false
+            },
+            {
+                "text": "Класс",
+                "isCorrect": false
+            },
+            {
+                "text": "Цикл",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Таймер не үшін керек?:",
+        "options": [
+            {
+                "text": "Белгілі уақыт аралығында оқиға тудыру",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәлімет енгізу",
+                "isCorrect": false
+            },
+            {
+                "text": "Кесте шығару",
+                "isCorrect": false
+            },
+            {
+                "text": "Түстер өзгерту",
+                "isCorrect": false
+            },
+            {
+                "text": "Қате өңдеу",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "ColorDialog не істейді?:",
+        "options": [
+            {
+                "text": "Түсті таңдауға мүмкіндік береді",
+                "isCorrect": true
+            },
+            {
+                "text": "Файл таңдау",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәтін шығару",
+                "isCorrect": false
+            },
+            {
+                "text": "Кескін салу",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәзір ашу",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "MessageBox.Show() не үшін қолданылады?:",
+        "options": [
+            {
+                "text": "Хабарлама терезесін шығару",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәлімет енгізу",
+                "isCorrect": false
+            },
+            {
+                "text": "Файл ашу",
+                "isCorrect": false
+            },
+            {
+                "text": "Жазу",
+                "isCorrect": false
+            },
+            {
+                "text": "Панель қосу",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Form.Load оқиғасы қашан орындалады?:",
+        "options": [
+            {
+                "text": "Терезе жүктелгенде",
+                "isCorrect": true
+            },
+            {
+                "text": "Батырма басқанда",
+                "isCorrect": false
+            },
+            {
+                "text": "Бағдарлама жабылғанда",
+                "isCorrect": false
+            },
+            {
+                "text": "Таймер тоқтағанда",
+                "isCorrect": false
+            },
+            {
+                "text": "Енгізу кезінде",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Form.Close() не істейді?:",
+        "options": [
+            {
+                "text": "Терезені жабады",
+                "isCorrect": true
+            },
+            {
+                "text": "Бағдарламаны қайта іске қосады",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәзір ашады",
+                "isCorrect": false
+            },
+            {
+                "text": "Диалог шақырады",
+                "isCorrect": false
+            },
+            {
+                "text": "Тазалайды",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Form.ShowDialog() не істейді?:",
+        "options": [
+            {
+                "text": "Модальды терезе ашады",
+                "isCorrect": true
+            },
+            {
+                "text": "Қате шығарады",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәлімет енгізеді",
+                "isCorrect": false
+            },
+            {
+                "text": "Таймерді іске қосады",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәзір жасырады",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "C# деректер базасымен жұмыс істеу үшін не қолданылады?:",
+        "options": [
+            {
+                "text": "ADO.NET",
+                "isCorrect": true
+            },
+            {
+                "text": "XML",
+                "isCorrect": false
+            },
+            {
+                "text": "JSON",
+                "isCorrect": false
+            },
+            {
+                "text": "ASP.NET",
+                "isCorrect": false
+            },
+            {
+                "text": "LINQPad",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Connection дегеніміз не?:",
+        "options": [
+            {
+                "text": "Дерекқормен байланыс",
+                "isCorrect": true
+            },
+            {
+                "text": "Кесте",
+                "isCorrect": false
+            },
+            {
+                "text": "Сұраныс",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәлімет",
+                "isCorrect": false
+            },
+            {
+                "text": "Индекс",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Connection классы:",
+        "options": [
+            {
+                "text": "SqlConnection",
+                "isCorrect": true
+            },
+            {
+                "text": "SqlData",
+                "isCorrect": false
+            },
+            {
+                "text": "DataConnect",
+                "isCorrect": false
+            },
+            {
+                "text": "ConnectionDB",
+                "isCorrect": false
+            },
+            {
+                "text": "DBLink",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Command не үшін керек?:",
+        "options": [
+            {
+                "text": "SQL сұраныстар орындау",
+                "isCorrect": true
+            },
+            {
+                "text": "Байланысты ашу",
+                "isCorrect": false
+            },
+            {
+                "text": "Кесте жасау",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәлімет көшіру",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәлімет жою",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Command класы:",
+        "options": [
+            {
+                "text": "SqlCommand",
+                "isCorrect": true
+            },
+            {
+                "text": "DataCommand",
+                "isCorrect": false
+            },
+            {
+                "text": "DBCommand",
+                "isCorrect": false
+            },
+            {
+                "text": "SqlTable",
+                "isCorrect": false
+            },
+            {
+                "text": "Query",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "SqlDataReader не істейді?:",
+        "options": [
+            {
+                "text": "Мәліметтерді оқу",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметтерді жазу",
+                "isCorrect": false
+            },
+            {
+                "text": "Файл ашу",
+                "isCorrect": false
+            },
+            {
+                "text": "Кесте құру",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәліметтерді жою",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "DataAdapter не істейді?:",
+        "options": [
+            {
+                "text": "Мәліметтерді Dataset-ке жүктейді",
+                "isCorrect": true
+            },
+            {
+                "text": "SQL қосады",
+                "isCorrect": false
+            },
+            {
+                "text": "Қате өңдейді",
+                "isCorrect": false
+            },
+            {
+                "text": "Кесте жояды",
+                "isCorrect": false
+            },
+            {
+                "text": "XML ашады",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Dataset не?:",
+        "options": [
+            {
+                "text": "Мәліметтер жиыны",
+                "isCorrect": true
+            },
+            {
+                "text": "Қосымша",
+                "isCorrect": false
+            },
+            {
+                "text": "SQL командасы",
+                "isCorrect": false
+            },
+            {
+                "text": "Файл",
+                "isCorrect": false
+            },
+            {
+                "text": "Жол",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "SqlConnection ашу мысалы:",
+        "options": [
+            {
+                "text": "conn.Open();",
+                "isCorrect": true
+            },
+            {
+                "text": "conn.Start();",
+                "isCorrect": false
+            },
+            {
+                "text": "conn.Begin();",
+                "isCorrect": false
+            },
+            {
+                "text": "conn.Init();",
+                "isCorrect": false
+            },
+            {
+                "text": "conn.Link();",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "SqlConnection жабу мысалы:",
+        "options": [
+            {
+                "text": "conn.Close();",
+                "isCorrect": true
+            },
+            {
+                "text": "conn.Stop();",
+                "isCorrect": false
+            },
+            {
+                "text": "conn.End();",
+                "isCorrect": false
+            },
+            {
+                "text": "conn.Dispose();",
+                "isCorrect": false
+            },
+            {
+                "text": "conn.Off();",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Клиент--сервер архитектурасы неге негізделеді?:",
+        "options": [
+            {
+                "text": "Екі бөлік: клиент және сервер",
+                "isCorrect": true
+            },
+            {
+                "text": "Бір модуль",
+                "isCorrect": false
+            },
+            {
+                "text": "Файл жүйесі",
+                "isCorrect": false
+            },
+            {
+                "text": "Объектілер",
+                "isCorrect": false
+            },
+            {
+                "text": "Консоль",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Сервердің қызметі:",
+        "options": [
+            {
+                "text": "Клиент сұраныстарын өңдеу",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәлімет енгізу",
+                "isCorrect": false
+            },
+            {
+                "text": "Интерфейс жасау",
+                "isCorrect": false
+            },
+            {
+                "text": "Бағдарламаны жабу",
+                "isCorrect": false
+            },
+            {
+                "text": "Мәтін шығару",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Клиенттің қызметі:",
+        "options": [
+            {
+                "text": "Серверге сұраныс жіберу",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметтер базасын құру",
+                "isCorrect": false
+            },
+            {
+                "text": "Сервер қосу",
+                "isCorrect": false
+            },
+            {
+                "text": "Команда орындау",
+                "isCorrect": false
+            },
+            {
+                "text": "Файл ашу",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Web-қосымша дегеніміз не?:",
+        "options": [
+            {
+                "text": "Интернет арқылы жұмыс істейтін бағдарлама",
+                "isCorrect": true
+            },
+            {
+                "text": "Локалды бағдарлама",
+                "isCorrect": false
+            },
+            {
+                "text": "Консоль қосымшасы",
+                "isCorrect": false
+            },
+            {
+                "text": "Тест жүйесі",
+                "isCorrect": false
+            },
+            {
+                "text": "Файл",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "ASP.NET не үшін қолданылады?:",
+        "options": [
+            {
+                "text": "Web-қосымшалар жасау",
+                "isCorrect": true
+            },
+            {
+                "text": "Массив өңдеу",
+                "isCorrect": false
+            },
+            {
+                "text": "Жолдарды біріктіру",
+                "isCorrect": false
+            },
+            {
+                "text": "Консоль шығару",
+                "isCorrect": false
+            },
+            {
+                "text": "Файлды оқу",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Web Form дегеніміз не?:",
+        "options": [
+            {
+                "text": "Веб парақ",
+                "isCorrect": true
+            },
+            {
+                "text": "Файл",
+                "isCorrect": false
+            },
+            {
+                "text": "Терезе",
+                "isCorrect": false
+            },
+            {
+                "text": "Кесте",
+                "isCorrect": false
+            },
+            {
+                "text": "HTML құжат",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Controller не істейді?:",
+        "options": [
+            {
+                "text": "Логиканы басқарады",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметтер сақтайды",
+                "isCorrect": false
+            },
+            {
+                "text": "Пайдаланушы интерфейсін шығарады",
+                "isCorrect": false
+            },
+            {
+                "text": "SQL жазады",
+                "isCorrect": false
+            },
+            {
+                "text": "Түс өзгертеді",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Model не үшін керек?:",
+        "options": [
+            {
+                "text": "Мәліметтер мен ережелерді сақтау",
+                "isCorrect": true
+            },
+            {
+                "text": "Интерфейс жасау",
+                "isCorrect": false
+            },
+            {
+                "text": "Бояу таңдау",
+                "isCorrect": false
+            },
+            {
+                "text": "Файл оқу",
+                "isCorrect": false
+            },
+            {
+                "text": "Диалог ашу",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "View не істейді?:",
+        "options": [
+            {
+                "text": "Мәліметті пайдаланушыға көрсету",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметтерді есептеу",
+                "isCorrect": false
+            },
+            {
+                "text": "SQL орындау",
+                "isCorrect": false
+            },
+            {
+                "text": "Сервер қосу",
+                "isCorrect": false
+            },
+            {
+                "text": "Кесте құру",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Класты кеңейту дегеніміз не?:",
+        "options": [
+            {
+                "text": "Бар кластан жаңа класс туындату процесі",
+                "isCorrect": true
+            },
+            {
+                "text": "Кластың айнымалыларын көбейту",
+                "isCorrect": false
+            },
+            {
+                "text": "Кластың ішінде жаңа әдіс жазу",
+                "isCorrect": false
+            },
+            {
+                "text": "Кластың объектісін жою",
+                "isCorrect": false
+            },
+            {
+                "text": "Кластың атын өзгерту",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "C# тілінде мұрагерлік қатынасын қалай орнатады?:",
+        "options": [
+            {
+                "text": "class B : A",
+                "isCorrect": true
+            },
+            {
+                "text": "class A -> B",
+                "isCorrect": false
+            },
+            {
+                "text": "inherit A from B",
+                "isCorrect": false
+            },
+            {
+                "text": "extends A",
+                "isCorrect": false
+            },
+            {
+                "text": "use A in B",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Инкапсуляцияны жүзеге асыру үшін қай модификатор қолданылады?:",
+        "options": [
+            {
+                "text": "private",
+                "isCorrect": true
+            },
+            {
+                "text": "public",
+                "isCorrect": false
+            },
+            {
+                "text": "protected",
+                "isCorrect": false
+            },
+            {
+                "text": "internal",
+                "isCorrect": false
+            },
+            {
+                "text": "abstract",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "C# тілінде графикалық интерфейстерді жасауға арналған құрал?:",
+        "options": [
+            {
+                "text": "Windows Forms",
+                "isCorrect": true
+            },
+            {
+                "text": "Visual Basic",
+                "isCorrect": false
+            },
+            {
+                "text": "Assembly",
+                "isCorrect": false
+            },
+            {
+                "text": "SQL Server",
+                "isCorrect": false
+            },
+            {
+                "text": "HTML",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "C# тілінде WPF не үшін қолданылады?:",
+        "options": [
+            {
+                "text": "Графикалық интерфейс жасау үшін",
+                "isCorrect": true
+            },
+            {
+                "text": "Деректер базасын құру үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Веб-сайтты орналастыру үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Желі хаттамаларын орнату үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Консоль терезесін безендіру үшін",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Windows Forms-та батырма қосу үшін қандай элемент қолданылады?:",
+        "options": [
+            {
+                "text": "Button",
+                "isCorrect": true
+            },
+            {
+                "text": "Label",
+                "isCorrect": false
+            },
+            {
+                "text": "TextBox",
+                "isCorrect": false
+            },
+            {
+                "text": "PictureBox",
+                "isCorrect": false
+            },
+            {
+                "text": "ComboBox",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "C# тілінде жолдарды біріктіру үшін қандай оператор қолданылады?:",
+        "options": [
+            {
+                "text": "+",
+                "isCorrect": true
+            },
+            {
+                "text": "-",
+                "isCorrect": false
+            },
+            {
+                "text": "*",
+                "isCorrect": false
+            },
+            {
+                "text": "&",
+                "isCorrect": false
+            },
+            {
+                "text": ":",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "C# тілінде жолдың ұзындығын табу үшін қай қасиет қолданылады?:",
+        "options": [
+            {
+                "text": "Length",
+                "isCorrect": true
+            },
+            {
+                "text": "Count",
+                "isCorrect": false
+            },
+            {
+                "text": "Size",
+                "isCorrect": false
+            },
+            {
+                "text": "Index",
+                "isCorrect": false
+            },
+            {
+                "text": "Capacity",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Массив элементтерінің санын табу үшін не қолданылады?:",
+        "options": [
+            {
+                "text": "Length",
+                "isCorrect": true
+            },
+            {
+                "text": "Count()",
+                "isCorrect": false
+            },
+            {
+                "text": "Size()",
+                "isCorrect": false
+            },
+            {
+                "text": "Get()",
+                "isCorrect": false
+            },
+            {
+                "text": "Capacity",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Көпөлшемді массив қалай жарияланады?:",
+        "options": [
+            {
+                "text": "int[,] arr = new int[3,4];",
+                "isCorrect": true
+            },
+            {
+                "text": "int arr(3,4);",
+                "isCorrect": false
+            },
+            {
+                "text": "array<int> arr = [3][4];",
+                "isCorrect": false
+            },
+            {
+                "text": "int arr = new array(3,4);",
+                "isCorrect": false
+            },
+            {
+                "text": "multi int arr;",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "foreach циклы қай мақсатта қолданылады?:",
+        "options": [
+            {
+                "text": "Массив немесе коллекция элементтерін өту үшін",
+                "isCorrect": true
+            },
+            {
+                "text": "Айнымалыны көбейту үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Тек шартты оператор орындау үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Бір функцияны шақыру үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Жаңа класс жасау үшін",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Файлға жазу үшін C# тілінде қандай класс қолданылады?:",
+        "options": [
+            {
+                "text": "StreamWriter",
+                "isCorrect": true
+            },
+            {
+                "text": "FileInfo",
+                "isCorrect": false
+            },
+            {
+                "text": "StreamReader",
+                "isCorrect": false
+            },
+            {
+                "text": "BinaryReader",
+                "isCorrect": false
+            },
+            {
+                "text": "FileStream",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Файлдан оқу үшін C# тілінде қандай класс қолданылады?:",
+        "options": [
+            {
+                "text": "StreamReader",
+                "isCorrect": true
+            },
+            {
+                "text": "FileStream",
+                "isCorrect": false
+            },
+            {
+                "text": "FileInfo",
+                "isCorrect": false
+            },
+            {
+                "text": "FileWriter",
+                "isCorrect": false
+            },
+            {
+                "text": "FileAccess",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "Файлмен жұмыс істеу үшін қай атау кеңістігі қажет?:",
+        "options": [
+            {
+                "text": "System.IO",
+                "isCorrect": true
+            },
+            {
+                "text": "System.Text",
+                "isCorrect": false
+            },
+            {
+                "text": "System.Data",
+                "isCorrect": false
+            },
+            {
+                "text": "System.Linq",
+                "isCorrect": false
+            },
+            {
+                "text": "System.Net",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "C# тілінде деректер базасымен жұмыс істеу үшін не қолданылады?:",
+        "options": [
+            {
+                "text": "ADO.NET",
+                "isCorrect": true
+            },
+            {
+                "text": "JSON",
+                "isCorrect": false
+            },
+            {
+                "text": "HTML",
+                "isCorrect": false
+            },
+            {
+                "text": "XML",
+                "isCorrect": false
+            },
+            {
+                "text": "API",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "ADO.NET құрамына қандай компонент кіреді?:",
+        "options": [
+            {
+                "text": "SqlConnection",
+                "isCorrect": true
+            },
+            {
+                "text": "FileStream",
+                "isCorrect": false
+            },
+            {
+                "text": "Socket",
+                "isCorrect": false
+            },
+            {
+                "text": "JsonReader",
+                "isCorrect": false
+            },
+            {
+                "text": "WebClient",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "SqlCommand класы не үшін қолданылады?:",
+        "options": [
+            {
+                "text": "SQL сұраныстарын орындау үшін",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметтерді сақтау үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Массив элементтерін өңдеу үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Графикалық интерфейс жасау үшін",
+                "isCorrect": false
+            },
+            {
+                "text": "Файлмен жұмыс істеу үшін",
+                "isCorrect": false
+            }
+        ]
+    },
+    {
+        "question": "SqlDataReader не істейді?:",
+        "options": [
+            {
+                "text": "Деректер базасынан мәліметтерді оқиды",
+                "isCorrect": true
+            },
+            {
+                "text": "Мәліметтерді файлға жазады",
+                "isCorrect": false
+            },
+            {
+                "text": "Кесте құрады",
+                "isCorrect": false
+            },
+            {
+                "text": "Сервер қосымшасын іске қосады",
+                "isCorrect": false
+            },
+            {
+                "text": "Деректер базасын жояды",
+                "isCorrect": false
+            }
+        ]
+    }
+]
