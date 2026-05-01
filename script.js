@@ -10,7 +10,7 @@ const subject = params.get("subject") || "db";
 fetch(`data/${subject}.json`)
   .then(res => res.json())
   .then(data => {
-    // Рандомизация очерёдности вопросов
+    // Рандомизация очередности вопросов
     questions = shuffleArray(data);
 
     // Рандомизация вариантов для каждого вопроса
@@ -28,11 +28,6 @@ fetch(`data/${subject}.json`)
         showQuestion();
       }
     };
-  })
-  .catch(err => {
-    console.error('Ошибка загрузки данных:', err);
-    document.getElementById("question").textContent =
-      `Ошибка загрузки: data/${subject}.json не найден.`;
   });
 
 // Функция для рандомизации массива
@@ -62,10 +57,12 @@ function showQuestion() {
     optionsDiv.appendChild(btn);
   });
 
-  // Показываем счёт только если уже отвечали
+  // Показываем счёт только после первого ответа
   const scoreEl = document.getElementById("score");
   if (scoreEl) {
-    scoreEl.style.display = answered.some(a => a !== undefined) ? "block" : "none";
+    if (answered.some(a => a !== undefined)) {
+      scoreEl.style.display = "block";
+    }
     scoreEl.textContent = `Баллы: ${score}`;
   }
 
@@ -74,14 +71,14 @@ function showQuestion() {
     nextBtn.textContent = "Завершить";
     nextBtn.onclick = finishQuiz;
   } else {
-    nextBtn.textContent = "Далее →";
+    nextBtn.textContent = "Далее";
     nextBtn.onclick = () => {
       current++;
       showQuestion();
     };
   }
 
-  // Прогресс
+  // Показать номер текущего вопроса
   const progressEl = document.getElementById("progress");
   if (progressEl) {
     progressEl.textContent = `${current + 1} из ${questions.length}`;
@@ -113,22 +110,13 @@ function checkAnswer(index, btn) {
 }
 
 function finishQuiz() {
-  const total = questions.length;
-  const percent = Math.round((score / total) * 100);
-  let emoji = percent >= 80 ? "🎉" : percent >= 50 ? "👍" : "📚";
-
   document.body.innerHTML = `
     <div class="cwsa">
       <div class="result-box">
-        <div class="result-emoji">${emoji}</div>
-        <h2>Результат: ${score} / ${total}</h2>
-        <div class="result-bar-wrap">
-          <div class="result-bar" style="width:${percent}%"></div>
-        </div>
-        <p class="result-percent">${percent}%</p>
-        <button onclick="restartQuiz()">🔄 Повторить</button>
-        <button onclick="goHome()">🏠 Домой</button>
-        <button onclick="reviewMistakes()">❌ Работа над ошибками</button>
+        <h2>Ваш результат: ${score} / ${questions.length}</h2>
+        <button onclick="restartQuiz()">Повторить</button>
+        <button onclick="goHome()">Домой</button>
+        <button onclick="reviewMistakes()">Қатемен жұмыс</button>
       </div>
     </div>
   `;
@@ -151,7 +139,7 @@ function reviewMistakes() {
     });
 
   if (mistakes.length === 0) {
-    alert("Ошибок не было! Отличный результат 🎉");
+    alert("Ошибок не было!");
     return;
   }
 
@@ -162,20 +150,18 @@ function reviewMistakes() {
   isReviewingMistakes = true;
 
   document.body.innerHTML = `
-    <div class="text">Ошибки</div>
     <div class="container">
       <div id="question-box">
         <h2 id="question"></h2>
         <div id="options"></div>
         <div class="nav">
           <button id="prevBtn">← Назад</button>
-          <div id="progress"></div>
           <button id="nextBtn">Далее →</button>
         </div>
         <div id="score" style="display:none">Баллы: 0</div>
+        <div id="progress"></div>
       </div>
     </div>
-    <a href="index.html" class="home-btn">Home</a>
   `;
 
   document.getElementById("prevBtn").onclick = () => {
