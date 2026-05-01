@@ -7,15 +7,6 @@
   <link rel="stylesheet" href="istl.css" />
 </head>
 <body>
-
-  <!-- Слайдшоу оверлеи -->
-  <div class="slide-overlay">
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-
   <div class="container">
     <h1 id="main-title">505</h1>
     <!-- <a class="button" onclick="startTest('oob')">ООП</a> -->
@@ -39,13 +30,13 @@
     const titleEl = document.getElementById('main-title');
 
     setInterval(() => {
-      titleIndex = (titleIndex + 1) % titles.length;
       titleEl.classList.add('fading');
       setTimeout(() => {
+        titleIndex = (titleIndex + 1) % titles.length;
         titleEl.textContent = titles[titleIndex];
         titleEl.classList.remove('fading');
       }, 400);
-    }, 4000);
+    }, 10000);
   </script>
 </body>
 </html>
