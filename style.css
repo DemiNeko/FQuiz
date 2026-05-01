@@ -1,4 +1,4 @@
-/* Общие стили */
+/* ─── Reset & base ─── */
 * {
   margin: 0;
   padding: 0;
@@ -8,8 +8,6 @@
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background: linear-gradient(135deg, #6a11cb, #2575fc);
-  margin: 0;
-  padding: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -24,20 +22,19 @@ body {
   color: #ffd965;
   margin-bottom: 20px;
   text-align: center;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
 }
 
+/* ─── Quiz container ─── */
 .container {
   max-width: 700px;
   width: 100%;
-  margin: 0 auto;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255,255,255,0.95);
   padding: 30px;
   border-radius: 15px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
 }
 
-/* Вопрос */
 #question {
   font-size: 1.3em;
   margin-bottom: 25px;
@@ -46,7 +43,7 @@ body {
   word-wrap: break-word;
 }
 
-/* Варианты */
+/* ─── Options ─── */
 #options {
   display: flex;
   flex-direction: column;
@@ -57,106 +54,102 @@ body {
 #options button {
   padding: 15px 20px;
   font-size: 1em;
-  border: 1px solid black;
-  background-color: transparent;
+  border: 1.5px solid #ddd;
+  background: #fff;
   border-radius: 12px;
   text-align: left;
-  transition: all 0.3s;
+  transition: background 0.2s, border-color 0.2s, transform 0.15s;
   cursor: pointer;
   word-wrap: break-word;
   line-height: 1.5;
+  color: #222;
 }
 
 #options button:hover:not(:disabled) {
-  background-color: #f0f0f0;
+  background: #f5f0ff;
+  border-color: #a78bfa;
+  transform: translateX(4px);
 }
 
-#options button:disabled {
-  cursor: not-allowed;
-}
+#options button:disabled { cursor: not-allowed; }
 
-.correct {
-  background-color: #c8f7c5 !important;
-  border-color: #34c759 !important;
-}
+.correct   { background: #dcfce7 !important; border-color: #22c55e !important; color: #14532d !important; }
+.incorrect { background: #fee2e2 !important; border-color: #ef4444 !important; color: #7f1d1d !important; }
 
-.incorrect {
-  background-color: #f8d7da !important;
-  border-color: #dc3545 !important;
-}
-
-/* Навигация */
+/* ─── Nav ─── */
 .nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 25px;
-  gap: 15px;
-  flex-wrap: wrap;
+  gap: 12px;
 }
 
 .nav button {
-  padding: 12px 25px;
+  padding: 12px 24px;
   font-size: 1em;
-  background-color: #6a11cb;
-  color: white;
+  background: #6a11cb;
+  color: #fff;
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  transition: all 0.3s;
   font-weight: 600;
+  transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
+  white-space: nowrap;
 }
 
 .nav button:hover {
-  background-color: #2575fc;
+  background: #2575fc;
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(37, 117, 252, 0.3);
-}
-
-#score {
-  display: none;
-  margin-top: 20px;
-  font-weight: bold;
-  text-align: right;
-  color: #333;
-  font-size: 1.1em;
+  box-shadow: 0 5px 14px rgba(37,117,252,0.3);
 }
 
 #progress {
   text-align: center;
-  font-size: 1.1em;
+  font-size: 1em;
   color: #555;
-  font-weight: bold;
+  font-weight: 600;
+  white-space: nowrap;
 }
 
-/* Кнопка Home */
+#score {
+  margin-top: 18px;
+  font-weight: 700;
+  text-align: right;
+  color: #6a11cb;
+  font-size: 1em;
+}
+
+/* ─── Home button ─── */
 .home-btn {
   position: fixed;
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
   padding: 12px 30px;
-  text-align: center;
-  background-color: white;
+  background: #fff;
   color: #6a11cb;
   font-size: 1em;
-  font-weight: bold;
+  font-weight: 700;
   border: 2px solid #6a11cb;
   border-radius: 25px;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+  transition: all 0.25s;
   text-decoration: none;
   z-index: 100;
+  white-space: nowrap;
 }
 
 .home-btn:hover {
-  background-color: #6a11cb;
-  color: white;
+  background: #6a11cb;
+  color: #fff;
   transform: translateX(-50%) translateY(-3px);
-  box-shadow: 0 6px 20px rgba(106, 17, 203, 0.4);
+  box-shadow: 0 6px 20px rgba(106,17,203,0.4);
 }
 
-/* Результаты */
+/* ═══════════════════════════════════════════
+   RESULT PAGE — минималистичный дизайн
+═══════════════════════════════════════════ */
 .cwsa {
   display: flex;
   justify-content: center;
@@ -167,86 +160,152 @@ body {
 }
 
 .result-box {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.18);
+  padding: 48px 40px 40px;
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+  animation: fadeUp 0.45s cubic-bezier(0.22,1,0.36,1) both;
+}
+
+.result-label {
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #aaa;
+  margin-bottom: 16px;
+}
+
+.result-score {
+  font-size: 4.5em;
+  font-weight: 900;
+  color: #1a1a2e;
+  line-height: 1;
+  margin-bottom: 24px;
+}
+
+.result-score span {
+  font-size: 0.45em;
+  font-weight: 500;
+  color: #999;
+}
+
+/* Прогресс-бар */
+.result-bar-wrap {
+  width: 100%;
+  height: 6px;
+  background: #f0f0f0;
+  border-radius: 99px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.result-bar {
+  height: 100%;
+  border-radius: 99px;
+  transition: width 0.8s cubic-bezier(0.22,1,0.36,1);
+}
+
+.result-pct {
+  font-size: 0.9em;
+  font-weight: 600;
+  color: #888;
+  margin-bottom: 36px;
+}
+
+/* Кнопки результата */
+.result-actions {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  background: white;
-  border-radius: 20px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  padding: 40px 30px;
-  width: 100%;
-  max-width: 500px;
-  text-align: center;
+  gap: 10px;
 }
 
-.result-box h2 {
-  font-size: 1.8em;
-  font-weight: bold;
-  margin-bottom: 30px;
-  color: #333;
-}
-
-.result-box button {
-  padding: 15px 30px;
-  font-size: 1.1em;
-  background-color: #6a11cb;
-  color: white;
+.btn-primary {
+  padding: 14px;
+  font-size: 1em;
+  font-weight: 700;
+  background: #6a11cb;
+  color: #fff;
   border: none;
   border-radius: 12px;
   cursor: pointer;
-  margin: 10px;
-  transition: all 0.3s;
+  transition: background 0.2s, transform 0.15s, box-shadow 0.2s;
   width: 100%;
-  max-width: 280px;
-  font-weight: 600;
 }
 
-.result-box button:hover {
-  background-color: #2575fc;
+.btn-primary:hover {
+  background: #2575fc;
   transform: translateY(-2px);
-  box-shadow: 0 5px 15px rgba(37, 117, 252, 0.3);
+  box-shadow: 0 6px 18px rgba(37,117,252,0.3);
 }
 
-.result-box button:focus {
-  outline: none;
+.btn-outline {
+  padding: 13px;
+  font-size: 1em;
+  font-weight: 600;
+  background: transparent;
+  color: #6a11cb;
+  border: 2px solid #6a11cb;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, transform 0.15s;
+  width: 100%;
 }
 
-/* Адаптация для планшетов */
+.btn-outline:hover {
+  background: #6a11cb;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+.btn-ghost {
+  padding: 12px;
+  font-size: 0.9em;
+  font-weight: 600;
+  background: transparent;
+  color: #bbb;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: color 0.2s;
+  width: 100%;
+}
+
+.btn-ghost:hover { color: #555; }
+
+/* ═══════════════════════════════════════════
+   МОБИЛЬНАЯ АДАПТАЦИЯ
+═══════════════════════════════════════════ */
+
+/* Планшеты */
 @media (max-width: 768px) {
   .text {
     font-size: 2.5em;
     margin-bottom: 15px;
   }
-
   .container {
-    padding: 25px 20px;
+    padding: 24px 20px;
   }
-
   #question {
     font-size: 1.15em;
     margin-bottom: 20px;
   }
-
   #options button {
-    padding: 12px 15px;
-    font-size: 0.95em;
+    padding: 13px 15px;
+    font-size: 0.97em;
   }
-
   .nav button {
-    padding: 10px 20px;
+    padding: 11px 18px;
     font-size: 0.95em;
-  }
-
-  #progress {
-    font-size: 1em;
   }
 }
 
-/* Адаптация для мобильных */
+/* Мобильные */
 @media (max-width: 480px) {
-  body {
-    padding: 10px;
-  }
+  body { padding: 10px 10px 70px; }  /* отступ снизу под home-btn */
 
   .text {
     font-size: 2em;
@@ -254,163 +313,160 @@ body {
   }
 
   .container {
-    padding: 20px 15px;
-    border-radius: 12px;
+    padding: 18px 14px;
+    border-radius: 14px;
   }
 
   #question {
     font-size: 1em;
-    margin-bottom: 18px;
-    line-height: 1.5;
+    margin-bottom: 16px;
+    line-height: 1.55;
   }
 
   #options {
-    gap: 10px;
-    margin-bottom: 20px;
+    gap: 9px;
+    margin-bottom: 18px;
   }
 
   #options button {
     padding: 12px 12px;
-    font-size: 0.9em;
+    font-size: 0.92em;
     border-radius: 10px;
   }
 
+  /* Nav: кнопки по краям, прогресс по центру */
   .nav {
-    gap: 10px;
-    margin-top: 20px;
+    gap: 8px;
+    margin-top: 18px;
   }
 
   .nav button {
-    padding: 10px 15px;
-    font-size: 0.9em;
-    flex: 1;
-    min-width: 80px;
+    padding: 10px 14px;
+    font-size: 0.88em;
+    flex-shrink: 0;
   }
 
   #progress {
+    font-size: 0.88em;
+    flex: 1;
+  }
+
+  #score {
     font-size: 0.9em;
-    width: 100%;
-    order: -1;
-    margin-bottom: 10px;
+    margin-top: 14px;
   }
 
   .home-btn {
-    bottom: 15px;
-    padding: 10px 25px;
+    bottom: 12px;
+    padding: 10px 24px;
     font-size: 0.9em;
   }
 
+  /* Result */
   .result-box {
-    padding: 30px 20px;
+    padding: 36px 24px 30px;
+    border-radius: 18px;
   }
 
-  .result-box h2 {
-    font-size: 1.4em;
-    margin-bottom: 25px;
+  .result-score {
+    font-size: 3.5em;
   }
 
-  .result-box button {
-    padding: 12px 25px;
-    font-size: 1em;
-    margin: 8px;
+  .result-pct { margin-bottom: 28px; }
+
+  .btn-primary, .btn-outline {
+    padding: 13px;
+    font-size: 0.97em;
   }
 }
 
-/* Очень маленькие экраны */
+/* Очень маленькие */
 @media (max-width: 360px) {
-  .text {
-    font-size: 1.6em;
-  }
+  .text { font-size: 1.7em; }
 
-  .container {
-    padding: 15px 12px;
-  }
+  .container { padding: 14px 12px; }
 
-  #question {
-    font-size: 0.95em;
-  }
+  #question { font-size: 0.93em; }
 
   #options button {
     padding: 10px 10px;
-    font-size: 0.85em;
+    font-size: 0.87em;
   }
 
   .nav button {
-    padding: 8px 12px;
-    font-size: 0.85em;
+    padding: 9px 11px;
+    font-size: 0.84em;
   }
 
-  #progress {
-    font-size: 0.85em;
-  }
+  #progress { font-size: 0.84em; }
 
   .home-btn {
-    padding: 8px 20px;
-    font-size: 0.85em;
+    padding: 9px 20px;
+    font-size: 0.84em;
   }
 
-  .result-box h2 {
-    font-size: 1.2em;
-  }
+  .result-box { padding: 28px 18px 24px; }
 
-  .result-box button {
+  .result-score { font-size: 3em; }
+
+  .btn-primary, .btn-outline, .btn-ghost {
     font-size: 0.9em;
-    padding: 10px 20px;
+    padding: 11px;
   }
 }
 
-/* Ландшафтная ориентация на мобильных */
+/* Ландшафт на мобильных */
 @media (max-height: 600px) and (orientation: landscape) {
   body {
-    padding: 10px;
     justify-content: flex-start;
+    padding: 10px;
   }
 
   .text {
     font-size: 1.5em;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-top: 8px;
   }
 
   .container {
-    margin: 10px auto;
-    padding: 15px;
+    margin: 0 auto;
+    padding: 14px 16px;
   }
 
   #question {
-    font-size: 0.95em;
-    margin-bottom: 15px;
+    font-size: 0.93em;
+    margin-bottom: 12px;
   }
 
-  #options {
-    gap: 8px;
-  }
+  #options { gap: 7px; }
 
-  #options button {
-    padding: 8px 10px;
-  }
+  #options button { padding: 8px 10px; }
 
   .home-btn {
     position: relative;
-    margin-top: 15px;
+    display: block;
+    margin: 14px auto 0;
     transform: none;
     left: auto;
     bottom: auto;
   }
+
+  .result-box {
+    padding: 24px 28px;
+    max-width: 360px;
+  }
+
+  .result-score { font-size: 3em; margin-bottom: 14px; }
+
+  .result-pct { margin-bottom: 20px; }
 }
 
-/* Анимация появления */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+/* ─── Анимация ─── */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
 }
 
 .container {
-  animation: fadeIn 0.5s ease-out;
+  animation: fadeUp 0.45s cubic-bezier(0.22,1,0.36,1) both;
 }
