@@ -12,58 +12,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;   
+  background-attachment: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   color: #fff;
   padding: 20px;
-  position: relative;
 }
-
-/* ─── Slideshow: цветные оверлеи поверх фото ─── */
-@keyframes slideshow {
-  0%   { opacity: 1; }
-  20%  { opacity: 1; }
-  25%  { opacity: 0; }
-  95%  { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-.slide-overlay {
-  position: fixed;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
-}
-
-.slide-overlay span {
-  position: absolute;
-  inset: 0;
-  opacity: 0;
-}
-
-.slide-overlay span:nth-child(1) {
-  background: linear-gradient(135deg, rgba(45,53,97,0.70) 0%, rgba(26,31,58,0.78) 100%);
-  animation: slideshow 20s infinite 0s;
-}
-
-.slide-overlay span:nth-child(2) {
-  background: linear-gradient(135deg, rgba(67,206,162,0.52) 0%, rgba(24,90,157,0.72) 100%);
-  animation: slideshow 20s infinite 5s;
-}
-
-.slide-overlay span:nth-child(3) {
-  background: linear-gradient(135deg, rgba(102,126,234,0.62) 0%, rgba(118,75,162,0.72) 100%);
-  animation: slideshow 20s infinite 10s;
-}
-
-.slide-overlay span:nth-child(4) {
-  background: linear-gradient(135deg, rgba(240,147,43,0.48) 0%, rgba(243,77,77,0.62) 100%);
-  animation: slideshow 20s infinite 15s;
-}
-/* ─────────────────────────────────────────────── */
 
 .container {
   background: transparent;
@@ -72,8 +28,6 @@ body {
   text-align: center;
   width: 90%;
   max-width: 500px;
-  position: relative;
-  z-index: 1;
 }
 
 h1 {
@@ -115,18 +69,16 @@ a.button:active {
   transform: translateY(0);
 }
 
-/* Адаптация для планшетов */
+/* Планшеты */
 @media (max-width: 768px) {
   .container {
     padding: 40px 30px;
     width: 95%;
   }
-
   h1 {
     font-size: 2em;
     margin-bottom: 35px;
   }
-
   a.button {
     font-size: 1em;
     padding: 12px 20px;
@@ -134,23 +86,18 @@ a.button:active {
   }
 }
 
-/* Адаптация для мобильных */
+/* Мобильные */
 @media (max-width: 480px) {
-  body {
-    padding: 15px;
-  }
-
+  body { padding: 15px; }
   .container {
     padding: 30px 20px;
     width: 100%;
     max-width: 100%;
   }
-
   h1 {
     font-size: 1.6em;
     margin-bottom: 30px;
   }
-
   a.button {
     font-size: 0.95em;
     padding: 12px 18px;
@@ -159,17 +106,13 @@ a.button:active {
   }
 }
 
-/* Очень маленькие экраны */
+/* Очень маленькие */
 @media (max-width: 360px) {
-  .container {
-    padding: 25px 15px;
-  }
-
+  .container { padding: 25px 15px; }
   h1 {
     font-size: 1.4em;
     margin-bottom: 25px;
   }
-
   a.button {
     font-size: 0.9em;
     padding: 10px 15px;
@@ -177,48 +120,28 @@ a.button:active {
   }
 }
 
-/* Ландшафтная ориентация */
+/* Ландшафт */
 @media (max-height: 600px) and (orientation: landscape) {
-  body {
-    align-items: flex-start;
-    padding-top: 20px;
-  }
-
-  .container {
-    padding: 20px 30px;
-  }
-
+  body { align-items: flex-start; padding-top: 20px; }
+  .container { padding: 20px 30px; }
   h1 {
     font-size: 1.5em;
     margin-bottom: 20px;
   }
-
   a.button {
     margin: 8px auto;
     padding: 8px 16px;
   }
 }
 
-/* Анимация появления */
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: scale(0.95);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
+  from { opacity: 0; transform: scale(0.95); }
+  to   { opacity: 1; transform: scale(1); }
 }
 
-.container {
-  animation: fadeIn 0.5s ease-out;
-}
+.container { animation: fadeIn 0.5s ease-out; }
 
-a.button {
-  animation: fadeIn 0.6s ease-out backwards;
-}
-
+a.button { animation: fadeIn 0.6s ease-out backwards; }
 a.button:nth-child(2) { animation-delay: 0.1s; }
 a.button:nth-child(3) { animation-delay: 0.2s; }
 a.button:nth-child(4) { animation-delay: 0.3s; }
