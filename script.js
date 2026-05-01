@@ -10,7 +10,7 @@ const subject = params.get("subject") || "db";
 fetch(`data/${subject}.json`)
   .then(res => res.json())
   .then(data => {
-    // Рандомизация очередности вопросов
+    // Рандомизация очерёдности вопросов
     questions = shuffleArray(data);
 
     // Рандомизация вариантов для каждого вопроса
@@ -28,6 +28,11 @@ fetch(`data/${subject}.json`)
         showQuestion();
       }
     };
+  })
+  .catch(err => {
+    console.error('Ошибка загрузки данных:', err);
+    document.getElementById("question").textContent =
+      `Ошибка загрузки: data/${subject}.json не найден.`;
   });
 
 // Функция для рандомизации массива
@@ -57,23 +62,30 @@ function showQuestion() {
     optionsDiv.appendChild(btn);
   });
 
-  document.getElementById("score").textContent = `Баллы: ${score}`;
+  // Показываем счёт только если уже отвечали
+  const scoreEl = document.getElementById("score");
+  if (scoreEl) {
+    scoreEl.style.display = answered.some(a => a !== undefined) ? "block" : "none";
+    scoreEl.textContent = `Баллы: ${score}`;
+  }
 
   const nextBtn = document.getElementById("nextBtn");
   if (current === questions.length - 1) {
     nextBtn.textContent = "Завершить";
     nextBtn.onclick = finishQuiz;
   } else {
-    nextBtn.textContent = "Далее";
+    nextBtn.textContent = "Далее →";
     nextBtn.onclick = () => {
       current++;
       showQuestion();
     };
   }
 
-  // Показать номер текущего вопроса под вопросом
-  document.getElementById("progress").textContent = ` ${current + 1} из ${questions.length}`;
-
+  // Прогресс
+  const progressEl = document.getElementById("progress");
+  if (progressEl) {
+    progressEl.textContent = `${current + 1} из ${questions.length}`;
+  }
 }
 
 function checkAnswer(index, btn) {
@@ -92,17 +104,31 @@ function checkAnswer(index, btn) {
   });
 
   if (index === correctIndex) score++;
-  document.getElementById("score").textContent = `Баллы: ${score}`;
+
+  const scoreEl = document.getElementById("score");
+  if (scoreEl) {
+    scoreEl.style.display = "block";
+    scoreEl.textContent = `Баллы: ${score}`;
+  }
 }
 
 function finishQuiz() {
+  const total = questions.length;
+  const percent = Math.round((score / total) * 100);
+  let emoji = percent >= 80 ? "🎉" : percent >= 50 ? "👍" : "📚";
+
   document.body.innerHTML = `
     <div class="cwsa">
       <div class="result-box">
-        <h2>Ваш результат: ${score} / ${questions.length}</h2>
-        <button onclick="restartQuiz()">Повторить</button>
-        <button onclick="goHome()">Домой</button>
-        <button onclick="reviewMistakes()">Қатемен жұмыс</button>
+        <div class="result-emoji">${emoji}</div>
+        <h2>Результат: ${score} / ${total}</h2>
+        <div class="result-bar-wrap">
+          <div class="result-bar" style="width:${percent}%"></div>
+        </div>
+        <p class="result-percent">${percent}%</p>
+        <button onclick="restartQuiz()">🔄 Повторить</button>
+        <button onclick="goHome()">🏠 Домой</button>
+        <button onclick="reviewMistakes()">❌ Работа над ошибками</button>
       </div>
     </div>
   `;
@@ -125,7 +151,7 @@ function reviewMistakes() {
     });
 
   if (mistakes.length === 0) {
-    alert("Ошибок не было!");
+    alert("Ошибок не было! Отличный результат 🎉");
     return;
   }
 
@@ -136,18 +162,20 @@ function reviewMistakes() {
   isReviewingMistakes = true;
 
   document.body.innerHTML = `
+    <div class="text">Ошибки</div>
     <div class="container">
       <div id="question-box">
         <h2 id="question"></h2>
         <div id="options"></div>
         <div class="nav">
           <button id="prevBtn">← Назад</button>
+          <div id="progress"></div>
           <button id="nextBtn">Далее →</button>
         </div>
-        <div id="score">Баллы: 0</div>
-        <div id="currentQuestionNum"></div>  <!-- Добавим отображение текущего вопроса -->
+        <div id="score" style="display:none">Баллы: 0</div>
       </div>
     </div>
+    <a href="index.html" class="home-btn">Home</a>
   `;
 
   document.getElementById("prevBtn").onclick = () => {
