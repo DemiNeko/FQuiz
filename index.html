@@ -9,21 +9,23 @@
 <body>
 <div class="container">
   <h1>505</h1>
+  <p class="subtitle">Выбери предмет</p>
+  <div class="divider"></div>
+
   <!-- <a class="button" onclick="startTest('oob')">ООП</a> -->
-  <a class="button" onclick="startTest('engl')">Англиский</a>
+  <a class="button" onclick="startTest('engl')">Английский</a>
   <!-- <a class="button" onclick="startTest('fin')">Final boss</a> -->
   <!-- <a class="button" onclick="startTest('crypto')">Крипто</a> -->
-
   <!-- <a class="button" onclick="openFlashcards('datamining')">Data Mining (карточки)</a> -->
-  
 </div>
-  <script>
-    function startTest(subject) {
-      window.location.href = `test.html?subject=${subject}`;
-    }
-    function openFlashcards(subject) {
+
+<script>
+  function startTest(subject) {
+    window.location.href = `test.html?subject=${subject}`;
+  }
+  function openFlashcards(subject) {
     window.location.href = `card.html?subject=${subject}`;
   }
-  </script>
+</script>
 </body>
 </html>
