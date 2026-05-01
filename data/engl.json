@@ -379,11 +379,11 @@
     "options": [
       {
         "text": "The point where revenue equals expenses",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "text": "The point of maximum profit",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "text": "The point of minimum sales",
@@ -504,11 +504,11 @@
     "options": [
       {
         "text": "A thorough investigation before a business transaction",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "text": "The process of marketing a product",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "text": "The act of signing a contract",
@@ -529,7 +529,7 @@
     "options": [
       {
         "text": "The management of financial resources",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "text": "The control of production processes",
@@ -537,7 +537,7 @@
       },
       {
         "text": "The management of the flow of goods and services",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "text": "The process of hiring employees",
@@ -558,11 +558,11 @@
       },
       {
         "text": "The buying and selling of goods online",
-        "isCorrect": false
+        "isCorrect": true
       },
       {
         "text": "The management of electronic devices",
-        "isCorrect": true
+        "isCorrect": false
       },
       {
         "text": "The use of email for marketing",
