@@ -1,0 +1,6302 @@
+[
+  {
+    "question": "Құжат фрагменттерін белгілеу үшін және оның экранда бейнелеуін басқаруға арналған HTML тілінің арнайы элементтері, яғни компоненттері:",
+    "options": [
+      {
+        "text": "тегтер",
+        "isCorrect": true
+      },
+      {
+        "text": "блоктар",
+        "isCorrect": false
+      },
+      {
+        "text": "тізімдер",
+        "isCorrect": false
+      },
+      {
+        "text": "сілтемелер",
+        "isCorrect": false
+      },
+      {
+        "text": "кестелер",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Мына тұжырымдардың қайсысы дұрыс:",
+    "options": [
+      {
+        "text": "Тегтер жазу кезінде бас әріп пен кіші әріп бірдей болып саналады",
+        "isCorrect": true
+      },
+      {
+        "text": "HTML тілінің барлық тегтері &quot&gt&quot символынан басталады",
+        "isCorrect": false
+      },
+      {
+        "text": "Блокнот арқылы гипермәтіндік құжатты жасауға болмайды",
+        "isCorrect": false
+      },
+      {
+        "text": "HTML құжатына коментарийлер енгізуге болмайды",
+        "isCorrect": false
+      },
+      {
+        "text": "HTML мәтіндік элементтері ішіне <,&gt, ―, @ символдары жазылады",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML элементтері мынадай екі топқа бөлінеді:",
+    "options": [
+      {
+        "text": "Блоктық және мәтіндік",
+        "isCorrect": true
+      },
+      {
+        "text": "Мәтіндік және сандық",
+        "isCorrect": false
+      },
+      {
+        "text": "Символдық және цифрлық",
+        "isCorrect": false
+      },
+      {
+        "text": "Жай және күрделі",
+        "isCorrect": false
+      },
+      {
+        "text": "Қарапайым және құрамалы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "<BODY> тегінің мәтін түсін анықтайтын атрибуты:",
+    "options": [
+      {
+        "text": "TEXT",
+        "isCorrect": true
+      },
+      {
+        "text": "BGCOLOR",
+        "isCorrect": false
+      },
+      {
+        "text": "COLOR",
+        "isCorrect": false
+      },
+      {
+        "text": "LINK",
+        "isCorrect": false
+      },
+      {
+        "text": "VLINK",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "<BODY> тегінің курсор көрсетіп тұрған гиперсілтеме сөз түсін беретін атрибуты...",
+    "options": [
+      {
+        "text": "АLINK",
+        "isCorrect": true
+      },
+      {
+        "text": "VLINK",
+        "isCorrect": false
+      },
+      {
+        "text": "TEXT",
+        "isCorrect": false
+      },
+      {
+        "text": "COLOR",
+        "isCorrect": false
+      },
+      {
+        "text": "LINK",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML тілі мәтін бөліктерін форматтаудың қандай стильдерін жүзеге асыра алады?",
+    "options": [
+      {
+        "text": "логикалық және физикалық",
+        "isCorrect": true
+      },
+      {
+        "text": "логикалық",
+        "isCorrect": false
+      },
+      {
+        "text": "физикалық",
+        "isCorrect": false
+      },
+      {
+        "text": "мәтіндік",
+        "isCorrect": false
+      },
+      {
+        "text": "математикалық",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML тіліндегі <HR> тегінің сызықтың қалыңдығын анықтайтын атрибуты:",
+    "options": [
+      {
+        "text": "SIZE",
+        "isCorrect": true
+      },
+      {
+        "text": "ALIGN",
+        "isCorrect": false
+      },
+      {
+        "text": "WIDTH",
+        "isCorrect": false
+      },
+      {
+        "text": "NOSHADE",
+        "isCorrect": false
+      },
+      {
+        "text": "COLOR",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML тіліндегі <HR> тегінің сызықтың рельефтілігін анықтайтын атрибуты:",
+    "options": [
+      {
+        "text": "NOSHADE",
+        "isCorrect": true
+      },
+      {
+        "text": "ALIGN",
+        "isCorrect": false
+      },
+      {
+        "text": "WIDTH",
+        "isCorrect": false
+      },
+      {
+        "text": "SIZE",
+        "isCorrect": false
+      },
+      {
+        "text": "COLOR",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML тілінде <STRONG> </STRONG>тегтерінің арасында мәтін қандай қаріппен жазылады:",
+    "options": [
+      {
+        "text": "Қарайтылған",
+        "isCorrect": true
+      },
+      {
+        "text": "Курсив",
+        "isCorrect": false
+      },
+      {
+        "text": "Программа кодтарын жазуға арналған",
+        "isCorrect": false
+      },
+      {
+        "text": "Асты сызылған",
+        "isCorrect": false
+      },
+      {
+        "text": "Бел ортасынан сызылған",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "<IMG> тегінің ALIGN атрибуты қандай қызмет атқарады:",
+    "options": [
+      {
+        "text": "Мәтінге байланысты суреттің орналасуын көрсетеді",
+        "isCorrect": true
+      },
+      {
+        "text": "Суреттің URL адресін береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Суреттің биіктігін береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Сурет көрсетілмейтін браузерде оның аты мәтін ретінде көрсетіледі",
+        "isCorrect": false
+      },
+      {
+        "text": "Суреттің сол және оң жақ шеттеріндегі бос аймақ мөлшерін пиксель- мен береді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "<IMG>тегінің VSPACE атрибуты қандай қызмет атқарады:",
+    "options": [
+      {
+        "text": "Суреттің жоғарғы және төменгі жақтарындағы бос аймақ мөлшерін тағайындайды",
+        "isCorrect": true
+      },
+      {
+        "text": "Суреттің URL адресін береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Суреттің биіктігін береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Сурет көрсетілмейтін браузерде оның аты мәтін ретінде көрсетіледі",
+        "isCorrect": false
+      },
+      {
+        "text": "Суреттің сол және оң жақ шеттеріндегі бос аймақ мөлшерін пиксельмен береді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Гиперсілтеме жасағанда <A HREF = …> тегінде HREF атрибутының атқаратын қызметі:",
+    "options": [
+      {
+        "text": "Гиперсілтемеде шақырылатын ресурстың URL адресін көрсетеді",
+        "isCorrect": true
+      },
+      {
+        "text": "Суреттің URL адресін көрсетеді",
+        "isCorrect": false
+      },
+      {
+        "text": "Суретттің енін өзгертеді",
+        "isCorrect": false
+      },
+      {
+        "text": "Суреттің биіктігін өзгертеді",
+        "isCorrect": false
+      },
+      {
+        "text": "Мәтіннің түсін өзгертеді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "<UL>… <UL> тегтерінің көмегімен...",
+    "options": [
+      {
+        "text": "Маркерленген (белгіленген) тізімді жасай аламыз",
+        "isCorrect": true
+      },
+      {
+        "text": "Нөмірленген тізімдер жасауға болады",
+        "isCorrect": false
+      },
+      {
+        "text": "Жаңа абзацқа көшеміз",
+        "isCorrect": false
+      },
+      {
+        "text": "Горизонталь сызықты жүргізе аламыз",
+        "isCorrect": false
+      },
+      {
+        "text": "Бүкіл мәтінді бір жолға жаза аламыз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "<UL>... </UL> ортасында орналасқан әрбір тізім элементтері қандай тегтен соң жазылады?",
+    "options": [
+      {
+        "text": "<LI>",
+        "isCorrect": true
+      },
+      {
+        "text": "<UL>",
+        "isCorrect": false
+      },
+      {
+        "text": "<HL>",
+        "isCorrect": false
+      },
+      {
+        "text": "<DL>",
+        "isCorrect": false
+      },
+      {
+        "text": "<DD>",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML тілінде <TABLE> тегінің кестенің жақтау сызығы мен мәтін аралығындағы бос кеңістік көлемін беретін атрибуты:",
+    "options": [
+      {
+        "text": "CELLPADDING",
+        "isCorrect": true
+      },
+      {
+        "text": "CELLSPACING",
+        "isCorrect": false
+      },
+      {
+        "text": "WIDTH",
+        "isCorrect": false
+      },
+      {
+        "text": "HEIGHT",
+        "isCorrect": false
+      },
+      {
+        "text": "VSPACE",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML тілінде <TABLE> тегінің кестенің жоғарғы және төменгі жақтарында қалдырылған бос кеңістік көлемін өзгерту мүмкіндігін беретін атрибуты:",
+    "options": [
+      {
+        "text": "VSPACE",
+        "isCorrect": true
+      },
+      {
+        "text": "CELLSPACING",
+        "isCorrect": false
+      },
+      {
+        "text": "CELLPADDING",
+        "isCorrect": false
+      },
+      {
+        "text": "WIDTH",
+        "isCorrect": false
+      },
+      {
+        "text": "HEIGHT",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML тілінде <TABLE> тегі арқылы кесте жасауда WIDTH атрибуты қандай қызмет атқарады?",
+    "options": [
+      {
+        "text": "Кестенің жалпы енін өзгерту мүмкіндігін береді",
+        "isCorrect": true
+      },
+      {
+        "text": "Кестенің жақтау сызықтарының қалындығын анықтайды",
+        "isCorrect": false
+      },
+      {
+        "text": "Кестенің жалпы биіктігін өзгертуге мүмкіндігін береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Кестенің жақтау сызығы мен мәтін арасындағы бос кеңістік көлемін өзгертуге мүмкіндік береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Кесте ұяшығының жақтау сызықтары аралығында бос кеңістікті өзгертуге мүмкіндігін береді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML тілінде <TABLE>тегі арқылы кесте жасауда HEIGHT атрибуты қандай қызмет атқарады?",
+    "options": [
+      {
+        "text": "Кестенің жалпы биіктігін өзгерту мүмкіндігін береді",
+        "isCorrect": true
+      },
+      {
+        "text": "Кестенің жақтау сызықтарының қалындығын анықтайды",
+        "isCorrect": false
+      },
+      {
+        "text": "Кестенің жалпы енін өзгертуге мүмкіндігін береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Кестенің жақтау сызығы мен мәтін арасындағы бос кеңістік көлемін өзгертуге мүмкіндік береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Кесте ұяшығының жақтау сызықтары аралығында бос кеңістікті өзгертуге мүмкіндігін береді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML тілінде <TABLE> тегі арқылы кесте жасауда CELLSPACING атрибуты қандай қызмет атқарады?",
+    "options": [
+      {
+        "text": "Кесте ұяшығының жақтау сызықтары аралығында бос кеңістікті өзгерту мүмкіндігін береді",
+        "isCorrect": true
+      },
+      {
+        "text": "Кестенің жақтау сызықтарының қалындығын анықтайды",
+        "isCorrect": false
+      },
+      {
+        "text": "Кестенің жалпы енін өзгертуге мүмкіндігін береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Кестенің жалпы биіктігін өзгертуге мүмкіндігін береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Кестенің жақтау сызығы мен мәтін арасындағы бос кеңістік көлемін өзгертуге мүмкіндік береді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML тілінде кестелерде ROWSPAN атрибуты қандай қызмет атқарады?",
+    "options": [
+      {
+        "text": "Бір бағананың екі жолында қатар тұрған екі ұяны біріктіру үшін қолданылады",
+        "isCorrect": true
+      },
+      {
+        "text": "Бір жолдың бағанасында қатар тұрған екі ұяны біріктіру үшін қолданылады",
+        "isCorrect": false
+      },
+      {
+        "text": "Мәтіннің фон түсін анықтайды",
+        "isCorrect": false
+      },
+      {
+        "text": "Кестені жақтай сызығы мен мәтін арасындағы бос кеңістікті көрсетеді",
+        "isCorrect": false
+      },
+      {
+        "text": "Екі сырғудың арасындағы интервалынды миллисекундамен көрсететін бүтін сан",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML сөзінің толық мағынасы ...",
+    "options": [
+      {
+        "text": "HyperText Markup Language",
+        "isCorrect": true
+      },
+      {
+        "text": "Historial Tehnical Markup Language",
+        "isCorrect": false
+      },
+      {
+        "text": "HyperTehnical Markup Language",
+        "isCorrect": false
+      },
+      {
+        "text": "Historial Tutorial Markup Language",
+        "isCorrect": false
+      },
+      {
+        "text": "Дұрыс жауап жоқ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Гипермәтіндік құжат құрамында мынадай символдық ақпарат болады:",
+    "options": [
+      {
+        "text": "мәліметтік мәтіндер мен тегтер",
+        "isCorrect": true
+      },
+      {
+        "text": "командалар мен арнайы белгілер",
+        "isCorrect": false
+      },
+      {
+        "text": "дескрипторлар мен операторлар",
+        "isCorrect": false
+      },
+      {
+        "text": "функциялар мен операциялар",
+        "isCorrect": false
+      },
+      {
+        "text": "процедуралар мен контейнерлер",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML-құжаттарды сақтайтын файлдардың типтері келесідей болады:",
+    "options": [
+      {
+        "text": ".htm немесе .html",
+        "isCorrect": true
+      },
+      {
+        "text": ".doc немесе .rtf",
+        "isCorrect": false
+      },
+      {
+        "text": ".gif немесе .jpg",
+        "isCorrect": false
+      },
+      {
+        "text": ".txt немесе .text",
+        "isCorrect": false
+      },
+      {
+        "text": ".xml немесе .exl",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML тіліндегі тегтер арқылы мынадай әрекеттерді орындауға болады:",
+    "options": [
+      {
+        "text": "Қалған төрт жауап дұрыс",
+        "isCorrect": true
+      },
+      {
+        "text": "Құжат тақырыбын ерекшелеуге, гиперсілтемелер жасауға болады",
+        "isCorrect": false
+      },
+      {
+        "text": "Символдардың түсін, мөлшерін және сызылымын өзгертуге болады",
+        "isCorrect": false
+      },
+      {
+        "text": "Фреймдер, формалар құруға болады",
+        "isCorrect": false
+      },
+      {
+        "text": "Құжат ішіне суреттер орналастырылады",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "<BODY> тегінің ALINK атрибутының атқаратын қызметі:",
+    "options": [
+      {
+        "text": "Курсор көрсетіп тұрған гиперсілтеме сөз түсін береді",
+        "isCorrect": true
+      },
+      {
+        "text": "Мәтін түсін анықтайды",
+        "isCorrect": false
+      },
+      {
+        "text": "Әлі қаралмаған гиерсілтеме сөз түсін береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Алдында қаралған гиперсілтеме сөз түсін береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Фон түсін анықтайды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "<BODY>тегінің TEXT атрибутының атқаратын қызметі:",
+    "options": [
+      {
+        "text": "Құжат мәтінінің жалпы түсін анықтайды",
+        "isCorrect": true
+      },
+      {
+        "text": "Курсор көрсететін гиперсілтеме сөз түсін береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Әлі қаралмаған гиерсілтеме сөз түсін береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Алдында қаралған гиперсілтеме сөз түсін береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Құжаттың фон түсін анықтайды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "<Frameset>тегінің қандай атрибуты терезені горизонталь – көлденең бағыт бойынша (жолдарға) бөледі ?",
+    "options": [
+      {
+        "text": "ROWS",
+        "isCorrect": true
+      },
+      {
+        "text": "COLS",
+        "isCorrect": false
+      },
+      {
+        "text": "WIDTH",
+        "isCorrect": false
+      },
+      {
+        "text": "HEIGHT",
+        "isCorrect": false
+      },
+      {
+        "text": "LOOP",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "<FRAME> тегінде SRC атрибутының атқаратын қызметі:",
+    "options": [
+      {
+        "text": "Фреймде шығарылатын құжаттың URL-адресін анықтайды",
+        "isCorrect": true
+      },
+      {
+        "text": "Суреттің URL- адресін көрсетеді",
+        "isCorrect": false
+      },
+      {
+        "text": "Текст түсін өзгертеді",
+        "isCorrect": false
+      },
+      {
+        "text": "Терезені горизонталь бағыт бойынша бөледі",
+        "isCorrect": false
+      },
+      {
+        "text": "Терезені тігінен бөледі",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "<FRAME>тегінің MARGINWIDTH атрибутының атқаратын қызметі:",
+    "options": [
+      {
+        "text": "Фреймнің оң және сол жақтарындағы пиксельмен берілген бос кеңістік мөлшерін анықтайды",
+        "isCorrect": true
+      },
+      {
+        "text": "Фрейм өлшемін береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Фрейм көлемі тұрақты болып, оның өзгермейтінін көрсетеді",
+        "isCorrect": false
+      },
+      {
+        "text": "Фреймнің жоғары және төмен жақтарындағы пиксельмен берілген бос кеңістіктің мөлшерін анықтайды",
+        "isCorrect": false
+      },
+      {
+        "text": "Фрейм бойынша жылжыту жолақтары бар не жоқ болуын көрсетеді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Фрейм көлемі тұрақты болып, оның өзгермейтінін көрсететін атрибут:",
+    "options": [
+      {
+        "text": "NORESIZE",
+        "isCorrect": true
+      },
+      {
+        "text": "MARGINHEIGHT",
+        "isCorrect": false
+      },
+      {
+        "text": "MARGINWIDTH",
+        "isCorrect": false
+      },
+      {
+        "text": "SCROLLING",
+        "isCorrect": false
+      },
+      {
+        "text": "BORDERCOLOR",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Фреймнің жоғары және төмен жақтарындағы пиксельмен берілген бос кеңістіктің мөлшерін анықтайтын атрибут:",
+    "options": [
+      {
+        "text": "MARGINHEIGHT",
+        "isCorrect": true
+      },
+      {
+        "text": "MARGINWIDTH",
+        "isCorrect": false
+      },
+      {
+        "text": "SCROLLING",
+        "isCorrect": false
+      },
+      {
+        "text": "NORESIZE",
+        "isCorrect": false
+      },
+      {
+        "text": "BORDERCOLOR",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Фреймдерді пайдалану кезіндегі <A TARGET=frame1> деген сілтеме нені білдіреді?",
+    "options": [
+      {
+        "text": "Осындай аты бар фреймге гипермәтіндік сілтеме жасау",
+        "isCorrect": true
+      },
+      {
+        "text": "Фреймге frame1 деген ат берілді",
+        "isCorrect": false
+      },
+      {
+        "text": "Берілген фреймді frame1 фреймімен ауыстыру",
+        "isCorrect": false
+      },
+      {
+        "text": "Frame1 фреймін жою",
+        "isCorrect": false
+      },
+      {
+        "text": "Frame1 фрейміне жасаған сілтеменің түсін өзгерту",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML. Фреймдерге сілтеме жасайтын <A TARGET=…> TARGET атрибутының _blank тұрақты мәні қандай қызмет атқарады?",
+    "options": [
+      {
+        "text": "Көрсетілген файлды ат қойылмаған жаңа терезеге жүктейді",
+        "isCorrect": true
+      },
+      {
+        "text": "Көрсетілген файлды сілтеме жасалған фреймге жүктейді",
+        "isCorrect": false
+      },
+      {
+        "text": "Көрсетілген файлды кадрлар құрылымы біріктірілген толық терезеге жүктейді",
+        "isCorrect": false
+      },
+      {
+        "text": "Көрсетілген файлды фреймдерді ашатын түпкі кадрға жүктейді; егер ондай кадр анықталмаған болса, онда оның әсері алдыңғы _self қызметімен бірдей болады",
+        "isCorrect": false
+      },
+      {
+        "text": "Көрсетілген файлды келесі жасалған фреймге жүктейді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Фреймдерге сілтеме сілтеме жасайтын <A TARGET=…>TARGET атрибутының _self тұрақты мәні қандай қызмет атқарады?",
+    "options": [
+      {
+        "text": "Көрсетілген файлды сілтеме жасалған фреймге жүктейді",
+        "isCorrect": true
+      },
+      {
+        "text": "Көрсетілген файлды кадрлар құрылымы біріктірілген толық терезеге жүктейді",
+        "isCorrect": false
+      },
+      {
+        "text": "Көрсетілген файлды фреймдерді ашатын түпкі кадрға жүктейді; егер ондай кадр анықталмаған болса, онда оның әсері алдыңғы _self қызметімен бірдей болады",
+        "isCorrect": false
+      },
+      {
+        "text": "Көрсетілген файлды ат қойылмаған жаңа терезеге жүктейді",
+        "isCorrect": false
+      },
+      {
+        "text": "Көрсетілген файлды келесі жасалған фреймге жүктейді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Фреймдерге сілтеме жасайтын <A TARGET=…>тегінің TARGET атрибутының _parent тұрақты мәні қандай қызмет атқарады?",
+    "options": [
+      {
+        "text": "Көрсетілген файлды фреймдерді ашатын түпкі кадрға жүктейді; егер ондай кадр анықталмаған болса, онда оның әсері алдыңғы _self қызметімен бірдей болады",
+        "isCorrect": true
+      },
+      {
+        "text": "Көрсетілген файлды сілтеме жасалған фреймге жүктейді",
+        "isCorrect": false
+      },
+      {
+        "text": "Көрсетілген файлды кадрлар құрылымы біріктірілген толық терезеге жүктейді",
+        "isCorrect": false
+      },
+      {
+        "text": "Көрсетілген файлды ат қойылмаған жаңа терезеге жүктейді; егер ол анықталмаса, онда ол негізге фреймге әсер етеді",
+        "isCorrect": false
+      },
+      {
+        "text": "Көрсетілген файлды келесі жасалған фреймге жүктейді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "<FORM> тегінің METHOD атрибутының атқаратын қызметі қандай?",
+    "options": [
+      {
+        "text": "Форманы өңдейтін программаға қалайша ақпарат жөнелтілетінін көрсетеді",
+        "isCorrect": true
+      },
+      {
+        "text": "Форма мәліметтерін қабылдап алып, оны өңдейтін URL анықтайды",
+        "isCorrect": false
+      },
+      {
+        "text": "Бірнеше жолдан тұрған мәтіндік ақпарат енгізуге мүмкіндік береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Ақпарат атын анықтайды",
+        "isCorrect": false
+      },
+      {
+        "text": "Таңдай операциялары үшін терезе биіктігін анықтайды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML формаларын құрудағы <TEXTAREA> тегінің атқаратын қызметі қандай?",
+    "options": [
+      {
+        "text": "Кез келген тұтынушы бірнеше жолдан тұратын мәтіндік ақпарат енгізе алатын өрісті анықтайды",
+        "isCorrect": true
+      },
+      {
+        "text": "Форма мәліметтерін қабылдап алып, оны өңдейтін URL-ды анықтайды.",
+        "isCorrect": false
+      },
+      {
+        "text": "Мәлімет енгізудің кейбір өзге түрлерін: бір жол мәтін енгізу, жалаушаларды көтеріп қою және мәліметтерді жөнелту сияқты әрекеттерді орындауды қамтамасыз етеді",
+        "isCorrect": false
+      },
+      {
+        "text": "Тұтынушыға жылжымалы жолағы бар терезедегі немесе суырылып шығатын меню ішіндегі бір жолды таңдау мүмкіндігін береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Кез келген тұтынушы бірнеше жалаушадан тұратын форма жасағанда, соның алғашқысын таңдау мүмкіндігін береді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML формаларын құрудағы <FORM>тегінің ACTION атрибутының атқаратын қызметі қандай?",
+    "options": [
+      {
+        "text": "Форма мәліметтерін қабылдап алып, оны өңдейтін URL-ды анықтайды. Егер бұл атрибут анықталмаса, онда мәліметтер форма орналасқан web-парақ адресіне жіберіледі",
+        "isCorrect": true
+      },
+      {
+        "text": "Мәлімет енгізудің кейбір өзге түрлерін: бір жол мәтін енгізу, жалаушалар қою және мәліметтерді жөнелту сияқты әрекеттерді орындауды қамтамасыз етеді",
+        "isCorrect": false
+      },
+      {
+        "text": "Кез келген тұтынушы бірнеше жолдан тұратын мәтіндік ақпарат енгізе алатын өрісті анықтайды",
+        "isCorrect": false
+      },
+      {
+        "text": "Тұтынушыға жылжымалы жолағы бар терезедегі немесе суырылып шығатын меню ішіндегі бір жолды таңдау мүмкіндігін береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Кез келген тұтынушы бірнеше жалаушадан тұратын форма жасап, соның бірін таңдау мүмкіндігін береді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML формаларын құрудағы <INPUT>тегінің атқаратын қызметі қандай?",
+    "options": [
+      {
+        "text": "Мәлімет енгізудің кейбір түрлерін: бір жол мәтін енгізу, жалаушалар қою (check boxes), ажыратып қосқышты таңдау және мәліметтер жөнелту сияқты әрекеттерді орындауды қамтамасыз етеді",
+        "isCorrect": true
+      },
+      {
+        "text": "Форма мәліметтерін қабылдап алып, оны өңдейтін URL-ды анықтайды. Егер бұл атрибут анықталмаса, онда мәліметтер форма орналасқан web-парақ адресіне жіберіледі",
+        "isCorrect": false
+      },
+      {
+        "text": "Кез келген тұтынушы бірнеше жолдан тұратын мәтіндік ақпарат енгізе алатын өрісті анықтайды",
+        "isCorrect": false
+      },
+      {
+        "text": "Тұтынушыға жылжымалы жолағы бар терезедегі немесе суырылып шығатын меню ішіндегі бір жолды таңдау мүмкіндігін береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Кез келген тұтынушы бірнеше жалаушадан тұратын форма жасағанда, соның алғашқысына мәлімет енгізу мүмкіндігін береді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML тілі – қандай тіл",
+    "options": [
+      {
+        "text": "гипермәтінді белгілеу тілі",
+        "isCorrect": true
+      },
+      {
+        "text": "тек дайын браузерлермен ғана жұмыс істеу тілі",
+        "isCorrect": false
+      },
+      {
+        "text": "сілтеме жасау тілі",
+        "isCorrect": false
+      },
+      {
+        "text": "программа құрастыру тілі",
+        "isCorrect": false
+      },
+      {
+        "text": "ақпаратты қорғау тілі",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "“Сырғымалы жолдардың” қайталану санын анықтайтын атрибут...",
+    "options": [
+      {
+        "text": "LOOP",
+        "isCorrect": true
+      },
+      {
+        "text": "SCROLLAMOUNT",
+        "isCorrect": false
+      },
+      {
+        "text": "SCROLLDELAY",
+        "isCorrect": false
+      },
+      {
+        "text": "WІDTH",
+        "isCorrect": false
+      },
+      {
+        "text": "SCROL",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Сырғымалы жолдардағы жылжудың бір қадамында мәтіннің қанша пиксельге жылжитынын анықтайтын атрибут...",
+    "options": [
+      {
+        "text": "SCROLLAMOUNT",
+        "isCorrect": true
+      },
+      {
+        "text": "LOOP",
+        "isCorrect": false
+      },
+      {
+        "text": "SCROLLDELAY",
+        "isCorrect": false
+      },
+      {
+        "text": "WІDTH",
+        "isCorrect": false
+      },
+      {
+        "text": "SCROLL",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Сырғымалы жолдың екі қадамы арасындағы интервалды миллисекундпен көрсететін атрибут...",
+    "options": [
+      {
+        "text": "SCROLLDELAY",
+        "isCorrect": true
+      },
+      {
+        "text": "SCROLLAMOUNT",
+        "isCorrect": false
+      },
+      {
+        "text": "LOOP",
+        "isCorrect": false
+      },
+      {
+        "text": "WІDTH",
+        "isCorrect": false
+      },
+      {
+        "text": "SCROLL",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML тіліндегі “сырғымалы жолдың” енін анықтайтын атрибут, оның мәнін пиксельмен (бүтін сан) де, пайызбен де (%) көрсетуге болады:",
+    "options": [
+      {
+        "text": "WІDTH",
+        "isCorrect": true
+      },
+      {
+        "text": "SCROLLAMOUNT",
+        "isCorrect": false
+      },
+      {
+        "text": "LOOP",
+        "isCorrect": false
+      },
+      {
+        "text": "SCROLLDELAY",
+        "isCorrect": false
+      },
+      {
+        "text": "SCROLL",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Сырғымалы жолдың жылжу бағытын көрсететін атрибут...",
+    "options": [
+      {
+        "text": "DIRECTION",
+        "isCorrect": true
+      },
+      {
+        "text": "SCROLLAMOUNT",
+        "isCorrect": false
+      },
+      {
+        "text": "LOOP",
+        "isCorrect": false
+      },
+      {
+        "text": "SCROLLDELAY",
+        "isCorrect": false
+      },
+      {
+        "text": "SCROLL",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "GIF және JPEG сөздері нені көрсетеді?",
+    "options": [
+      {
+        "text": "графикалық форматтар типтерін көрсетеді",
+        "isCorrect": true
+      },
+      {
+        "text": "мәтін типтерін көрсетеді",
+        "isCorrect": false
+      },
+      {
+        "text": "хабарлама түрін көрсетеді",
+        "isCorrect": false
+      },
+      {
+        "text": "жіберілген қателіктерді көрсетеді",
+        "isCorrect": false
+      },
+      {
+        "text": "суреттік файлдар көлемін көрсетеді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "<OL TYPE=I ...</OL>тізбегі элементтерді қалай нөмірлейді?",
+    "options": [
+      {
+        "text": "үлкен рим цифрларымен",
+        "isCorrect": true
+      },
+      {
+        "text": "араб цифрларымен",
+        "isCorrect": false
+      },
+      {
+        "text": "кіші рим цифрларымен",
+        "isCorrect": false
+      },
+      {
+        "text": "латынның бас әріптерімен",
+        "isCorrect": false
+      },
+      {
+        "text": "латынның кіші әріптерімен",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "<OL ... > тізбегі элементтерді 15-тен бастап нөмірлеу үшін нүктелер орнына қандай атрибут беріледі?",
+    "options": [
+      {
+        "text": "START=15",
+        "isCorrect": true
+      },
+      {
+        "text": "BEGIN=15",
+        "isCorrect": false
+      },
+      {
+        "text": "HEAD=15",
+        "isCorrect": false
+      },
+      {
+        "text": "TITLE=15",
+        "isCorrect": false
+      },
+      {
+        "text": "STARTAMOUNT=15",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML тілінде мынадай сан #FFFFFF қандай түсті білдіреді?",
+    "options": [
+      {
+        "text": "ақ",
+        "isCorrect": true
+      },
+      {
+        "text": "сары",
+        "isCorrect": false
+      },
+      {
+        "text": "жасыл",
+        "isCorrect": false
+      },
+      {
+        "text": "ақшыл",
+        "isCorrect": false
+      },
+      {
+        "text": "көгілдір",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML тілінде мынадай сан #00FF00 қандай түсті білдіреді?",
+    "options": [
+      {
+        "text": "жасыл",
+        "isCorrect": true
+      },
+      {
+        "text": "сары",
+        "isCorrect": false
+      },
+      {
+        "text": "қара",
+        "isCorrect": false
+      },
+      {
+        "text": "көгілдір",
+        "isCorrect": false
+      },
+      {
+        "text": "ақ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML тілінде мынадай сан #0000FF қандай түсті білдіреді?",
+    "options": [
+      {
+        "text": "көк",
+        "isCorrect": true
+      },
+      {
+        "text": "сары",
+        "isCorrect": false
+      },
+      {
+        "text": "қара",
+        "isCorrect": false
+      },
+      {
+        "text": "қызыл",
+        "isCorrect": false
+      },
+      {
+        "text": "ақ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML тілінде мынадай сан #000000 қандай түсті білдіреді?",
+    "options": [
+      {
+        "text": "қара",
+        "isCorrect": true
+      },
+      {
+        "text": "жасыл",
+        "isCorrect": false
+      },
+      {
+        "text": "сары",
+        "isCorrect": false
+      },
+      {
+        "text": "көгілдір",
+        "isCorrect": false
+      },
+      {
+        "text": "ақ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Браузер дегеніміз не?",
+    "options": [
+      {
+        "text": "Гипермәтінді экранға шығарып бейнелейтін арнайы көрсету программалары",
+        "isCorrect": true
+      },
+      {
+        "text": "Тегтер жиынтығы",
+        "isCorrect": false
+      },
+      {
+        "text": "Қосымша элементтерді басқару мақсатында ішіне арнаулы код орналасқан мәтін",
+        "isCorrect": false
+      },
+      {
+        "text": "Құжатты функционалды түрде белгілейтін тіл",
+        "isCorrect": false
+      },
+      {
+        "text": "HTML тілінде жазылған арнаулы файлдар",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Гипермәтіндерді түрлендіре алатын арнайы программалау тілінде жазылған программалық кодтар былай аталады:",
+    "options": [
+      {
+        "text": "скриптер",
+        "isCorrect": true
+      },
+      {
+        "text": "жазбалар",
+        "isCorrect": false
+      },
+      {
+        "text": "тегтер",
+        "isCorrect": false
+      },
+      {
+        "text": "айнымалылар",
+        "isCorrect": false
+      },
+      {
+        "text": "функциялар",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те жеке бір тег үшін берілген стильді қай атрибут арқылы жазамыз?",
+    "options": [
+      {
+        "text": "STYLE",
+        "isCorrect": true
+      },
+      {
+        "text": "CSS",
+        "isCorrect": false
+      },
+      {
+        "text": "SHEETS",
+        "isCorrect": false
+      },
+      {
+        "text": "LINK",
+        "isCorrect": false
+      },
+      {
+        "text": "CASCAD",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Стильдерді (CSS) беру тәсілдерін араластыра пайдаланғанда қайсысы басым болады?",
+    "options": [
+      {
+        "text": "Жеке тег үшін жазылған стиль",
+        "isCorrect": true
+      },
+      {
+        "text": "Жеке HTML-файлға арналған стиль",
+        "isCorrect": false
+      },
+      {
+        "text": "Басқа CSS файлында анықталған стиль",
+        "isCorrect": false
+      },
+      {
+        "text": "Бірнеше HTML-файлдарға арналған стиль",
+        "isCorrect": false
+      },
+      {
+        "text": "Бірнеше тегтерге арналған стиль",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Символдар мөлшерін беретін 1 пункт неше миллиметрге тең?",
+    "options": [
+      {
+        "text": "0,375",
+        "isCorrect": true
+      },
+      {
+        "text": "1/12",
+        "isCorrect": false
+      },
+      {
+        "text": "12",
+        "isCorrect": false
+      },
+      {
+        "text": "1/72",
+        "isCorrect": false
+      },
+      {
+        "text": "2,54",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те sans-serif қандай қаріп түрін көрсетеді?",
+    "options": [
+      {
+        "text": "жұмыр қаріп түрін (шрифт без засечек – рубленый)",
+        "isCorrect": true
+      },
+      {
+        "text": "шығыңқы қаріп түрі (шрифт с засечками – серифный)",
+        "isCorrect": false
+      },
+      {
+        "text": "символдарының ені бірдей қаріп түрі (моноширинный шрифт)",
+        "isCorrect": false
+      },
+      {
+        "text": "альбомдық қаріп түрі (альбомный шрифт)",
+        "isCorrect": false
+      },
+      {
+        "text": "кітаптық қаріп түрі (книжный шрифт)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те serif қандай қаріп түрін көрсетеді?",
+    "options": [
+      {
+        "text": "шығыңқы қаріп түрі (шрифт с засечками – серифный)",
+        "isCorrect": true
+      },
+      {
+        "text": "жұмыр қаріп түрін (шрифт без засечек – рубленый)",
+        "isCorrect": false
+      },
+      {
+        "text": "символдарының ені бірдей қаріп түрі (моноширинный шрифт)",
+        "isCorrect": false
+      },
+      {
+        "text": "альбомдық қаріп түрі (альбомный шрифт)",
+        "isCorrect": false
+      },
+      {
+        "text": "кітаптық қаріп түрі (книжный шрифт)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те стильдердің font-family сипаттамасы арқылы:",
+    "options": [
+      {
+        "text": "қаріп типін өзгертеміз",
+        "isCorrect": true
+      },
+      {
+        "text": "қаріп түсін өзгертеміз",
+        "isCorrect": false
+      },
+      {
+        "text": "фонның түсін өзгертеміз",
+        "isCorrect": false
+      },
+      {
+        "text": "сілтеме жасай аламыз",
+        "isCorrect": false
+      },
+      {
+        "text": "тізімдер құрамыз",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те text-align: right; тіркесі нені білдіреді?",
+    "options": [
+      {
+        "text": "мәтінді оң жақ шетке туралайды",
+        "isCorrect": true
+      },
+      {
+        "text": "мәтінді кез келген орынға қояды",
+        "isCorrect": false
+      },
+      {
+        "text": "мәтінді екі шетке қарай туралайды",
+        "isCorrect": false
+      },
+      {
+        "text": "мәтінді сол жақ шетке туралайды",
+        "isCorrect": false
+      },
+      {
+        "text": "ешнәрсе жасамайды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те font-family: &quotArial Cyr&quot,Geneva, sans-serif; тіркесі қандай әрекет орындауды талап етеді немесе қай қаріп түрін пайдалануды көрсетеді?",
+    "options": [
+      {
+        "text": "Мәтін бірінші кезекте Arial Cyr қарпімен берілуі тиіс, егер ол компью- терде болмаса, сәйкесінше Geneva, sans-serif қаріп түрлерін қолдану керек.",
+        "isCorrect": true
+      },
+      {
+        "text": "Алғашқы абзац Arial Cyr қарпімен, келесісі – Geneva, ал соңғысы – sans-serif қарпімен берілуі тиіс.",
+        "isCorrect": false
+      },
+      {
+        "text": "Тарау тақырыптары Arial Cyr қарпімен, параграф тақырыптары – Geneva қарпімен, ал негізгі мәтін sans-serif қарпімен берілуі тиіс.",
+        "isCorrect": false
+      },
+      {
+        "text": "Программа көрсетілген қаріп түрлерінің кез келгенін пайдалана алады.",
+        "isCorrect": false
+      },
+      {
+        "text": "Қаріп түрінің тек біреуі көрсетілуі тиіс болатын.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те стильдік нұсқауларда пайдаланылатын өлшем бірліктерінің берілу ретіне қарай дұрыс жазылуын көрсету керек: Пика, Пункт, Пиксель, Миллиметр, Сантиметр, Дюйм:",
+    "options": [
+      {
+        "text": "рс, pt, рх, mm, cm, in",
+        "isCorrect": true
+      },
+      {
+        "text": "pic, pt, рiх, mm, cm, duim",
+        "isCorrect": false
+      },
+      {
+        "text": "pa, pn, pc, mm, sm, dm",
+        "isCorrect": false
+      },
+      {
+        "text": "рk, pu, рх, mm, sm, “",
+        "isCorrect": false
+      },
+      {
+        "text": "pica, punkt, mm, cm, dum",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те 1 типографиялық пункт қанша дюймге тең?",
+    "options": [
+      {
+        "text": "1/72",
+        "isCorrect": true
+      },
+      {
+        "text": "1/12",
+        "isCorrect": false
+      },
+      {
+        "text": "1/7",
+        "isCorrect": false
+      },
+      {
+        "text": "1/24",
+        "isCorrect": false
+      },
+      {
+        "text": "1/2",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те жұмыр қаріптер (рубленый шрифт) көбінесе нені жазу үшін пайдаланылады?",
+    "options": [
+      {
+        "text": "тақырыптарды",
+        "isCorrect": true
+      },
+      {
+        "text": "майда ескертпелерді",
+        "isCorrect": false
+      },
+      {
+        "text": "индекстер мен дәрежелерді",
+        "isCorrect": false
+      },
+      {
+        "text": "негізгі мәтінді",
+        "isCorrect": false
+      },
+      {
+        "text": "программалар мәтіндерін",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те шығыңқы қаріптер (шрифт с засечками) көбінесе нені жазу үшін пайдаланылады?",
+    "options": [
+      {
+        "text": "негізгі мәтінді",
+        "isCorrect": true
+      },
+      {
+        "text": "майда ескертпелерді",
+        "isCorrect": false
+      },
+      {
+        "text": "индекстер мен дәрежелерді",
+        "isCorrect": false
+      },
+      {
+        "text": "программалар мәтіндерін",
+        "isCorrect": false
+      },
+      {
+        "text": "тақырыптарды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те ендері бірдей қаріптер (моноширинный шрифт) көбінесе нені жазу үшін пайдаланылады?",
+    "options": [
+      {
+        "text": "программалар мәтіндерін",
+        "isCorrect": true
+      },
+      {
+        "text": "майда ескертпелерді",
+        "isCorrect": false
+      },
+      {
+        "text": "индекстер мен дәрежелерді",
+        "isCorrect": false
+      },
+      {
+        "text": "негізгі мәтінді",
+        "isCorrect": false
+      },
+      {
+        "text": "тақырыптарды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те стильдердегі вorder-style сипаттамасы нені анықтайды:",
+    "options": [
+      {
+        "text": "элементті қоршаған жақтау сызықтардың стилін",
+        "isCorrect": true
+      },
+      {
+        "text": "элементтің өзара орналасу стилін",
+        "isCorrect": false
+      },
+      {
+        "text": "құжат ішіндегі барлық сызықтар стилін",
+        "isCorrect": false
+      },
+      {
+        "text": "құжат ішіндегі барлық мәтін стилін",
+        "isCorrect": false
+      },
+      {
+        "text": "құжат ішіндегі барлық тақырыптар стилін",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те стильдердегі вorder-width сипаттамасы нені анықтайды:",
+    "options": [
+      {
+        "text": "жақтау сызықтарының қалыңдығын",
+        "isCorrect": true
+      },
+      {
+        "text": "элементті қоршап тұратын түзу сызықтар типін",
+        "isCorrect": false
+      },
+      {
+        "text": "жақтау сызықтарының енін",
+        "isCorrect": false
+      },
+      {
+        "text": "жақтау сызықтарының биіктігін",
+        "isCorrect": false
+      },
+      {
+        "text": "жолдағы мәтіндер енін",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те стильдердегі margin сипаттамасы нені анықтайды:",
+    "options": [
+      {
+        "text": "элементтердегі блок шеттерінде бос қалатын өріс енін",
+        "isCorrect": true
+      },
+      {
+        "text": "элементтер алдында қалатын бос өріс енін",
+        "isCorrect": false
+      },
+      {
+        "text": "элементтер артында қалатын бос өріс енін",
+        "isCorrect": false
+      },
+      {
+        "text": "элементтердің астыңғы жағындағы бос өріс енін",
+        "isCorrect": false
+      },
+      {
+        "text": "элементтердің үстіңгі жақтағы бос өріс енін",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те гарнитура дегеніміз:",
+    "options": [
+      {
+        "text": "Бір қаріп символдарының сызылымдары жиыны",
+        "isCorrect": true
+      },
+      {
+        "text": "Кестені жақтау сызығының түсін өзгертуге мүмкіндік беретін атрибут",
+        "isCorrect": false
+      },
+      {
+        "text": "CCS файлдарын сақтайтын арнайы бума",
+        "isCorrect": false
+      },
+      {
+        "text": "Мультимедиалық файлдарды оқуға мүмкіндік беретін программа",
+        "isCorrect": false
+      },
+      {
+        "text": "Кестелерді құруға мүмкіндік беретін атрибут",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-тегі қаріп стильдері:",
+    "options": [
+      {
+        "text": "Font-family, font-size",
+        "isCorrect": true
+      },
+      {
+        "text": "Size, color",
+        "isCorrect": false
+      },
+      {
+        "text": "Courier, background",
+        "isCorrect": false
+      },
+      {
+        "text": "Font-size, color",
+        "isCorrect": false
+      },
+      {
+        "text": "Font-size, background",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-тегі түс стильдері:",
+    "options": [
+      {
+        "text": "Color, background-color",
+        "isCorrect": true
+      },
+      {
+        "text": "Font-family, font-size",
+        "isCorrect": false
+      },
+      {
+        "text": "Size, color",
+        "isCorrect": false
+      },
+      {
+        "text": "Font-size, color",
+        "isCorrect": false
+      },
+      {
+        "text": "Font-size, background",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-тегі мәтін стильдері:",
+    "options": [
+      {
+        "text": "Letter-spacing, line-height, text-align",
+        "isCorrect": true
+      },
+      {
+        "text": "Font-family, font-size",
+        "isCorrect": false
+      },
+      {
+        "text": "Size, color, line-height",
+        "isCorrect": false
+      },
+      {
+        "text": "Color, background-color",
+        "isCorrect": false
+      },
+      {
+        "text": "Font-size, color",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-тегі жақтаулар мен өрістер стильдері:",
+    "options": [
+      {
+        "text": "Border-style, border-color, border-width, margin, padding",
+        "isCorrect": true
+      },
+      {
+        "text": "Font-family, font-size",
+        "isCorrect": false
+      },
+      {
+        "text": "Size, border-style, color",
+        "isCorrect": false
+      },
+      {
+        "text": "Font-size, color, border-width, margin, padding",
+        "isCorrect": false
+      },
+      {
+        "text": "Font-size, background",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те Font-size стилі бізге қандай мүмкіндік береді?",
+    "options": [
+      {
+        "text": "Қаріптің абсолюттік немесе салыстырмалы мөлшерін береді",
+        "isCorrect": true
+      },
+      {
+        "text": "Қаріп түрін өзгертуге мүмкіндік береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Фонның түсін өзгертуге мүмкіндік береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Сілтеме жасауға мүмкіндік береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Тізімдерді құруға мүмкіндік береді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те әріптер арасындағы қашықтықты анықтау үшін қандай стиль қолданылады?",
+    "options": [
+      {
+        "text": "Letter-spacing",
+        "isCorrect": true
+      },
+      {
+        "text": "Font-family",
+        "isCorrect": false
+      },
+      {
+        "text": "Background",
+        "isCorrect": false
+      },
+      {
+        "text": "Line-height",
+        "isCorrect": false
+      },
+      {
+        "text": "Border-style",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те жолдар аралығын (интервалын) тағайындау үшін қандай стиль қолданылады?",
+    "options": [
+      {
+        "text": "Line-height",
+        "isCorrect": true
+      },
+      {
+        "text": "Font-family",
+        "isCorrect": false
+      },
+      {
+        "text": "Background",
+        "isCorrect": false
+      },
+      {
+        "text": "Letter-spacing",
+        "isCorrect": false
+      },
+      {
+        "text": "Border-style",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те мәтінді көлденең туралау тәсілін көрсететін стиль:",
+    "options": [
+      {
+        "text": "Text-align",
+        "isCorrect": true
+      },
+      {
+        "text": "Background",
+        "isCorrect": false
+      },
+      {
+        "text": "Letter-spacing",
+        "isCorrect": false
+      },
+      {
+        "text": "Line-height",
+        "isCorrect": false
+      },
+      {
+        "text": "Border-style",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те элементті қоршап тұрған жақтау сызықтардың типін анықтайтын стиль:",
+    "options": [
+      {
+        "text": "Border-style",
+        "isCorrect": true
+      },
+      {
+        "text": "Font-family",
+        "isCorrect": false
+      },
+      {
+        "text": "Background",
+        "isCorrect": false
+      },
+      {
+        "text": "Letter-spacing",
+        "isCorrect": false
+      },
+      {
+        "text": "Line-height",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те Letter-spacing стилі бізге қандай мүмкіндік береді?",
+    "options": [
+      {
+        "text": "Әріптер арасындағы аралықты анықтау",
+        "isCorrect": true
+      },
+      {
+        "text": "Жолдар аралығын тағайындау",
+        "isCorrect": false
+      },
+      {
+        "text": "Мәтінді көлденең туралау тәсілін көрсетету",
+        "isCorrect": false
+      },
+      {
+        "text": "Элементті қоршап тұрған жақтау сызықтардың түрін анықтау",
+        "isCorrect": false
+      },
+      {
+        "text": "Қаріп түрін өзгерту",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те Border-style стилі бізге қандай мүмкіндік береді?",
+    "options": [
+      {
+        "text": "Элементті қоршап тұрған жақтау сызықтардың түрін анықтау",
+        "isCorrect": true
+      },
+      {
+        "text": "Жолдар аралығын тағайындау",
+        "isCorrect": false
+      },
+      {
+        "text": "Мәтінді көлденең туралау тәсілін көрсетету",
+        "isCorrect": false
+      },
+      {
+        "text": "Әріптер арасындағы аралықты қосымша анықтау",
+        "isCorrect": false
+      },
+      {
+        "text": "Қаріп түрін өзгерту",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те line-height стилі бізге қандай мүмкіндік береді?",
+    "options": [
+      {
+        "text": "Жолдар аралығын (интервал) тағайындау",
+        "isCorrect": true
+      },
+      {
+        "text": "Мәтінді көлденең туралау тәсілін көрсетету",
+        "isCorrect": false
+      },
+      {
+        "text": "Элементті қоршап тұрған жақтау сызықтардың түрін анықтау",
+        "isCorrect": false
+      },
+      {
+        "text": "Әріптер арасындағы аралықты қосымша анықтау",
+        "isCorrect": false
+      },
+      {
+        "text": "Қаріп түрін өзгерту",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те Text-align стилі бізге қандай мүмкіндік береді?",
+    "options": [
+      {
+        "text": "Мәтінді көлденең туралау тәсілін көрсетету",
+        "isCorrect": true
+      },
+      {
+        "text": "Жолдар аралығын тағайындау",
+        "isCorrect": false
+      },
+      {
+        "text": "Элементті қоршап тұрған жақтау сызықтардың түрін анықтау",
+        "isCorrect": false
+      },
+      {
+        "text": "Әріптер арасындағы аралықты қосымша анықтау",
+        "isCorrect": false
+      },
+      {
+        "text": "Қаріп түрін өзгерту",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те Border-style: none тіркесі нені білдіреді?",
+    "options": [
+      {
+        "text": "Элементті қоршаған жақтау сызығы жоқ",
+        "isCorrect": true
+      },
+      {
+        "text": "Элементті қоршаған жақтау сызығының түсі қара",
+        "isCorrect": false
+      },
+      {
+        "text": "Элементті қоршаған жақтау сызығының қалыңдығы жуан",
+        "isCorrect": false
+      },
+      {
+        "text": "Элементті жақтау сызығының қалыңдығы орташа",
+        "isCorrect": false
+      },
+      {
+        "text": "Элементті жақтау сызығының қалыңдығы жіңішке",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те Border-style: solid; тіркесі нені білдіреді:",
+    "options": [
+      {
+        "text": "Элементті жақтау сызығының кәдімгі түрі (обычная)",
+        "isCorrect": true
+      },
+      {
+        "text": "Элементті жақтау сызығының түсі қара",
+        "isCorrect": false
+      },
+      {
+        "text": "Элементті жақтау сызығының қалыңдығы жуан",
+        "isCorrect": false
+      },
+      {
+        "text": "Элементті жақтау сызығының қалыңдығы орташа",
+        "isCorrect": false
+      },
+      {
+        "text": "Элементті жақтау сызығының қалыңдығы жіңішке",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS. Жақтау сызығының қалыңдығын беретін стиль:",
+    "options": [
+      {
+        "text": "Border-width",
+        "isCorrect": true
+      },
+      {
+        "text": "Font-family",
+        "isCorrect": false
+      },
+      {
+        "text": "Background",
+        "isCorrect": false
+      },
+      {
+        "text": "Line-height",
+        "isCorrect": false
+      },
+      {
+        "text": "Border-style",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те Border-width стилі бізге қандай мүмкіндік береді?",
+    "options": [
+      {
+        "text": "Жақтау сызығының қалындығын өзгерту",
+        "isCorrect": true
+      },
+      {
+        "text": "Элементті қоршап тұрған жақтау сызықтардың түрін анықтау",
+        "isCorrect": false
+      },
+      {
+        "text": "Жолдар аралығын тағайындау",
+        "isCorrect": false
+      },
+      {
+        "text": "Мәтінді көлденең туралау тәсілін көрсетету",
+        "isCorrect": false
+      },
+      {
+        "text": "Қаріп түрін өзгерту",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те Border-width: thick ; жазуы нені білдіреді:",
+    "options": [
+      {
+        "text": "Элементті жақтау сызығының қалындығы жуан",
+        "isCorrect": true
+      },
+      {
+        "text": "Элементті жақтау сызығының түсі қара",
+        "isCorrect": false
+      },
+      {
+        "text": "Элементті жақтау сызығының жалпы түрі (обычная)",
+        "isCorrect": false
+      },
+      {
+        "text": "Элементті жақтау сызығының қалындығы орташа",
+        "isCorrect": false
+      },
+      {
+        "text": "Элементті жақтау сызығының қалындығы жіңішке",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те margin стилі бізге қандай мүмкіндік береді?",
+    "options": [
+      {
+        "text": "Элементтегі блок шеттерінде бос қалатын өріс енін анықтау",
+        "isCorrect": true
+      },
+      {
+        "text": "Жолдар аралығын тағайындау",
+        "isCorrect": false
+      },
+      {
+        "text": "Мәтінді көлденең туралау тәсілін көрсетету",
+        "isCorrect": false
+      },
+      {
+        "text": "Элементті қоршап тұрған жақтау сызықтардың түрін анықтау",
+        "isCorrect": false
+      },
+      {
+        "text": "Әріптер арасындағы аралықты қосымша анықтау",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те padding стилі бізге қандай мүмкіндік береді?",
+    "options": [
+      {
+        "text": "Элемент пен жақтау арасындағы қашықтықты анықтау",
+        "isCorrect": true
+      },
+      {
+        "text": "Жолдар аралығын тағайындау",
+        "isCorrect": false
+      },
+      {
+        "text": "Элементті қоршап тұрған жақтау сызықтардың түрін анықтау",
+        "isCorrect": false
+      },
+      {
+        "text": "Әріптер арасындағы аралықты қосымша анықтау",
+        "isCorrect": false
+      },
+      {
+        "text": "Қаріп түрін өзгерту",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те <DIV> тегі құжаттың жеке бөліктерін ерекшелеп, . . .",
+    "options": [
+      {
+        "text": "оларды жаңа жолға көшіреді",
+        "isCorrect": true
+      },
+      {
+        "text": "олар бұрынғы жолда қала береді",
+        "isCorrect": false
+      },
+      {
+        "text": "оларды бояуға мүмкіндік береді",
+        "isCorrect": false
+      },
+      {
+        "text": "олардың өлшемін өзгертуге мүмкіндік береді",
+        "isCorrect": false
+      },
+      {
+        "text": "оларды сырғымалы жолдар түрінде қолдануға мүмкіндіктер береді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те <SPAN> тегтері құжаттың жеке бөліктерін ерекшелеп, . . .",
+    "options": [
+      {
+        "text": "Олар бұрынғы жолда қала береді",
+        "isCorrect": true
+      },
+      {
+        "text": "Оларды жаңа жолға көшіреді",
+        "isCorrect": false
+      },
+      {
+        "text": "Оларды бояуға мүмкіндік береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Олардың өлшемін өзгертуге мүмкіндік береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Оларды сығырмалы жолдар түрінде қолдануға мүмкіндіктер береді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "?CSS. Экрандағы элементтің қай деңгейде орналасуы керек екендігін анықтайтын стильдік қасиет:",
+    "options": [
+      {
+        "text": "Z-index",
+        "isCorrect": true
+      },
+      {
+        "text": "Font-family",
+        "isCorrect": false
+      },
+      {
+        "text": "Background",
+        "isCorrect": false
+      },
+      {
+        "text": "Line-height",
+        "isCorrect": false
+      },
+      {
+        "text": "Border-style",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те салыстырмалы түрде орналастыру дегеніміз:",
+    "options": [
+      {
+        "text": "Координата басы ретінде элементтің позицияланбаған кездегі орналасатын нүктесі қабылданады",
+        "isCorrect": true
+      },
+      {
+        "text": "Элементтің бастапқы координатасы тікелей сыртқы элемент аймағының жоғарғы сол жақ бұрышы болады.",
+        "isCorrect": false
+      },
+      {
+        "text": "Элемент мәтіннің не басқа элементтің үстіне орналасады",
+        "isCorrect": false
+      },
+      {
+        "text": "Элемент фон ретінде қолданылады",
+        "isCorrect": false
+      },
+      {
+        "text": "Элементке сілтеме жасалынады",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те салыстырмалы орналастыру нұсқауы:",
+    "options": [
+      {
+        "text": "Position: relative",
+        "isCorrect": true
+      },
+      {
+        "text": "Position: absolute",
+        "isCorrect": false
+      },
+      {
+        "text": "Position {abs}",
+        "isCorrect": false
+      },
+      {
+        "text": "Position {rel}",
+        "isCorrect": false
+      },
+      {
+        "text": "Position [absolute]",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те абсолютті орналастыру нұсқауы:",
+    "options": [
+      {
+        "text": "Position: absolute",
+        "isCorrect": true
+      },
+      {
+        "text": "Position: relative",
+        "isCorrect": false
+      },
+      {
+        "text": "Position {abs}",
+        "isCorrect": false
+      },
+      {
+        "text": "Position {rel}",
+        "isCorrect": false
+      },
+      {
+        "text": "Position [absolute]",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те Absolute [relative] жазуы нені білдіреді?",
+    "options": [
+      {
+        "text": "Абсолюттік орналастыру ішіндегі салыстырмалы орналастыру",
+        "isCorrect": true
+      },
+      {
+        "text": "Салыстырмалы орналастыру ішіндегі абсолютті орналастыру",
+        "isCorrect": false
+      },
+      {
+        "text": "Абсолюттік орналастыру ішіндегі абсолют орналастыру",
+        "isCorrect": false
+      },
+      {
+        "text": "Салыстырмалы орналасу ішіндегі салыстырмалы орналастыру",
+        "isCorrect": false
+      },
+      {
+        "text": "Осылай жазуға болмайды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те Absolute [аbsolute] жазуы нені білдіреді?",
+    "options": [
+      {
+        "text": "Абсолюттік орналастыру ішіндегі абсолют орналастыру",
+        "isCorrect": true
+      },
+      {
+        "text": "Абсолюттік орналастыру ішіндегі салыстырмалы орналастыру",
+        "isCorrect": false
+      },
+      {
+        "text": "Салыстырмалы орналастыру ішіндегі абсолютті орналасытру",
+        "isCorrect": false
+      },
+      {
+        "text": "Салыстырмалы орналасу ішіндегі салыстырмалы орналастыру",
+        "isCorrect": false
+      },
+      {
+        "text": "Бұлай жазуға болмайды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те Relative [relative] жазуы нені білдіреді?",
+    "options": [
+      {
+        "text": "Салыстырмалы орналасу ішіндегі салыстырмалы орналастыру",
+        "isCorrect": true
+      },
+      {
+        "text": "Абсолюттік орналастыру ішіндегі салыстырмалы орналастыру",
+        "isCorrect": false
+      },
+      {
+        "text": "Салыстырмалы орналастыру ішіндегі абсолютті орналасытру",
+        "isCorrect": false
+      },
+      {
+        "text": "Абсолюттік орналастыру ішіндегі абсолют орналастыру",
+        "isCorrect": false
+      },
+      {
+        "text": "Бұлай жазуға болмайды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те Relative [absolute] жазуы нені білдіреді?",
+    "options": [
+      {
+        "text": "Салыстырмалы орналастыру ішіндегі абсолютті орналасытру",
+        "isCorrect": true
+      },
+      {
+        "text": "Абсолюттік орналастыру ішіндегі абсолют орналастыру",
+        "isCorrect": false
+      },
+      {
+        "text": "Абсолюттік орналастыру ішіндегі салыстырмалы орналастыру",
+        "isCorrect": false
+      },
+      {
+        "text": "Салыстырмалы орналасу ішіндегі салыстырмалы орналастыру",
+        "isCorrect": false
+      },
+      {
+        "text": "Бұлай жазуға болмайды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. <script>…</script>тегтері не үшін қажет:",
+    "options": [
+      {
+        "text": "Скриптер енгізу үшін",
+        "isCorrect": true
+      },
+      {
+        "text": "Коментарий енгізу үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Формалар жасау үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Сығырмалы жолдарды жасау үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "HTML-да осындай скриптер қолданылмайды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript тілінде alert(‘It\\‘s Ok!’); жолы қандай нәтиже береді?",
+    "options": [
+      {
+        "text": "It‘s Ok",
+        "isCorrect": true
+      },
+      {
+        "text": "It is OK",
+        "isCorrect": false
+      },
+      {
+        "text": "‘It‘s OK’",
+        "isCorrect": false
+      },
+      {
+        "text": "“It‘s OK”",
+        "isCorrect": false
+      },
+      {
+        "text": "i\\s OK",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript тілінде шығарылатын жазбаны жаңа жолға көшіру үшін мынадай таңбалар қолданылады:",
+    "options": [
+      {
+        "text": "\\n",
+        "isCorrect": true
+      },
+      {
+        "text": "\\‘",
+        "isCorrect": false
+      },
+      {
+        "text": "n.",
+        "isCorrect": false
+      },
+      {
+        "text": "&quot+&quot",
+        "isCorrect": false
+      },
+      {
+        "text": "&quot&quot",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Төмендегі программалық кодтың нәтижесі қандай? <script language=&quotJavaScript&quot&gt <!-- var x =&quot60\" var y=20; alert(x+y); //--&gt </script>",
+    "options": [
+      {
+        "text": "&quot60&quot+20",
+        "isCorrect": true
+      },
+      {
+        "text": "6020",
+        "isCorrect": false
+      },
+      {
+        "text": "60",
+        "isCorrect": false
+      },
+      {
+        "text": "20",
+        "isCorrect": false
+      },
+      {
+        "text": "80",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript тілінде х % 3 деген жазу нені білдіреді?",
+    "options": [
+      {
+        "text": "х-ті 3-ке бөлгендегі қалдықты табу",
+        "isCorrect": true
+      },
+      {
+        "text": "х-тің 3 пайызын табу",
+        "isCorrect": false
+      },
+      {
+        "text": "х-ті 3-ке бөлу",
+        "isCorrect": false
+      },
+      {
+        "text": "х-тің өсу қадамы 3-ке тең",
+        "isCorrect": false
+      },
+      {
+        "text": "х-тің кему қадамы 3-ке тең",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Java Script тілінде коментарий енгізу үшін қандай символдар қолданылады?",
+    "options": [
+      {
+        "text": "/ … /",
+        "isCorrect": true
+      },
+      {
+        "text": "// … //",
+        "isCorrect": false
+      },
+      {
+        "text": "( )",
+        "isCorrect": false
+      },
+      {
+        "text": "{ ... }",
+        "isCorrect": false
+      },
+      {
+        "text": "[ ... ]",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript тілінде var x=2; var y= x + +; тіркесі берілген. Осылардың нәтижесінде х және у мәндері нешеге тең болады?",
+    "options": [
+      {
+        "text": "y = 2, x = 3",
+        "isCorrect": true
+      },
+      {
+        "text": "y = 3, x = 3",
+        "isCorrect": false
+      },
+      {
+        "text": "y = 2, x = 2",
+        "isCorrect": false
+      },
+      {
+        "text": "y = 1, x = 2",
+        "isCorrect": false
+      },
+      {
+        "text": "y = 3, x = 2",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript.Төмендегілердің нәтижесінде х және у мәндері нешеге тең болады? var x=2; var y= + + x;",
+    "options": [
+      {
+        "text": "y = 3, x = 3",
+        "isCorrect": true
+      },
+      {
+        "text": "y = 2, x = 2",
+        "isCorrect": false
+      },
+      {
+        "text": "y = 2, x = 3",
+        "isCorrect": false
+      },
+      {
+        "text": "y = 1, x = 2",
+        "isCorrect": false
+      },
+      {
+        "text": "y = 3, x = 2",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Төмендегілердің нәтижесінде х және у мәндері нешеге тең болады? var x=2; var y= x - - ;",
+    "options": [
+      {
+        "text": "y = 2, x = 1",
+        "isCorrect": true
+      },
+      {
+        "text": "y = 3, x = 3",
+        "isCorrect": false
+      },
+      {
+        "text": "y = 2, x = 2",
+        "isCorrect": false
+      },
+      {
+        "text": "y = 1, x = 2",
+        "isCorrect": false
+      },
+      {
+        "text": "y = 3, x = 2",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript.Төмендегілердің нәтижесінде х және у мәндері нешеге тең болады? var x=2; var y= - -x;",
+    "options": [
+      {
+        "text": "y = 1, x = 1",
+        "isCorrect": true
+      },
+      {
+        "text": "y = 3, x = 3",
+        "isCorrect": false
+      },
+      {
+        "text": "y = 2, x = 2",
+        "isCorrect": false
+      },
+      {
+        "text": "y = 2, x = 3",
+        "isCorrect": false
+      },
+      {
+        "text": "y = 3, x = 2",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Мына жазу нені білдіреді: х + = 11;",
+    "options": [
+      {
+        "text": "х = x + 11;",
+        "isCorrect": true
+      },
+      {
+        "text": "х = x + 1;",
+        "isCorrect": false
+      },
+      {
+        "text": "х = x + 1 + 2 + 3 +…+11;",
+        "isCorrect": false
+      },
+      {
+        "text": "x = 11 + 10 + 9 +…+x;",
+        "isCorrect": false
+      },
+      {
+        "text": "Дұрыс жауап жоқ",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript тілінде айнымалыларды сипаттау үшін қандай түйінді сөз қолданылады?",
+    "options": [
+      {
+        "text": "var",
+        "isCorrect": true
+      },
+      {
+        "text": "alert",
+        "isCorrect": false
+      },
+      {
+        "text": "prompt",
+        "isCorrect": false
+      },
+      {
+        "text": "concat",
+        "isCorrect": false
+      },
+      {
+        "text": "slice",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Мынадай фрагмент берілген: var x=1; var y; y = (x + = 2) +1; Сонда х пен у айнымалылардың мәндері неге тең?",
+    "options": [
+      {
+        "text": "x = 3, y = 4",
+        "isCorrect": true
+      },
+      {
+        "text": "x = 2, y = 3",
+        "isCorrect": false
+      },
+      {
+        "text": "x = 3, y = 3",
+        "isCorrect": false
+      },
+      {
+        "text": "x = 4, y = 4",
+        "isCorrect": false
+      },
+      {
+        "text": "x = 4, y = 3",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript тілінде программаға мәлімет енгізетін функция:",
+    "options": [
+      {
+        "text": "prompt()",
+        "isCorrect": true
+      },
+      {
+        "text": "alert()",
+        "isCorrect": false
+      },
+      {
+        "text": "concat()",
+        "isCorrect": false
+      },
+      {
+        "text": "slice()",
+        "isCorrect": false
+      },
+      {
+        "text": "var()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript тілінде prompt() функциясының неше аргументі бар?",
+    "options": [
+      {
+        "text": "2",
+        "isCorrect": true
+      },
+      {
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "text": "5",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Төменде көрсетілген таңбалардың қайсысы JavaScript тілінде логикалық ЖӘНЕ операциясын белгілейді?",
+    "options": [
+      {
+        "text": "&&",
+        "isCorrect": true
+      },
+      {
+        "text": "||",
+        "isCorrect": false
+      },
+      {
+        "text": "??",
+        "isCorrect": false
+      },
+      {
+        "text": "//",
+        "isCorrect": false
+      },
+      {
+        "text": "!",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Төменде көрсетілген таңбалардың қайсысы JavaScript тілінде логикалық НЕМЕСЕ операциясын белгілейді?",
+    "options": [
+      {
+        "text": "||",
+        "isCorrect": true
+      },
+      {
+        "text": "??",
+        "isCorrect": false
+      },
+      {
+        "text": "//",
+        "isCorrect": false
+      },
+      {
+        "text": "&&",
+        "isCorrect": false
+      },
+      {
+        "text": "!",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Төменде көрсетілген белгілердің қайсысы JavaScript тілінде логикалық ТЕРІСТЕУ операциясын белгілейді?",
+    "options": [
+      {
+        "text": "!",
+        "isCorrect": true
+      },
+      {
+        "text": "||",
+        "isCorrect": false
+      },
+      {
+        "text": "??",
+        "isCorrect": false
+      },
+      {
+        "text": "//",
+        "isCorrect": false
+      },
+      {
+        "text": "&&",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript тілінде жүйелі жақшаға {} алынған командалар тізбегі қалай аталады?",
+    "options": [
+      {
+        "text": "блок",
+        "isCorrect": true
+      },
+      {
+        "text": "тізбег",
+        "isCorrect": false
+      },
+      {
+        "text": "функция",
+        "isCorrect": false
+      },
+      {
+        "text": "тәсіл",
+        "isCorrect": false
+      },
+      {
+        "text": "шарт",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript тілінде экранға екі батырмасы (ОК және ОТМЕНА) бар терезе шығаратын функция:",
+    "options": [
+      {
+        "text": "confirm()",
+        "isCorrect": true
+      },
+      {
+        "text": "alert()",
+        "isCorrect": false
+      },
+      {
+        "text": "prompt()",
+        "isCorrect": false
+      },
+      {
+        "text": "slice()",
+        "isCorrect": false
+      },
+      {
+        "text": "var()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript тілінде сonfirm() функциясы не үшін қолданылады?",
+    "options": [
+      {
+        "text": "ОК және ОТМЕНА батырмалары бар терезе шығарылады",
+        "isCorrect": true
+      },
+      {
+        "text": "Бір ғана ОК батырмасы бар терезе шығарады",
+        "isCorrect": false
+      },
+      {
+        "text": "Ол ақпаратты енгізу үшін қолданылатын функция",
+        "isCorrect": false
+      },
+      {
+        "text": "Көлемді мәтінді экранға шығаратын функция",
+        "isCorrect": false
+      },
+      {
+        "text": "Айнымалыларды сипаттау үшін қолданылады",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript тіліндегі prompt() функциясы қандай қызмет атқарады?",
+    "options": [
+      {
+        "text": "Ол ақпаратты енгізу үшін қолданылатын функция",
+        "isCorrect": true
+      },
+      {
+        "text": "Бір ғана ОК батырмасы бар терезе шығарады",
+        "isCorrect": false
+      },
+      {
+        "text": "ОК және ОТМЕНА батырмалары бар терезе шығарылады",
+        "isCorrect": false
+      },
+      {
+        "text": "Көлемді мәтінді экранға шығаратын функция",
+        "isCorrect": false
+      },
+      {
+        "text": "Айнымалыларды сипаттау үшін қолданылады",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript тіліндегі for циклінің жалпы жазылу түрі:",
+    "options": [
+      {
+        "text": "for (цикл басы; шарт; қадамы) команда;",
+        "isCorrect": true
+      },
+      {
+        "text": "for ( шарт ) команда;",
+        "isCorrect": false
+      },
+      {
+        "text": "for ( цикл басы; шарт ) команда;",
+        "isCorrect": false
+      },
+      {
+        "text": "for ( шарт; қадамы ) команда;",
+        "isCorrect": false
+      },
+      {
+        "text": "for ( шарт ) команда;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript тіліндегі while циклінің жалпы жазылу түрі:",
+    "options": [
+      {
+        "text": "while ( шарт ) команда;",
+        "isCorrect": true
+      },
+      {
+        "text": "while (цикл басы; шарт; қадамы)",
+        "isCorrect": false
+      },
+      {
+        "text": "while ( шарт )",
+        "isCorrect": false
+      },
+      {
+        "text": "while ( цикл басы; шарт)",
+        "isCorrect": false
+      },
+      {
+        "text": "while ( шарт; қадамы )",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript тіліндегі экранға шығарылатын мәндердің барлығын бір терезеде орналастыру үшін alert() функциясының орнына қандай команда жазу керек?",
+    "options": [
+      {
+        "text": "document.write()",
+        "isCorrect": true
+      },
+      {
+        "text": "alert.write()",
+        "isCorrect": false
+      },
+      {
+        "text": "prompt()",
+        "isCorrect": false
+      },
+      {
+        "text": "concat()",
+        "isCorrect": false
+      },
+      {
+        "text": "slice()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "РІ константасы үшін JavaScript тілінде қандай қасиет қолданылады?",
+    "options": [
+      {
+        "text": "Math.PI",
+        "isCorrect": true
+      },
+      {
+        "text": "Math.E",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.LN10",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.SQRT314_10",
+        "isCorrect": false
+      },
+      {
+        "text": "Math( 14)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "е = 71828 константасы үшін JavaScript тілінде қандай қасиет қолданылады?",
+    "options": [
+      {
+        "text": "Math.E",
+        "isCorrect": true
+      },
+      {
+        "text": "Math.PI",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.exp",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.SQRT2_71",
+        "isCorrect": false
+      },
+      {
+        "text": "Math( 71828)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "10 санының натуралдық логарифмі үшін JavaScript тілінде қандай қасиет қолданылады?",
+    "options": [
+      {
+        "text": "Math.LN10",
+        "isCorrect": true
+      },
+      {
+        "text": "Math.PI",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.E",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.SQRT314_10",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.sin( 14)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Аргументтің квадрат түбірі үшін JavaScript тілінде қандай тәсіл қолданылады?",
+    "options": [
+      {
+        "text": "Math.sqrt()",
+        "isCorrect": true
+      },
+      {
+        "text": "Math.sqr()",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.E()",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.Ln()",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.sin()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "x санының синусын табу үшін JavaScript тілінде қандай тәсіл қолданылады?",
+    "options": [
+      {
+        "text": "Math.sin(x)",
+        "isCorrect": true
+      },
+      {
+        "text": "Math.asin()",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.sinus()",
+        "isCorrect": false
+      },
+      {
+        "text": "Math(x)",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.SQRT(x)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "ex табу үшін JavaScript тілінде қандай тәсіл қолданылады?",
+    "options": [
+      {
+        "text": "Math. exp(х)",
+        "isCorrect": true
+      },
+      {
+        "text": "Math.e(x)",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.E(x)",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.ex()",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.exp",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Аргументке ең жақын одан үлкен немесе соған тең бүтін санды табу үшін JavaScript тілінде қандай тәсіл қолданылады?",
+    "options": [
+      {
+        "text": "Math.ceil(arg)",
+        "isCorrect": true
+      },
+      {
+        "text": "Math&gt=(arg)",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.floor(arg)",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.exp(arg)",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.sin(arg)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Аргументке ең жақын одан кіші немесе соған тең санды табу үшін Ja- vaScript тілінде қандай тәсіл қолданылады?",
+    "options": [
+      {
+        "text": "Math.floor(arg)",
+        "isCorrect": true
+      },
+      {
+        "text": "Math<=(arg)",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.ceil(arg)",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.exp(arg)",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.sin(arg)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Аргументті оған ең жақын бүтін санға дейін дөңгелектеу үшін JavaScript тілінде қандай тәсіл қолданылады?",
+    "options": [
+      {
+        "text": "Math.round(arg)",
+        "isCorrect": true
+      },
+      {
+        "text": "Math.floor()",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.ceil(arg)",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.exp(arg)",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.cel(arg)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "x^(n) мәнін табу үшін JavaScript тілінде қандай тәсіл қолданылады?",
+    "options": [
+      {
+        "text": "Math.pow(x,n)",
+        "isCorrect": true
+      },
+      {
+        "text": "Math.round(x,n)",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.floor(x,n)",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.exp(x,n)",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.ceil(x,n)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript терминологиясында тәсілдер мен қасиеттер жиыны – бұл :",
+    "options": [
+      {
+        "text": "Объект",
+        "isCorrect": true
+      },
+      {
+        "text": "Функция",
+        "isCorrect": false
+      },
+      {
+        "text": "Аргумент",
+        "isCorrect": false
+      },
+      {
+        "text": "Инкапсуляция",
+        "isCorrect": false
+      },
+      {
+        "text": "Экземпляр",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Date объектісі не үшін қолданылады?",
+    "options": [
+      {
+        "text": "Күн-ай мерзімімен және уақытпен жұмыс істеу үшін",
+        "isCorrect": true
+      },
+      {
+        "text": "Квадрат жасау үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Тіктөртбұрыш жасау үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Жиыммен жұмыс істеу үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Мәліметтерді өңдеу үшін",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Array объектісі не үшін қолданылады?",
+    "options": [
+      {
+        "text": "Жиыммен жұмыс істеу үшін",
+        "isCorrect": true
+      },
+      {
+        "text": "Квадрат жасау үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Тіктөртбұрыш жасау үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Күн-ай мерзімімен және уақытпен жұмыс істеу үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Мәліметтерді өңдеу үшін",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Мынадай программалық код қандай нәтиже береді? var d = new Date(2005,1,2); var y = d.getYear(); alert(y);",
+    "options": [
+      {
+        "text": "2005",
+        "isCorrect": true
+      },
+      {
+        "text": "2005/1/2",
+        "isCorrect": false
+      },
+      {
+        "text": "05/1/2",
+        "isCorrect": false
+      },
+      {
+        "text": "жыл = = 2005",
+        "isCorrect": false
+      },
+      {
+        "text": "2006",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Мынадай программалық код бізге қандай нәтиже береді? var d = new Date(); d.setMonth(4); alert(d.getMonth());",
+    "options": [
+      {
+        "text": "4",
+        "isCorrect": true
+      },
+      {
+        "text": "Апрель",
+        "isCorrect": false
+      },
+      {
+        "text": "Сәуір",
+        "isCorrect": false
+      },
+      {
+        "text": "Май",
+        "isCorrect": false
+      },
+      {
+        "text": "5",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. setMonth() тәсілі не береді?",
+    "options": [
+      {
+        "text": "Ай нөмірін тағайындайды",
+        "isCorrect": true
+      },
+      {
+        "text": "Ай нөмірін береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Апта күнін береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Ай атын береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Апта күнін тағайындайды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Sort, concat, reverse, join, slice бұл қай объектінің тәсілдері?",
+    "options": [
+      {
+        "text": "Array",
+        "isCorrect": true
+      },
+      {
+        "text": "Date",
+        "isCorrect": false
+      },
+      {
+        "text": "Rectangle",
+        "isCorrect": false
+      },
+      {
+        "text": "Kvadrat",
+        "isCorrect": false
+      },
+      {
+        "text": "String",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Sort тәсілінің атқаратын қызметі:",
+    "options": [
+      {
+        "text": "Жиым элементтері өсу немесе лексографикалық тәртіпте орналастырады",
+        "isCorrect": true
+      },
+      {
+        "text": "Ол бастапқы жиымды өзгертпей, жиым элементтерін &quotразделитель&quot арқылы бөліп жібереді",
+        "isCorrect": false
+      },
+      {
+        "text": "Жиым элементтерін оның 1-элементі соңғысы болатындай етіп кері бағытта орын ауыстырып береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Бұрынғы жиымға array жиымы қосылған жаңа жиым жасап жібереді",
+        "isCorrect": false
+      },
+      {
+        "text": "Бастапқы жиымнан бір позициядан бастап екінші позицияға дейінгі элементтерден тұратын жаңа жиым жасап жібереді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript тіліндегі reverse тәсілінің атқаратын қызметі:",
+    "options": [
+      {
+        "text": "Жиым элементтерін оның 1-элементі соңғысы болатындай етіп кері бағытта орын ауыстырып береді",
+        "isCorrect": true
+      },
+      {
+        "text": "Ол бастапқы жиымды өзгертпей, жиым элементтерін &quotразделитель&quot арқылы бөліп жібереді",
+        "isCorrect": false
+      },
+      {
+        "text": "Бұрынғы жиымға array жиымы қосылған жаңа жиым жасап жібереді",
+        "isCorrect": false
+      },
+      {
+        "text": "Жиым элементтері өсу немесе лексографикалық тәртіпте орналастырады",
+        "isCorrect": false
+      },
+      {
+        "text": "астапқы жиымнан бір позициядан бастап екінші позицияға дейінгі элементтерден тұратын жаңа жиым жасап жібереді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript тіліндегі slice ( ind1, ind2 ) тәсілінің атқаратын қызметі:",
+    "options": [
+      {
+        "text": "Бастапқы жиымдағы ind1 позициясынан бастап ind2-1 позициясына дейінгі элементтерден тұратын жаңа жиым жасап жібереді",
+        "isCorrect": true
+      },
+      {
+        "text": "Ол бастапқы жиымды өзгертпей, жиым элементтерін &quotажыратқыш&quot арқылы бөліп жібереді",
+        "isCorrect": false
+      },
+      {
+        "text": "Жиым элементтерін оның 1-элементі соңғысы болатындай етіп кері бағытта орын ауыстырып береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Бұрынғы жиымға array жиымы қосылған жаңа жиым жасап жібереді",
+        "isCorrect": false
+      },
+      {
+        "text": "Жиым элементтері өсу немесе лексографикалық тәртіпте орналастырады",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript тіліндегі join (ажыратқыш) тәсілінің атқаратын қызметі:",
+    "options": [
+      {
+        "text": "Ол бастапқы жиымды өзгертпей, жиым элементтерін &quotажыратқыш&quot арқылы бөліп орналастырады",
+        "isCorrect": true
+      },
+      {
+        "text": "Жиым элементтерін оның 1-элементі соңғысы болатындай етіп кері бағытта орын ауыстырып береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Бұрынғы жиымға array жиымы қосылған жаңа жиым жасап жібереді",
+        "isCorrect": false
+      },
+      {
+        "text": "Жиым элементтері өсу немесе лексографикалық тәртіпте орналастырады",
+        "isCorrect": false
+      },
+      {
+        "text": "Бастапқы жиымдағы бірінші позициядан бастап екінші позицияға дейінгі элементтерден тұратын жаңа жиым жасап жібереді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript тіліндегі concat (array) тәсілінің атқаратын қызметі:",
+    "options": [
+      {
+        "text": "Бұрынғы жиымға array жиымы қосылған жаңа жиым жасап жібереді",
+        "isCorrect": true
+      },
+      {
+        "text": "Ол бастапқы жиымды өзгертпей, жиым элементтерін &quotразделитель&quot арқылы бөліп жібереді",
+        "isCorrect": false
+      },
+      {
+        "text": "Жиым элементтерін оның 1-элементі соңғысы болатындай етіп кері бағытта орын ауыстырып береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Жиым элементтері өсу немесе лексографикалық тәртіпте орналастырады",
+        "isCorrect": false
+      },
+      {
+        "text": "Бастапқы жиымнан бір позициядан бастап екінші позицияға дейінгі элементтерден тұратын жаңа жиым жасап жібереді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript тіліндегі length тәсілінің атқаратын қызметі:",
+    "options": [
+      {
+        "text": "Жиым ұзындығын береді",
+        "isCorrect": true
+      },
+      {
+        "text": "Ол бастапқы жиымды өзгертпей, жиым элементтерін &quotразделитель&quot арқылы бөліп жібереді",
+        "isCorrect": false
+      },
+      {
+        "text": "Жиым элементтерін оның 1-элементі соңғысы болатындай етіп кері бағытта орын ауыстырып береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Жиым элементтері өсу немесе лексографикалық тәртіпте орналастырады",
+        "isCorrect": false
+      },
+      {
+        "text": "Бастапқы жиымнан бір позициядан бастап екінші позицияға дейінгі элементтерден тұратын жаңа жиым жасап жібереді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Бастапқы жиымды өзгертпей, жиым элементтерін &quotажыратқыш&quot (разделитель) арқылы бөліп жіберетін тәсіл:",
+    "options": [
+      {
+        "text": "join",
+        "isCorrect": true
+      },
+      {
+        "text": "slice",
+        "isCorrect": false
+      },
+      {
+        "text": "reverse",
+        "isCorrect": false
+      },
+      {
+        "text": "concat",
+        "isCorrect": false
+      },
+      {
+        "text": "sort",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Жиым элементтерін оның 1-элементі соңғысы болатындай етіп кері бағытта орын ауыстырып беретін тәсіл:",
+    "options": [
+      {
+        "text": "reverse",
+        "isCorrect": true
+      },
+      {
+        "text": "slice",
+        "isCorrect": false
+      },
+      {
+        "text": "join",
+        "isCorrect": false
+      },
+      {
+        "text": "concat",
+        "isCorrect": false
+      },
+      {
+        "text": "sort",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Жиым элементтері өсу немесе лексографикалық тәртіпте орналастыратын тәсіл:",
+    "options": [
+      {
+        "text": "Sort",
+        "isCorrect": true
+      },
+      {
+        "text": "slice",
+        "isCorrect": false
+      },
+      {
+        "text": "join",
+        "isCorrect": false
+      },
+      {
+        "text": "reverse",
+        "isCorrect": false
+      },
+      {
+        "text": "concat",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Бастапқы жиымның көрсетілген алғашқы позициясынан бастап екінші көрсетілген позициясына дейінгі элементтерден тұратын жаңа жиым жасап беретін тәсіл:",
+    "options": [
+      {
+        "text": "slice",
+        "isCorrect": true
+      },
+      {
+        "text": "join",
+        "isCorrect": false
+      },
+      {
+        "text": "reverse",
+        "isCorrect": false
+      },
+      {
+        "text": "concat",
+        "isCorrect": false
+      },
+      {
+        "text": "sort",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Бұрынғы жиымға array жиымы қосылған жаңа жиым жасап жіберетін тәсіл:",
+    "options": [
+      {
+        "text": "concat",
+        "isCorrect": true
+      },
+      {
+        "text": "slice",
+        "isCorrect": false
+      },
+      {
+        "text": "join",
+        "isCorrect": false
+      },
+      {
+        "text": "reverse",
+        "isCorrect": false
+      },
+      {
+        "text": "sort",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Жиым ұзындығын беретін тәсіл:",
+    "options": [
+      {
+        "text": "length",
+        "isCorrect": true
+      },
+      {
+        "text": "slice",
+        "isCorrect": false
+      },
+      {
+        "text": "reverse",
+        "isCorrect": false
+      },
+      {
+        "text": "concat",
+        "isCorrect": false
+      },
+      {
+        "text": "sort",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript.Бұрынғы терезе ашық тұрғанда жаңа терезе ашу үшін қандай тәсіл қолданылады?",
+    "options": [
+      {
+        "text": "Open()",
+        "isCorrect": true
+      },
+      {
+        "text": "Close()",
+        "isCorrect": false
+      },
+      {
+        "text": "Clear()",
+        "isCorrect": false
+      },
+      {
+        "text": "Write(str)",
+        "isCorrect": false
+      },
+      {
+        "text": "Writeln(str)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Браузер терезесіндегі жазбаны жабу үшін қандай тәсіл қолданылады?",
+    "options": [
+      {
+        "text": "Close()",
+        "isCorrect": true
+      },
+      {
+        "text": "Open()",
+        "isCorrect": false
+      },
+      {
+        "text": "Clear()",
+        "isCorrect": false
+      },
+      {
+        "text": "Write(str)",
+        "isCorrect": false
+      },
+      {
+        "text": "Writeln(str)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Төмендегілердің қайсысы дұрыс тұжырым?",
+    "options": [
+      {
+        "text": "Alert функциясы ақпаратты экранға шығару үшін, ал ақпаратты енгізу үшін prompt функциясы керек.",
+        "isCorrect": true
+      },
+      {
+        "text": "Prompt функциясы ақпаратты экранға шығару үшін, ал ақпаратты енгізу үшін alert функциясы керек.",
+        "isCorrect": false
+      },
+      {
+        "text": "confirm функциясы ақпаратты экранға шығару үшін, ал ақпаратты енгізу үшін рrompt және alert функциялары керек.",
+        "isCorrect": false
+      },
+      {
+        "text": "Аlert функциясы ақпаратты экранға шығару, енгізу үшін қолданылады.",
+        "isCorrect": false
+      },
+      {
+        "text": "Prompt функциясы ақпаратты тек экранға шығару үшін қолданылады.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Идентификатор дегеніміз не?",
+    "options": [
+      {
+        "text": "Әріптен басталып жазылатын латын әріптер мен араб цифрларының тізбегі.",
+        "isCorrect": true
+      },
+      {
+        "text": "Цифрдан басталып жазылатын сөйлем.",
+        "isCorrect": false
+      },
+      {
+        "text": "Ақпаратты шығарушы терезе",
+        "isCorrect": false
+      },
+      {
+        "text": "Құрамына арифметикалық және тіркестік (строковые) өрнектер кіретін тізбек",
+        "isCorrect": false
+      },
+      {
+        "text": "Кез келген тұтынушы бірнеше жолдан тұратын мәтіндік ақпарат енгізе алатын өрісті анықтайды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. х%=9 нені білдіреді?",
+    "options": [
+      {
+        "text": "х = х%9;",
+        "isCorrect": true
+      },
+      {
+        "text": "х = х/9;",
+        "isCorrect": false
+      },
+      {
+        "text": "х = 9%х;",
+        "isCorrect": false
+      },
+      {
+        "text": "х%х=9;",
+        "isCorrect": false
+      },
+      {
+        "text": "9= х%;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. 9 % 3 нәтижесі неге тең?",
+    "options": [
+      {
+        "text": "0",
+        "isCorrect": true
+      },
+      {
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "text": "9",
+        "isCorrect": false
+      },
+      {
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "text": "3,33",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Шартты команданың жалпы жазылу түрі :",
+    "options": [
+      {
+        "text": "if (шарт) команда1; else команда2;",
+        "isCorrect": true
+      },
+      {
+        "text": "if (шарт): команда1; else команда2;",
+        "isCorrect": false
+      },
+      {
+        "text": "if (шарт) команда1 else команда2;",
+        "isCorrect": false
+      },
+      {
+        "text": "if (шарт); команда1;else команда2;",
+        "isCorrect": false
+      },
+      {
+        "text": "if (шарт); команда1 else команда2;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. 3 санына 1-ді қосу үшін қалай жазу керек?",
+    "options": [
+      {
+        "text": "x=3+1;",
+        "isCorrect": true
+      },
+      {
+        "text": "x=‖3‖+‖1‖;",
+        "isCorrect": false
+      },
+      {
+        "text": "x=3+‖1‖;",
+        "isCorrect": false
+      },
+      {
+        "text": "x=‖3‖+1;",
+        "isCorrect": false
+      },
+      {
+        "text": "x=‘3‘+‘1‘;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript-те: var х = 1; var y; if (х == 1) у = 10; else у = 20; х += у; осы кодтардан соң:",
+    "options": [
+      {
+        "text": "x 11-ге тең, y 10-ға тең",
+        "isCorrect": true
+      },
+      {
+        "text": "х және у 11-ге тең",
+        "isCorrect": false
+      },
+      {
+        "text": "х 1-ге тең у 20-ға тең",
+        "isCorrect": false
+      },
+      {
+        "text": "х және у 10-ға тең",
+        "isCorrect": false
+      },
+      {
+        "text": "х 1-ге тең у 11-ге тең",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript: х = 1; if (x != 1) у = 10; else у = 22; х += у; осы кодтардан соң:",
+    "options": [
+      {
+        "text": "х 23-ке тең у 22-ге тең",
+        "isCorrect": true
+      },
+      {
+        "text": "х және у 23-ге тең",
+        "isCorrect": false
+      },
+      {
+        "text": "х 1-ге тең у 10-ға тең",
+        "isCorrect": false
+      },
+      {
+        "text": "х және у 10-ға тең",
+        "isCorrect": false
+      },
+      {
+        "text": "х 11-ге тең у 10-ға тең",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript: х = 1; у = 10; if (x = = 1) у += 10; х += у осы кодтардан соң:",
+    "options": [
+      {
+        "text": "х 21-ге тең, у 20-ға тең",
+        "isCorrect": true
+      },
+      {
+        "text": "х және у 21-ге тең",
+        "isCorrect": false
+      },
+      {
+        "text": "х 23-ке тең, у 22-ге тең",
+        "isCorrect": false
+      },
+      {
+        "text": "х және у 10-ға тең",
+        "isCorrect": false
+      },
+      {
+        "text": "х 11-ге тең, у 20-ға тең",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript: х = 1; у = 10; if(х != 1) у += 10; х += у; осы кодтардан соң:",
+    "options": [
+      {
+        "text": "х 11-ге тең, у 10-ға тең",
+        "isCorrect": true
+      },
+      {
+        "text": "х және у 21-ге тең",
+        "isCorrect": false
+      },
+      {
+        "text": "х 11-ге тең, у 20-ға тең",
+        "isCorrect": false
+      },
+      {
+        "text": "х 15-ке тең, у 22-ге тең",
+        "isCorrect": false
+      },
+      {
+        "text": "х және у 10-ға тең",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript: switch(өрнек) не үшін қажет?",
+    "options": [
+      {
+        "text": "өрнек мәні case сөзінен кейінгі қайсы мәнге тең болса, сол жол орындалады",
+        "isCorrect": true
+      },
+      {
+        "text": "өрнек мәні case сөзінен кейінгі бірде бір мәнге сәйкес келмеген кезде орындалады (ол болмауы да мүмкін)",
+        "isCorrect": false
+      },
+      {
+        "text": "өрнек мәні case сөзінен кейінгі екі мәнге сәйкес келген кезде орындалады (ол міндетті түрде керек)",
+        "isCorrect": false
+      },
+      {
+        "text": "өрнек мәні case сөзінен кейінгі барлық мәнге сәйкес келген кезде орындалады (ол міндетті түрде керек)",
+        "isCorrect": false
+      },
+      {
+        "text": "өрнек мәні switch сөзінен кейінгі екі мәнге сәйкес келмеген кезде орындалады",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript: continue операторы не үшін қажет?",
+    "options": [
+      {
+        "text": "циклдың онан кейінгі барлық командаларын аттап өтіп, цикл параметрінің келесі мәніне көшіреді.",
+        "isCorrect": true
+      },
+      {
+        "text": "Циклдағы алғашқы команданы орындайды",
+        "isCorrect": false
+      },
+      {
+        "text": "Циклдағы соңғы команданы орындайды",
+        "isCorrect": false
+      },
+      {
+        "text": "Кезекті тексеру кезінде шарт жалған болған кезде, циклдің жұмысын аяқтайды.",
+        "isCorrect": false
+      },
+      {
+        "text": "жалпы цикл орындалуын аяқтап, одан кейінгі келесі командаларға көшіреді.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript: var x = 20; if (20 - х) х ++; командалары орындалған соң:",
+    "options": [
+      {
+        "text": "х мәні өзгермейді",
+        "isCorrect": true
+      },
+      {
+        "text": "х мәні 21-ге тең",
+        "isCorrect": false
+      },
+      {
+        "text": "х мәні бірге тең",
+        "isCorrect": false
+      },
+      {
+        "text": "х мәні 2-ге артады",
+        "isCorrect": false
+      },
+      {
+        "text": "х мәні 22-ге тең",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript: var х = 20; if(2 х) ++х; осы кодтардан соң:",
+    "options": [
+      {
+        "text": "х мәні 21-ге тең",
+        "isCorrect": true
+      },
+      {
+        "text": "х мәні 22-ге тең",
+        "isCorrect": false
+      },
+      {
+        "text": "х мәні бірге тең",
+        "isCorrect": false
+      },
+      {
+        "text": "х мәні 0-ге тең",
+        "isCorrect": false
+      },
+      {
+        "text": "х мәні өзгермейді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript: var х = &quot \" if(x) х += &quotкітап\" осы командалар орындалған соң:",
+    "options": [
+      {
+        "text": "х мәні &quot &quot тең",
+        "isCorrect": true
+      },
+      {
+        "text": "х мәні &quotкітап&quot сөзіне тең",
+        "isCorrect": false
+      },
+      {
+        "text": "х мәні 1-ге артады",
+        "isCorrect": false
+      },
+      {
+        "text": "х мәні 0-ге тең",
+        "isCorrect": false
+      },
+      {
+        "text": "х мәні өзгермейді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript: var х = &quot\" if(x+&quot?&quot) х += &quotкітап\" командалар орындалған соң:",
+    "options": [
+      {
+        "text": "х мәні &quotкітап&quot сөзіне тең",
+        "isCorrect": true
+      },
+      {
+        "text": "1 х мәні өзгермейді.",
+        "isCorrect": false
+      },
+      {
+        "text": "х мәні 0-ге тең",
+        "isCorrect": false
+      },
+      {
+        "text": "х мәні 1-ге артады",
+        "isCorrect": false
+      },
+      {
+        "text": "х мәні &quot &quot тең",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript: var x = true; var у = 2; if (!х) у ++; команда орындалған соң:",
+    "options": [
+      {
+        "text": "у мәні 2-ге тең",
+        "isCorrect": true
+      },
+      {
+        "text": "у мәні 3-ке тең",
+        "isCorrect": false
+      },
+      {
+        "text": "у мәні 1-ге артады",
+        "isCorrect": false
+      },
+      {
+        "text": "у мәні &quotFalse&quot сөзіне тең",
+        "isCorrect": false
+      },
+      {
+        "text": "у мәні өзгермейді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript: var x = true; var у = 2; if (х || !х) у ++; командалар орындалған соң:",
+    "options": [
+      {
+        "text": "у мәні 3-ке тең",
+        "isCorrect": true
+      },
+      {
+        "text": "у мәні 0-ге тең",
+        "isCorrect": false
+      },
+      {
+        "text": "у мәні 5-ке тең",
+        "isCorrect": false
+      },
+      {
+        "text": "у мәні 1-ге артады",
+        "isCorrect": false
+      },
+      {
+        "text": "у мәні &quotFalse&quot сөзіне тең",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript: var x = true; var у = 2; if (x && !х) у ++; команда орындалған соң:",
+    "options": [
+      {
+        "text": "у мәні 2-ге тең",
+        "isCorrect": true
+      },
+      {
+        "text": "у мәні &quotFalse&quot сөзіне тең",
+        "isCorrect": false
+      },
+      {
+        "text": "у мәні 3-ке тең",
+        "isCorrect": false
+      },
+      {
+        "text": "у мәні &quottrue&quot сөзіне тең",
+        "isCorrect": false
+      },
+      {
+        "text": "у мәні 1-ге тең",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript: х = &quotБаға=&quot+5; х нәтижесі:",
+    "options": [
+      {
+        "text": "&quotБаға=5&quot тіркесі",
+        "isCorrect": true
+      },
+      {
+        "text": "&quotБаға=+5&quot тіркесі",
+        "isCorrect": false
+      },
+      {
+        "text": "&quotБаға+=5&quot тіркесі",
+        "isCorrect": false
+      },
+      {
+        "text": "&quotБаға=&quot+5 бүтін саны",
+        "isCorrect": false
+      },
+      {
+        "text": "+5 бүтін саны",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript: Нәтижесі false болатын команданы көрсет:",
+    "options": [
+      {
+        "text": "!&quotқасқыр&quot && 25",
+        "isCorrect": true
+      },
+      {
+        "text": "&quotқасқыр&quot && 25",
+        "isCorrect": false
+      },
+      {
+        "text": "!&quot&quot || 22 - 22",
+        "isCorrect": false
+      },
+      {
+        "text": "!&quotқасқыр&quot || 25",
+        "isCorrect": false
+      },
+      {
+        "text": "!&quotқасқыр&quot",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript: Math.floor(num) стандартты функциясы:",
+    "options": [
+      {
+        "text": "аргументке тең не одан кіші бүтін сан мәнін береді.",
+        "isCorrect": true
+      },
+      {
+        "text": "Циклдағы алғашқы команданы орындайды",
+        "isCorrect": false
+      },
+      {
+        "text": "Кезекті тексеру кезінде шарт жалған болған кезде, циклдің жұмысын аяқтайды.",
+        "isCorrect": false
+      },
+      {
+        "text": "стандартты функциясы [0,1] аралығынан кез келген кездейсоқ сан береді.",
+        "isCorrect": false
+      },
+      {
+        "text": "жалпы цикл орындалуын аяқтап, одан кейінгі келесі командаларға көшіреді.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript: х¹⁰ – санның дәрежесін табу:",
+    "options": [
+      {
+        "text": "Math.pow(x,10);",
+        "isCorrect": true
+      },
+      {
+        "text": "pow(x,10);",
+        "isCorrect": false
+      },
+      {
+        "text": "math.pow(x,10);",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.sin(x);",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.abs(x);",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript: Қай нұсқада аргументтің синусын есептеу дұрыс көрсетілген?",
+    "options": [
+      {
+        "text": "var x = Math.PI/4; var y y = Math.sin(x); alert(y);",
+        "isCorrect": true
+      },
+      {
+        "text": "var x = math.PI/4; var y y = math.sin(x); alert(y);",
+        "isCorrect": false
+      },
+      {
+        "text": "var x = Math.pi/4; var y y = Math.sin(x); alert(y);",
+        "isCorrect": false
+      },
+      {
+        "text": "var x = math.pI/4; var y y = Math.sin(x); alert(y);",
+        "isCorrect": false
+      },
+      {
+        "text": "var x = Math.PI/4; var y y = math.sin(x); alert(y);",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript: Аргументтің – х квадраттық түбірі :",
+    "options": [
+      {
+        "text": "Math.sqrt(x);",
+        "isCorrect": true
+      },
+      {
+        "text": "Math.round(x);",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.ceil()",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.sin(x);",
+        "isCorrect": false
+      },
+      {
+        "text": "Math.abs(x);",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript: Екі аргументтің – х,у үлкенін анықтау коды:",
+    "options": [
+      {
+        "text": "var x = 3; var y = Math.max(x,10); alert(y);",
+        "isCorrect": true
+      },
+      {
+        "text": "var x = 3; var y=max(x,y)",
+        "isCorrect": false
+      },
+      {
+        "text": "var x = 3; y=max(x,y)",
+        "isCorrect": false
+      },
+      {
+        "text": "var x = 3; var y = Math.max(y,10); alert(y);",
+        "isCorrect": false
+      },
+      {
+        "text": "var x = 3; var y = Math.min(x,10); alert(y);",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Объект дегеніміз:",
+    "options": [
+      {
+        "text": "бұл мәліметтер мен функциялар жиынынан тұратын бірыңғай конструкция немесе, JavaScript терминологиясында, қасиеттер мен тәсілдер жиыны.",
+        "isCorrect": true
+      },
+      {
+        "text": "&quotқара жәшік&quot ретінде қарастырылатын объектінің ішкі құрылымын жасыру деген сөз.",
+        "isCorrect": false
+      },
+      {
+        "text": "программалау тілінде объектінің ішкі айнымалылары мен функцияларын сипаттау.",
+        "isCorrect": false
+      },
+      {
+        "text": "элементтердің реттелген жиыны.",
+        "isCorrect": false
+      },
+      {
+        "text": "бұлар пайдалануға болатын объектінің айнымалылары мен функциялары.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Инкапсуляция дегеніміз:",
+    "options": [
+      {
+        "text": "&quotқара жәшік&quot ретінде қарастырылатын объектінің ішкі құрылымын жасыру деген сөз.",
+        "isCorrect": true
+      },
+      {
+        "text": "бұл мәліметтер мен функциялар жиынынан тұратын бірыңғай конструкция немесе, JavaScript терминологиясында, қасиеттер мен тәсілдер жиыны.",
+        "isCorrect": false
+      },
+      {
+        "text": "программалау тілінде объектінің ішкі айнымалылары мен функцияларын сипаттау.",
+        "isCorrect": false
+      },
+      {
+        "text": "элементтердің реттелген жиыны.",
+        "isCorrect": false
+      },
+      {
+        "text": "бұлар пайдалануға болатын объектінің айнымалылары мен функциялары.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Объект интерфейсі дегеніміз:",
+    "options": [
+      {
+        "text": "бұлар пайдалануға болатын объектінің айнымалылары мен функциялары.",
+        "isCorrect": true
+      },
+      {
+        "text": "бұл мәліметтер мен функциялар жиынынан тұратын бірыңғай конструкция немесе, JavaScript терминологиясында, қасиеттер мен тәсілдер жиыны.",
+        "isCorrect": false
+      },
+      {
+        "text": "&quotқара жәшік&quot ретінде қарастырылатын объектінің ішкі құрылымын жасыру деген сөз.",
+        "isCorrect": false
+      },
+      {
+        "text": "программалау тілінде объектінің ішкі айнымалылары мен функцияларын сипаттау.",
+        "isCorrect": false
+      },
+      {
+        "text": "элементтердің реттелген жиыны.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Тәсілдің қай түрі жыл нөмірін береді?",
+    "options": [
+      {
+        "text": "getYear()",
+        "isCorrect": true
+      },
+      {
+        "text": "getDate()",
+        "isCorrect": false
+      },
+      {
+        "text": "setYear()",
+        "isCorrect": false
+      },
+      {
+        "text": "setDate()",
+        "isCorrect": false
+      },
+      {
+        "text": "getDay()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Тәсілдің қай түрі жыл нөмірін тағайындайды?",
+    "options": [
+      {
+        "text": "setYear()",
+        "isCorrect": true
+      },
+      {
+        "text": "getDate()",
+        "isCorrect": false
+      },
+      {
+        "text": "getYear()",
+        "isCorrect": false
+      },
+      {
+        "text": "setDate()",
+        "isCorrect": false
+      },
+      {
+        "text": "getDay()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Тәсілдің қай түрі айды енгізеді?",
+    "options": [
+      {
+        "text": "setMonth()",
+        "isCorrect": true
+      },
+      {
+        "text": "getMonth()",
+        "isCorrect": false
+      },
+      {
+        "text": "setYear()",
+        "isCorrect": false
+      },
+      {
+        "text": "getYear()",
+        "isCorrect": false
+      },
+      {
+        "text": "setDate()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Тәсілдің қай түрі ай нөмірі мәнін береді?",
+    "options": [
+      {
+        "text": "getMonth()",
+        "isCorrect": true
+      },
+      {
+        "text": "setYear()",
+        "isCorrect": false
+      },
+      {
+        "text": "setMonth()",
+        "isCorrect": false
+      },
+      {
+        "text": "setDate()",
+        "isCorrect": false
+      },
+      {
+        "text": "getDay()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Тәсілдің қай түрі апта күнін береді?",
+    "options": [
+      {
+        "text": "getDay()",
+        "isCorrect": true
+      },
+      {
+        "text": "getDate()",
+        "isCorrect": false
+      },
+      {
+        "text": "setYear()",
+        "isCorrect": false
+      },
+      {
+        "text": "getYear()",
+        "isCorrect": false
+      },
+      {
+        "text": "setDate()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Тәсілдің қай түрі уақыт минутын енгізеді?",
+    "options": [
+      {
+        "text": "setMinutes()",
+        "isCorrect": true
+      },
+      {
+        "text": "setYear()",
+        "isCorrect": false
+      },
+      {
+        "text": "getYear()",
+        "isCorrect": false
+      },
+      {
+        "text": "getMinutes()",
+        "isCorrect": false
+      },
+      {
+        "text": "getDay()",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. concat(array) тәсілі не үшін керек?",
+    "options": [
+      {
+        "text": "Бұрынғы массивке array массиві қосылған жаңа массив жасап береді",
+        "isCorrect": true
+      },
+      {
+        "text": "Бөлініп орналасқан массив элементтері жолын береді.",
+        "isCorrect": false
+      },
+      {
+        "text": "Массив элементтерін оның 1-элементі соңғысы болатындай етіп кері бағытта орын ауыстырып береді.",
+        "isCorrect": false
+      },
+      {
+        "text": "Массив ұзындығын береді.",
+        "isCorrect": false
+      },
+      {
+        "text": "Массивті сұрыптайды.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Объект жасау кезіндегі мұралаудың түрлері:",
+    "options": [
+      {
+        "text": "Статикалық және динамикалық",
+        "isCorrect": true
+      },
+      {
+        "text": "Статикалық және физикалық",
+        "isCorrect": false
+      },
+      {
+        "text": "Логикалық және физикалық",
+        "isCorrect": false
+      },
+      {
+        "text": "Статикалық және логикалық",
+        "isCorrect": false
+      },
+      {
+        "text": "Динамикалық және физикалық",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Динамикалық мұралау :",
+    "options": [
+      {
+        "text": "Мұрагер жасау кезінде оның ата тегімен байланысын үзбеу.",
+        "isCorrect": true
+      },
+      {
+        "text": "Мұрагер жасалу кезінде оның ішкі құрамына тегінің барлық қасиеттері мен тәсілдері көшіріледі де, содан кейін туыстық байланыс жойылады.",
+        "isCorrect": false
+      },
+      {
+        "text": "Мұрагер жасалу кезінде алдымен туыстық байланыс жойылады да, содан кейін оның ішкі құрамына тегінің барлық қасиеттері мен тәсілдері көшіріледі.",
+        "isCorrect": false
+      },
+      {
+        "text": "Мұрагер жасалу кезінде алдымен туыстық байланыс жойылады да, содан кейін оның ішкі құрамына тегінің барлық қасиеттері мен тәсілдері көшірілмейді.",
+        "isCorrect": false
+      },
+      {
+        "text": "Мұрагер жасау кезінде оның ата тегімен байланысын үзбеу және қасиеттерін қайталамау.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. reverse()тәсілі не үшін керек :",
+    "options": [
+      {
+        "text": "Массив элементтерін оның 1-элементі соңғысы болатындай етіп кері бағытта орын ауыстырып береді.",
+        "isCorrect": true
+      },
+      {
+        "text": "Бөлініп орналасқан массив элементтері жолын береді.",
+        "isCorrect": false
+      },
+      {
+        "text": "Бұрынғы массивке array массиві қосылған жаңа массив жасап береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Массив ұзындығын береді.",
+        "isCorrect": false
+      },
+      {
+        "text": "Массивті сұрыптайды.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. join(ажыратқыш) тәсілі не үшін қажет?",
+    "options": [
+      {
+        "text": "Ажыратқыш арқылы бөлініп орналасқан массив элементтері жолын береді.",
+        "isCorrect": true
+      },
+      {
+        "text": "Бұрынғы массивке array массиві қосылған жаңа массив жасап береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Массив элементтерін оның 1-элементі соңғысы болатындай етіп кері бағытта орын ауыстырып береді.",
+        "isCorrect": false
+      },
+      {
+        "text": "Массив ұзындығын береді.",
+        "isCorrect": false
+      },
+      {
+        "text": "Массивті сұрыптайды.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. sort(function) не sort() тәсілдері нені береді?",
+    "options": [
+      {
+        "text": "Массив элементтерін сұрыптайды.",
+        "isCorrect": true
+      },
+      {
+        "text": "Бөлініп орналасқан массив элементтері жолын береді.",
+        "isCorrect": false
+      },
+      {
+        "text": "Бұрынғы массивке array массиві қосылған жаңа массив жасап береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Массив элементтерін оның 1-элементі соңғысы болатындай етіп кері бағытта орын ауыстырып береді.",
+        "isCorrect": false
+      },
+      {
+        "text": "Массив ұзындығын береді.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. length тәсілі не үшін керек:",
+    "options": [
+      {
+        "text": "Массив ұзындығын береді.",
+        "isCorrect": true
+      },
+      {
+        "text": "Бөлініп орналасқан массив элементтері жолын береді.",
+        "isCorrect": false
+      },
+      {
+        "text": "Бұрынғы массивке array массиві қосылған жаңа массив жасап береді",
+        "isCorrect": false
+      },
+      {
+        "text": "Массив элементтерін оның 1-элементі соңғысы болатындай етіп кері бағытта орын ауыстырып береді.",
+        "isCorrect": false
+      },
+      {
+        "text": "Массивті сұрыптайды.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Ашылатын терезеге нұсқауыш:",
+    "options": [
+      {
+        "text": "айнымалы",
+        "isCorrect": true
+      },
+      {
+        "text": "сөз тіркесі",
+        "isCorrect": false
+      },
+      {
+        "text": "терезе_қасиеттері",
+        "isCorrect": false
+      },
+      {
+        "text": "файл",
+        "isCorrect": false
+      },
+      {
+        "text": "терезе_аты",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Терезе ашу кезінде resizable параметрі не істейді?",
+    "options": [
+      {
+        "text": "Терезе көлемін өзгертуді көрсету үшін қажет",
+        "isCorrect": true
+      },
+      {
+        "text": "Меню өрісі бейнелетінін көрсету үшін қажет",
+        "isCorrect": false
+      },
+      {
+        "text": "Статус жолағы бейнелетінін көрсету үшін қажет",
+        "isCorrect": false
+      },
+      {
+        "text": "Батырмалар (саймандар) тақтасы бейнелетінін көрсету үшін қажет",
+        "isCorrect": false
+      },
+      {
+        "text": "Адрес енгізу өрісі бейнелетінін көрсету үшін қажет",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Терезе ашу кезінде menubar параметрі не істейді?",
+    "options": [
+      {
+        "text": "Меню өрісі бейнелетінін көрсету үшін қажет",
+        "isCorrect": true
+      },
+      {
+        "text": "Терезе көлемін өзгертуді көрсету үшін қажет",
+        "isCorrect": false
+      },
+      {
+        "text": "Статус жолағы бейнелетінін көрсету үшін қажет",
+        "isCorrect": false
+      },
+      {
+        "text": "Батырмалар (саймандар) тақтасы бейнелетінін көрсету үшін қажет",
+        "isCorrect": false
+      },
+      {
+        "text": "Адрес енгізу өрісі бейнелетінін көрсету үшін қажет",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Терезенің toolbar параметрі не істейді?",
+    "options": [
+      {
+        "text": "Батырмалар (саймандар) тақтасы бейнелетінін көрсету үшін қажет",
+        "isCorrect": true
+      },
+      {
+        "text": "Терезе көлемін өзгертуді көрсету үшін қажет",
+        "isCorrect": false
+      },
+      {
+        "text": "Меню өрісі бейнелетінін көрсету үшін қажет",
+        "isCorrect": false
+      },
+      {
+        "text": "Статус жолағы бейнелетінін көрсету үшін қажет",
+        "isCorrect": false
+      },
+      {
+        "text": "Адрес енгізу өрісі бейнелетінін көрсету үшін қажет",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Терезе ашу кезінде scrollbars параметрі не істейді?",
+    "options": [
+      {
+        "text": "Айналдыру жолағының шығатынын/шықпайтынын көрсетеді",
+        "isCorrect": true
+      },
+      {
+        "text": "Терезе көлемін өзгертуді көрсету үшін қажет",
+        "isCorrect": false
+      },
+      {
+        "text": "Меню өрісі бейнелетінін көрсету үшін қажет",
+        "isCorrect": false
+      },
+      {
+        "text": "Статус жолағы бейнелетінін көрсету үшін қажет",
+        "isCorrect": false
+      },
+      {
+        "text": "Адрес енгізу өрісі бейнелетінін көрсету үшін қажет",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Формалардағы қай атрибут батырма бетіндегі жазуды береді?",
+    "options": [
+      {
+        "text": "value",
+        "isCorrect": true
+      },
+      {
+        "text": "type",
+        "isCorrect": false
+      },
+      {
+        "text": "onclick",
+        "isCorrect": false
+      },
+      {
+        "text": "input",
+        "isCorrect": false
+      },
+      {
+        "text": "select",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Тәсілдің қай түрі мәліметі бар информациялық терезе шығарады?",
+    "options": [
+      {
+        "text": "window.alert(хабарлама)",
+        "isCorrect": true
+      },
+      {
+        "text": "window.open(файл, имя_окна, параметры_окна)",
+        "isCorrect": false
+      },
+      {
+        "text": "window.close (хабарлама)",
+        "isCorrect": false
+      },
+      {
+        "text": "window.prompt(хабарлама)",
+        "isCorrect": false
+      },
+      {
+        "text": "window.confirm(хабарлама)",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. document.write(str) тәсілінің сипаттамасы :",
+    "options": [
+      {
+        "text": "Құжаттың str мәні ретіндегі сөз тіркесін – мәтінді және HTML кодын жазады",
+        "isCorrect": true
+      },
+      {
+        "text": "Браузер терезесіндегі жазбаны жабады",
+        "isCorrect": false
+      },
+      {
+        "text": "Браузер терезесіне жазу жазады. Бұрынғы терезе мәліметі өшіріледі",
+        "isCorrect": false
+      },
+      {
+        "text": "Браузера терезесін тазалайды",
+        "isCorrect": false
+      },
+      {
+        "text": "Каретканы қайтарумен аяқталатын (жаңа жолға көшу) мәтінді және HTML кодын жазады.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML-дан шығып, PHP режиміне өту тәсілі:",
+    "options": [
+      {
+        "text": "<?php echo(\"...\"); ?>",
+        "isCorrect": true
+      },
+      {
+        "text": "< echo(\"...\"); >",
+        "isCorrect": false
+      },
+      {
+        "text": "<? echo(\"...\"); >",
+        "isCorrect": false
+      },
+      {
+        "text": "< echo(\"...\"); ?>",
+        "isCorrect": false
+      },
+      {
+        "text": "<! echo \"...\" !>;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML-дан шығып, PHP режиміне өту тәсілі:",
+    "options": [
+      {
+        "text": "<script language = \"php\" >",
+        "isCorrect": true
+      },
+      {
+        "text": "<script language: \"php\" >",
+        "isCorrect": false
+      },
+      {
+        "text": "<language = \"php\" >",
+        "isCorrect": false
+      },
+      {
+        "text": "<?script language = \"php\" ?>",
+        "isCorrect": false
+      },
+      {
+        "text": "<script language: ?\"php\" ?>",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "PHP тілінде жол соңында комментарий жазу қай символдан басталады:",
+    "options": [
+      {
+        "text": "//",
+        "isCorrect": true
+      },
+      {
+        "text": "/",
+        "isCorrect": false
+      },
+      {
+        "text": "/",
+        "isCorrect": false
+      },
+      {
+        "text": "(",
+        "isCorrect": false
+      },
+      {
+        "text": "{",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "PHP тілінде айнымалы аты қай символдан басталады?",
+    "options": [
+      {
+        "text": "$",
+        "isCorrect": true
+      },
+      {
+        "text": "#",
+        "isCorrect": false
+      },
+      {
+        "text": "―",
+        "isCorrect": false
+      },
+      {
+        "text": "*",
+        "isCorrect": false
+      },
+      {
+        "text": "!",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "PHP тілінде $ символы не үшін қолданылады?",
+    "options": [
+      {
+        "text": "айнымалы аты осы символдан басталады",
+        "isCorrect": true
+      },
+      {
+        "text": "осы символдардың ортасында сөз тіркесі типіндегі (строковый тип) мәліметтер жазылады",
+        "isCorrect": false
+      },
+      {
+        "text": "осы символдардың ортасында көпжолдық комментарийлер жазылады",
+        "isCorrect": false
+      },
+      {
+        "text": "қалдықпен бөлу үшін қолданылады",
+        "isCorrect": false
+      },
+      {
+        "text": "PHP тілінде әр-бір жол осы символдан бастап жазылады",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Тек PHP тілінде жиымдармен жұмыс істеуге арналған цикл операторы:",
+    "options": [
+      {
+        "text": "foreach",
+        "isCorrect": true
+      },
+      {
+        "text": "do... while",
+        "isCorrect": false
+      },
+      {
+        "text": "while",
+        "isCorrect": false
+      },
+      {
+        "text": "for",
+        "isCorrect": false
+      },
+      {
+        "text": "switch",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "PHP тілінде include операторы не үшін қолданылады?",
+    "options": [
+      {
+        "text": "осы оператор кездескен сайын, көрсетілген файлдың құрамындағы код пайдаланылады",
+        "isCorrect": true
+      },
+      {
+        "text": "екі батырма ( ОК және ОТМЕНА) бар терезе шығарады",
+        "isCorrect": false
+      },
+      {
+        "text": "ОК батырмасы бар терезені шығарады",
+        "isCorrect": false
+      },
+      {
+        "text": "шартты операторларды біріктіру үшін қолданылады",
+        "isCorrect": false
+      },
+      {
+        "text": "нәтижені экранға шығару операторы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "PHP тілінде require операторы не үшін қолданылады?",
+    "options": [
+      {
+        "text": "осы оператор кездескен сайын, көрсетілген файлдың құрамындағы код пайдаланылады",
+        "isCorrect": true
+      },
+      {
+        "text": "екі батырма ( ОК және ОТМЕНА) бар терезе шығарады",
+        "isCorrect": false
+      },
+      {
+        "text": "ОК батырмасы бар терезені шығарады",
+        "isCorrect": false
+      },
+      {
+        "text": "шартты операторларды біріктіру үшін қолданылады",
+        "isCorrect": false
+      },
+      {
+        "text": "нәтижені экранға шығару операторы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "PHP тілінде foreach операторы не үшін қолданылады?",
+    "options": [
+      {
+        "text": "жиымдармен жұмыс істеуге арналған цикл операторы",
+        "isCorrect": true
+      },
+      {
+        "text": "ОК батырмасы бар терезені шығарады",
+        "isCorrect": false
+      },
+      {
+        "text": "осы оператор кездескен сайын, көрсетілген файлдың құрамындағы кодты пайдалануға болады",
+        "isCorrect": false
+      },
+      {
+        "text": "шартты операторларды біріктіру үшін қолданылады",
+        "isCorrect": false
+      },
+      {
+        "text": "нәтижені экранға шығару операторы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Сервер дегеніміз – бұл ...",
+    "options": [
+      {
+        "text": "әр түрлі процестерді басқаратын программалар жиыны",
+        "isCorrect": true
+      },
+      {
+        "text": "клиенттермен жұмыс істейтін программа",
+        "isCorrect": false
+      },
+      {
+        "text": "сұраныстармен жұмыс істеуге арналған программа",
+        "isCorrect": false
+      },
+      {
+        "text": "әрбір компьютер үшін арнайы жазылған программа",
+        "isCorrect": false
+      },
+      {
+        "text": "мәліметтерді жөнелту үшін арнайы жазылған программа",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "PHP тілінде төмендегі программаның нәтижесі қандай: <?php $first=' Text '; $second=$first; $first = ' New text '; echo \"Переменная с именем first равна $first <br>\"; echo 'Переменная с именем second равна $second'; ?>",
+    "options": [
+      {
+        "text": "Переменная с именем first равна New text Переменная с именем second равна $second",
+        "isCorrect": true
+      },
+      {
+        "text": "Переменная с именем first равна $first Переменная с именем second равна $second",
+        "isCorrect": false
+      },
+      {
+        "text": "Переменная с именем first равна Text Переменная с именем second равна $first",
+        "isCorrect": false
+      },
+      {
+        "text": "Переменная с именем second равна $first",
+        "isCorrect": false
+      },
+      {
+        "text": "Переменная с именем first равна Text Переменная с именем second равна Text",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "PHP тілінде қате жазылған айнымалы атауы:",
+    "options": [
+      {
+        "text": "$345",
+        "isCorrect": true
+      },
+      {
+        "text": "$alfa",
+        "isCorrect": false
+      },
+      {
+        "text": "$alfa_romeo5_5",
+        "isCorrect": false
+      },
+      {
+        "text": "$_alfa",
+        "isCorrect": false
+      },
+      {
+        "text": "$alfa7889",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "PHP тілін кім алғаш рет шығарды?",
+    "options": [
+      {
+        "text": "Расмус Ледорф",
+        "isCorrect": true
+      },
+      {
+        "text": "Зев Сураски",
+        "isCorrect": false
+      },
+      {
+        "text": "Никлаус Вирт",
+        "isCorrect": false
+      },
+      {
+        "text": "Чарльз Бэббидж",
+        "isCorrect": false
+      },
+      {
+        "text": "Билл Гейтс",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Қай жылы PHP тілі алғаш рет шығарылды?",
+    "options": [
+      {
+        "text": "1994",
+        "isCorrect": true
+      },
+      {
+        "text": "1993",
+        "isCorrect": false
+      },
+      {
+        "text": "1992",
+        "isCorrect": false
+      },
+      {
+        "text": "1995",
+        "isCorrect": false
+      },
+      {
+        "text": "1996",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "PHP тіліндегі әрбір оператор қай символмен ақталады:",
+    "options": [
+      {
+        "text": ";",
+        "isCorrect": true
+      },
+      {
+        "text": ":",
+        "isCorrect": false
+      },
+      {
+        "text": ">",
+        "isCorrect": false
+      },
+      {
+        "text": "?>",
+        "isCorrect": false
+      },
+      {
+        "text": "‖",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "PHP тіліндегі программада кездескен сайын оның құрамындағы файлдың кодын пайдалануға мүмкіндік беретін оператор:",
+    "options": [
+      {
+        "text": "include",
+        "isCorrect": true
+      },
+      {
+        "text": "switch",
+        "isCorrect": false
+      },
+      {
+        "text": "foreach",
+        "isCorrect": false
+      },
+      {
+        "text": "require",
+        "isCorrect": false
+      },
+      {
+        "text": "while",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "PHP тілінде бірнеше жолдық комментарий жазу тәсілі:",
+    "options": [
+      {
+        "text": "/ ... /",
+        "isCorrect": true
+      },
+      {
+        "text": "(...)",
+        "isCorrect": false
+      },
+      {
+        "text": "// ... //",
+        "isCorrect": false
+      },
+      {
+        "text": "# ... #",
+        "isCorrect": false
+      },
+      {
+        "text": "{ ... }",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "РНР тілінде = = = тіркесі нені білдіреді:",
+    "options": [
+      {
+        "text": "айнымалылардың мәндері және типтері бірдей;",
+        "isCorrect": true
+      },
+      {
+        "text": "айнымалылардың мәндері тең емес;",
+        "isCorrect": false
+      },
+      {
+        "text": "айнымалылар эквивалентті емес ;",
+        "isCorrect": false
+      },
+      {
+        "text": "айнымалылардың мәндері тең",
+        "isCorrect": false
+      },
+      {
+        "text": "айнымалылардың типтері әр түрлі.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "PHP тіліндегі echo ― ‖ функциясы:",
+    "options": [
+      {
+        "text": "қостырнақша арасындағы мәтінді экранға шығарады",
+        "isCorrect": true
+      },
+      {
+        "text": "мұндай функция жоқ",
+        "isCorrect": false
+      },
+      {
+        "text": "тырнақшаның орнына жақша қойсақ, соның ішіндегі мәтінді экранға шығарады",
+        "isCorrect": false
+      },
+      {
+        "text": "экранға echo ― ‖ сөзін шығарады",
+        "isCorrect": false
+      },
+      {
+        "text": "тырнақшаның орнына апостроф қойсақ, ол функцияға айналады",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "PHP кодының бастапқы және соңғы символдары:",
+    "options": [
+      {
+        "text": "бастапқы — <?php, соңғы — ? >",
+        "isCorrect": true
+      },
+      {
+        "text": "бастапқы — <php, соңғы — >",
+        "isCorrect": false
+      },
+      {
+        "text": "бастапқы — <, соңғы — >",
+        "isCorrect": false
+      },
+      {
+        "text": "бастапқы — ?php, соңғы — ?",
+        "isCorrect": false
+      },
+      {
+        "text": "бастапқы — ?, соңғы — ?",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "PHP программалық файлдарының кеңейтілуі:",
+    "options": [
+      {
+        "text": ".php",
+        "isCorrect": true
+      },
+      {
+        "text": ".hphp",
+        "isCorrect": false
+      },
+      {
+        "text": ".phpl",
+        "isCorrect": false
+      },
+      {
+        "text": ".ptxt",
+        "isCorrect": false
+      },
+      {
+        "text": ".htm",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "РНР тіліндегі \\n басқару тізбегі нені білдіреді?",
+    "options": [
+      {
+        "text": "жаңа жолға көшу",
+        "isCorrect": true
+      },
+      {
+        "text": "каретканың қайтарылуы",
+        "isCorrect": false
+      },
+      {
+        "text": "нұсқауыш операторы",
+        "isCorrect": false
+      },
+      {
+        "text": "көлденең табуляция",
+        "isCorrect": false
+      },
+      {
+        "text": "тырнақша таңбасы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "РНР тіліндегі \\t басқару тізбегі нені білдіреді?",
+    "options": [
+      {
+        "text": "көлденең табуляция",
+        "isCorrect": true
+      },
+      {
+        "text": "каретканың қайтарылуы",
+        "isCorrect": false
+      },
+      {
+        "text": "нұсқауыш операторы",
+        "isCorrect": false
+      },
+      {
+        "text": "жаңа жолға көшу",
+        "isCorrect": false
+      },
+      {
+        "text": "тырнақша таңбасы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "РНР тіліндегі \\‖ басқару тізбегі нені білдіреді?",
+    "options": [
+      {
+        "text": "тырнақша белгісі",
+        "isCorrect": true
+      },
+      {
+        "text": "каретканың қайтарылуы",
+        "isCorrect": false
+      },
+      {
+        "text": "доллар белгісі",
+        "isCorrect": false
+      },
+      {
+        "text": "көлденең табуляция",
+        "isCorrect": false
+      },
+      {
+        "text": "жаңа жол",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "PHР тілінде heredoc синтаксисі қолданылған кезде қандай символдар жазылады?",
+    "options": [
+      {
+        "text": "<<< және идентификатор",
+        "isCorrect": true
+      },
+      {
+        "text": "<< және идентификатор",
+        "isCorrect": false
+      },
+      {
+        "text": "< және идентификатор",
+        "isCorrect": false
+      },
+      {
+        "text": "<<& және идентификатор",
+        "isCorrect": false
+      },
+      {
+        "text": "&< және идентификатор",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "РНР.Төмендегілердің қайсысы for операторы үшін дұрыс жазылған?",
+    "options": [
+      {
+        "text": "for (өрнек1; өрнек2; өрнек3) { орындалу_блогы };",
+        "isCorrect": true
+      },
+      {
+        "text": "for (өрнек1; өрнек2; өрнек3) < орындалу_блогы >",
+        "isCorrect": false
+      },
+      {
+        "text": "for (өрнек1; өрнек2; өрнек3) /орындалу_блогы /",
+        "isCorrect": false
+      },
+      {
+        "text": "for (өрнек1; өрнек2; өрнек3) (орындалу_блогы);",
+        "isCorrect": false
+      },
+      {
+        "text": "for (өрнек1; өрнек2; өрнек3) [орындалу_блогы];",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "РНР.Төмендегілердің қайсысы foreach операторы үшін дұрыс жазылған?",
+    "options": [
+      {
+        "text": "foreach ($array as $value) { орындалу_блогы }",
+        "isCorrect": true
+      },
+      {
+        "text": "foreach (array as value) { орындалу_блогы }",
+        "isCorrect": false
+      },
+      {
+        "text": "foreach ($value as $array) { орындалу_блогы }",
+        "isCorrect": false
+      },
+      {
+        "text": "foreach ($array as $value):: { орындалу_блогы }",
+        "isCorrect": false
+      },
+      {
+        "text": "foreach ($array as $value) begin орындалу_блогы end;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "РНР.Төмендегілердің қайсысы foreach операторы үшін дұрыс жазылған?",
+    "options": [
+      {
+        "text": "foreach ($array as $key => $value) {орындалу_блогы}",
+        "isCorrect": true
+      },
+      {
+        "text": "foreach (array as key => value) {орындалу_блогы}",
+        "isCorrect": false
+      },
+      {
+        "text": "foreach ($value as $key=> $array) {орындалу_блогы}",
+        "isCorrect": false
+      },
+      {
+        "text": "foreach ($array as $key => $value):: {орындалу_блогы}",
+        "isCorrect": false
+      },
+      {
+        "text": "foreach ($array as $key <>value) begin орындалу_блогы end;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "PHP тілінде foreach ($array as $value) {орындалу_блогы} циклі қанша рет қайталанады?",
+    "options": [
+      {
+        "text": "$array жиымында неше элемент бар болса, сонша рет",
+        "isCorrect": true
+      },
+      {
+        "text": "0 рет",
+        "isCorrect": false
+      },
+      {
+        "text": "1 рет",
+        "isCorrect": false
+      },
+      {
+        "text": "$array жиымында неше элемент $value айнымалысына тең болса, сонша рет",
+        "isCorrect": false
+      },
+      {
+        "text": "индекске қатысты болады",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "РНР. Төменде көрсетілген функциялардың қайсысы санның факториалын дұрыс есептейді?",
+    "options": [
+      {
+        "text": "function fact($n) {$fact=1; for ($i=1; $i<=$n; $i++) $fact=$i; return $fact;}",
+        "isCorrect": true
+      },
+      {
+        "text": "function fact(n) {if (n==0) return 1; else return fact = n fact(n-1);}",
+        "isCorrect": false
+      },
+      {
+        "text": "function fact($n) $fact=1; while ($n>=1;) [$fact=$n; $n--; ] return $fact;",
+        "isCorrect": false
+      },
+      {
+        "text": "function fact($n) $fact=1; while ($n>=1;) [ {$fact=$n; $n--; } return $fact;]",
+        "isCorrect": false
+      },
+      {
+        "text": "ешқайсысы дұрыс есептемейді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "РНР. Төменде көрсетілген функциялардың қайсысы санның факториалын дұрыс есептейді?",
+    "options": [
+      {
+        "text": "function fact($n) {if ($n==0) return 1; else return $fact = $n fact($n-1);}",
+        "isCorrect": true
+      },
+      {
+        "text": "function fact($n) {$fact=0; for ($i=1; $i<=$n; $i++) $fact=$i; return $fact;}",
+        "isCorrect": false
+      },
+      {
+        "text": "function fact($n) {$fact=1; while ($n<1;) {$fact=$n; $n--; } return $fact;}",
+        "isCorrect": false
+      },
+      {
+        "text": "function fact($n) $fact=1; while ($n>=1;) [$fact=$n; $n--; ] return $fact;",
+        "isCorrect": false
+      },
+      {
+        "text": "ешқайсысы дұрыс есептемейді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "РНР. Нақты (бүтін емес) санды көрсетіңіз:",
+    "options": [
+      {
+        "text": "$a=7E-10;",
+        "isCorrect": true
+      },
+      {
+        "text": "$a=0123;",
+        "isCorrect": false
+      },
+      {
+        "text": "$a=0X1A;",
+        "isCorrect": false
+      },
+      {
+        "text": "$a=1234;",
+        "isCorrect": false
+      },
+      {
+        "text": "дұрыс жауабы жоқ.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "РНР. аrray_values() функциясының атқаратын қызметі:",
+    "options": [
+      {
+        "text": "жиымды қайтадан индекстейді;",
+        "isCorrect": true
+      },
+      {
+        "text": "жиымды жиымға қосады;",
+        "isCorrect": false
+      },
+      {
+        "text": "жиымды программаға енгізеді;",
+        "isCorrect": false
+      },
+      {
+        "text": "жиымды құрастырады;",
+        "isCorrect": false
+      },
+      {
+        "text": "жиымды жояды.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "РНР. $a=($b=5)+7; өрнегінің нәтижесі:",
+    "options": [
+      {
+        "text": "a=12; b=5;",
+        "isCorrect": true
+      },
+      {
+        "text": "a=7; b=5;",
+        "isCorrect": false
+      },
+      {
+        "text": "a=12; b=12;",
+        "isCorrect": false
+      },
+      {
+        "text": "a=7; b=7;",
+        "isCorrect": false
+      },
+      {
+        "text": "a=5; b=7.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "PHP программасындағы сан бүтін болып саналады, егер:",
+    "options": [
+      {
+        "text": "оның құрамында нүкте, e, E символдары жоқ болса",
+        "isCorrect": true
+      },
+      {
+        "text": "оның құрамында нүкте, e, E символдары бар болса",
+        "isCorrect": false
+      },
+      {
+        "text": "оның құрамында әріптер болмаса",
+        "isCorrect": false
+      },
+      {
+        "text": "оның құрамында нүкте болмаса",
+        "isCorrect": false
+      },
+      {
+        "text": "оның құрамында ―0‖ символы жоқ болса",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "PHP тілінде төмендегідей түрде берілген айнымалының сандық мәні: $f = 1 + \"bob-1.3e3\"",
+    "options": [
+      {
+        "text": "бүтін сан болады",
+        "isCorrect": true
+      },
+      {
+        "text": "0-ге тең болады",
+        "isCorrect": false
+      },
+      {
+        "text": "сан болмайды",
+        "isCorrect": false
+      },
+      {
+        "text": "кездейсоқ сан болады",
+        "isCorrect": false
+      },
+      {
+        "text": "нақты сан болады",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "РНР тіліндегі жиым (массив) қай конструкция арқылы анықталады:",
+    "options": [
+      {
+        "text": "array ([key] => value, [key1] => value1, ... )",
+        "isCorrect": true
+      },
+      {
+        "text": "new array ([key] => value, [key1] => value1, ... )",
+        "isCorrect": false
+      },
+      {
+        "text": "new array ([key] => value, [key1] => value1, ... ) ();",
+        "isCorrect": false
+      },
+      {
+        "text": "$array ([key] => value, [key1] => value1, ... )",
+        "isCorrect": false
+      },
+      {
+        "text": "var array ([key] => value, [key1] => value1, ... )",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "PHP тілінде жиымдармен жұмыс істегенде оның кілті (индексі) ретінде нені қолдануға болады:",
+    "options": [
+      {
+        "text": "бүтін сандарды және сөз тіркесін",
+        "isCorrect": true
+      },
+      {
+        "text": "объектілер мен субъектілерді",
+        "isCorrect": false
+      },
+      {
+        "text": "бүтін және нақты сандарды",
+        "isCorrect": false
+      },
+      {
+        "text": "операторлар мен айнымалыларды",
+        "isCorrect": false
+      },
+      {
+        "text": "түйіндік сөздерді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "РНР тілінде жиым элементтерін жою үшін қандай функция қолданылады?",
+    "options": [
+      {
+        "text": "unset();",
+        "isCorrect": true
+      },
+      {
+        "text": "print_r();",
+        "isCorrect": false
+      },
+      {
+        "text": "delete();",
+        "isCorrect": false
+      },
+      {
+        "text": "remove();",
+        "isCorrect": false
+      },
+      {
+        "text": "undo();",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "РНР тілінде NULL мәні нені білдіреді?",
+    "options": [
+      {
+        "text": "айнымалының мәні жоқ екенін",
+        "isCorrect": true
+      },
+      {
+        "text": "айнымалының кездейсоқ санға тең екенін",
+        "isCorrect": false
+      },
+      {
+        "text": "айнымалы ның «_» тең екенін",
+        "isCorrect": false
+      },
+      {
+        "text": "айнымалы 0-ге тең екенін",
+        "isCorrect": false
+      },
+      {
+        "text": "айнымалы 1-ге тең екенін",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "РНР тілінде ресурс (resource) дегеніміз – бұл:",
+    "options": [
+      {
+        "text": "сыртқы ресурсқа сілтеме түріндегі айнымалы",
+        "isCorrect": true
+      },
+      {
+        "text": "құрамында сыртқы ресурсы бар айнымалы",
+        "isCorrect": false
+      },
+      {
+        "text": "ресурстармен жұмыс істейтін функция",
+        "isCorrect": false
+      },
+      {
+        "text": "типке сәйкес келмейді",
+        "isCorrect": false
+      },
+      {
+        "text": "кез келген типті білдіреді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "РНР тіліндегі switch құрылымының дұрыс жазылуы:",
+    "options": [
+      {
+        "text": "switch (өрнек не айнымалы) { case 1-мән: 1_әрекеттер_блогы break; case 2-мән: 2_әрекеттер_блогы break; ... default: келісім_бойынша_ әрекеттер_блогы }",
+        "isCorrect": true
+      },
+      {
+        "text": "switch (өрнек не айнымалы) { сase 1-мән: 1-әрекеттер блогы; case 2-мән: 2-әрекеттер блогы; ... default: келісім_бойынша_ әрекеттер_блогы }",
+        "isCorrect": false
+      },
+      {
+        "text": "switch (өрнек не айнымалы) { case: 1-әрекеттер блогы; break; case: 2-әрекеттер блогы; break; ... default: келісім_бойынша_ әрекеттер_блогы }",
+        "isCorrect": false
+      },
+      {
+        "text": "switch { case 1-мән: 1_әрекеттер_блогы break; case 2-мән: 2_әрекеттер_блогы break; ... default: келісім_бойынша_ әрекеттер_блогы }",
+        "isCorrect": false
+      },
+      {
+        "text": "switch (өрнек не айнымалы) { case 1-мән: break; case 2-мән: break; ... default: n-мән }",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "РНР тілінде while циклінің дұрыс жазылуы:",
+    "options": [
+      {
+        "text": "while (өрнек) {орындалу_ блогы};",
+        "isCorrect": true
+      },
+      {
+        "text": "while (өрнек) do {орындалу_ блогы};",
+        "isCorrect": false
+      },
+      {
+        "text": "while (өрнек); {орындалу_ блогы};",
+        "isCorrect": false
+      },
+      {
+        "text": "while өрнек {орындалу_ блогы};",
+        "isCorrect": false
+      },
+      {
+        "text": "while (өрнек) do орындалу_ блогы;",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "РНР тілінде do..while циклінің дұрыс жазылуы:",
+    "options": [
+      {
+        "text": "do {орындалу_блогы} while (өрнек);",
+        "isCorrect": true
+      },
+      {
+        "text": "do {орындалу_блогы}; while (өрнек);",
+        "isCorrect": false
+      },
+      {
+        "text": "do {орындалу_блогы}; while өрнек;",
+        "isCorrect": false
+      },
+      {
+        "text": "do (өрнек) {орындалу_блогы} while;",
+        "isCorrect": false
+      },
+      {
+        "text": "do while (өрнек) {орындалу_блогы};",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "РНР.Төмендегілердің қайсысы for операторы үшін дұрыс жазылған?",
+    "options": [
+      {
+        "text": "for (өрнек1; өрнек2; өрнек3): орындалу_блогы endfor;",
+        "isCorrect": true
+      },
+      {
+        "text": "for (өрнек1; өрнек2; өрнек3) орындалу_блогы endfor;",
+        "isCorrect": false
+      },
+      {
+        "text": "for (өрнек1; өрнек2; өрнек3); орындалу_блогы endfor;",
+        "isCorrect": false
+      },
+      {
+        "text": "for (выражение1; выражение2; выражение3): орындалу_блогы end;",
+        "isCorrect": false
+      },
+      {
+        "text": "for (выражение1; выражение2; выражение3) begin орындалу_блогы endfor;",
+        "isCorrect": false
+      }
+    ]
+  }
+]
