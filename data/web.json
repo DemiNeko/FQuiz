@@ -6298,5 +6298,2405 @@
         "isCorrect": false
       }
     ]
+  },
+  {
+    "question": "Web-тің негізін қалаған ғалым кім?",
+    "options": [
+      {
+        "text": "Билл Гейтс",
+        "isCorrect": false
+      },
+      {
+        "text": "Стив Джобс",
+        "isCorrect": false
+      },
+      {
+        "text": "Тим Бернерс-Ли",
+        "isCorrect": true
+      },
+      {
+        "text": "Ларри Пейдж",
+        "isCorrect": false
+      },
+      {
+        "text": "Марк Цукерберг",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML тілі нені білдіреді?",
+    "options": [
+      {
+        "text": "HyperText Markup Language",
+        "isCorrect": true
+      },
+      {
+        "text": "HighText Machine Language",
+        "isCorrect": false
+      },
+      {
+        "text": "Home Tool Markup Language",
+        "isCorrect": false
+      },
+      {
+        "text": "None",
+        "isCorrect": false
+      },
+      {
+        "text": "Hyper Transfer Markup Language",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Web-беттің атауы қай тегтің ішінде жазылады?",
+    "options": [
+      {
+        "text": "BODY",
+        "isCorrect": false
+      },
+      {
+        "text": "TABLE",
+        "isCorrect": false
+      },
+      {
+        "text": "HTML",
+        "isCorrect": false
+      },
+      {
+        "text": "TITLE",
+        "isCorrect": true
+      },
+      {
+        "text": "IMG",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Жаңа жолға көшіру үшін қолданылатын HTML тегі:",
+    "options": [
+      {
+        "text": "P",
+        "isCorrect": false
+      },
+      {
+        "text": "BR",
+        "isCorrect": true
+      },
+      {
+        "text": "SPAN",
+        "isCorrect": false
+      },
+      {
+        "text": "HR",
+        "isCorrect": false
+      },
+      {
+        "text": "DIV",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML-де ең кіші тақырып тегі:",
+    "options": [
+      {
+        "text": "H1",
+        "isCorrect": false
+      },
+      {
+        "text": "H3",
+        "isCorrect": false
+      },
+      {
+        "text": "H4",
+        "isCorrect": false
+      },
+      {
+        "text": "H6",
+        "isCorrect": true
+      },
+      {
+        "text": "H2",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Мәтіннің өлшемін, түсін және қаріпін өзгерту үшін қолданылатын",
+    "options": [
+      {
+        "text": "FONT",
+        "isCorrect": true
+      },
+      {
+        "text": "BODY",
+        "isCorrect": false
+      },
+      {
+        "text": "TABLE",
+        "isCorrect": false
+      },
+      {
+        "text": "CENTER",
+        "isCorrect": false
+      },
+      {
+        "text": "IMG",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "IMG тегіндегі суреттің адресін көрсететін негізгі атрибут:",
+    "options": [
+      {
+        "text": "SRC",
+        "isCorrect": true
+      },
+      {
+        "text": "ALT",
+        "isCorrect": false
+      },
+      {
+        "text": "HEIGHT",
+        "isCorrect": false
+      },
+      {
+        "text": "WIDTH",
+        "isCorrect": false
+      },
+      {
+        "text": "BORDER",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Сурет көрсетілмеген жағдайда оның орнына шығатын мәтінді",
+    "options": [
+      {
+        "text": "ALIGN",
+        "isCorrect": false
+      },
+      {
+        "text": "HEIGHT",
+        "isCorrect": false
+      },
+      {
+        "text": "ALT",
+        "isCorrect": true
+      },
+      {
+        "text": "SRC",
+        "isCorrect": false
+      },
+      {
+        "text": "WIDTH",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Кестедегі жолды анықтайтын тег:",
+    "options": [
+      {
+        "text": "ROW",
+        "isCorrect": false
+      },
+      {
+        "text": "TD",
+        "isCorrect": false
+      },
+      {
+        "text": "TABLE",
+        "isCorrect": false
+      },
+      {
+        "text": "TR",
+        "isCorrect": true
+      },
+      {
+        "text": "COL",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Кестедегі ұяшықты анықтайтын тег:",
+    "options": [
+      {
+        "text": "CELL",
+        "isCorrect": false
+      },
+      {
+        "text": "TABLE",
+        "isCorrect": false
+      },
+      {
+        "text": "COL",
+        "isCorrect": false
+      },
+      {
+        "text": "TD",
+        "isCorrect": true
+      },
+      {
+        "text": "TR",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML құжатында көлденең сызық салу үшін қолданылатын тег:",
+    "options": [
+      {
+        "text": "TABLE",
+        "isCorrect": false
+      },
+      {
+        "text": "LINE",
+        "isCorrect": false
+      },
+      {
+        "text": "DIV",
+        "isCorrect": false
+      },
+      {
+        "text": "BR",
+        "isCorrect": false
+      },
+      {
+        "text": "HR",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Мәтінді жоғары индекс түрінде көрсету үшін қолданылатын тег:",
+    "options": [
+      {
+        "text": "UP",
+        "isCorrect": false
+      },
+      {
+        "text": "SUP",
+        "isCorrect": true
+      },
+      {
+        "text": "TOP",
+        "isCorrect": false
+      },
+      {
+        "text": "HEAD",
+        "isCorrect": false
+      },
+      {
+        "text": "HIGH",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Мәтінді төменгі индекс түрінде көрсету үшін қолданылатын тег:",
+    "options": [
+      {
+        "text": "BASE",
+        "isCorrect": false
+      },
+      {
+        "text": "SUB",
+        "isCorrect": true
+      },
+      {
+        "text": "LOW",
+        "isCorrect": false
+      },
+      {
+        "text": "UNDER",
+        "isCorrect": false
+      },
+      {
+        "text": "DOWN",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Формадағы ашылмалы тізім жасау үшін қолданылатын тег:",
+    "options": [
+      {
+        "text": "OPTION",
+        "isCorrect": false
+      },
+      {
+        "text": "MENU",
+        "isCorrect": false
+      },
+      {
+        "text": "LIST",
+        "isCorrect": false
+      },
+      {
+        "text": "SELECT",
+        "isCorrect": true
+      },
+      {
+        "text": "INPUT",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Web стандарттарын бекітетін ұйым:",
+    "options": [
+      {
+        "text": "IEEE",
+        "isCorrect": false
+      },
+      {
+        "text": "ISO",
+        "isCorrect": false
+      },
+      {
+        "text": "NASA",
+        "isCorrect": false
+      },
+      {
+        "text": "UNESCO",
+        "isCorrect": false
+      },
+      {
+        "text": "W3C",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "DNS қызметі не үшін қажет?",
+    "options": [
+      {
+        "text": "Қауіпсіздік орнату",
+        "isCorrect": false
+      },
+      {
+        "text": "Домен атын IP-адреске түрлендіру",
+        "isCorrect": true
+      },
+      {
+        "text": "Графика салу",
+        "isCorrect": false
+      },
+      {
+        "text": "Программа компиляциялау",
+        "isCorrect": false
+      },
+      {
+        "text": "Файлды жою",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Клиент-сервер моделінде клиент дегеніміз:",
+    "options": [
+      {
+        "text": "Серверді басқаратын бағдарлама",
+        "isCorrect": false
+      },
+      {
+        "text": "Протокол",
+        "isCorrect": false
+      },
+      {
+        "text": "Дерекқор",
+        "isCorrect": false
+      },
+      {
+        "text": "Сұраныс жіберетін тарап",
+        "isCorrect": true
+      },
+      {
+        "text": "Желі кабелі",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Web-сервердің негізгі қызметі:",
+    "options": [
+      {
+        "text": "Файл архивтеу",
+        "isCorrect": false
+      },
+      {
+        "text": "Антивирус орнату",
+        "isCorrect": false
+      },
+      {
+        "text": "Графика салу",
+        "isCorrect": false
+      },
+      {
+        "text": "Принтер басқару",
+        "isCorrect": false
+      },
+      {
+        "text": "HTTP сұраныстарын өңдеу",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Прокси-сервер не үшін қолданылады?",
+    "options": [
+      {
+        "text": "Монитор баптау",
+        "isCorrect": false
+      },
+      {
+        "text": "Дыбыс жазу",
+        "isCorrect": false
+      },
+      {
+        "text": "Ойын іске қосу",
+        "isCorrect": false
+      },
+      {
+        "text": "Код компиляциялау",
+        "isCorrect": false
+      },
+      {
+        "text": "Аралық делдал ретінде жұмыс істеу",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "XML тілі қандай мақсатта қолданылады?",
+    "options": [
+      {
+        "text": "Мәліметтерді құрылымдау үшін",
+        "isCorrect": true
+      },
+      {
+        "text": "Ойын жасау үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Драйвер орнату үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Антивирус жазу үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Компьютерді өшіру үшін",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CMS жүйесі не үшін қажет?",
+    "options": [
+      {
+        "text": "Файл қысу үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Процессорды басқару үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Желі ажырату үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Web-контентті басқару үшін",
+        "isCorrect": true
+      },
+      {
+        "text": "Диск форматтау үшін",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Web-тің алғашқы нұсқасы қай жылы ұсынылды?",
+    "options": [
+      {
+        "text": "1995",
+        "isCorrect": false
+      },
+      {
+        "text": "2000",
+        "isCorrect": false
+      },
+      {
+        "text": "1998",
+        "isCorrect": false
+      },
+      {
+        "text": "1991",
+        "isCorrect": true
+      },
+      {
+        "text": "1989",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "FTP протоколының негізгі қызметі:",
+    "options": [
+      {
+        "text": "Web-бет көрсету",
+        "isCorrect": false
+      },
+      {
+        "text": "Видео ағын",
+        "isCorrect": false
+      },
+      {
+        "text": "DNS басқару",
+        "isCorrect": false
+      },
+      {
+        "text": "Шифрлау",
+        "isCorrect": false
+      },
+      {
+        "text": "Файл тасымалдау",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Cookie дегеніміз:",
+    "options": [
+      {
+        "text": "Графикалық файл",
+        "isCorrect": false
+      },
+      {
+        "text": "ОЖ бөлігі",
+        "isCorrect": false
+      },
+      {
+        "text": "Браузерде сақталатын шағын дерек",
+        "isCorrect": true
+      },
+      {
+        "text": "Вирус түрі",
+        "isCorrect": false
+      },
+      {
+        "text": "Компилятор",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "SSL сертификаты не үшін қажет?",
+    "options": [
+      {
+        "text": "Сайттың түпнұсқалығын растау және шифрлау",
+        "isCorrect": true
+      },
+      {
+        "text": "Видео өңдеу",
+        "isCorrect": false
+      },
+      {
+        "text": "Файл архивтеу",
+        "isCorrect": false
+      },
+      {
+        "text": "Диск форматтау",
+        "isCorrect": false
+      },
+      {
+        "text": "RAM көбейту",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "XML мен HTML айырмашылығы:",
+    "options": [
+      {
+        "text": "XML деректерді тасымалдауға, HTML көрсетуге арналған",
+        "isCorrect": true
+      },
+      {
+        "text": "Айырмашылығы жоқ",
+        "isCorrect": false
+      },
+      {
+        "text": "Екеуі бірдей",
+        "isCorrect": false
+      },
+      {
+        "text": "HTML тек серверде жұмыс істейді",
+        "isCorrect": false
+      },
+      {
+        "text": "XML тек дизайн үшін",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Web-портал дегеніміз:",
+    "options": [
+      {
+        "text": "Ойын түрі",
+        "isCorrect": false
+      },
+      {
+        "text": "Көпқызметті ақпараттық web-ресурс",
+        "isCorrect": true
+      },
+      {
+        "text": "Желі кабелі",
+        "isCorrect": false
+      },
+      {
+        "text": "Файл архиві",
+        "isCorrect": false
+      },
+      {
+        "text": "Процессор",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTTPS протоколында қандай механизм қолданылады?",
+    "options": [
+      {
+        "text": "Шифрлау",
+        "isCorrect": true
+      },
+      {
+        "text": "Форматтау",
+        "isCorrect": false
+      },
+      {
+        "text": "Рендеринг",
+        "isCorrect": false
+      },
+      {
+        "text": "Архивтеу",
+        "isCorrect": false
+      },
+      {
+        "text": "Компиляция",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Прокси-сервердің бір артықшылығы:",
+    "options": [
+      {
+        "text": "BIOS жаңарту",
+        "isCorrect": false
+      },
+      {
+        "text": "Кэштеу арқылы жылдамдықты арттыру",
+        "isCorrect": true
+      },
+      {
+        "text": "Файл жою",
+        "isCorrect": false
+      },
+      {
+        "text": "RAM көбейту",
+        "isCorrect": false
+      },
+      {
+        "text": "Экран өлшемін өзгерту",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Web-қосымша дегеніміз:",
+    "options": [
+      {
+        "text": "Тек оффлайн программа",
+        "isCorrect": false
+      },
+      {
+        "text": "Браузер арқылы жұмыс істейтін бағдарлама",
+        "isCorrect": true
+      },
+      {
+        "text": "Архиватор",
+        "isCorrect": false
+      },
+      {
+        "text": "ОЖ бөлігі",
+        "isCorrect": false
+      },
+      {
+        "text": "Драйвер",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "SQL инъекциясы дегеніміз:",
+    "options": [
+      {
+        "text": "CSS қасиеті",
+        "isCorrect": false
+      },
+      {
+        "text": "Дерекқор құру тәсілі",
+        "isCorrect": false
+      },
+      {
+        "text": "HTML тег",
+        "isCorrect": false
+      },
+      {
+        "text": "Қауіпсіздік шабуылы түрі",
+        "isCorrect": true
+      },
+      {
+        "text": "DNS түрі",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CDN қызметі не үшін қажет?",
+    "options": [
+      {
+        "text": "ОЖ жаңарту үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Файл жою үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Контентті жылдам тарату үшін",
+        "isCorrect": true
+      },
+      {
+        "text": "RAM тазалау үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Монитор баптау",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "TCP протоколының негізгі қызметі:",
+    "options": [
+      {
+        "text": "Видео көрсету",
+        "isCorrect": false
+      },
+      {
+        "text": "Деректерді сенімді жеткізу",
+        "isCorrect": true
+      },
+      {
+        "text": "Графика салу",
+        "isCorrect": false
+      },
+      {
+        "text": "HTML өңдеу",
+        "isCorrect": false
+      },
+      {
+        "text": "Файл архивтеу",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "UDP протоколының ерекшелігі:",
+    "options": [
+      {
+        "text": "Файл жүйесін басқарады",
+        "isCorrect": false
+      },
+      {
+        "text": "Деректерді жеткізуді растаусыз жүзеге асырады",
+        "isCorrect": true
+      },
+      {
+        "text": "Тек браузерде жұмыс істейді",
+        "isCorrect": false
+      },
+      {
+        "text": "Тек шифрлау үшін қолданылады",
+        "isCorrect": false
+      },
+      {
+        "text": "DNS-ті алмастырады",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "WebSocket технологиясы не үшін қолданылады?",
+    "options": [
+      {
+        "text": "Нақты уақыт режимінде екіжақты байланыс орнату",
+        "isCorrect": true
+      },
+      {
+        "text": "Файл архивтеу",
+        "isCorrect": false
+      },
+      {
+        "text": "CSS өңдеу",
+        "isCorrect": false
+      },
+      {
+        "text": "Видео монтаж",
+        "isCorrect": false
+      },
+      {
+        "text": "DNS баптау",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTTP жауап кодындағы 404 нені білдіреді?",
+    "options": [
+      {
+        "text": "Авторизация қажет",
+        "isCorrect": false
+      },
+      {
+        "text": "Сервер қатесі",
+        "isCorrect": false
+      },
+      {
+        "text": "Сұраныс сәтті орындалды",
+        "isCorrect": false
+      },
+      {
+        "text": "Ресурс табылмады",
+        "isCorrect": true
+      },
+      {
+        "text": "Қайта бағыттау",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTTP жауап кодындағы 200 нені білдіреді?",
+    "options": [
+      {
+        "text": "Қайта бағыттау",
+        "isCorrect": false
+      },
+      {
+        "text": "Ресурс табылмады",
+        "isCorrect": false
+      },
+      {
+        "text": "Сұраныс сәтті орындалды",
+        "isCorrect": true
+      },
+      {
+        "text": "Тыйым салынған",
+        "isCorrect": false
+      },
+      {
+        "text": "Қате сұраныс",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Firewall (брандмауэр) не үшін қажет?",
+    "options": [
+      {
+        "text": "Желі қауіпсіздігін қамтамасыз ету",
+        "isCorrect": true
+      },
+      {
+        "text": "Файл архивтеу",
+        "isCorrect": false
+      },
+      {
+        "text": "HTML құру",
+        "isCorrect": false
+      },
+      {
+        "text": "CSS жазу",
+        "isCorrect": false
+      },
+      {
+        "text": "Видео өңдеу",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Web-хостинг дегеніміз:",
+    "options": [
+      {
+        "text": "Компилятор",
+        "isCorrect": false
+      },
+      {
+        "text": "ОЖ түрі",
+        "isCorrect": false
+      },
+      {
+        "text": "Антивирус бағдарламасы",
+        "isCorrect": false
+      },
+      {
+        "text": "Графикалық редактор",
+        "isCorrect": false
+      },
+      {
+        "text": "Сайт файлдарын серверде орналастыру қызметі",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "IPv6 протоколының басты артықшылығы:",
+    "options": [
+      {
+        "text": "Адрес кеңістігінің үлкен болуы",
+        "isCorrect": true
+      },
+      {
+        "text": "Тек Wi‑Fi үшін болуы",
+        "isCorrect": false
+      },
+      {
+        "text": "Тек қауіпсіздік үшін қолданылуы",
+        "isCorrect": false
+      },
+      {
+        "text": "DNS-ті алмастыруы",
+        "isCorrect": false
+      },
+      {
+        "text": "Тек браузерде жұмыс істеуі",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "API дегеніміз:",
+    "options": [
+      {
+        "text": "Графикалық формат",
+        "isCorrect": false
+      },
+      {
+        "text": "Желі кабелі",
+        "isCorrect": false
+      },
+      {
+        "text": "Антивирус түрі",
+        "isCorrect": false
+      },
+      {
+        "text": "Бағдарламалар арасындағы өзара әрекеттесу интерфейсі",
+        "isCorrect": true
+      },
+      {
+        "text": "ОЖ бөлігі",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Web-кэштеу дегеніміз:",
+    "options": [
+      {
+        "text": "Файлдарды жою",
+        "isCorrect": false
+      },
+      {
+        "text": "Диск форматтау",
+        "isCorrect": false
+      },
+      {
+        "text": "Монитор баптау",
+        "isCorrect": false
+      },
+      {
+        "text": "Деректердің уақытша сақталуы арқылы жылдамдықты арттыру",
+        "isCorrect": true
+      },
+      {
+        "text": "HTML құру",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "DevOps ұғымы нені білдіреді?",
+    "options": [
+      {
+        "text": "HTML стандарты",
+        "isCorrect": false
+      },
+      {
+        "text": "DNS протоколы",
+        "isCorrect": false
+      },
+      {
+        "text": "Әзірлеу мен жүйелік әкімшілендіруді біріктіру тәжірибесі",
+        "isCorrect": true
+      },
+      {
+        "text": "Графикалық дизайн әдісі",
+        "isCorrect": false
+      },
+      {
+        "text": "Браузер түрі",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Reverse proxy негізгі мақсаты:",
+    "options": [
+      {
+        "text": "Серверлерді сыртқы пайдаланушылардан жасыру",
+        "isCorrect": true
+      },
+      {
+        "text": "IP өзгерту",
+        "isCorrect": false
+      },
+      {
+        "text": "Файл жою",
+        "isCorrect": false
+      },
+      {
+        "text": "HTML редакциялау",
+        "isCorrect": false
+      },
+      {
+        "text": "DNS алмастыру",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Forward proxy кім атынан әрекет етеді?",
+    "options": [
+      {
+        "text": "Сервер атынан",
+        "isCorrect": false
+      },
+      {
+        "text": "DNS атынан",
+        "isCorrect": false
+      },
+      {
+        "text": "ORM атынан",
+        "isCorrect": false
+      },
+      {
+        "text": "Клиент атынан",
+        "isCorrect": true
+      },
+      {
+        "text": "CA атынан",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "SQL injection шабуылы неден туындайды?",
+    "options": [
+      {
+        "text": "DNS істен шығуынан",
+        "isCorrect": false
+      },
+      {
+        "text": "Браузер жаңартпауынан",
+        "isCorrect": false
+      },
+      {
+        "text": "CSS қателігінен",
+        "isCorrect": false
+      },
+      {
+        "text": "Қолданушы енгізуін тексермеуден",
+        "isCorrect": true
+      },
+      {
+        "text": "SSL мерзімі аяқталуынан",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Web accessibility (қолжетімділік) нені білдіреді?",
+    "options": [
+      {
+        "text": "SSL орнату",
+        "isCorrect": false
+      },
+      {
+        "text": "IP өзгерту",
+        "isCorrect": false
+      },
+      {
+        "text": "DNS жою",
+        "isCorrect": false
+      },
+      {
+        "text": "Сайтты мүмкіндігі шектеулі адамдарға қолжетімді ету",
+        "isCorrect": true
+      },
+      {
+        "text": "Файл жою",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTTP протоколының қай нұсқасы multiplexing мүмкіндігін енгізді?",
+    "options": [
+      {
+        "text": "HTTP/1.0",
+        "isCorrect": false
+      },
+      {
+        "text": "SMTP",
+        "isCorrect": false
+      },
+      {
+        "text": "HTTP/0.9",
+        "isCorrect": false
+      },
+      {
+        "text": "FTP",
+        "isCorrect": false
+      },
+      {
+        "text": "HTTP/2",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "HTML тілінде “TABLE” тегінің кестенің жақтау сызығы мен мәтін",
+    "options": [
+      {
+        "text": "WIDTH",
+        "isCorrect": false
+      },
+      {
+        "text": "HEIGHT",
+        "isCorrect": false
+      },
+      {
+        "text": "VSPACE",
+        "isCorrect": false
+      },
+      {
+        "text": "CELLSPACING",
+        "isCorrect": false
+      },
+      {
+        "text": "CELLPADDING",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "HTML тілінде “TABLE” тегінің кестенің жоғарғы және төменгі",
+    "options": [
+      {
+        "text": "CELLPADDING",
+        "isCorrect": false
+      },
+      {
+        "text": "VSPACE",
+        "isCorrect": true
+      },
+      {
+        "text": "WIDTH",
+        "isCorrect": false
+      },
+      {
+        "text": "CELLSPACING",
+        "isCorrect": false
+      },
+      {
+        "text": "HEIGHT",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "“Frameset” тегінің қандай атрибуты терезені горизонталь –",
+    "options": [
+      {
+        "text": "COLS",
+        "isCorrect": false
+      },
+      {
+        "text": "WIDTH",
+        "isCorrect": false
+      },
+      {
+        "text": "HEIGHT",
+        "isCorrect": false
+      },
+      {
+        "text": "LOOP",
+        "isCorrect": false
+      },
+      {
+        "text": "ROWS",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Фреймдерге сілтеме сілтеме жасайтын “A TARGET=…” TARGET",
+    "options": [
+      {
+        "text": "Көрсетілген файлды кадрлар құрылымы біріктірілген толық терезеге жүктейді",
+        "isCorrect": false
+      },
+      {
+        "text": "Көрсетілген файлды сілтеме жасалған фреймге жүктейді",
+        "isCorrect": true
+      },
+      {
+        "text": "Көрсетілген файлды фреймдерді ашатын түпкі кадрға жүктейді; егер ондай кадр анықталмаған болса, онда оның әсері алдыңғы _self қызметімен бірдей болады",
+        "isCorrect": false
+      },
+      {
+        "text": "Көрсетілген файлды ат қойылмаған жаңа терезеге жүктейді",
+        "isCorrect": false
+      },
+      {
+        "text": "Көрсетілген файлды келесі жасалған фреймге жүктейді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Фреймдерге сілтеме жасайтын “A TARGET=…” тегінің TARGET",
+    "options": [
+      {
+        "text": "Көрсетілген файлды келесі жасалған фреймге жүктейді",
+        "isCorrect": false
+      },
+      {
+        "text": "Көрсетілген файлды сілтеме жасалған фреймге жүктейді",
+        "isCorrect": false
+      },
+      {
+        "text": "Көрсетілген файлды фреймдерді ашатын түпкі кадрға жүктейді; егер ондай кадр анықталмаған болса, онда оның әсері алдыңғы _self қызметімен бірдей болады",
+        "isCorrect": true
+      },
+      {
+        "text": "Көрсетілген файлды кадрлар құрылымы біріктірілген толық терезеге жүктейді",
+        "isCorrect": false
+      },
+      {
+        "text": "Көрсетілген файлды ат қойылмаған жаңа терезеге жүктейді; егер ол анықталмаса, онда ол негізге фреймге әсер етеді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Сырғымалы жолдардағы (marquee) жылжудың бір қадамында мәтіннің",
+    "options": [
+      {
+        "text": "SCROLLDELAY",
+        "isCorrect": false
+      },
+      {
+        "text": "WІDTH",
+        "isCorrect": false
+      },
+      {
+        "text": "SCROLLAMOUNT",
+        "isCorrect": true
+      },
+      {
+        "text": "LOOP",
+        "isCorrect": false
+      },
+      {
+        "text": "SCROLL",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Сырғымалы жолдың (marquee) екі қадамы арасындағы интервалды",
+    "options": [
+      {
+        "text": "LOOP",
+        "isCorrect": false
+      },
+      {
+        "text": "WІDTH",
+        "isCorrect": false
+      },
+      {
+        "text": "SCROLL",
+        "isCorrect": false
+      },
+      {
+        "text": "SCROLLAMOUNT",
+        "isCorrect": false
+      },
+      {
+        "text": "SCROLLDELAY",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "HTML тіліндегі «Сырғымалы жолдың (marquee)» енін анықтайтын",
+    "options": [
+      {
+        "text": "SCROLLAMOUNT",
+        "isCorrect": false
+      },
+      {
+        "text": "LOOP",
+        "isCorrect": false
+      },
+      {
+        "text": "SCROLLDELAY",
+        "isCorrect": false
+      },
+      {
+        "text": "SCROLL",
+        "isCorrect": false
+      },
+      {
+        "text": "WІDTH",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "CSS-те font-family: «Arial Cyr», Geneva, sans-serif; тіркесі",
+    "options": [
+      {
+        "text": "Программа көрсетілген қаріп түрлерінің кез келгенін пайдалана алады.",
+        "isCorrect": false
+      },
+      {
+        "text": "Мәтін бірінші кезекте Arial Cyr қарпімен берілуі тиіс, егер ол компью- терде болмаса, сәйкесінше Geneva, sans-serif қаріп түрлерін қолдану керек.",
+        "isCorrect": true
+      },
+      {
+        "text": "Алғашқы абзац Arial Cyr қарпімен, келесісі – Geneva, ал соңғысы – sans-serif қарпімен берілуі тиіс.",
+        "isCorrect": false
+      },
+      {
+        "text": "Тарау тақырыптары Arial Cyr қарпімен, параграф тақырыптары – Geneva қарпімен, ал негізгі мәтін sans-serif қарпімен берілуі тиіс.",
+        "isCorrect": false
+      },
+      {
+        "text": "Қаріп түрінің тек біреуі көрсетілуі тиіс болатын.",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CSS-те стильдік нұсқауларда пайдаланылатын өлшем бірліктерінің",
+    "options": [
+      {
+        "text": "pic, pt, рiх, mm, cm, duim",
+        "isCorrect": false
+      },
+      {
+        "text": "pa, pn, pc, mm, sm, dm",
+        "isCorrect": false
+      },
+      {
+        "text": "рс, pt, рх, mm, cm, in",
+        "isCorrect": true
+      },
+      {
+        "text": "pica, punkt, mm, cm, dum",
+        "isCorrect": false
+      },
+      {
+        "text": "рk, pu, рх, mm, sm, “",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Төмендегі кодта бір жолдық комментарий дұрыс жазылған жолды",
+    "options": [
+      {
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "text": "4",
+        "isCorrect": false
+      },
+      {
+        "text": "3",
+        "isCorrect": false
+      },
+      {
+        "text": "2 және 4",
+        "isCorrect": true
+      },
+      {
+        "text": "2",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Бастапқы жиымды өзгертпей, жиым элементтерін",
+    "options": [
+      {
+        "text": "join",
+        "isCorrect": true
+      },
+      {
+        "text": "concat",
+        "isCorrect": false
+      },
+      {
+        "text": "reverse",
+        "isCorrect": false
+      },
+      {
+        "text": "sort",
+        "isCorrect": false
+      },
+      {
+        "text": "slice",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JavaScript. Бастапқы жиымның көрсетілген алғашқы позициясынан",
+    "options": [
+      {
+        "text": "slice",
+        "isCorrect": true
+      },
+      {
+        "text": "concat",
+        "isCorrect": false
+      },
+      {
+        "text": "join",
+        "isCorrect": false
+      },
+      {
+        "text": "sort",
+        "isCorrect": false
+      },
+      {
+        "text": "reverse",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "PHP тіліндегі программада кездескен сайын оның құрамындағы",
+    "options": [
+      {
+        "text": "switch",
+        "isCorrect": false
+      },
+      {
+        "text": "foreach",
+        "isCorrect": false
+      },
+      {
+        "text": "while",
+        "isCorrect": false
+      },
+      {
+        "text": "require",
+        "isCorrect": false
+      },
+      {
+        "text": "include",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "CSS технологиясының негізгі қызметі қандай?",
+    "options": [
+      {
+        "text": "Программалау логикасын жазу",
+        "isCorrect": false
+      },
+      {
+        "text": "Web-беттің дизайнын және орналасуын басқару",
+        "isCorrect": true
+      },
+      {
+        "text": "Мәліметтер базасын құру",
+        "isCorrect": false
+      },
+      {
+        "text": "Домен тіркеу",
+        "isCorrect": false
+      },
+      {
+        "text": "IP-адрес анықтау",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "GET әдісі қандай мақсатта қолданылады?",
+    "options": [
+      {
+        "text": "Мәліметті жаңарту үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Жаңа ресурс құру үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Cookie сақтау үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Серверден мәлімет алу үшін",
+        "isCorrect": true
+      },
+      {
+        "text": "Мәліметті өшіру үшін",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "POST әдісі не үшін қолданылады?",
+    "options": [
+      {
+        "text": "IP өзгерту үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "DNS баптау үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Файл көру үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Серверге жаңа мәлімет жіберу үшін",
+        "isCorrect": true
+      },
+      {
+        "text": "Мәліметті оқу үшін",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "W3C ұйымының негізгі мақсаты қандай?",
+    "options": [
+      {
+        "text": "Интернет провайдер болу",
+        "isCorrect": false
+      },
+      {
+        "text": "Вирустарды жою",
+        "isCorrect": false
+      },
+      {
+        "text": "Web стандарттарын әзірлеу және бекіту",
+        "isCorrect": true
+      },
+      {
+        "text": "Компьютер шығару",
+        "isCorrect": false
+      },
+      {
+        "text": "Домен сату",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "PUT әдісі қандай мақсатта қолданылады?",
+    "options": [
+      {
+        "text": "Мәліметті көру үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "IP табу үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Бар мәліметті толық жаңарту үшін",
+        "isCorrect": true
+      },
+      {
+        "text": "Жаңа ресурс құру үшін ғана",
+        "isCorrect": false
+      },
+      {
+        "text": "Cookie өшіру үшін",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "DNS иерархиясындағы ең жоғарғы деңгей қалай аталады?",
+    "options": [
+      {
+        "text": "Root Level",
+        "isCorrect": true
+      },
+      {
+        "text": "Recursive Resolver",
+        "isCorrect": false
+      },
+      {
+        "text": "TLD",
+        "isCorrect": false
+      },
+      {
+        "text": "Second-Level Domain",
+        "isCorrect": false
+      },
+      {
+        "text": "Application Layer",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "ARPANET желісі қай жылы іске қосылды?",
+    "options": [
+      {
+        "text": "1965",
+        "isCorrect": false
+      },
+      {
+        "text": "1975",
+        "isCorrect": false
+      },
+      {
+        "text": "1969",
+        "isCorrect": true
+      },
+      {
+        "text": "1989",
+        "isCorrect": false
+      },
+      {
+        "text": "1958",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML-де абзац жасау үшін қай тег қолданылады?",
+    "options": [
+      {
+        "text": "span",
+        "isCorrect": false
+      },
+      {
+        "text": "h1",
+        "isCorrect": false
+      },
+      {
+        "text": "p",
+        "isCorrect": true
+      },
+      {
+        "text": "br",
+        "isCorrect": false
+      },
+      {
+        "text": "div",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "HTML-де гиперсілтеме жасау үшін қай тег қолданылады?",
+    "options": [
+      {
+        "text": "link",
+        "isCorrect": false
+      },
+      {
+        "text": "div",
+        "isCorrect": false
+      },
+      {
+        "text": "a",
+        "isCorrect": true
+      },
+      {
+        "text": "br",
+        "isCorrect": false
+      },
+      {
+        "text": "h1",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "CGI стандартының мақсаты:",
+    "options": [
+      {
+        "text": "веб-сервер мен сыртқы бағдарламалар арасындағы өзара әрекеттесуді ұйымдастыру",
+        "isCorrect": true
+      },
+      {
+        "text": "веб-беттердің дизайнын жасау",
+        "isCorrect": false
+      },
+      {
+        "text": "компьютер желісін баптау",
+        "isCorrect": false
+      },
+      {
+        "text": "мәтіндік құжаттарды өңдеу",
+        "isCorrect": false
+      },
+      {
+        "text": "суреттерді өңдеу",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Плагин (plug-in) дегеніміз:",
+    "options": [
+      {
+        "text": "мәтіндік редактор",
+        "isCorrect": false
+      },
+      {
+        "text": "негізгі бағдарлама мүмкіндіктерін кеңейтетін тәуелсіз бағдарламалық модуль",
+        "isCorrect": true
+      },
+      {
+        "text": "интернетке қосылатын құрылғы",
+        "isCorrect": false
+      },
+      {
+        "text": "веб-беттің дизайнын өзгерту тәсілі",
+        "isCorrect": false
+      },
+      {
+        "text": "операциялық жүйе бөлігі",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Скрипт (script) дегеніміз:",
+    "options": [
+      {
+        "text": "пайдаланушы орындайтын әрекеттерді автоматтандыратын бағдарлама",
+        "isCorrect": true
+      },
+      {
+        "text": "компьютердің антивирусы",
+        "isCorrect": false
+      },
+      {
+        "text": "графикалық редактор",
+        "isCorrect": false
+      },
+      {
+        "text": "деректер қорын сақтау құрылғысы",
+        "isCorrect": false
+      },
+      {
+        "text": "компьютердің операциялық жүйесі",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "ASP технологиясын жасаған компания:",
+    "options": [
+      {
+        "text": "Apple",
+        "isCorrect": false
+      },
+      {
+        "text": "Intel**",
+        "isCorrect": false
+      },
+      {
+        "text": "IBM",
+        "isCorrect": false
+      },
+      {
+        "text": "Google",
+        "isCorrect": false
+      },
+      {
+        "text": "Microsoft",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Node.js технологиясының ерекшелігі:",
+    "options": [
+      {
+        "text": "графикалық дизайн жасауға арналған",
+        "isCorrect": false
+      },
+      {
+        "text": "тек деректер қорын сақтайды",
+        "isCorrect": false
+      },
+      {
+        "text": "операциялық жүйе ретінде қолданылады",
+        "isCorrect": false
+      },
+      {
+        "text": "JavaScript тілін сервер жағында орындауға мүмкіндік береді",
+        "isCorrect": true
+      },
+      {
+        "text": "тек мәтіндік файлдарды өңдейді",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "ARP хаттамасының қызметі қандай?",
+    "options": [
+      {
+        "text": "Графика салу",
+        "isCorrect": false
+      },
+      {
+        "text": "Компьютерді өшіру",
+        "isCorrect": false
+      },
+      {
+        "text": "IP-адресті MAC-адреске сәйкестендіру",
+        "isCorrect": true
+      },
+      {
+        "text": "Видео өңдеу",
+        "isCorrect": false
+      },
+      {
+        "text": "Файлдарды архивтеу",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Web-құжаттағы метадеректер қай тегтің ішінде орналасады?",
+    "options": [
+      {
+        "text": "TABLE",
+        "isCorrect": false
+      },
+      {
+        "text": "IMG",
+        "isCorrect": false
+      },
+      {
+        "text": "DIV",
+        "isCorrect": false
+      },
+      {
+        "text": "BODY",
+        "isCorrect": false
+      },
+      {
+        "text": "HEAD",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "REST архитектурасының негізгі принциптерінің бірі:",
+    "options": [
+      {
+        "text": "Видео монтаж",
+        "isCorrect": false
+      },
+      {
+        "text": "RAM көбейту",
+        "isCorrect": false
+      },
+      {
+        "text": "Файл архивтеу",
+        "isCorrect": false
+      },
+      {
+        "text": "Клиент-сервер архитектурасы",
+        "isCorrect": true
+      },
+      {
+        "text": "Монитор конфигурациясы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "JSON форматы не үшін қолданылады?",
+    "options": [
+      {
+        "text": "Антивирус жазу",
+        "isCorrect": false
+      },
+      {
+        "text": "Диск форматтау",
+        "isCorrect": false
+      },
+      {
+        "text": "Деректер алмасу форматы",
+        "isCorrect": true
+      },
+      {
+        "text": "Видео кодтау",
+        "isCorrect": false
+      },
+      {
+        "text": "Графика салу",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "AJAX технологиясының мақсаты:",
+    "options": [
+      {
+        "text": "Бетті қайта жүктемей сервермен дерек алмасу",
+        "isCorrect": true
+      },
+      {
+        "text": "Драйвер орнату",
+        "isCorrect": false
+      },
+      {
+        "text": "Файл архивтеу",
+        "isCorrect": false
+      },
+      {
+        "text": "Видео монтаж",
+        "isCorrect": false
+      },
+      {
+        "text": "Монитор баптау",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Microservices архитектурасының ерекшелігі:",
+    "options": [
+      {
+        "text": "Файл архивтеу",
+        "isCorrect": false
+      },
+      {
+        "text": "Графика салу",
+        "isCorrect": false
+      },
+      {
+        "text": "Қосымшаны тәуелсіз шағын сервистерге бөлу",
+        "isCorrect": true
+      },
+      {
+        "text": "Монитор баптау",
+        "isCorrect": false
+      },
+      {
+        "text": "Видео монтаж",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "WCMS қысқартуы нені білдіреді?",
+    "options": [
+      {
+        "text": "Web контентті басқару жүйесі",
+        "isCorrect": true
+      },
+      {
+        "text": "Файл сақтау жүйесі",
+        "isCorrect": false
+      },
+      {
+        "text": "Web сервер жүйесі",
+        "isCorrect": false
+      },
+      {
+        "text": "Желі қауіпсіздік жүйесі",
+        "isCorrect": false
+      },
+      {
+        "text": "Бағдарламалау жүйесі",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "WCMS жүйесі қандай мазмұнды басқаруға мүмкіндік береді?",
+    "options": [
+      {
+        "text": "Тек бейне файлдарды",
+        "isCorrect": false
+      },
+      {
+        "text": "HTML құжаттар мен оған байланысты медиа файлдарды",
+        "isCorrect": true
+      },
+      {
+        "text": "Тек бағдарламаларды",
+        "isCorrect": false
+      },
+      {
+        "text": "Тек операциялық жүйелерді",
+        "isCorrect": false
+      },
+      {
+        "text": "Тек графикалық файлдарды",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Web-контентті басқару жүйелерінің ең танымал түрлерінің бірі:",
+    "options": [
+      {
+        "text": "WinRAR",
+        "isCorrect": false
+      },
+      {
+        "text": "Photoshop",
+        "isCorrect": false
+      },
+      {
+        "text": "CorelDRAW",
+        "isCorrect": false
+      },
+      {
+        "text": "Drupal",
+        "isCorrect": true
+      },
+      {
+        "text": "AutoCAD",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Drupal жүйесі негізінен қай тілде жазылған?",
+    "options": [
+      {
+        "text": "PHP",
+        "isCorrect": true
+      },
+      {
+        "text": "C++",
+        "isCorrect": false
+      },
+      {
+        "text": "Java",
+        "isCorrect": false
+      },
+      {
+        "text": "Pascal",
+        "isCorrect": false
+      },
+      {
+        "text": "Python",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "WordPress жүйесі қай жылы алғаш рет шығарылды?",
+    "options": [
+      {
+        "text": "1998",
+        "isCorrect": false
+      },
+      {
+        "text": "1995",
+        "isCorrect": false
+      },
+      {
+        "text": "2010",
+        "isCorrect": false
+      },
+      {
+        "text": "2004",
+        "isCorrect": true
+      },
+      {
+        "text": "2008",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "WordPress жүйесінің негізгі қолданылу саласы:",
+    "options": [
+      {
+        "text": "Блогтар мен web-сайттар жасау",
+        "isCorrect": true
+      },
+      {
+        "text": "Антивирус жазу",
+        "isCorrect": false
+      },
+      {
+        "text": "Операциялық жүйе жасау",
+        "isCorrect": false
+      },
+      {
+        "text": "Видео монтаж",
+        "isCorrect": false
+      },
+      {
+        "text": "Графикалық дизайн",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "WordPress жүйесінің басты артықшылығы:",
+    "options": [
+      {
+        "text": "Видео монтаж жасау",
+        "isCorrect": false
+      },
+      {
+        "text": "Файл архивтеу мүмкіндігі",
+        "isCorrect": false
+      },
+      {
+        "text": "Ашық кодты және тегін болуы",
+        "isCorrect": true
+      },
+      {
+        "text": "Тек бағдарламашыларға арналған",
+        "isCorrect": false
+      },
+      {
+        "text": "Тек Windows жүйесінде жұмыс істеуі",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Web-портал дегеніміз:",
+    "options": [
+      {
+        "text": "Бір web-сайт ішінде түрлі қызметтер ұсынатын ақпараттық жүйе",
+        "isCorrect": true
+      },
+      {
+        "text": "Антивирус",
+        "isCorrect": false
+      },
+      {
+        "text": "Бағдарламалау тілі",
+        "isCorrect": false
+      },
+      {
+        "text": "Графикалық формат",
+        "isCorrect": false
+      },
+      {
+        "text": "Желі кабелі",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Web-порталдардың негізгі екі түрі:",
+    "options": [
+      {
+        "text": "Горизонталды және вертикалды",
+        "isCorrect": true
+      },
+      {
+        "text": "FTP және SMTP",
+        "isCorrect": false
+      },
+      {
+        "text": "DNS және IP",
+        "isCorrect": false
+      },
+      {
+        "text": "HTML және CSS",
+        "isCorrect": false
+      },
+      {
+        "text": "TCP және UDP",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Web-синдикация дегеніміз:",
+    "options": [
+      {
+        "text": "Компьютерді форматтау",
+        "isCorrect": false
+      },
+      {
+        "text": "Файл архивтеу",
+        "isCorrect": false
+      },
+      {
+        "text": "Графика салу",
+        "isCorrect": false
+      },
+      {
+        "text": "Видео монтаж",
+        "isCorrect": false
+      },
+      {
+        "text": "Web-сайт контентін басқа сайттарға тарату тәсілі",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "Web-ағын дегеніміз:",
+    "options": [
+      {
+        "text": "Желі протоколы",
+        "isCorrect": false
+      },
+      {
+        "text": "Жиі жаңартылатын контентті ұсынатын мәлімет форматы",
+        "isCorrect": true
+      },
+      {
+        "text": "Графикалық формат",
+        "isCorrect": false
+      },
+      {
+        "text": "Операциялық жүйе",
+        "isCorrect": false
+      },
+      {
+        "text": "Антивирус бағдарламасы",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "question": "Web-ағындарды біріктіретін бағдарлама қалай аталады?",
+    "options": [
+      {
+        "text": "Компилятор",
+        "isCorrect": false
+      },
+      {
+        "text": "Антивирус",
+        "isCorrect": false
+      },
+      {
+        "text": "Драйвер",
+        "isCorrect": false
+      },
+      {
+        "text": "Редактор",
+        "isCorrect": false
+      },
+      {
+        "text": "Агрегатор",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "RSS форматы не үшін қолданылады?",
+    "options": [
+      {
+        "text": "Видео монтаж үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Дерекқор құру үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Графика салу үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Антивирус жазу үшін",
+        "isCorrect": false
+      },
+      {
+        "text": "Жаңалықтар мен сайттағы өзгерістер туралы ақпарат тарату үшін",
+        "isCorrect": true
+      }
+    ]
+  },
+  {
+    "question": "SSL/TLS қауіпсіз арнасының негізгі қасиеттерінің бірі:",
+    "options": [
+      {
+        "text": "Шифрлеу арқылы құпиялылықты сақтау",
+        "isCorrect": true
+      },
+      {
+        "text": "Файл архивтеу",
+        "isCorrect": false
+      },
+      {
+        "text": "Графика салу",
+        "isCorrect": false
+      },
+      {
+        "text": "Видео монтаж",
+        "isCorrect": false
+      },
+      {
+        "text": "Диск форматтау",
+        "isCorrect": false
+      }
+    ]
   }
 ]
